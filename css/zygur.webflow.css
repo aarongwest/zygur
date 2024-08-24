@@ -91,8 +91,9 @@
 }
 
 .text-block {
-  font-size: 38px;
-  line-height: 44px;
+  margin-top: 10px;
+  font-size: 30px;
+  line-height: 33px;
 }
 
 .button-2 {
@@ -203,6 +204,14 @@
 .code-embed {
   text-align: left;
   max-width: 655px;
+}
+
+.heading-8 {
+  color: #000;
+  margin-bottom: 140px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 77px;
+  line-height: 88px;
 }
 
 @media screen and (max-width: 991px) {
