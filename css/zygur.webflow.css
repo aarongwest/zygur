@@ -199,6 +199,11 @@
   margin-top: 40px;
 }
 
+.code-embed {
+  text-align: left;
+  max-width: 655px;
+}
+
 @media screen and (max-width: 991px) {
   .menu-button {
     color: #000;
