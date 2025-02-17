@@ -15,6 +15,18 @@ const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
+  async rewrites() {
+    return [
+      {
+        source: '/:path*',
+        destination: '/:path*/',
+      },
+      {
+        source: '/',
+        destination: '/index',
+      },
+    ]
+  },
 };
 
 module.exports = nextConfig;
