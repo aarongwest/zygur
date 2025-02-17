@@ -8,8 +8,13 @@ const nextConfig = {
   },
   output: 'standalone',
   experimental: {
-    serverActions: true
-  }
+    serverActions: true,
+    optimizeCss: true,
+    serverComponentsExternalPackages: [],
+  },
+  reactStrictMode: true,
+  poweredByHeader: false,
+  compress: true,
 };
 
 module.exports = nextConfig;
