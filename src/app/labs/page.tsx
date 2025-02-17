@@ -8,6 +8,16 @@ export default function LabsPage() {
     <PageLayout>
       <main className="py-12">
         <div className="container mx-auto px-4">
+          <div className="max-w-2xl mb-8">
+            <Image
+              src="/zygur-logo-labs.svg"
+              alt="Zygur Labs Logo"
+              width={400}
+              height={100}
+              className="w-full h-auto"
+              priority
+            />
+          </div>
           <h1 className="text-5xl font-bold tracking-tight mb-8">
             Zygur Labs
           </h1>
