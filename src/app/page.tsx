@@ -3,6 +3,8 @@ import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 import { PageLayout } from "@/components/layout/page-layout"
 
+export const dynamic = 'force-dynamic'
+
 export default function Home() {
   return (
     <PageLayout>
