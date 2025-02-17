@@ -9,7 +9,7 @@ export default function LabsPage() {
       <main className="py-12">
         <div className="container mx-auto px-4">
           <Image
-            src="/zygur-logo-labs.svg"
+            src="/zygur-labs-logo-color.svg"
             alt="Zygur Labs Logo"
             width={400}
             height={100}
