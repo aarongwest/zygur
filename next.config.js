@@ -10,7 +10,10 @@ const nextConfig = {
       },
     ],
   },
-  output: 'export'
+  output: 'standalone',
+  experimental: {
+    serverActions: true
+  }
 };
 
 module.exports = nextConfig;
