@@ -7,14 +7,14 @@ export function Navigation() {
     <nav className="border-b border-zinc-800">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center">
-          <div className="w-24 h-8">
+          <div className="w-24 h-8 relative">
             <Image
               src="/zygur-logo-white-color.svg"
               alt="Zygur Logo"
-              width={96}
-              height={32}
+              fill
               priority
-              className="w-full h-full"
+              sizes="96px"
+              className="object-contain"
             />
           </div>
         </Link>
