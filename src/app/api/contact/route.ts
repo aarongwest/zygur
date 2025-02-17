@@ -26,16 +26,22 @@ export async function POST(request: Request) {
       to: "aaron@zygur.com",
       subject: `New Contact Form Submission from ${name}`,
       text: `
+Contact Form Details:
+
 Name: ${name}
 Email: ${email}
-Message: ${message}
+
+Message:
+${message}
       `,
       html: `
-<h3>New Contact Form Submission</h3>
+<h2>Contact Form Details</h2>
+
 <p><strong>Name:</strong> ${name}</p>
 <p><strong>Email:</strong> ${email}</p>
-<p><strong>Message:</strong></p>
-<p>${message}</p>
+
+<h3>Message:</h3>
+<p>${message || 'No message provided.'}</p>
       `,
     };
 
