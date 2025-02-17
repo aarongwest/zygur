@@ -12,6 +12,8 @@ export const metadata: Metadata = {
   description: "Future-proof solutions for a complex world",
 };
 
+export const dynamic = 'force-dynamic'
+
 export default function RootLayout({
   children,
 }: {
