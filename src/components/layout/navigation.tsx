@@ -8,7 +8,7 @@ export function Navigation() {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center h-8">
           <Image
-            src="/logo.png"
+            src={`${process.env.NEXT_PUBLIC_BASE_URL || ''}/logo.png`}
             alt="Zygur Logo"
             width={96}
             height={32}
