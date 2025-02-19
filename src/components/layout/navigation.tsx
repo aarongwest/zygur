@@ -9,7 +9,7 @@ export function Navigation() {
         <Link href="/" className="flex items-center">
           <div className="w-24 h-8 relative">
             <Image
-              src="/zygur-logo-white-color.svg"
+              src="/logo.png"
               alt="Zygur Logo"
               fill
               priority
