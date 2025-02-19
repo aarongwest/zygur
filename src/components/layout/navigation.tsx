@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
+import logoImage from "../../../public/logo.png"
 
 export function Navigation() {
   return (
@@ -8,12 +9,11 @@ export function Navigation() {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center h-8">
           <Image
-            src={`${process.env.NEXT_PUBLIC_BASE_URL || ''}/logo.png`}
+            src={logoImage}
             alt="Zygur Logo"
             width={96}
             height={32}
             priority
-            unoptimized
             className="h-full w-auto"
           />
         </Link>

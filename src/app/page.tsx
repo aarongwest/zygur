@@ -59,8 +59,8 @@ export default function Home() {
                       <div className="w-5 h-5 rounded-full bg-rose-500"></div>
                     </div>
                     <div>
-                      <h3 className="font-semibold mb-1">Defense & Military Solutions</h3>
-                      <p className="text-sm text-zinc-400">Advanced command and control systems</p>
+                      <h3 className="font-semibold mb-1">Software Development</h3>
+                      <p className="text-sm text-zinc-400">Custom software solutions and systems</p>
                     </div>
                   </div>
                   <ArrowRight className="text-zinc-600 group-hover:text-zinc-400 transition-colors" />
@@ -77,8 +77,8 @@ export default function Home() {
                       <div className="w-5 h-5 rounded-full bg-blue-500"></div>
                     </div>
                     <div>
-                      <h3 className="font-semibold mb-1">Agentic AI</h3>
-                      <p className="text-sm text-zinc-400">Intelligent data processing and automation</p>
+                      <h3 className="font-semibold mb-1">AI Automation</h3>
+                      <p className="text-sm text-zinc-400">Intelligent automation and data processing</p>
                     </div>
                   </div>
                   <ArrowRight className="text-zinc-600 group-hover:text-zinc-400 transition-colors" />
