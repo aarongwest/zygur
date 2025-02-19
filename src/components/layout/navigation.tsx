@@ -6,17 +6,15 @@ export function Navigation() {
   return (
     <nav className="border-b border-zinc-800">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center">
-          <div className="w-24 h-8 relative">
-            <Image
-              src="/logo.png"
-              alt="Zygur Logo"
-              fill
-              priority
-              sizes="96px"
-              className="object-contain"
-            />
-          </div>
+        <Link href="/" className="flex items-center h-8">
+          <Image
+            src="/logo.png"
+            alt="Zygur Logo"
+            width={96}
+            height={32}
+            priority
+            className="h-full w-auto"
+          />
         </Link>
         <div className="flex items-center space-x-8">
           <Link href="/services" className="text-zinc-400 hover:text-zinc-100">
