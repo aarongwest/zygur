@@ -7,12 +7,9 @@ export function Navigation() {
     <nav className="border-b border-zinc-800">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center h-8">
-          <Image
+          <img
             src="/logo.png"
             alt="Zygur Logo"
-            width={96}
-            height={32}
-            priority
             className="h-full w-auto"
           />
         </Link>
