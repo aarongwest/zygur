@@ -6,7 +6,8 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'hebbkx1anhila5yf.public.blob.vercel-storage.com'
       }
-    ]
+    ],
+    unoptimized: true
   },
   output: 'standalone',
   experimental: {
@@ -16,18 +17,6 @@ const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
-  async rewrites() {
-    return [
-      {
-        source: '/:path*',
-        destination: '/:path*/',
-      },
-      {
-        source: '/',
-        destination: '/index',
-      },
-    ]
-  },
 };
 
 module.exports = nextConfig;
