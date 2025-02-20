@@ -11,10 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Zygur Technologies Corp.",
-  description: "Future-proof solutions for a complex world",
-  icons: {
-    icon: '/favicon.ico'
-  }
+  description: "Future-proof solutions for a complex world"
 }
 
 export const dynamic = 'force-dynamic'
@@ -26,6 +23,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} bg-black`}>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="32x32" />
+      </head>
       <body className="font-sans antialiased bg-transparent">
         <Suspense fallback={<Loading />}>
           {children}
