@@ -12,6 +12,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Zygur Technologies Corp.",
   description: "Future-proof solutions for a complex world",
+  icons: {
+    icon: '/favicon.ico'
+  }
 }
 
 export const dynamic = 'force-dynamic'
