@@ -14,8 +14,8 @@ export default function CareersPage() {
               Join Our Mission
             </h1>
             <p className="text-lg text-zinc-400 mb-8">
-              Help shape the future of defense technology. We're looking for exceptional
-              talent to join our team of innovators and problem solvers.
+              Help shape the future of EHS management. We're looking for exceptional
+              talent to join our team of safety and compliance innovators.
             </p>
             <Link href="/call">
               <Button className="bg-blue-500 hover:bg-blue-600 text-white">
@@ -26,21 +26,21 @@ export default function CareersPage() {
 
           {/* Why Zygur */}
           <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
-            <h2 className="text-2xl font-bold mb-6">Why Zygur</h2>
+            <h2 className="text-2xl font-bold mb-6">Why EHS, Inc.</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-lg font-semibold mb-4 text-zinc-200">Impact</h3>
                 <p className="text-zinc-400">
-                  Work on cutting-edge technologies that directly enhance military
-                  capabilities and national security. Your contributions will help shape
-                  the future of defense technology.
+                  Work on cutting-edge technologies that directly enhance workplace safety
+                  and environmental compliance. Your contributions will help protect workers
+                  and the environment.
                 </p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-4 text-zinc-200">Innovation</h3>
                 <p className="text-zinc-400">
-                  Push the boundaries of what's possible in quantum computing, AI, and
-                  defense systems. Work with advanced technologies and brilliant minds.
+                  Push the boundaries of what's possible in EHS software, automation, and
+                  safety systems. Work with advanced technologies and industry experts.
                 </p>
               </div>
               <div>
@@ -72,13 +72,13 @@ export default function CareersPage() {
                         <Cpu className="w-5 h-5 text-amber-500" />
                       </div>
                       <div>
-                        <h3 className="text-xl font-semibold">Quantum Computing Engineers</h3>
+                        <h3 className="text-xl font-semibold">EHS Software Engineers</h3>
                         <p className="text-zinc-400">Multiple Positions</p>
                       </div>
                     </div>
                     <p className="text-zinc-400 mb-4">
-                      Design and develop quantum computing systems for military applications.
-                      Experience with quantum algorithms and superconducting circuits required.
+                      Design and develop innovative EHS software solutions. Experience with
+                      modern web technologies and safety management systems preferred.
                     </p>
                   </div>
                   <Link href="/call">
@@ -97,13 +97,13 @@ export default function CareersPage() {
                         <Brain className="w-5 h-5 text-blue-500" />
                       </div>
                       <div>
-                        <h3 className="text-xl font-semibold">AI Research Scientists</h3>
+                        <h3 className="text-xl font-semibold">EHS Consultants</h3>
                         <p className="text-zinc-400">Senior Positions</p>
                       </div>
                     </div>
                     <p className="text-zinc-400 mb-4">
-                      Lead research in military AI applications, focusing on autonomous
-                      systems and strategic decision-making algorithms.
+                      Lead EHS consulting projects, focusing on program development,
+                      compliance management, and safety culture improvement.
                     </p>
                   </div>
                   <Link href="/call">
@@ -122,13 +122,13 @@ export default function CareersPage() {
                         <Shield className="w-5 h-5 text-rose-500" />
                       </div>
                       <div>
-                        <h3 className="text-xl font-semibold">Defense Systems Architects</h3>
+                        <h3 className="text-xl font-semibold">Safety Training Specialists</h3>
                         <p className="text-zinc-400">Lead Positions</p>
                       </div>
                     </div>
                     <p className="text-zinc-400 mb-4">
-                      Design integrated defense systems combining AI, quantum computing,
-                      and advanced sensor networks. Military background preferred.
+                      Develop and deliver comprehensive safety training programs. Experience
+                      with OSHA regulations and adult learning principles required.
                     </p>
                   </div>
                   <Link href="/call">
@@ -147,13 +147,13 @@ export default function CareersPage() {
                         <Lock className="w-5 h-5 text-purple-500" />
                       </div>
                       <div>
-                        <h3 className="text-xl font-semibold">Security Engineers</h3>
+                        <h3 className="text-xl font-semibold">Industrial Hygienists</h3>
                         <p className="text-zinc-400">Multiple Positions</p>
                       </div>
                     </div>
                     <p className="text-zinc-400 mb-4">
-                      Develop and implement security protocols for military-grade systems.
-                      Experience with quantum cryptography a plus.
+                      Conduct workplace assessments and develop health & safety programs.
+                      CIH certification and field experience preferred.
                     </p>
                   </div>
                   <Link href="/call">
@@ -170,12 +170,12 @@ export default function CareersPage() {
           <div className="bg-zinc-800/50 rounded-lg p-8">
             <h2 className="text-2xl font-bold mb-6">General Requirements</h2>
             <ul className="space-y-4 text-zinc-400">
-              <li>• U.S. citizenship and ability to obtain security clearance required</li>
-              <li>• Advanced degree in relevant field preferred</li>
-              <li>• Strong background in military technology, quantum computing, or AI</li>
-              <li>• Excellent problem-solving and analytical skills</li>
-              <li>• Commitment to innovation and excellence</li>
-              <li>• Ability to work on classified projects</li>
+              <li>• Relevant certifications (CSP, CIH, CHMM, etc.) preferred</li>
+              <li>• Degree in relevant field (Safety, Environmental Science, Engineering)</li>
+              <li>• Strong background in EHS management and compliance</li>
+              <li>• Excellent problem-solving and communication skills</li>
+              <li>• Commitment to safety and environmental stewardship</li>
+              <li>• Ability to work with diverse teams and stakeholders</li>
             </ul>
           </div>
         </div>

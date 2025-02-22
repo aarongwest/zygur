@@ -12,13 +12,13 @@ export default function PrivacyPage() {
 
           <div className="prose prose-invert prose-zinc max-w-3xl">
             <p className="text-lg text-zinc-400 mb-12">
-              At Zygur Technologies Corp., we take the privacy and security of our users' data extremely seriously.
-              This policy outlines how we collect, use, and protect your information when using our defense technology solutions.
+              At EHS, Inc., we take the privacy and security of our users' data extremely seriously.
+              This policy outlines how we collect, use, and protect your information when using our EHS management solutions.
             </p>
 
             <h2>Information Collection</h2>
             <p>
-              We collect information necessary for the operation and improvement of our defense technology services:
+              We collect information necessary for the operation and improvement of our EHS management services:
             </p>
             <ul>
               <li>Authentication and identity verification data</li>
@@ -29,13 +29,13 @@ export default function PrivacyPage() {
 
             <h2>Data Security</h2>
             <p>
-              We implement military-grade security measures to protect your data:
+              We implement robust security measures to protect your data:
             </p>
             <ul>
-              <li>Quantum-resistant encryption for all stored data</li>
-              <li>Advanced intrusion detection and prevention systems</li>
-              <li>Regular security audits and penetration testing</li>
-              <li>Strict access controls and authentication protocols</li>
+              <li>Industry-standard encryption for all stored data</li>
+              <li>Advanced security monitoring and threat detection</li>
+              <li>Regular security audits and compliance assessments</li>
+              <li>Role-based access controls and authentication</li>
             </ul>
 
             <h2>Data Usage</h2>
@@ -43,10 +43,10 @@ export default function PrivacyPage() {
               Your data is used exclusively for:
             </p>
             <ul>
-              <li>Providing and improving our defense technology services</li>
-              <li>Ensuring system security and preventing unauthorized access</li>
-              <li>Compliance with legal and regulatory requirements</li>
-              <li>Research and development of advanced security features</li>
+              <li>Providing and improving our EHS management services</li>
+              <li>Ensuring data security and system reliability</li>
+              <li>Compliance with EHS regulations and standards</li>
+              <li>Research and development of safety features</li>
             </ul>
 
             <h2>Compliance</h2>
@@ -54,10 +54,10 @@ export default function PrivacyPage() {
               Our privacy practices comply with:
             </p>
             <ul>
-              <li>International defense technology standards</li>
-              <li>Military-grade data protection requirements</li>
-              <li>Government security regulations</li>
-              <li>Industry-specific compliance frameworks</li>
+              <li>International data protection standards</li>
+              <li>EHS industry regulations</li>
+              <li>Privacy and security best practices</li>
+              <li>Environmental compliance frameworks</li>
             </ul>
 
             <h2>Third-Party Access</h2>

@@ -12,7 +12,7 @@ export default function ResourcesPage() {
           </h1>
           <p className="text-lg text-zinc-400 mb-12 max-w-2xl">
             Access our comprehensive library of technical documentation, research papers, and case studies.
-            Stay informed about the latest advancements in defense technology and military operations.
+            Stay informed about the latest advancements in EHS management and workplace safety.
           </p>
 
           <div className="grid grid-cols-1 gap-8">
@@ -30,13 +30,13 @@ export default function ResourcesPage() {
                     <h2 className="text-2xl font-semibold">Technical Documentation</h2>
                   </div>
                   <p className="text-zinc-400 mb-6 max-w-2xl">
-                    Comprehensive technical documentation for our quantum computing, AI, and defense systems.
-                    Integration guides, API references, and deployment protocols.
+                    Comprehensive documentation for our EHS software platform and solutions.
+                    Implementation guides, API references, and best practices.
                   </p>
                   <ul className="space-y-3 text-sm text-zinc-400">
                     <li className="flex items-center">
                       <span className="w-1.5 h-1.5 rounded-full bg-blue-500 mr-2" />
-                      System architecture and integration guides
+                      Platform implementation guides
                     </li>
                     <li className="flex items-center">
                       <span className="w-1.5 h-1.5 rounded-full bg-blue-500 mr-2" />
@@ -44,7 +44,7 @@ export default function ResourcesPage() {
                     </li>
                     <li className="flex items-center">
                       <span className="w-1.5 h-1.5 rounded-full bg-blue-500 mr-2" />
-                      Security protocols and compliance guides
+                      EHS compliance documentation
                     </li>
                   </ul>
                 </div>
@@ -66,21 +66,21 @@ export default function ResourcesPage() {
                     <h2 className="text-2xl font-semibold">Research Papers</h2>
                   </div>
                   <p className="text-zinc-400 mb-6 max-w-2xl">
-                    Cutting-edge research in quantum computing, artificial intelligence, and defense technologies.
-                    Published papers and technical reports from our R&D division.
+                    Latest research in workplace safety, environmental compliance, and EHS management.
+                    Published papers and reports from our research team.
                   </p>
                   <ul className="space-y-3 text-sm text-zinc-400">
                     <li className="flex items-center">
                       <span className="w-1.5 h-1.5 rounded-full bg-purple-500 mr-2" />
-                      Quantum computing breakthroughs
+                      Safety management innovations
                     </li>
                     <li className="flex items-center">
                       <span className="w-1.5 h-1.5 rounded-full bg-purple-500 mr-2" />
-                      AI and autonomous systems research
+                      Environmental compliance studies
                     </li>
                     <li className="flex items-center">
                       <span className="w-1.5 h-1.5 rounded-full bg-purple-500 mr-2" />
-                      Advanced defense technology studies
+                      Risk assessment methodologies
                     </li>
                   </ul>
                 </div>
@@ -102,21 +102,21 @@ export default function ResourcesPage() {
                     <h2 className="text-2xl font-semibold">Case Studies</h2>
                   </div>
                   <p className="text-zinc-400 mb-6 max-w-2xl">
-                    Real-world applications and success stories of our technology in military and defense operations.
-                    Detailed analysis of deployment scenarios and outcomes.
+                    Real-world applications and success stories of our EHS solutions in various industries.
+                    Detailed analysis of implementation outcomes and benefits.
                   </p>
                   <ul className="space-y-3 text-sm text-zinc-400">
                     <li className="flex items-center">
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 mr-2" />
-                      Military operation optimizations
+                      Safety program improvements
                     </li>
                     <li className="flex items-center">
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 mr-2" />
-                      Defense system implementations
+                      Compliance achievements
                     </li>
                     <li className="flex items-center">
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 mr-2" />
-                      AI integration success stories
+                      Risk reduction results
                     </li>
                   </ul>
                 </div>
@@ -138,21 +138,21 @@ export default function ResourcesPage() {
                     <h2 className="text-2xl font-semibold">Labs</h2>
                   </div>
                   <p className="text-zinc-400 mb-6 max-w-2xl">
-                    Discover innovative projects from our young entrepreneur program. See how high school students
-                    are shaping the future of defense technology through groundbreaking solutions.
+                    Discover innovative EHS projects and initiatives. See how organizations are
+                    transforming workplace safety through creative solutions.
                   </p>
                   <ul className="space-y-3 text-sm text-zinc-400">
                     <li className="flex items-center">
                       <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mr-2" />
-                      Featured student projects
+                      Featured safety initiatives
                     </li>
                     <li className="flex items-center">
                       <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mr-2" />
-                      Project acquisition opportunities
+                      Innovation showcases
                     </li>
                     <li className="flex items-center">
                       <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mr-2" />
-                      Career development pathways
+                      Best practice examples
                     </li>
                   </ul>
                 </div>

@@ -14,8 +14,8 @@ export default function PressPage() {
               Press & Media
             </h1>
             <p className="text-lg text-zinc-400 mb-8">
-              Latest news, announcements, and media coverage about Zygur's innovations
-              in defense technology.
+              Latest news, announcements, and media coverage about EHS, Inc.'s innovations
+              in workplace safety and environmental compliance.
             </p>
             <Link href="/call">
               <Button className="bg-blue-500 hover:bg-blue-600 text-white">
@@ -36,14 +36,13 @@ export default function PressPage() {
                         <Award className="w-5 h-5 text-amber-500" />
                       </div>
                       <div>
-                        <h3 className="text-xl font-semibold">Breakthrough in Quantum Computing</h3>
+                        <h3 className="text-xl font-semibold">Launch of Next-Gen EHS Platform</h3>
                         <p className="text-zinc-400">February 10, 2025</p>
                       </div>
                     </div>
                     <p className="text-zinc-400 mb-4">
-                      Zygur announces major breakthrough in quantum error correction,
-                      achieving 99.99% accuracy in quantum computations for military
-                      applications.
+                      EHS, Inc. announces the launch of its next-generation EHS platform,
+                      featuring advanced automation and AI-driven safety analytics.
                     </p>
                     <div className="flex items-center text-amber-500">
                       <Link href="/login" className="flex items-center hover:text-amber-400">
@@ -63,13 +62,13 @@ export default function PressPage() {
                         <Globe className="w-5 h-5 text-blue-500" />
                       </div>
                       <div>
-                        <h3 className="text-xl font-semibold">Strategic Partnership Announcement</h3>
+                        <h3 className="text-xl font-semibold">Industry Recognition Award</h3>
                         <p className="text-zinc-400">January 25, 2025</p>
                       </div>
                     </div>
                     <p className="text-zinc-400 mb-4">
-                      Zygur partners with leading defense organizations to develop
-                      next-generation autonomous defense systems.
+                      EHS, Inc. receives industry recognition for innovative approach
+                      to workplace safety and environmental compliance management.
                     </p>
                     <div className="flex items-center text-blue-500">
                       <Link href="/login" className="flex items-center hover:text-blue-400">
@@ -89,13 +88,13 @@ export default function PressPage() {
                         <Newspaper className="w-5 h-5 text-purple-500" />
                       </div>
                       <div>
-                        <h3 className="text-xl font-semibold">AI Innovation Recognition</h3>
+                        <h3 className="text-xl font-semibold">Training Program Expansion</h3>
                         <p className="text-zinc-400">January 15, 2025</p>
                       </div>
                     </div>
                     <p className="text-zinc-400 mb-4">
-                      Zygur's AI-driven defense systems receive recognition for
-                      revolutionary advances in military technology.
+                      EHS, Inc. expands its training program offerings with new
+                      certifications and specialized safety courses.
                     </p>
                     <div className="flex items-center text-purple-500">
                       <Link href="/login" className="flex items-center hover:text-purple-400">
@@ -146,24 +145,24 @@ export default function PressPage() {
             <div className="space-y-6">
               <div className="border-l-2 border-zinc-700 pl-6">
                 <p className="text-zinc-400 italic mb-2">
-                  "Zygur's quantum computing breakthrough represents a significant leap
-                  forward in military technology capabilities..."
+                  "EHS, Inc.'s innovative platform represents a significant advancement
+                  in workplace safety and compliance management..."
                 </p>
-                <p className="text-zinc-500">- Defense Technology Review</p>
+                <p className="text-zinc-500">- Safety & Health Magazine</p>
               </div>
               <div className="border-l-2 border-zinc-700 pl-6">
                 <p className="text-zinc-400 italic mb-2">
-                  "The company's innovative approach to AI-driven defense systems is
-                  setting new standards in military operations..."
+                  "The company's comprehensive approach to EHS management is
+                  setting new standards in workplace safety..."
                 </p>
-                <p className="text-zinc-500">- Military Innovation Journal</p>
+                <p className="text-zinc-500">- EHS Today</p>
               </div>
               <div className="border-l-2 border-zinc-700 pl-6">
                 <p className="text-zinc-400 italic mb-2">
-                  "Zygur continues to push the boundaries of what's possible in
-                  defense technology..."
+                  "EHS, Inc. continues to innovate in the field of environmental
+                  health and safety management..."
                 </p>
-                <p className="text-zinc-500">- Tech Defense Weekly</p>
+                <p className="text-zinc-500">- Environmental Leader</p>
               </div>
             </div>
           </div>

@@ -9,11 +9,11 @@ export default function CompanyPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <h1 className="text-4xl font-bold tracking-tight mb-6">
-              Advancing the Future of Defense
+              Leading the Future of EHS Management
             </h1>
             <p className="text-lg text-zinc-400 mb-12">
-              Zygur Technologies Corp. is at the forefront of military and defense technology innovation.
-              We combine quantum computing, AI, and advanced engineering to develop solutions for tomorrow's challenges.
+              EHS, Inc. is a leading provider of environmental, health, and safety solutions.
+              We combine innovative technology, expert consulting, and proven methodologies to help organizations achieve safety excellence and regulatory compliance.
             </p>
 
             <div className="grid grid-cols-1 gap-8">
@@ -31,8 +31,8 @@ export default function CompanyPage() {
                       <h2 className="text-2xl font-semibold">About Us</h2>
                     </div>
                     <p className="text-zinc-400 mb-6 max-w-2xl">
-                      Learn about our mission to revolutionize defense technology and our commitment to national security.
-                      Discover our history of innovation and technological breakthroughs.
+                      Learn about our mission to transform EHS management and our commitment to workplace safety.
+                      Discover our history of innovation and industry leadership.
                     </p>
                     <ul className="space-y-3 text-sm text-zinc-400">
                       <li className="flex items-center">
@@ -67,8 +67,8 @@ export default function CompanyPage() {
                       <h2 className="text-2xl font-semibold">Careers</h2>
                     </div>
                     <p className="text-zinc-400 mb-6 max-w-2xl">
-                      Join our team of innovators and experts working on cutting-edge defense technology.
-                      Help shape the future of military and defense operations.
+                      Join our team of EHS professionals and innovators working to enhance workplace safety.
+                      Help organizations achieve safety excellence and regulatory compliance.
                     </p>
                     <ul className="space-y-3 text-sm text-zinc-400">
                       <li className="flex items-center">
@@ -103,8 +103,8 @@ export default function CompanyPage() {
                       <h2 className="text-2xl font-semibold">Contact</h2>
                     </div>
                     <p className="text-zinc-400 mb-6 max-w-2xl">
-                      Get in touch with our team to discuss your defense technology needs.
-                      Connect with our experts for consultations and partnerships.
+                      Get in touch with our team to discuss your EHS management needs.
+                      Connect with our experts for consultations and program development.
                     </p>
                     <ul className="space-y-3 text-sm text-zinc-400">
                       <li className="flex items-center">
@@ -139,21 +139,21 @@ export default function CompanyPage() {
                       <h2 className="text-2xl font-semibold">Partners</h2>
                     </div>
                     <p className="text-zinc-400 mb-6 max-w-2xl">
-                      Explore our network of strategic partners and collaborators.
-                      Learn about partnership opportunities and joint initiatives.
+                      Explore our network of industry partners and certification bodies.
+                      Learn about our affiliations and accreditations.
                     </p>
                     <ul className="space-y-3 text-sm text-zinc-400">
                       <li className="flex items-center">
                         <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mr-2" />
-                        Strategic alliances
+                        Industry associations
                       </li>
                       <li className="flex items-center">
                         <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mr-2" />
-                        Technology partners
+                        Certification partners
                       </li>
                       <li className="flex items-center">
                         <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mr-2" />
-                        Research collaborations
+                        Technology integrations
                       </li>
                     </ul>
                   </div>

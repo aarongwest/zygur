@@ -14,8 +14,8 @@ export default function PartnersPage() {
               Strategic Partners
             </h1>
             <p className="text-lg text-zinc-400 mb-8">
-              We collaborate with leading defense organizations, research institutions,
-              and technology companies to advance military capabilities.
+              We collaborate with leading organizations, industry experts, and technology 
+              companies to advance workplace safety and environmental compliance.
             </p>
             <Link href="/call">
               <Button className="bg-blue-500 hover:bg-blue-600 text-white">
@@ -31,25 +31,24 @@ export default function PartnersPage() {
                 <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center">
                   <Shield className="w-5 h-5 text-blue-500" />
                 </div>
-                <h2 className="text-xl font-semibold">Defense Organizations</h2>
+                <h2 className="text-xl font-semibold">Industry Partners</h2>
               </div>
               <p className="text-zinc-400 mb-4">
-                We work closely with military and defense organizations to develop
-                and deploy advanced technology solutions that enhance operational
-                capabilities.
+                We work closely with industry leaders to develop and deploy advanced
+                EHS solutions that enhance workplace safety and compliance.
               </p>
               <ul className="space-y-3 text-zinc-400">
                 <li className="flex items-center">
                   <span className="w-1.5 h-1.5 rounded-full bg-blue-500 mr-2" />
-                  Strategic technology integration
+                  EHS software integration
                 </li>
                 <li className="flex items-center">
                   <span className="w-1.5 h-1.5 rounded-full bg-blue-500 mr-2" />
-                  Joint research initiatives
+                  Best practice sharing
                 </li>
                 <li className="flex items-center">
                   <span className="w-1.5 h-1.5 rounded-full bg-blue-500 mr-2" />
-                  Customized solution development
+                  Industry-specific solutions
                 </li>
               </ul>
             </div>
@@ -59,24 +58,24 @@ export default function PartnersPage() {
                 <div className="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center">
                   <Globe className="w-5 h-5 text-amber-500" />
                 </div>
-                <h2 className="text-xl font-semibold">Research Institutions</h2>
+                <h2 className="text-xl font-semibold">Consulting Partners</h2>
               </div>
               <p className="text-zinc-400 mb-4">
-                Our partnerships with leading research institutions drive innovation
-                in quantum computing, AI, and defense technologies.
+                Our partnerships with leading EHS consultants and trainers help deliver
+                comprehensive safety and compliance solutions.
               </p>
               <ul className="space-y-3 text-zinc-400">
                 <li className="flex items-center">
                   <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mr-2" />
-                  Advanced research collaboration
+                  Expert consulting services
                 </li>
                 <li className="flex items-center">
                   <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mr-2" />
-                  Technology transfer programs
+                  Professional training programs
                 </li>
                 <li className="flex items-center">
                   <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mr-2" />
-                  Innovation partnerships
+                  Compliance management
                 </li>
               </ul>
             </div>
@@ -89,22 +88,22 @@ export default function PartnersPage() {
               <div>
                 <h3 className="text-lg font-semibold mb-4 text-zinc-200">Technology Access</h3>
                 <p className="text-zinc-400">
-                  Priority access to our advanced defense technologies, including
-                  quantum computing and AI systems.
+                  Priority access to our advanced EHS software platform and
+                  automation tools.
                 </p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-4 text-zinc-200">Joint Development</h3>
                 <p className="text-zinc-400">
-                  Collaborate on custom solutions tailored to specific military and
-                  defense requirements.
+                  Collaborate on custom solutions tailored to specific industry
+                  and organizational needs.
                 </p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-4 text-zinc-200">Strategic Support</h3>
                 <p className="text-zinc-400">
-                  Dedicated technical support and strategic consulting for seamless
-                  integration.
+                  Dedicated support and consulting for successful implementation
+                  and ongoing optimization.
                 </p>
               </div>
             </div>
@@ -122,13 +121,13 @@ export default function PartnersPage() {
                         <Award className="w-5 h-5 text-purple-500" />
                       </div>
                       <div>
-                        <h3 className="text-xl font-semibold">Defense Innovation Initiative</h3>
+                        <h3 className="text-xl font-semibold">Safety Innovation Alliance</h3>
                         <p className="text-zinc-400">Strategic Partnership</p>
                       </div>
                     </div>
                     <p className="text-zinc-400 mb-4">
-                      Joint program developing next-generation defense technologies
-                      through collaborative research and development.
+                      Joint program developing next-generation EHS solutions through
+                      collaborative innovation and industry expertise.
                     </p>
                     <div className="flex items-center text-purple-500">
                       <Link href="/login" className="flex items-center hover:text-purple-400">
@@ -148,13 +147,13 @@ export default function PartnersPage() {
                         <Handshake className="w-5 h-5 text-emerald-500" />
                       </div>
                       <div>
-                        <h3 className="text-xl font-semibold">Quantum Research Alliance</h3>
-                        <p className="text-zinc-400">Research Collaboration</p>
+                        <h3 className="text-xl font-semibold">EHS Training Network</h3>
+                        <p className="text-zinc-400">Training Collaboration</p>
                       </div>
                     </div>
                     <p className="text-zinc-400 mb-4">
-                      Multi-institutional partnership advancing quantum computing
-                      capabilities for military applications.
+                      Network of certified trainers and consultants delivering comprehensive
+                      EHS training and certification programs.
                     </p>
                     <div className="flex items-center text-emerald-500">
                       <Link href="/login" className="flex items-center hover:text-emerald-400">

@@ -17,9 +17,9 @@ export default function CompliancePage() {
           </div>
 
           <p className="text-lg text-zinc-400 mb-12 max-w-2xl">
-            Zygur Corporation maintains the highest standards of compliance with international
-            defense regulations and industry certifications. Our commitment to compliance ensures
-            the security and reliability of our defense technology solutions.
+            EHS, Inc. maintains the highest standards of compliance with environmental, health,
+            and safety regulations and industry certifications. Our commitment to compliance ensures
+            the effectiveness and reliability of our EHS management solutions.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -29,13 +29,13 @@ export default function CompliancePage() {
                 <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center">
                   <Building className="w-5 h-5 text-blue-500" />
                 </div>
-                <h2 className="text-2xl font-semibold">Defense Standards</h2>
+                <h2 className="text-2xl font-semibold">EHS Standards</h2>
               </div>
               <ul className="space-y-3 text-zinc-400">
-                <li>Military-grade security protocols</li>
-                <li>Defense acquisition compliance</li>
-                <li>Classified information handling</li>
-                <li>Secure facility requirements</li>
+                <li>OSHA compliance standards</li>
+                <li>Environmental regulations</li>
+                <li>Safety management systems</li>
+                <li>Industry best practices</li>
               </ul>
             </div>
 
@@ -45,13 +45,13 @@ export default function CompliancePage() {
                 <div className="w-10 h-10 rounded-full bg-purple-500/10 flex items-center justify-center">
                   <Globe2 className="w-5 h-5 text-purple-500" />
                 </div>
-                <h2 className="text-2xl font-semibold">International Regulations</h2>
+                <h2 className="text-2xl font-semibold">Global Standards</h2>
               </div>
               <ul className="space-y-3 text-zinc-400">
-                <li>Export control compliance</li>
-                <li>International arms regulations</li>
-                <li>Cross-border data transfer</li>
-                <li>Global security standards</li>
+                <li>ISO 14001 compliance</li>
+                <li>International EHS standards</li>
+                <li>Global reporting initiatives</li>
+                <li>Environmental protocols</li>
               </ul>
             </div>
 
@@ -64,10 +64,10 @@ export default function CompliancePage() {
                 <h2 className="text-2xl font-semibold">Legal Requirements</h2>
               </div>
               <ul className="space-y-3 text-zinc-400">
-                <li>Government contracting laws</li>
-                <li>Data protection regulations</li>
-                <li>Intellectual property rights</li>
-                <li>Contractual obligations</li>
+                <li>Workplace safety laws</li>
+                <li>Environmental regulations</li>
+                <li>Health & safety standards</li>
+                <li>Industry requirements</li>
               </ul>
             </div>
 
@@ -80,10 +80,10 @@ export default function CompliancePage() {
                 <h2 className="text-2xl font-semibold">Certifications</h2>
               </div>
               <ul className="space-y-3 text-zinc-400">
-                <li>ISO 27001 certification</li>
-                <li>CMMC Level 5 compliance</li>
-                <li>NIST SP 800-171 compliance</li>
-                <li>SOC 2 Type II certification</li>
+                <li>ISO 45001 certification</li>
+                <li>Environmental certifications</li>
+                <li>Safety program accreditation</li>
+                <li>Industry certifications</li>
               </ul>
             </div>
           </div>
@@ -93,9 +93,9 @@ export default function CompliancePage() {
             <h2 className="text-2xl font-semibold mb-6">Our Compliance Program</h2>
             <div className="space-y-6 text-zinc-400">
               <p className="max-w-3xl">
-                Our comprehensive compliance program ensures adherence to all relevant regulations
-                and standards in the defense technology industry. We maintain a dedicated team of
-                compliance experts who continuously monitor and update our practices.
+                Our comprehensive compliance program ensures adherence to all relevant EHS regulations
+                and standards. We maintain a dedicated team of EHS compliance experts who continuously
+                monitor and update our practices.
               </p>
               <p className="max-w-3xl">
                 Regular audits, assessments, and training programs help us maintain the highest
@@ -119,7 +119,7 @@ export default function CompliancePage() {
             </p>
             <div className="flex flex-col space-y-4">
               <Link
-                href="mailto:compliance@zygur.com"
+                href="mailto:compliance@ehs.inc"
                 className="inline-flex items-center justify-center px-4 py-2 bg-amber-500/10 text-amber-500 rounded-md hover:bg-amber-500/20 transition-colors"
               >
                 Contact Compliance Team

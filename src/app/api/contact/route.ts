@@ -23,7 +23,7 @@ export async function POST(request: Request) {
         address: process.env.EMAIL_USER as string,
       },
       replyTo: email,
-      to: "aaron@zygur.com",
+      to: ["aaron@ehs.inc", "khristyn@ehs.inc", "mary@ehs.inc", "isaac.vigil@ehs.inc"],
       subject: `New Contact Form Submission from ${name}`,
       text: `
 Contact Form Details:

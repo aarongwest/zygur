@@ -12,13 +12,13 @@ export default function SecurityPage() {
               <Shield className="w-6 h-6 text-rose-500" />
             </div>
             <h1 className="text-5xl font-bold tracking-tight">
-              Security at Zygur
+              Security at EHS, Inc.
             </h1>
           </div>
 
           <p className="text-lg text-zinc-400 mb-12 max-w-2xl">
-            Our commitment to security is uncompromising. We implement military-grade protection
-            across all our systems and operations to safeguard critical defense technologies.
+            Our commitment to security is uncompromising. We implement robust protection
+            across all our systems and operations to safeguard your EHS data and operations.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -31,10 +31,10 @@ export default function SecurityPage() {
                 <h2 className="text-2xl font-semibold">Infrastructure Security</h2>
               </div>
               <ul className="space-y-3 text-zinc-400">
-                <li>Quantum-resistant encryption</li>
-                <li>Zero-trust architecture</li>
-                <li>Redundant secure facilities</li>
-                <li>24/7 infrastructure monitoring</li>
+                <li>Industry-standard encryption</li>
+                <li>Secure cloud architecture</li>
+                <li>Redundant data centers</li>
+                <li>24/7 system monitoring</li>
               </ul>
             </div>
 
@@ -48,9 +48,9 @@ export default function SecurityPage() {
               </div>
               <ul className="space-y-3 text-zinc-400">
                 <li>Multi-factor authentication</li>
-                <li>Biometric verification</li>
-                <li>Role-based access control</li>
-                <li>Security clearance verification</li>
+                <li>Single sign-on options</li>
+                <li>Role-based permissions</li>
+                <li>Access audit logging</li>
               </ul>
             </div>
 
@@ -63,10 +63,10 @@ export default function SecurityPage() {
                 <h2 className="text-2xl font-semibold">Incident Response</h2>
               </div>
               <ul className="space-y-3 text-zinc-400">
-                <li>24/7 security operations center</li>
-                <li>Automated threat detection</li>
-                <li>Rapid response protocols</li>
-                <li>Incident recovery procedures</li>
+                <li>Security monitoring center</li>
+                <li>Automated alerts</li>
+                <li>Response procedures</li>
+                <li>Data recovery protocols</li>
               </ul>
             </div>
 
@@ -79,10 +79,10 @@ export default function SecurityPage() {
                 <h2 className="text-2xl font-semibold">Compliance</h2>
               </div>
               <ul className="space-y-3 text-zinc-400">
-                <li>Military security standards</li>
-                <li>International regulations</li>
-                <li>Regular security audits</li>
-                <li>Compliance certifications</li>
+                <li>Industry security standards</li>
+                <li>EHS regulations</li>
+                <li>Regular audits</li>
+                <li>Security certifications</li>
               </ul>
             </div>
           </div>
@@ -96,9 +96,9 @@ export default function SecurityPage() {
               <h2 className="text-2xl font-semibold">Our Security Team</h2>
             </div>
             <p className="text-zinc-400 mb-6 max-w-3xl">
-              Our security team consists of veterans from military cyber operations, defense agencies,
-              and leading cybersecurity organizations. We bring decades of experience in protecting
-              critical infrastructure and sensitive military technologies.
+              Our security team consists of experienced professionals from leading technology and
+              cybersecurity organizations. We bring extensive expertise in protecting sensitive
+              business data and ensuring reliable system operations.
             </p>
             <Link
               href="/company/careers"
@@ -115,8 +115,8 @@ export default function SecurityPage() {
           <div className="bg-zinc-800/50 rounded-lg p-8">
             <h2 className="text-2xl font-semibold mb-4">Report Security Issues</h2>
             <p className="text-zinc-400 mb-6 max-w-3xl">
-              We take security vulnerabilities seriously. If you discover a security issue,
-              please report it immediately to our security team.
+              We take the security of your EHS data seriously. If you discover any security
+              concerns, please report them immediately to our security team.
             </p>
             <Link
               href="/company/contact"

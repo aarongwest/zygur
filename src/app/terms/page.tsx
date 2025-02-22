@@ -12,41 +12,41 @@ export default function TermsPage() {
 
           <div className="prose prose-invert prose-zinc max-w-3xl">
             <p className="text-lg text-zinc-400 mb-12">
-              These Terms of Service govern your use of Zygur Technologies Corp.'s defense technology solutions.
+              These Terms of Service govern your use of EHS, Inc.'s environmental health and safety solutions.
               By accessing or using our services, you agree to be bound by these terms.
             </p>
 
             <h2>Service Usage</h2>
             <p>
-              Our services are restricted to authorized users and organizations:
+              Our services are available to authorized users and organizations:
             </p>
             <ul>
-              <li>Valid security clearance requirements must be met</li>
-              <li>Usage must comply with international defense regulations</li>
+              <li>Valid subscription or license required</li>
+              <li>Usage must comply with EHS regulations</li>
               <li>Access credentials are non-transferable</li>
-              <li>All system activities are monitored and logged</li>
+              <li>System usage is monitored for security</li>
             </ul>
 
             <h2>Security Requirements</h2>
             <p>
-              Users must maintain strict security standards:
+              Users must follow standard security practices:
             </p>
             <ul>
-              <li>Implementation of required security protocols</li>
-              <li>Regular security training and certification</li>
-              <li>Compliance with access control policies</li>
-              <li>Immediate reporting of security incidents</li>
+              <li>Maintain secure password policies</li>
+              <li>Complete required user training</li>
+              <li>Follow access control guidelines</li>
+              <li>Report any security concerns</li>
             </ul>
 
             <h2>Intellectual Property</h2>
             <p>
-              All technology and content provided by Zygur Technologies Corp. is protected:
+              All technology and content provided by EHS, Inc. is protected:
             </p>
             <ul>
-              <li>Proprietary algorithms and systems</li>
-              <li>Classified technical documentation</li>
-              <li>Custom software implementations</li>
-              <li>Research and development outputs</li>
+              <li>Proprietary software and systems</li>
+              <li>Training materials and documentation</li>
+              <li>Custom implementations</li>
+              <li>Safety and compliance resources</li>
             </ul>
 
             <h2>Liability</h2>
@@ -56,8 +56,8 @@ export default function TermsPage() {
             <ul>
               <li>Service level agreements</li>
               <li>Contractual obligations</li>
-              <li>Applicable defense industry regulations</li>
-              <li>International arms control treaties</li>
+              <li>Industry standards</li>
+              <li>Applicable regulations</li>
             </ul>
 
             <h2>Compliance Requirements</h2>
@@ -65,21 +65,21 @@ export default function TermsPage() {
               Users must comply with:
             </p>
             <ul>
-              <li>Export control regulations</li>
-              <li>Defense technology standards</li>
-              <li>Data protection requirements</li>
-              <li>Security clearance protocols</li>
+              <li>EHS regulations</li>
+              <li>Industry standards</li>
+              <li>Data protection laws</li>
+              <li>Security requirements</li>
             </ul>
 
             <h2>Service Modifications</h2>
             <p>
-              Zygur Technologies Corp. reserves the right to:
+              EHS, Inc. reserves the right to:
             </p>
             <ul>
               <li>Modify or discontinue services</li>
-              <li>Update security requirements</li>
-              <li>Revise usage policies</li>
-              <li>Implement emergency security measures</li>
+              <li>Update system requirements</li>
+              <li>Revise service policies</li>
+              <li>Implement security updates</li>
             </ul>
 
             <h2>Termination</h2>
@@ -87,10 +87,10 @@ export default function TermsPage() {
               Service access may be terminated for:
             </p>
             <ul>
-              <li>Security violations</li>
-              <li>Non-compliance with terms</li>
-              <li>Unauthorized usage</li>
-              <li>Breach of security protocols</li>
+              <li>Terms violations</li>
+              <li>Non-compliance with policies</li>
+              <li>Unauthorized access</li>
+              <li>Misuse of services</li>
             </ul>
 
             <h2>Contact</h2>

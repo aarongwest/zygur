@@ -15,7 +15,7 @@ export default function ContactPage() {
               Contact Us
             </h1>
             <p className="text-lg text-zinc-400 mb-8">
-              Get in touch with our team to learn more about our defense technology
+              Get in touch with our team to learn more about our EHS management
               solutions and how we can support your organization.
             </p>
           </div>
@@ -27,11 +27,11 @@ export default function ContactPage() {
                 <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center">
                   <Shield className="w-5 h-5 text-blue-500" />
                 </div>
-                <h2 className="text-xl font-semibold">Defense Organizations</h2>
+                <h2 className="text-xl font-semibold">EHS Solutions</h2>
               </div>
               <p className="text-zinc-400 mb-6">
-                For military and defense organizations interested in our solutions,
-                schedule a call with our defense technology team.
+                For organizations interested in our EHS software and services,
+                schedule a call with our solutions team.
               </p>
               <Link href="/call">
                 <Button className="bg-blue-500 hover:bg-blue-600 text-white w-full">
@@ -45,15 +45,15 @@ export default function ContactPage() {
                 <div className="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center">
                   <Globe className="w-5 h-5 text-amber-500" />
                 </div>
-                <h2 className="text-xl font-semibold">Media & Press</h2>
+                <h2 className="text-xl font-semibold">Consulting & Training</h2>
               </div>
               <p className="text-zinc-400 mb-6">
-                For media inquiries, interview requests, and press materials,
-                contact our media relations team.
+                For EHS consulting, training programs, and professional services,
+                connect with our expert consultants.
               </p>
               <Link href="/call">
                 <Button className="bg-amber-500 hover:bg-amber-600 text-white w-full">
-                  Media Inquiries
+                  Request Consultation
                 </Button>
               </Link>
             </div>

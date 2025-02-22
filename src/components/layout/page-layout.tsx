@@ -3,13 +3,12 @@ import { Footer } from "@/components/layout/footer"
 
 export function PageLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex">
-      {/* Main Content */}
-      <div className="flex-1 min-h-screen text-zinc-100">
-        <Navigation />
+    <div className="flex flex-col min-h-screen">
+      <Navigation />
+      <main className="flex-1">
         {children}
-        <Footer />
-      </div>
+      </main>
+      <Footer />
     </div>
   )
 }
