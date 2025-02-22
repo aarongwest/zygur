@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
-import logoImage from "../../../public/logo.png"
+import logoImage from "../../../public/ehs-logo.png"
 
 export function Navigation() {
   return (
@@ -10,25 +10,22 @@ export function Navigation() {
         <Link href="/" className="flex items-center h-8">
           <Image
             src={logoImage}
-            alt="Zygur Logo"
+            alt="EHS Logo"
             width={96}
             height={32}
             priority
-            className="h-full w-auto"
+            className="h-8 w-auto"
           />
         </Link>
         <div className="flex items-center space-x-8">
+          <Link href="/ehs" className="text-zinc-400 hover:text-zinc-100">
+            Articles
+          </Link>
           <Link href="/services" className="text-zinc-400 hover:text-zinc-100">
             Services
           </Link>
-          <Link href="/resources" className="text-zinc-400 hover:text-zinc-100">
-            Resources
-          </Link>
           <Link href="/company" className="text-zinc-400 hover:text-zinc-100">
             Company
-          </Link>
-          <Link href="/login" className="text-zinc-400 hover:text-zinc-100">
-            Log in
           </Link>
             <Link href="/call">
               <Button variant="default" size="sm" className="bg-zinc-100 text-zinc-900 hover:bg-zinc-200">

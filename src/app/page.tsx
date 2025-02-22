@@ -15,24 +15,23 @@ export default function Home() {
             <div className="mb-4">
               <span className="inline-flex items-center text-sm text-zinc-400">
                 <span className="w-2 h-2 rounded-full bg-zinc-400 mr-2"></span>
-                Advanced Technology
+                Environmental Health & Safety
               </span>
             </div>
             <h1 className="text-5xl font-bold tracking-tight mb-4">
-              Future-proof solutions
+              Streamline your EHS
               <br />
-              <span className="text-zinc-400">for a complex world.</span>
+              <span className="text-zinc-400">with automation and expertise.</span>
             </h1>
             <p className="text-lg text-zinc-400 mb-12 max-w-2xl">
-              We develop cutting-edge technologies for the challenges of tomorrow. Our research pushes the boundaries of
-              what's possible.
+              We provide comprehensive EHS solutions that combine powerful software automation with expert services. Let us handle your environmental, health, and safety needs so you don't have to.
             </p>
 
             <div className="space-y-6">
               <p className="text-sm text-zinc-400">Our Services →</p>
 
               <Link
-                href="/services/research-development"
+                href="/services/software"
                 className="block p-6 bg-zinc-800/50 rounded-lg hover:bg-zinc-800 transition-colors group"
               >
                 <div className="flex items-center justify-between">
@@ -41,8 +40,8 @@ export default function Home() {
                       <div className="w-5 h-5 rounded-full bg-amber-500"></div>
                     </div>
                     <div>
-                      <h3 className="font-semibold mb-1">Research & Development</h3>
-                      <p className="text-sm text-zinc-400">Emerging tech discovery and prototyping</p>
+                      <h3 className="font-semibold mb-1">EHS Software Platform</h3>
+                      <p className="text-sm text-zinc-400">Customizable automation and management tools</p>
                     </div>
                   </div>
                   <ArrowRight className="text-zinc-600 group-hover:text-zinc-400 transition-colors" />
@@ -50,7 +49,7 @@ export default function Home() {
               </Link>
 
               <Link
-                href="/services/defense-military"
+                href="/services/training"
                 className="block p-6 bg-zinc-800/50 rounded-lg hover:bg-zinc-800 transition-colors group"
               >
                 <div className="flex items-center justify-between">
@@ -59,8 +58,8 @@ export default function Home() {
                       <div className="w-5 h-5 rounded-full bg-rose-500"></div>
                     </div>
                     <div>
-                      <h3 className="font-semibold mb-1">Software Development</h3>
-                      <p className="text-sm text-zinc-400">Custom software solutions and systems</p>
+                      <h3 className="font-semibold mb-1">Safety Training</h3>
+                      <p className="text-sm text-zinc-400">Comprehensive EHS training and certification</p>
                     </div>
                   </div>
                   <ArrowRight className="text-zinc-600 group-hover:text-zinc-400 transition-colors" />
@@ -68,7 +67,7 @@ export default function Home() {
               </Link>
 
               <Link
-                href="/services/agentic-ai"
+                href="/services/consulting"
                 className="block p-6 bg-zinc-800/50 rounded-lg hover:bg-zinc-800 transition-colors group"
               >
                 <div className="flex items-center justify-between">
@@ -77,8 +76,8 @@ export default function Home() {
                       <div className="w-5 h-5 rounded-full bg-blue-500"></div>
                     </div>
                     <div>
-                      <h3 className="font-semibold mb-1">AI Automation</h3>
-                      <p className="text-sm text-zinc-400">Intelligent automation and data processing</p>
+                      <h3 className="font-semibold mb-1">EHS Consulting</h3>
+                      <p className="text-sm text-zinc-400">Expert guidance and compliance management</p>
                     </div>
                   </div>
                   <ArrowRight className="text-zinc-600 group-hover:text-zinc-400 transition-colors" />
