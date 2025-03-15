@@ -44,11 +44,11 @@ export default function ServicesPage() {
                   <div className="w-5 h-5 rounded-full bg-rose-500"></div>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-1">Defense & Military Solutions</h3>
+                  <h3 className="font-semibold mb-1">Software Development</h3>
                   <ul className="text-sm text-zinc-400 list-disc ml-4">
-                    <li>Command and control software</li>
-                    <li>Surveillance, reconnaissance, and simulation software</li>
-                    <li>Analytics and decision-making software</li>
+                    <li>Custom software solutions</li>
+                    <li>System architecture and integration</li>
+                    <li>Enterprise application development</li>
                   </ul>
                 </div>
               </div>
@@ -66,11 +66,11 @@ export default function ServicesPage() {
                   <div className="w-5 h-5 rounded-full bg-blue-500"></div>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-1">Agentic AI</h3>
+                  <h3 className="font-semibold mb-1">AI Automation</h3>
                   <ul className="text-sm text-zinc-400 list-disc ml-4">
-                    <li>Data collection and processing</li>
-                    <li>Data labeling and classification</li>
-                    <li>Workflow automation</li>
+                    <li>Intelligent automation systems</li>
+                    <li>Data processing and analytics</li>
+                    <li>Machine learning integration</li>
                   </ul>
                 </div>
               </div>

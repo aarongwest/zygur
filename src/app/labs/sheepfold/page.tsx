@@ -369,6 +369,25 @@ export default function SheepfoldPage() {
 
             {/* Right Column - Support */}
             <div className="lg:col-span-1 space-y-8">
+              {/* App Store Badge */}
+              <div className="bg-zinc-800/50 rounded-lg p-8 flex flex-col items-center">
+                <h2 className="text-2xl font-semibold mb-6 text-center">Download the App</h2>
+                <a 
+                  href="https://apps.apple.com/us/app/sheepfold-ministering-app/id6741027545" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="transition-opacity hover:opacity-80"
+                >
+                  <Image
+                    src="/app-store-badge.svg"
+                    alt="Download on the App Store"
+                    width={200}
+                    height={60}
+                    priority
+                  />
+                </a>
+              </div>
+              
               {/* Support Card */}
               <div className="bg-zinc-800/50 rounded-lg p-8">
                 <h2 className="text-2xl font-semibold mb-6">Sheepfold Support</h2>
