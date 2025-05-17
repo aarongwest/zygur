@@ -54,7 +54,7 @@ export function ContactForm() {
           value={formData.name}
           onChange={handleChange}
           required
-          className="w-full px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-zinc-100"
+          className="w-full px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-neon-green text-zinc-100"
           placeholder="Your name"
         />
       </div>
@@ -70,7 +70,7 @@ export function ContactForm() {
           value={formData.email}
           onChange={handleChange}
           required
-          className="w-full px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-zinc-100"
+          className="w-full px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-neon-green text-zinc-100"
           placeholder="your.email@example.com"
         />
       </div>
@@ -86,7 +86,7 @@ export function ContactForm() {
           onChange={handleChange}
           required
           rows={5}
-          className="w-full px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-zinc-100"
+          className="w-full px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-neon-green text-zinc-100"
           placeholder="Your message..."
         />
       </div>
@@ -95,7 +95,7 @@ export function ContactForm() {
         <Button
           type="submit"
           disabled={status === 'loading'}
-          className="w-full bg-blue-500 hover:bg-blue-600 text-white transition-colors"
+          className="w-full bg-neon-green hover:bg-green-500 text-black font-medium transition-colors"
         >
           {status === 'loading' ? 'Sending...' : 'Send Message'}
         </Button>

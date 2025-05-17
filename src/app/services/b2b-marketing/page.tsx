@@ -14,7 +14,7 @@ export default function B2BFractionalCMOPage() {
           content="B2B marketing requires specialized expertise. Our fractional CMO services for B2B companies blend technical knowledge with strategic marketing to accelerate growth and optimize your customer acquisition process." 
         />
         <meta name="keywords" content="fractional cmo for b2b, b2b marketing leadership, b2b marketing strategy, hire marketing executive, b2b marketing help" />
-        <link rel="canonical" href="https://zygur.com/services/defense-military" />
+        <link rel="canonical" href="https://zygur.com/services/b2b-marketing" />
         <script type="application/ld+json">
           {`
             {

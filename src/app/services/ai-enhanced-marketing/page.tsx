@@ -14,7 +14,7 @@ export default function AIEnhancedMarketingPage() {
           content="Transform your marketing with AI-enhanced solutions. Our fractional CMO services leverage artificial intelligence to deliver 2X the results at half the cost. See how AI marketing can grow your business." 
         />
         <meta name="keywords" content="ai marketing, fractional cmo ai, ai marketing strategy, artificial intelligence marketing, ai enhanced marketing" />
-        <link rel="canonical" href="https://zygur.com/services/agentic-ai" />
+        <link rel="canonical" href="https://zygur.com/services/ai-enhanced-marketing" />
         <script type="application/ld+json">
           {`
             {

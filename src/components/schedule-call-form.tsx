@@ -124,7 +124,7 @@ export function ScheduleCallForm() {
         <Button
           type="submit"
           disabled={status === 'loading'}
-          className="w-full bg-blue-500 hover:bg-blue-600 text-white"
+          className="w-full bg-neon-green hover:bg-[#00e600] text-zinc-900"
         >
           {status === 'loading' ? 'Scheduling...' : 'Schedule Call'}
         </Button>

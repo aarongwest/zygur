@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'neon-green': '#06FF00',
+      },
       keyframes: {
         loader: {
           '0%, 100%': {
