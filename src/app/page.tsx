@@ -49,7 +49,8 @@ export default function Home() {
               </span>
             </div>
             <div className="flex items-center mb-6">
-              <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-neon-green/20">
+              <Link href="/about" aria-label="View Aaron's Profile">
+              <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-neon-green/20 hover:border-neon-green/50 transition-colors cursor-pointer">
                 <Image 
                   src="/fcmo.jpeg" 
                   alt="Aaron West" 
@@ -58,6 +59,7 @@ export default function Home() {
                   className="w-full h-full object-cover"
                 />
               </div>
+            </Link>
               <div className="flex flex-col ml-4">
                 <p className="text-sm font-medium text-white">Aaron West</p>
                 <p className="text-xs text-zinc-400">Fractional CMO for</p>
