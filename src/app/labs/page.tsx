@@ -26,44 +26,86 @@ export default function LabsPage() {
             our team.
           </p>
 
-          {/* Featured Project */}
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-12">
-            <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center">
-                <Star className="w-5 h-5 text-amber-500" />
+          {/* Featured Projects */}
+          <h2 className="text-2xl font-semibold mb-6">Featured Projects</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            {/* Sheepfold Project */}
+            <div className="bg-zinc-800/50 rounded-lg p-6">
+              <div className="flex items-center space-x-3 mb-4">
+                <div className="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center">
+                  <Star className="w-5 h-5 text-amber-500" />
+                </div>
+                <h3 className="text-xl font-semibold">Sheepfold</h3>
               </div>
-              <h2 className="text-2xl font-semibold">Featured Project: Sheepfold</h2>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <Link href="/labs/sheepfold">
-                  <div className="aspect-video relative rounded-lg overflow-hidden mb-4">
-                    <Image
-                      src="/1.png"
-                      alt="Sheepfold Project"
-                      fill
-                      sizes="(max-width: 768px) 100vw, 50vw"
-                      className="object-cover"
-                    />
-                  </div>
+              <Link href="/labs/sheepfold">
+                <div className="aspect-video relative rounded-lg overflow-hidden mb-4">
+                  <Image
+                    src="/1.png"
+                    alt="Sheepfold Project"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover"
+                  />
+                </div>
+              </Link>
+              <p className="text-zinc-400 mb-4">
+                A comprehensive iOS group management solution designed for faith-based organizations.
+                Sheepfold streamlines communication and organization through innovative features.
+              </p>
+              <div className="space-y-3 text-sm text-zinc-400">
+                <div className="flex items-center">
+                  <Rocket className="w-4 h-4 mr-2 text-amber-500" />
+                  Acquired through our young entrepreneur program
+                </div>
+              </div>
+              <div className="mt-6">
+                <Link 
+                  href="/labs/sheepfold" 
+                  className="inline-flex items-center text-blue-500 hover:text-blue-400"
+                >
+                  View project details
+                  <ArrowRight className="w-4 h-4 ml-2" />
                 </Link>
               </div>
-              <div>
-                <p className="text-zinc-400 mb-6 max-w-3xl">
-                  A groundbreaking project that showcases the innovative spirit of our young 
-                  entrepreneurs. Sheepfold demonstrates exceptional creativity and technical 
-                  prowess, setting new standards for what high school students can achieve.
-                </p>
-                <div className="space-y-4 text-sm text-zinc-400">
-                  <div className="flex items-center">
-                    <Rocket className="w-4 h-4 mr-2 text-amber-500" />
-                    Acquired and developed through our young entrepreneur program
-                  </div>
-                  <div className="flex items-center">
-                    <Users className="w-4 h-4 mr-2 text-amber-500" />
-                    Creator now leads development at Zygur
-                  </div>
+            </div>
+
+            {/* BibleKit Project */}
+            <div className="bg-zinc-800/50 rounded-lg p-6">
+              <div className="flex items-center space-x-3 mb-4">
+                <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center">
+                  <Star className="w-5 h-5 text-blue-500" />
                 </div>
+                <h3 className="text-xl font-semibold">BibleKit</h3>
+              </div>
+              <Link href="/labs/biblekit">
+                <div className="aspect-video relative rounded-lg overflow-hidden mb-4">
+                  <Image
+                    src="/biblekitlogo.png"
+                    alt="BibleKit Project"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover bg-white p-4"
+                  />
+                </div>
+              </Link>
+              <p className="text-zinc-400 mb-4">
+                An innovative iOS app designed to help people learn and engage with the Bible through
+                interactive study tools, personalized reading plans, and powerful search capabilities.
+              </p>
+              <div className="space-y-3 text-sm text-zinc-400">
+                <div className="flex items-center">
+                  <Rocket className="w-4 h-4 mr-2 text-blue-500" />
+                  Developed through our young entrepreneur program
+                </div>
+              </div>
+              <div className="mt-6">
+                <Link 
+                  href="/labs/biblekit" 
+                  className="inline-flex items-center text-blue-500 hover:text-blue-400"
+                >
+                  View project details
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Link>
               </div>
             </div>
           </div>
