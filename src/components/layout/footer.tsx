@@ -175,6 +175,11 @@ export function Footer() {
                   Press
                 </Link>
               </li>
+              <li>
+                <Link href="/labs" className="text-sm text-zinc-400 hover:text-zinc-100">
+                  Labs
+                </Link>
+              </li>
             </ul>
           </div>
           

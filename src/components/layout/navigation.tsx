@@ -120,6 +120,10 @@ export function Navigation() {
           <Link href="/results" className="text-zinc-400 hover:text-zinc-100">
             Results
           </Link>
+          
+          <Link href="/labs" className="text-zinc-400 hover:text-zinc-100">
+            Labs
+          </Link>
 
           {/* Resources Dropdown */}
           <div className="relative">
