@@ -84,7 +84,7 @@ export default function LabsPage() {
                     alt="BibleKit Project"
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
-                    className="object-cover bg-white p-4"
+                    className="object-cover"
                   />
                 </div>
               </Link>
