@@ -87,11 +87,11 @@ export function Navigation() {
             {industriesOpen && (
               <div className="absolute left-0 mt-2 w-60 bg-zinc-900 border border-zinc-700 rounded-md shadow-lg z-50">
                 <div className="py-2">
-                  <Link href="/services/research-development" className="block px-4 py-2 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-100">
-                    Industry Solutions Hub
+                  <Link href="/industries/hvac-mechanical-plumbing-fractional-cmo" className="block px-4 py-2 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-100">
+                    HVAC/Mechanical/Plumbing
                   </Link>
-                  <Link href="/industries/saas-fractional-cmo" className="block px-4 py-2 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-100">
-                    SaaS
+                  <Link href="/industries/construction-fractional-cmo" className="block px-4 py-2 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-100">
+                    Construction
                   </Link>
                   <Link href="/industries/manufacturing-fractional-cmo" className="block px-4 py-2 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-100">
                     Manufacturing
