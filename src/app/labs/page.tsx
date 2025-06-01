@@ -20,10 +20,9 @@ export default function LabsPage() {
             Zygur Labs
           </h1>
           <p className="text-lg text-zinc-400 mb-12 max-w-2xl">
-            Empowering the next generation of innovators. Our young entrepreneur program 
-            provides high school students with the opportunity to turn their innovative 
-            projects into reality, offering project acquisition and a pathway to join 
-            our team.
+            Our experimental playground for AI software development. At Zygur Labs, we stay sharp on 
+            the latest digital technologies by creating innovative applications that push the boundaries 
+            of what's possible with modern AI and software development techniques.
           </p>
 
           {/* Featured Projects */}
@@ -55,7 +54,7 @@ export default function LabsPage() {
               <div className="space-y-3 text-sm text-zinc-400">
                 <div className="flex items-center">
                   <Rocket className="w-4 h-4 mr-2 text-amber-500" />
-                  Acquired through our young entrepreneur program
+                  An experimental AI-powered church management platform
                 </div>
               </div>
               <div className="mt-6">
@@ -95,7 +94,7 @@ export default function LabsPage() {
               <div className="space-y-3 text-sm text-zinc-400">
                 <div className="flex items-center">
                   <Rocket className="w-4 h-4 mr-2 text-accent-orange" />
-                  Developed through our young entrepreneur program
+                  AI-enhanced Bible study app with natural language processing
                 </div>
               </div>
               <div className="mt-6">
@@ -137,19 +136,20 @@ export default function LabsPage() {
             ))}
           </div>
 
-          {/* Program Information */}
+          {/* AI Development Information */}
           <div className="bg-dark-green/60 rounded-lg p-8">
-            <h2 className="text-2xl font-semibold mb-6">Join Our Program</h2>
+            <h2 className="text-2xl font-semibold mb-6">Our AI Playground</h2>
             <p className="text-zinc-400 mb-6 max-w-3xl">
-              Are you a high school student with an innovative project? We're looking for 
-              exceptional young talent to join our program. Submit your project for a chance 
-              to have it acquired and published, plus an opportunity to join our team.
+              Zygur Labs is where we experiment with cutting-edge technologies to keep our skills 
+              sharp and explore new possibilities. From natural language processing to computer vision 
+              and machine learning algorithms, our team constantly develops innovative applications that 
+              showcase the potential of modern AI in solving real-world problems.
             </p>
             <Link 
               href="/company/contact" 
               className="inline-flex items-center text-accent-orange hover:text-accent-orange"
             >
-              Submit your project
+              Learn about our AI capabilities
               <ArrowRight className="w-4 h-4 ml-2" />
             </Link>
           </div>

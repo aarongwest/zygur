@@ -130,11 +130,13 @@ export default function SheepfoldPage() {
 
               {/* Development Status */}
               <div className="bg-dark-green/60 rounded-lg p-8">
-                <h2 className="text-2xl font-semibold mb-6">Project Status</h2>
+                <h2 className="text-2xl font-semibold mb-6">AI Technology & Development</h2>
                 <p className="text-zinc-400 mb-6">
-                  Originally developed as a partner project, Sheepfold has been acquired and enhanced 
-                  through our young entrepreneur and partner program. We continue to evolve and improve 
-                  the platform based on user feedback and emerging needs in faith-based community management.
+                  Sheepfold is an experimental AI-powered platform developed as part of Zygur Labs' initiative to 
+                  explore cutting-edge technologies. The app incorporates several AI features including smart member 
+                  categorization, predictive analytics for attendance patterns, and natural language processing for 
+                  communication analysis. We continuously refine these capabilities to showcase how AI can enhance 
+                  faith-based community management.
                 </p>
               </div>
 

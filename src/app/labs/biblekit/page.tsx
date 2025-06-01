@@ -129,11 +129,13 @@ export default function BibleKitPage() {
 
               {/* Development Status */}
               <div className="bg-dark-green/60 rounded-lg p-8">
-                <h2 className="text-2xl font-semibold mb-6">Project Status</h2>
+                <h2 className="text-2xl font-semibold mb-6">AI Technology & Development</h2>
                 <p className="text-zinc-400 mb-6">
-                  BibleKit has been developed through our young entrepreneur program, showcasing
-                  exceptional talent and creativity in biblical education technology. We continue to
-                  enhance the app based on user feedback and the latest in biblical scholarship.
+                  BibleKit is an experimental project developed in our AI software playground, showcasing
+                  the potential of natural language processing and machine learning in biblical studies.
+                  The app leverages advanced AI algorithms for semantic search, content recommendation,
+                  and contextual analysis of biblical texts. This project demonstrates our commitment to
+                  staying at the forefront of digital technology applications in educational contexts.
                 </p>
               </div>
 
