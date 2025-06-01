@@ -18,7 +18,7 @@ export default function PressPage() {
               in defense technology.
             </p>
             <Link href="/call">
-              <Button className="bg-blue-500 hover:bg-blue-600 text-white">
+              <Button className="bg-accent-orange hover:bg-blue-600 text-white">
                 Media Inquiries
               </Button>
             </Link>
@@ -28,7 +28,7 @@ export default function PressPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">Latest News</h2>
             <div className="space-y-8">
-              <div className="bg-zinc-800/50 rounded-lg p-6">
+              <div className="bg-dark-green/60 rounded-lg p-6">
                 <div className="flex items-start justify-between">
                   <div>
                     <div className="flex items-center space-x-3 mb-4">
@@ -55,12 +55,12 @@ export default function PressPage() {
                 </div>
               </div>
 
-              <div className="bg-zinc-800/50 rounded-lg p-6">
+              <div className="bg-dark-green/60 rounded-lg p-6">
                 <div className="flex items-start justify-between">
                   <div>
                     <div className="flex items-center space-x-3 mb-4">
-                      <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center">
-                        <Globe className="w-5 h-5 text-blue-500" />
+                      <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                        <Globe className="w-5 h-5 text-accent-orange" />
                       </div>
                       <div>
                         <h3 className="text-xl font-semibold">Strategic Partnership Announcement</h3>
@@ -71,8 +71,8 @@ export default function PressPage() {
                       Zygur partners with leading defense organizations to develop
                       next-generation autonomous defense systems.
                     </p>
-                    <div className="flex items-center text-blue-500">
-                      <Link href="/login" className="flex items-center hover:text-blue-400">
+                    <div className="flex items-center text-accent-orange">
+                      <Link href="/login" className="flex items-center hover:text-accent-orange">
                         Read full story
                         <ArrowRight className="w-4 h-4 ml-2" />
                       </Link>
@@ -81,7 +81,7 @@ export default function PressPage() {
                 </div>
               </div>
 
-              <div className="bg-zinc-800/50 rounded-lg p-6">
+              <div className="bg-dark-green/60 rounded-lg p-6">
                 <div className="flex items-start justify-between">
                   <div>
                     <div className="flex items-center space-x-3 mb-4">
@@ -110,7 +110,7 @@ export default function PressPage() {
           </div>
 
           {/* Media Resources */}
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Media Resources</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
@@ -120,7 +120,7 @@ export default function PressPage() {
                   relations team.
                 </p>
                 <Link href="/call">
-                  <Button variant="outline" className="border-zinc-700 hover:bg-zinc-800">
+                  <Button variant="outline" className="border-zinc-700 hover:bg-dark-green/80">
                     Contact Media Relations
                   </Button>
                 </Link>
@@ -132,7 +132,7 @@ export default function PressPage() {
                   media use.
                 </p>
                 <Link href="/login">
-                  <Button variant="outline" className="border-zinc-700 hover:bg-zinc-800">
+                  <Button variant="outline" className="border-zinc-700 hover:bg-dark-green/80">
                     Access Media Kit
                   </Button>
                 </Link>

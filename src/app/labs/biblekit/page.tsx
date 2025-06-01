@@ -11,8 +11,8 @@ export default function BibleKitPage() {
       <main className="py-12">
         <div className="container mx-auto px-4">
           <div className="flex items-center space-x-4 mb-8">
-            <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center">
-              <Book className="w-6 h-6 text-blue-500" />
+            <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center">
+              <Book className="w-6 h-6 text-accent-orange" />
             </div>
             <h1 className="text-5xl font-bold tracking-tight">
               BibleKit
@@ -39,10 +39,10 @@ export default function BibleKitPage() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* Study Tools */}
-                <div className="bg-zinc-800/50 rounded-lg p-6">
+                <div className="bg-dark-green/60 rounded-lg p-6">
                   <div className="flex items-center space-x-3 mb-4">
-                    <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center">
-                      <GraduationCap className="w-5 h-5 text-blue-500" />
+                    <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                      <GraduationCap className="w-5 h-5 text-accent-orange" />
                     </div>
                     <h2 className="text-2xl font-semibold">Study Tools</h2>
                   </div>
@@ -55,7 +55,7 @@ export default function BibleKitPage() {
                 </div>
 
                 {/* Reading Experience */}
-                <div className="bg-zinc-800/50 rounded-lg p-6">
+                <div className="bg-dark-green/60 rounded-lg p-6">
                   <div className="flex items-center space-x-3 mb-4">
                     <div className="w-10 h-10 rounded-full bg-purple-500/10 flex items-center justify-center">
                       <Book className="w-5 h-5 text-purple-500" />
@@ -71,7 +71,7 @@ export default function BibleKitPage() {
                 </div>
 
                 {/* Bookmarking & Notes */}
-                <div className="bg-zinc-800/50 rounded-lg p-6">
+                <div className="bg-dark-green/60 rounded-lg p-6">
                   <div className="flex items-center space-x-3 mb-4">
                     <div className="w-10 h-10 rounded-full bg-emerald-500/10 flex items-center justify-center">
                       <Bookmark className="w-5 h-5 text-emerald-500" />
@@ -87,10 +87,10 @@ export default function BibleKitPage() {
                 </div>
 
                 {/* Advanced Search */}
-                <div className="bg-zinc-800/50 rounded-lg p-6">
+                <div className="bg-dark-green/60 rounded-lg p-6">
                   <div className="flex items-center space-x-3 mb-4">
-                    <div className="w-10 h-10 rounded-full bg-rose-500/10 flex items-center justify-center">
-                      <Search className="w-5 h-5 text-rose-500" />
+                    <div className="w-10 h-10 rounded-full bg-accent-yellow/10 flex items-center justify-center">
+                      <Search className="w-5 h-5 text-accent-yellow" />
                     </div>
                     <h2 className="text-2xl font-semibold">Advanced Search</h2>
                   </div>
@@ -104,7 +104,7 @@ export default function BibleKitPage() {
               </div>
 
               {/* Learning Features */}
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <div className="flex items-center space-x-3 mb-6">
                   <div className="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center">
                     <Heart className="w-5 h-5 text-amber-500" />
@@ -128,7 +128,7 @@ export default function BibleKitPage() {
               </div>
 
               {/* Development Status */}
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <h2 className="text-2xl font-semibold mb-6">Project Status</h2>
                 <p className="text-zinc-400 mb-6">
                   BibleKit has been developed through our young entrepreneur program, showcasing
@@ -138,7 +138,7 @@ export default function BibleKitPage() {
               </div>
 
               {/* Terms of Use Card */}
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <h2 className="text-2xl font-semibold mb-6">Terms of Use</h2>
                 <div className="prose prose-invert prose-zinc max-w-3xl">
                   <p className="text-sm text-zinc-500 mb-6">Last Updated: May 2025</p>
@@ -274,7 +274,7 @@ export default function BibleKitPage() {
               </div>
 
               {/* Privacy Policy Card */}
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <h2 className="text-2xl font-semibold mb-6">Privacy Policy</h2>
                 <div className="prose prose-invert prose-zinc max-w-3xl">
                   <p className="text-sm text-zinc-500 mb-6">Last Updated: May 2025</p>
@@ -377,7 +377,7 @@ export default function BibleKitPage() {
             {/* Right Column - Support */}
             <div className="lg:col-span-1 space-y-8">
               {/* App Store Badge */}
-              <div className="bg-zinc-800/50 rounded-lg p-8 flex flex-col items-center">
+              <div className="bg-dark-green/60 rounded-lg p-8 flex flex-col items-center">
                 <h2 className="text-2xl font-semibold mb-6 text-center">Download the App</h2>
                 <a 
                   href="https://apps.apple.com/" 
@@ -396,7 +396,7 @@ export default function BibleKitPage() {
               </div>
               
               {/* Support Card */}
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <h2 className="text-2xl font-semibold mb-6">BibleKit Support</h2>
                 <p className="text-zinc-400 mb-6">
                   Need help with BibleKit? Our support team is here to assist you with any questions

@@ -23,7 +23,7 @@ export default function FractionalCMOvsFullTimePage() {
           <div className="max-w-4xl mb-16">
             <div className="mb-4">
               <span className="inline-flex items-center text-sm text-zinc-400">
-                <span className="w-2 h-2 rounded-full bg-neon-green mr-2"></span>
+                <span className="w-2 h-2 rounded-full bg-accent-orange mr-2"></span>
                 Marketing Leadership Options
               </span>
             </div>
@@ -31,13 +31,13 @@ export default function FractionalCMOvsFullTimePage() {
               Fractional CMO vs Full-Time CMO: Which Is Right For Your Business?
             </h1>
             <p className="text-lg text-zinc-400 mb-8">
-              Deciding between a <Link href="/resources/what-is-a-fractional-cmo" className="text-neon-green hover:underline">fractional CMO</Link> and 
+              Deciding between a <Link href="/resources/what-is-a-fractional-cmo" className="text-accent-orange hover:underline">fractional CMO</Link> and 
               a full-time Chief Marketing Officer is a significant choice. This guide helps you understand the 
               key differences, financial implications, and situations where each option makes the most sense.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/call">
-                <Button className="w-full sm:w-auto bg-neon-green hover:bg-neon-green/80 text-zinc-900 font-medium py-3 px-6">
+                <Button className="w-full sm:w-auto bg-accent-orange hover:bg-accent-orange/80 text-zinc-900 font-medium py-3 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule a Consultation
                 </Button>
               </Link>
@@ -45,12 +45,12 @@ export default function FractionalCMOvsFullTimePage() {
           </div>
 
           {/* Quick Summary Section */}
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">The Key Differences: At a Glance</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div>
-                <div className="h-12 w-12 rounded-full bg-neon-green/10 flex items-center justify-center mb-4">
-                  <DollarSign className="h-6 w-6 text-neon-green" />
+                <div className="h-12 w-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
+                  <DollarSign className="h-6 w-6 text-accent-orange" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Cost</h3>
                 <div className="mb-4">
@@ -66,8 +66,8 @@ export default function FractionalCMOvsFullTimePage() {
               </div>
               
               <div>
-                <div className="h-12 w-12 rounded-full bg-neon-green/10 flex items-center justify-center mb-4">
-                  <Clock className="h-6 w-6 text-neon-green" />
+                <div className="h-12 w-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
+                  <Clock className="h-6 w-6 text-accent-orange" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Time Commitment</h3>
                 <div className="mb-4">
@@ -83,8 +83,8 @@ export default function FractionalCMOvsFullTimePage() {
               </div>
               
               <div>
-                <div className="h-12 w-12 rounded-full bg-neon-green/10 flex items-center justify-center mb-4">
-                  <Users className="h-6 w-6 text-neon-green" />
+                <div className="h-12 w-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
+                  <Users className="h-6 w-6 text-accent-orange" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Commitment</h3>
                 <div className="mb-4">
@@ -100,8 +100,8 @@ export default function FractionalCMOvsFullTimePage() {
               </div>
               
               <div>
-                <div className="h-12 w-12 rounded-full bg-neon-green/10 flex items-center justify-center mb-4">
-                  <ArrowRight className="h-6 w-6 text-neon-green" />
+                <div className="h-12 w-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
+                  <ArrowRight className="h-6 w-6 text-accent-orange" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Best For</h3>
                 <div className="mb-4">
@@ -122,7 +122,7 @@ export default function FractionalCMOvsFullTimePage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">Detailed Cost Comparison</h2>
             
-            <div className="bg-zinc-800/50 rounded-lg overflow-hidden mb-8">
+            <div className="bg-dark-green/60 rounded-lg overflow-hidden mb-8">
               <div className="grid grid-cols-3">
                 <div className="p-6 bg-zinc-700/50 flex items-center justify-center">
                   <span className="font-semibold">Expense Type</span>
@@ -143,7 +143,7 @@ export default function FractionalCMOvsFullTimePage() {
                   <span className="text-white">$150,000 - $250,000</span>
                 </div>
                 <div className="p-6 border-l border-zinc-700 text-center">
-                  <span className="text-neon-green">$24,000 - $84,000</span>
+                  <span className="text-accent-orange">$24,000 - $84,000</span>
                 </div>
               </div>
               
@@ -155,7 +155,7 @@ export default function FractionalCMOvsFullTimePage() {
                   <span className="text-white">$30,000 - $50,000</span>
                 </div>
                 <div className="p-6 border-l border-zinc-700 text-center">
-                  <span className="text-neon-green">$0</span>
+                  <span className="text-accent-orange">$0</span>
                 </div>
               </div>
               
@@ -167,7 +167,7 @@ export default function FractionalCMOvsFullTimePage() {
                   <span className="text-white">$30,000 - $75,000</span>
                 </div>
                 <div className="p-6 border-l border-zinc-700 text-center">
-                  <span className="text-neon-green">$0 - $15,000</span>
+                  <span className="text-accent-orange">$0 - $15,000</span>
                   <span className="text-xs text-zinc-400 block">(Performance-based)</span>
                 </div>
               </div>
@@ -180,7 +180,7 @@ export default function FractionalCMOvsFullTimePage() {
                   <span className="text-white">$0 - $100,000+</span>
                 </div>
                 <div className="p-6 border-l border-zinc-700 text-center">
-                  <span className="text-neon-green">$0</span>
+                  <span className="text-accent-orange">$0</span>
                 </div>
               </div>
               
@@ -193,7 +193,7 @@ export default function FractionalCMOvsFullTimePage() {
                   <span className="text-xs text-zinc-400 block">(One-time cost)</span>
                 </div>
                 <div className="p-6 border-l border-zinc-700 text-center">
-                  <span className="text-neon-green">$0</span>
+                  <span className="text-accent-orange">$0</span>
                 </div>
               </div>
               
@@ -206,7 +206,7 @@ export default function FractionalCMOvsFullTimePage() {
                   <span className="text-xs text-zinc-400 block">(Potential liability)</span>
                 </div>
                 <div className="p-6 border-l border-zinc-700 text-center">
-                  <span className="text-neon-green">$0</span>
+                  <span className="text-accent-orange">$0</span>
                 </div>
               </div>
               
@@ -218,14 +218,14 @@ export default function FractionalCMOvsFullTimePage() {
                   <span className="text-white font-bold">$240,000 - $535,000+</span>
                 </div>
                 <div className="p-6 border-l border-zinc-700 text-center">
-                  <span className="text-neon-green font-bold">$24,000 - $99,000</span>
+                  <span className="text-accent-orange font-bold">$24,000 - $99,000</span>
                 </div>
               </div>
             </div>
             
             <p className="text-zinc-400 text-sm">
               <strong>Note:</strong> These figures represent industry averages and may vary based on location, 
-              industry, company size, and specific candidate qualifications. <Link href="/pricing/fractional-cmo-cost" className="text-neon-green hover:underline">Learn more about fractional CMO costs</Link>.
+              industry, company size, and specific candidate qualifications. <Link href="/pricing/fractional-cmo-cost" className="text-accent-orange hover:underline">Learn more about fractional CMO costs</Link>.
             </p>
           </div>
 
@@ -234,12 +234,12 @@ export default function FractionalCMOvsFullTimePage() {
             <h2 className="text-2xl font-bold mb-8">Pros & Cons: Honest Comparison</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-gradient-to-r from-neon-green/10 to-zinc-800/50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold mb-4 text-neon-green">Fractional CMO</h3>
+              <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-6">
+                <h3 className="text-xl font-semibold mb-4 text-accent-orange">Fractional CMO</h3>
                 
                 <div className="mb-6">
                   <h4 className="font-medium mb-3 flex items-center">
-                    <CheckCircle className="w-5 h-5 text-neon-green mr-2" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mr-2" />
                     <span>Advantages</span>
                   </h4>
                   <ul className="space-y-2 pl-7">
@@ -266,7 +266,7 @@ export default function FractionalCMOvsFullTimePage() {
                 
                 <div>
                   <h4 className="font-medium mb-3 flex items-center">
-                    <X className="w-5 h-5 text-rose-500 mr-2" />
+                    <X className="w-5 h-5 text-accent-yellow mr-2" />
                     <span>Limitations</span>
                   </h4>
                   <ul className="space-y-2 pl-7">
@@ -286,12 +286,12 @@ export default function FractionalCMOvsFullTimePage() {
                 </div>
               </div>
               
-              <div className="bg-gradient-to-r from-blue-500/10 to-zinc-800/50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold mb-4 text-blue-400">Full-Time CMO</h3>
+              <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-6">
+                <h3 className="text-xl font-semibold mb-4 text-accent-orange">Full-Time CMO</h3>
                 
                 <div className="mb-6">
                   <h4 className="font-medium mb-3 flex items-center">
-                    <CheckCircle className="w-5 h-5 text-blue-400 mr-2" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mr-2" />
                     <span>Advantages</span>
                   </h4>
                   <ul className="space-y-2 pl-7">
@@ -318,7 +318,7 @@ export default function FractionalCMOvsFullTimePage() {
                 
                 <div>
                   <h4 className="font-medium mb-3 flex items-center">
-                    <X className="w-5 h-5 text-rose-500 mr-2" />
+                    <X className="w-5 h-5 text-accent-yellow mr-2" />
                     <span>Limitations</span>
                   </h4>
                   <ul className="space-y-2 pl-7">
@@ -344,7 +344,7 @@ export default function FractionalCMOvsFullTimePage() {
           </div>
 
           {/* When to Choose Section */}
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">When to Choose Each Option</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
@@ -352,27 +352,27 @@ export default function FractionalCMOvsFullTimePage() {
                 <h3 className="text-xl font-semibold mb-4">Choose a Fractional CMO When:</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">Your revenue is between $1M and $50M</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">You need marketing leadership but can't justify a $240K+ annual expense</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">You're transitioning between growth phases or preparing for funding</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">You're experiencing specific marketing challenges that need expert guidance</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">You have some marketing resources but lack strategic direction</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">You want a test-drive of executive marketing leadership</span>
                   </li>
                 </ul>
@@ -382,27 +382,27 @@ export default function FractionalCMOvsFullTimePage() {
                 <h3 className="text-xl font-semibold mb-4">Choose a Full-Time CMO When:</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-blue-400 mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">Your revenue exceeds $50M+ annually</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-blue-400 mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">You have a large marketing team (10+ people) requiring daily leadership</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-blue-400 mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">Your marketing operations are complex and high-volume</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-blue-400 mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">You need significant public-facing representation from your CMO</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-blue-400 mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">Your company has already achieved significant scale and stability</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-blue-400 mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">Industry-specific knowledge and relationships are critical to success</span>
                   </li>
                 </ul>
@@ -416,16 +416,16 @@ export default function FractionalCMOvsFullTimePage() {
               </p>
               <ol className="space-y-2 pl-4">
                 <li className="text-zinc-400">
-                  <span className="text-neon-green font-medium">1.</span> The marketing foundation and strategy are well-established
+                  <span className="text-accent-orange font-medium">1.</span> The marketing foundation and strategy are well-established
                 </li>
                 <li className="text-zinc-400">
-                  <span className="text-neon-green font-medium">2.</span> The marketing team has grown to require full-time leadership
+                  <span className="text-accent-orange font-medium">2.</span> The marketing team has grown to require full-time leadership
                 </li>
                 <li className="text-zinc-400">
-                  <span className="text-neon-green font-medium">3.</span> Revenue consistently justifies the higher salary expense
+                  <span className="text-accent-orange font-medium">3.</span> Revenue consistently justifies the higher salary expense
                 </li>
                 <li className="text-zinc-400">
-                  <span className="text-neon-green font-medium">4.</span> The fractional CMO can help recruit their full-time replacement
+                  <span className="text-accent-orange font-medium">4.</span> The fractional CMO can help recruit their full-time replacement
                 </li>
               </ol>
             </div>
@@ -436,10 +436,10 @@ export default function FractionalCMOvsFullTimePage() {
             <h2 className="text-2xl font-bold mb-8">Real Company Examples</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-zinc-800/50 rounded-lg overflow-hidden">
+              <div className="bg-dark-green/60 rounded-lg overflow-hidden">
                 <div className="p-6 border-b border-zinc-700">
                   <h3 className="font-semibold">SaaS Company | $4.2M Revenue</h3>
-                  <span className="text-sm text-neon-green">Fractional CMO Solution</span>
+                  <span className="text-sm text-accent-orange">Fractional CMO Solution</span>
                 </div>
                 <div className="p-6">
                   <p className="text-zinc-400 mb-4">
@@ -449,11 +449,11 @@ export default function FractionalCMOvsFullTimePage() {
                   <div className="mb-4">
                     <div className="flex justify-between mb-1">
                       <span className="text-sm text-zinc-500">Monthly Cost</span>
-                      <span className="text-sm text-neon-green">$4,500</span>
+                      <span className="text-sm text-accent-orange">$4,500</span>
                     </div>
                     <div className="flex justify-between mb-1">
                       <span className="text-sm text-zinc-500">Results After 6 Months</span>
-                      <span className="text-sm text-neon-green">128% increase in leads</span>
+                      <span className="text-sm text-accent-orange">128% increase in leads</span>
                     </div>
                     <div className="flex justify-between mb-1">
                       <span className="text-sm text-zinc-500">Key Achievements</span>
@@ -467,10 +467,10 @@ export default function FractionalCMOvsFullTimePage() {
                 </div>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg overflow-hidden">
+              <div className="bg-dark-green/60 rounded-lg overflow-hidden">
                 <div className="p-6 border-b border-zinc-700">
                   <h3 className="font-semibold">Manufacturing Firm | $87M Revenue</h3>
-                  <span className="text-sm text-blue-400">Full-Time CMO Solution</span>
+                  <span className="text-sm text-accent-orange">Full-Time CMO Solution</span>
                 </div>
                 <div className="p-6">
                   <p className="text-zinc-400 mb-4">
@@ -481,11 +481,11 @@ export default function FractionalCMOvsFullTimePage() {
                   <div className="mb-4">
                     <div className="flex justify-between mb-1">
                       <span className="text-sm text-zinc-500">Annual Cost</span>
-                      <span className="text-sm text-blue-400">$320,000</span>
+                      <span className="text-sm text-accent-orange">$320,000</span>
                     </div>
                     <div className="flex justify-between mb-1">
                       <span className="text-sm text-zinc-500">Results After 1 Year</span>
-                      <span className="text-sm text-blue-400">18% revenue growth</span>
+                      <span className="text-sm text-accent-orange">18% revenue growth</span>
                     </div>
                     <div className="flex justify-between mb-1">
                       <span className="text-sm text-zinc-500">Key Achievements</span>
@@ -502,14 +502,14 @@ export default function FractionalCMOvsFullTimePage() {
           </div>
 
           {/* CTA Section */}
-          <div className="bg-gradient-to-r from-neon-green/20 to-blue-500/20 rounded-lg p-8">
+          <div className="bg-gradient-to-r from-accent-orange/20 to-accent-orange/20 rounded-lg p-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="mb-6 md:mb-0 md:mr-8">
                 <h2 className="text-2xl font-bold mb-2">Not sure which option is right for you?</h2>
                 <p className="text-zinc-400">Schedule a consultation to discuss your specific business needs and get personalized advice.</p>
               </div>
               <Link href="/call">
-                <Button className="w-full md:w-auto bg-neon-green hover:bg-neon-green/80 text-zinc-900 font-medium py-5 px-6">
+                <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-zinc-900 font-medium py-5 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule Your Call
                 </Button>
               </Link>

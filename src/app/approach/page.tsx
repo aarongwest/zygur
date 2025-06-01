@@ -12,7 +12,7 @@ export default function ApproachPage() {
           <div className="max-w-4xl mb-16">
             <div className="mb-4">
               <span className="inline-flex items-center text-sm text-zinc-400">
-                <span className="w-2 h-2 rounded-full bg-neon-green mr-2"></span>
+                <span className="w-2 h-2 rounded-full bg-accent-orange mr-2"></span>
                 My Methodology
               </span>
             </div>
@@ -26,14 +26,14 @@ export default function ApproachPage() {
           </div>
 
           {/* Core Framework */}
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-8">The SCALE Framework</h2>
             
             <div className="space-y-12">
               <div className="flex flex-col md:flex-row items-start">
                 <div className="md:w-16 flex-shrink-0 flex items-start justify-center mb-4 md:mb-0">
-                  <div className="w-12 h-12 rounded-full bg-neon-green/10 flex items-center justify-center">
-                    <span className="text-xl font-bold text-neon-green">S</span>
+                  <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                    <span className="text-xl font-bold text-accent-orange">S</span>
                   </div>
                 </div>
                 <div className="md:ml-8">
@@ -55,8 +55,8 @@ export default function ApproachPage() {
               
               <div className="flex flex-col md:flex-row items-start">
                 <div className="md:w-16 flex-shrink-0 flex items-start justify-center mb-4 md:mb-0">
-                  <div className="w-12 h-12 rounded-full bg-neon-green/10 flex items-center justify-center">
-                    <span className="text-xl font-bold text-neon-green">C</span>
+                  <div className="w-12 h-12 rounded-full bg-accent-yellow/10 flex items-center justify-center">
+                    <span className="text-xl font-bold text-accent-yellow">C</span>
                   </div>
                 </div>
                 <div className="md:ml-8">
@@ -78,8 +78,8 @@ export default function ApproachPage() {
               
               <div className="flex flex-col md:flex-row items-start">
                 <div className="md:w-16 flex-shrink-0 flex items-start justify-center mb-4 md:mb-0">
-                  <div className="w-12 h-12 rounded-full bg-neon-green/10 flex items-center justify-center">
-                    <span className="text-xl font-bold text-neon-green">A</span>
+                  <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                    <span className="text-xl font-bold text-accent-orange">A</span>
                   </div>
                 </div>
                 <div className="md:ml-8">
@@ -101,8 +101,8 @@ export default function ApproachPage() {
               
               <div className="flex flex-col md:flex-row items-start">
                 <div className="md:w-16 flex-shrink-0 flex items-start justify-center mb-4 md:mb-0">
-                  <div className="w-12 h-12 rounded-full bg-neon-green/10 flex items-center justify-center">
-                    <span className="text-xl font-bold text-neon-green">L</span>
+                  <div className="w-12 h-12 rounded-full bg-accent-yellow/10 flex items-center justify-center">
+                    <span className="text-xl font-bold text-accent-yellow">L</span>
                   </div>
                 </div>
                 <div className="md:ml-8">
@@ -125,8 +125,8 @@ export default function ApproachPage() {
               
               <div className="flex flex-col md:flex-row items-start">
                 <div className="md:w-16 flex-shrink-0 flex items-start justify-center mb-4 md:mb-0">
-                  <div className="w-12 h-12 rounded-full bg-neon-green/10 flex items-center justify-center">
-                    <span className="text-xl font-bold text-neon-green">E</span>
+                  <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                    <span className="text-xl font-bold text-accent-orange">E</span>
                   </div>
                 </div>
                 <div className="md:ml-8">
@@ -153,10 +153,10 @@ export default function ApproachPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-6">The AI Advantage</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <div className="flex items-center space-x-4 mb-6">
-                  <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center">
-                    <Brain className="w-6 h-6 text-blue-500" />
+                  <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                    <Brain className="w-6 h-6 text-accent-orange" />
                   </div>
                   <h3 className="text-xl font-semibold">Enhanced Decision Making</h3>
                 </div>
@@ -170,7 +170,7 @@ export default function ApproachPage() {
                 </p>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <div className="flex items-center space-x-4 mb-6">
                   <div className="w-12 h-12 rounded-full bg-emerald-500/10 flex items-center justify-center">
                     <Lightbulb className="w-6 h-6 text-emerald-500" />
@@ -187,10 +187,10 @@ export default function ApproachPage() {
                 </p>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <div className="flex items-center space-x-4 mb-6">
-                  <div className="w-12 h-12 rounded-full bg-rose-500/10 flex items-center justify-center">
-                    <Gauge className="w-6 h-6 text-rose-500" />
+                  <div className="w-12 h-12 rounded-full bg-accent-yellow/10 flex items-center justify-center">
+                    <Gauge className="w-6 h-6 text-accent-yellow" />
                   </div>
                   <h3 className="text-xl font-semibold">Performance Optimization</h3>
                 </div>
@@ -204,10 +204,10 @@ export default function ApproachPage() {
                 </p>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <div className="flex items-center space-x-4 mb-6">
-                  <div className="w-12 h-12 rounded-full bg-neon-green/10 flex items-center justify-center">
-                    <Workflow className="w-6 h-6 text-neon-green" />
+                  <div className="w-12 h-12 rounded-full bg-accent-yellow/10 flex items-center justify-center">
+                    <Workflow className="w-6 h-6 text-accent-yellow" />
                   </div>
                   <h3 className="text-xl font-semibold">Workflow Automation</h3>
                 </div>
@@ -224,7 +224,7 @@ export default function ApproachPage() {
           </div>
 
           {/* How We Work Together */}
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">How We Work Together</h2>
             
             <div className="space-y-8">
@@ -260,94 +260,94 @@ export default function ApproachPage() {
           {/* Engagement Models */}
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-6">Engagement Models</h2>
-            <p className="text-zinc-400 mb-8">All service plans include a <span className="text-neon-green font-semibold">free $5,000 value high-quality website</span> and a <span className="text-neon-green font-semibold">$2,000 value branding and identity package</span>. A 1-year minimum agreement is required for all plans.</p>
+            <p className="text-zinc-400 mb-8">All service plans include a <span className="text-accent-orange font-semibold">free $5,000 value high-quality website</span> and a <span className="text-accent-yellow font-semibold">$2,000 value branding and identity package</span>. A 1-year minimum agreement is required for all plans.</p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-gradient-to-b from-neon-green/20 to-zinc-800/50 rounded-lg p-8 relative">
-                <div className="absolute top-4 right-4 bg-neon-green text-zinc-900 px-3 py-1 rounded-full text-xs font-medium">
+              <div className="bg-gradient-to-b from-accent-orange/20 to-dark-green/60 rounded-lg p-8 relative">
+                <div className="absolute top-4 right-4 bg-accent-orange text-zinc-900 px-3 py-1 rounded-full text-xs font-medium">
                   Most Popular
                 </div>
-                <div className="w-12 h-12 rounded-full bg-neon-green/20 flex items-center justify-center mb-6">
-                  <span className="text-xl font-bold text-neon-green">1</span>
+                <div className="w-12 h-12 rounded-full bg-accent-orange/20 flex items-center justify-center mb-6">
+                  <span className="text-xl font-bold text-accent-orange">1</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Local Mgmt</h3>
-                <p className="text-neon-green font-semibold text-sm mb-3">Starting at $2k per mo</p>
+                <p className="text-accent-orange font-semibold text-sm mb-3">Starting at $2k per mo</p>
                 <p className="text-zinc-400 mb-4">
                   Comprehensive marketing management for businesses targeting customers in specific geographic locations.
                 </p>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-start">
-                    <ArrowRight className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <ArrowRight className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Onsite optimization</span>
                   </li>
                   <li className="flex items-start">
-                    <ArrowRight className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <ArrowRight className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Local citation building</span>
                   </li>
                   <li className="flex items-start">
-                    <ArrowRight className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <ArrowRight className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Google Business Profile optimization</span>
                   </li>
                   <li className="flex items-start">
-                    <ArrowRight className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <ArrowRight className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Monthly performance reports</span>
                   </li>
                 </ul>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-8">
-                <div className="w-12 h-12 rounded-full bg-zinc-700 flex items-center justify-center mb-6">
-                  <span className="text-xl font-bold">2</span>
+              <div className="bg-dark-green/60 rounded-lg p-8">
+                <div className="w-12 h-12 rounded-full bg-accent-yellow/20 flex items-center justify-center mb-6">
+                  <span className="text-xl font-bold text-accent-yellow">2</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-2">National Mgmt</h3>
-                <p className="text-neon-green font-semibold text-sm mb-3">Starting at $7k per mo</p>
+                <p className="text-accent-yellow font-semibold text-sm mb-3">Starting at $7k per mo</p>
                 <p className="text-zinc-400 mb-4">
                   Comprehensive marketing management for businesses targeting nationwide audiences or multiple markets.
                 </p>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-start">
-                    <ArrowRight className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <ArrowRight className="w-4 h-4 text-accent-yellow mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Advanced onsite SEO</span>
                   </li>
                   <li className="flex items-start">
-                    <ArrowRight className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <ArrowRight className="w-4 h-4 text-accent-yellow mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Content optimization</span>
                   </li>
                   <li className="flex items-start">
-                    <ArrowRight className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <ArrowRight className="w-4 h-4 text-accent-yellow mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Link building strategy</span>
                   </li>
                   <li className="flex items-start">
-                    <ArrowRight className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <ArrowRight className="w-4 h-4 text-accent-yellow mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Comprehensive monthly reports</span>
                   </li>
                 </ul>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-8">
-                <div className="w-12 h-12 rounded-full bg-zinc-700 flex items-center justify-center mb-6">
-                  <span className="text-xl font-bold">3</span>
+              <div className="bg-dark-green/60 rounded-lg p-8">
+                <div className="w-12 h-12 rounded-full bg-accent-orange/20 flex items-center justify-center mb-6">
+                  <span className="text-xl font-bold text-accent-orange">3</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Add-on Services</h3>
-                <p className="text-neon-green font-semibold text-sm mb-3">$1k per mo</p>
+                <p className="text-accent-orange font-semibold text-sm mb-3">$1k per mo</p>
                 <p className="text-zinc-400 mb-4">
                   Optional services to enhance your SEO strategy with additional digital marketing channels.
                 </p>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-start">
-                    <ArrowRight className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <ArrowRight className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">PPC campaign management</span>
                   </li>
                   <li className="flex items-start">
-                    <ArrowRight className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <ArrowRight className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Social media content creation</span>
                   </li>
                   <li className="flex items-start">
-                    <ArrowRight className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <ArrowRight className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Automated social posting</span>
                   </li>
                   <li className="flex items-start">
-                    <ArrowRight className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <ArrowRight className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Consolidated reporting dashboard</span>
                   </li>
                 </ul>
@@ -356,14 +356,14 @@ export default function ApproachPage() {
           </div>
           
           {/* CTA Section */}
-          <div className="bg-gradient-to-r from-neon-green/20 to-blue-500/20 rounded-lg p-8 mb-8">
+          <div className="bg-gradient-to-r from-accent-orange/20 to-accent-yellow/20 rounded-lg p-8 mb-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="mb-6 md:mb-0 md:mr-8">
                 <h2 className="text-2xl font-bold mb-2">Ready to transform your marketing approach?</h2>
                 <p className="text-zinc-400">Let's discuss which engagement model is right for your business. Limited availability - only 7 client spots per year.</p>
               </div>
               <Link href="/call">
-                <Button className="w-full md:w-auto bg-zinc-900 hover:bg-zinc-800 text-white border border-zinc-700 font-medium py-5 px-6">
+                <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-white border-0 font-medium py-5 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule Your Call
                 </Button>
               </Link>

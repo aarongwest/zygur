@@ -13,6 +13,35 @@ const stat = promisify(fs.stat);
 
 // Color replacement patterns
 const replacements = [
+  // Replace specific green colors with accent colors
+  { 
+    from: /text-green-500/g, 
+    to: 'text-accent-orange' 
+  },
+  { 
+    from: /text-green-400/g, 
+    to: 'text-accent-orange' 
+  },
+  { 
+    from: /hover:text-green-500/g, 
+    to: 'hover:text-accent-orange/80' 
+  },
+  { 
+    from: /bg-green-500/g, 
+    to: 'bg-accent-orange' 
+  },
+  { 
+    from: /hover:bg-green-500/g, 
+    to: 'hover:bg-accent-orange/80' 
+  },
+  { 
+    from: /bg-green-500\/10/g, 
+    to: 'bg-accent-orange/10' 
+  },
+  { 
+    from: /border-green-500/g, 
+    to: 'border-accent-orange' 
+  },
   // Replace backgrounds
   { 
     from: /bg-zinc-800\/50/g, 
@@ -25,6 +54,23 @@ const replacements = [
   { 
     from: /bg-zinc-800/g, 
     to: 'bg-dark-green/70' 
+  },
+  // Links
+  {
+    from: /text-blue-500/g,
+    to: 'text-accent-orange'
+  },
+  {
+    from: /hover:text-blue-500/g,
+    to: 'hover:text-accent-orange/80'
+  },
+  {
+    from: /text-blue-400/g,
+    to: 'text-accent-orange'
+  },
+  {
+    from: /hover:text-blue-400/g,
+    to: 'hover:text-accent-orange/80'
   },
   // Update gradients that use zinc
   {
@@ -45,7 +91,11 @@ const dirsToProcess = [
   'src/app/resources',
   'src/app/compare',
   'src/app/pricing',
-  'src/app/results'
+  'src/app/results',
+  'src/app/labs',
+  'src/app/about',
+  'src/app/approach',
+  'src/app/call'
 ];
 
 // Function to walk through directories recursively

@@ -65,7 +65,7 @@ export default function WhatIsAFractionalCMOPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/call">
-                <Button className="w-full sm:w-auto bg-neon-green hover:bg-neon-green/80 text-zinc-900 font-medium py-3 px-6">
+                <Button className="w-full sm:w-auto bg-accent-orange hover:bg-accent-orange/80 text-zinc-900 font-medium py-3 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule a Consultation
                 </Button>
               </Link>
@@ -73,7 +73,7 @@ export default function WhatIsAFractionalCMOPage() {
           </div>
 
           {/* Definition Section */}
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Fractional CMO Definition</h2>
             <div className="flex flex-col md:flex-row gap-8">
               <div className="md:w-2/3">
@@ -99,7 +99,7 @@ export default function WhatIsAFractionalCMOPage() {
                   <ul className="space-y-4">
                     <li className="flex">
                       <div className="mr-4 mt-1">
-                        <Users className="h-5 w-5 text-neon-green" />
+                        <Users className="h-5 w-5 text-accent-orange" />
                       </div>
                       <div>
                         <span className="text-sm text-zinc-300 font-medium block">Full-Time CMO</span>
@@ -108,7 +108,7 @@ export default function WhatIsAFractionalCMOPage() {
                     </li>
                     <li className="flex">
                       <div className="mr-4 mt-1">
-                        <Briefcase className="h-5 w-5 text-neon-green" />
+                        <Briefcase className="h-5 w-5 text-accent-orange" />
                       </div>
                       <div>
                         <span className="text-sm text-zinc-300 font-medium block">Marketing Agency</span>
@@ -117,7 +117,7 @@ export default function WhatIsAFractionalCMOPage() {
                     </li>
                     <li className="flex">
                       <div className="mr-4 mt-1">
-                        <Clock className="h-5 w-5 text-neon-green" />
+                        <Clock className="h-5 w-5 text-accent-orange" />
                       </div>
                       <div>
                         <span className="text-sm text-zinc-300 font-medium block">Marketing Consultant</span>
@@ -126,7 +126,7 @@ export default function WhatIsAFractionalCMOPage() {
                     </li>
                   </ul>
                   <div className="mt-4 pt-4 border-t border-zinc-700">
-                    <Link href="/compare/fractional-cmo-vs-agency" className="text-neon-green text-sm hover:underline">
+                    <Link href="/compare/fractional-cmo-vs-agency" className="text-accent-orange text-sm hover:underline">
                       See detailed comparisons →
                     </Link>
                   </div>
@@ -139,76 +139,76 @@ export default function WhatIsAFractionalCMOPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">What Does a Fractional CMO Do?</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-zinc-800/50 rounded-lg p-6">
-                <div className="h-12 w-12 rounded-full bg-neon-green/10 flex items-center justify-center mb-4">
-                  <BarChart className="h-6 w-6 text-neon-green" />
+              <div className="bg-dark-green/60 rounded-lg p-6">
+                <div className="h-12 w-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
+                  <BarChart className="h-6 w-6 text-accent-orange" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Strategic Leadership</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Develop comprehensive marketing strategy</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Align marketing with business objectives</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Participate in executive decision-making</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Drive growth initiatives and planning</span>
                   </li>
                 </ul>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-6">
-                <div className="h-12 w-12 rounded-full bg-neon-green/10 flex items-center justify-center mb-4">
-                  <Users className="h-6 w-6 text-neon-green" />
+              <div className="bg-dark-green/60 rounded-lg p-6">
+                <div className="h-12 w-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
+                  <Users className="h-6 w-6 text-accent-orange" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Team Development</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Build and lead marketing teams</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Manage agencies and contractors</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Implement marketing systems and processes</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Mentor and develop marketing talent</span>
                   </li>
                 </ul>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-6">
-                <div className="h-12 w-12 rounded-full bg-neon-green/10 flex items-center justify-center mb-4">
-                  <DollarSign className="h-6 w-6 text-neon-green" />
+              <div className="bg-dark-green/60 rounded-lg p-6">
+                <div className="h-12 w-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
+                  <DollarSign className="h-6 w-6 text-accent-orange" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Results & Accountability</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Establish KPIs and measurement frameworks</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Optimize marketing ROI and efficiency</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Drive lead generation and revenue growth</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Report on marketing performance to leadership</span>
                   </li>
                 </ul>
@@ -217,15 +217,15 @@ export default function WhatIsAFractionalCMOPage() {
           </div>
 
           {/* When to Hire Section */}
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">When to Hire a Fractional CMO</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold mb-4">Signs Your Business Needs a Fractional CMO</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start">
-                    <div className="h-6 w-6 rounded-full bg-neon-green/20 flex items-center justify-center mr-3 mt-0.5">
-                      <span className="text-neon-green font-medium">1</span>
+                    <div className="h-6 w-6 rounded-full bg-accent-orange/20 flex items-center justify-center mr-3 mt-0.5">
+                      <span className="text-accent-orange font-medium">1</span>
                     </div>
                     <div>
                       <span className="text-zinc-100 font-medium">You need marketing leadership but can't justify a full-time CMO salary</span>
@@ -236,8 +236,8 @@ export default function WhatIsAFractionalCMOPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <div className="h-6 w-6 rounded-full bg-neon-green/20 flex items-center justify-center mr-3 mt-0.5">
-                      <span className="text-neon-green font-medium">2</span>
+                    <div className="h-6 w-6 rounded-full bg-accent-orange/20 flex items-center justify-center mr-3 mt-0.5">
+                      <span className="text-accent-orange font-medium">2</span>
                     </div>
                     <div>
                       <span className="text-zinc-100 font-medium">Your marketing efforts lack strategic direction</span>
@@ -248,8 +248,8 @@ export default function WhatIsAFractionalCMOPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <div className="h-6 w-6 rounded-full bg-neon-green/20 flex items-center justify-center mr-3 mt-0.5">
-                      <span className="text-neon-green font-medium">3</span>
+                    <div className="h-6 w-6 rounded-full bg-accent-orange/20 flex items-center justify-center mr-3 mt-0.5">
+                      <span className="text-accent-orange font-medium">3</span>
                     </div>
                     <div>
                       <span className="text-zinc-100 font-medium">Growth has plateaued or marketing ROI is declining</span>
@@ -265,8 +265,8 @@ export default function WhatIsAFractionalCMOPage() {
                 <h3 className="text-xl font-semibold mb-4">Common Business Scenarios</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start">
-                    <div className="h-6 w-6 rounded-full bg-neon-green/20 flex items-center justify-center mr-3 mt-0.5">
-                      <span className="text-neon-green font-medium">4</span>
+                    <div className="h-6 w-6 rounded-full bg-accent-orange/20 flex items-center justify-center mr-3 mt-0.5">
+                      <span className="text-accent-orange font-medium">4</span>
                     </div>
                     <div>
                       <span className="text-zinc-100 font-medium">You need to build or restructure a marketing team</span>
@@ -277,8 +277,8 @@ export default function WhatIsAFractionalCMOPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <div className="h-6 w-6 rounded-full bg-neon-green/20 flex items-center justify-center mr-3 mt-0.5">
-                      <span className="text-neon-green font-medium">5</span>
+                    <div className="h-6 w-6 rounded-full bg-accent-orange/20 flex items-center justify-center mr-3 mt-0.5">
+                      <span className="text-accent-orange font-medium">5</span>
                     </div>
                     <div>
                       <span className="text-zinc-100 font-medium">You're preparing for a transition or funding round</span>
@@ -289,8 +289,8 @@ export default function WhatIsAFractionalCMOPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <div className="h-6 w-6 rounded-full bg-neon-green/20 flex items-center justify-center mr-3 mt-0.5">
-                      <span className="text-neon-green font-medium">6</span>
+                    <div className="h-6 w-6 rounded-full bg-accent-orange/20 flex items-center justify-center mr-3 mt-0.5">
+                      <span className="text-accent-orange font-medium">6</span>
                     </div>
                     <div>
                       <span className="text-zinc-100 font-medium">You need someone to manage agencies and vendors</span>
@@ -309,34 +309,34 @@ export default function WhatIsAFractionalCMOPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">Benefits of Working With a Fractional CMO</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-gradient-to-r from-neon-green/10 to-zinc-800/50 rounded-lg p-6">
+              <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">Cost Advantages</h3>
                 <p className="text-zinc-400 mb-4">
-                  A fractional CMO typically costs <Link href="/pricing/fractional-cmo-cost" className="text-neon-green hover:underline">$2,000-$7,000 per month</Link>, 
+                  A fractional CMO typically costs <Link href="/pricing/fractional-cmo-cost" className="text-accent-orange hover:underline">$2,000-$7,000 per month</Link>, 
                   representing 75-85% savings compared to a full-time CMO's 
                   total compensation package ($240,000-$500,000+ annually).
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">No benefits, equity, or bonuses to pay</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">No recruiting fees or onboarding costs</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Flexible engagement terms (3-6 month minimum)</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Pay only for the time you need</span>
                   </li>
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-r from-blue-500/10 to-zinc-800/50 rounded-lg p-6">
+              <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">Experience & Expertise</h3>
                 <p className="text-zinc-400 mb-4">
                   Fractional CMOs typically bring 15+ years of marketing leadership experience
@@ -344,25 +344,25 @@ export default function WhatIsAFractionalCMOPage() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-blue-400 mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Battle-tested strategies and approaches</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-blue-400 mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Diverse industry and company experience</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-blue-400 mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">No learning curve or ramp-up time</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-blue-400 mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Objective, outside perspective on your business</span>
                   </li>
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-r from-purple-500/10 to-zinc-800/50 rounded-lg p-6">
+              <div className="bg-gradient-to-r from-purple-500/10 to-dark-green/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">Speed & Implementation</h3>
                 <p className="text-zinc-400 mb-4">
                   Fractional CMOs are focused on driving results quickly, not building
@@ -388,7 +388,7 @@ export default function WhatIsAFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-r from-amber-500/10 to-zinc-800/50 rounded-lg p-6">
+              <div className="bg-gradient-to-r from-amber-500/10 to-dark-green/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">Flexibility & Scalability</h3>
                 <p className="text-zinc-400 mb-4">
                   Fractional arrangements can adapt as your business needs evolve,
@@ -417,13 +417,13 @@ export default function WhatIsAFractionalCMOPage() {
           </div>
 
           {/* How to Work With Section */}
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">How to Work With a Fractional CMO</h2>
             
             <div className="space-y-6">
               <div className="flex items-start">
-                <div className="h-8 w-8 rounded-full bg-neon-green/20 flex items-center justify-center mr-4 mt-0.5 flex-shrink-0">
-                  <span className="text-neon-green font-medium">1</span>
+                <div className="h-8 w-8 rounded-full bg-accent-orange/20 flex items-center justify-center mr-4 mt-0.5 flex-shrink-0">
+                  <span className="text-accent-orange font-medium">1</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Initial Consultation</h3>
@@ -436,8 +436,8 @@ export default function WhatIsAFractionalCMOPage() {
               </div>
               
               <div className="flex items-start">
-                <div className="h-8 w-8 rounded-full bg-neon-green/20 flex items-center justify-center mr-4 mt-0.5 flex-shrink-0">
-                  <span className="text-neon-green font-medium">2</span>
+                <div className="h-8 w-8 rounded-full bg-accent-orange/20 flex items-center justify-center mr-4 mt-0.5 flex-shrink-0">
+                  <span className="text-accent-orange font-medium">2</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Engagement Structure</h3>
@@ -450,8 +450,8 @@ export default function WhatIsAFractionalCMOPage() {
               </div>
               
               <div className="flex items-start">
-                <div className="h-8 w-8 rounded-full bg-neon-green/20 flex items-center justify-center mr-4 mt-0.5 flex-shrink-0">
-                  <span className="text-neon-green font-medium">3</span>
+                <div className="h-8 w-8 rounded-full bg-accent-orange/20 flex items-center justify-center mr-4 mt-0.5 flex-shrink-0">
+                  <span className="text-accent-orange font-medium">3</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Onboarding & Strategy Development</h3>
@@ -464,8 +464,8 @@ export default function WhatIsAFractionalCMOPage() {
               </div>
               
               <div className="flex items-start">
-                <div className="h-8 w-8 rounded-full bg-neon-green/20 flex items-center justify-center mr-4 mt-0.5 flex-shrink-0">
-                  <span className="text-neon-green font-medium">4</span>
+                <div className="h-8 w-8 rounded-full bg-accent-orange/20 flex items-center justify-center mr-4 mt-0.5 flex-shrink-0">
+                  <span className="text-accent-orange font-medium">4</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Implementation & Execution</h3>
@@ -478,8 +478,8 @@ export default function WhatIsAFractionalCMOPage() {
               </div>
               
               <div className="flex items-start">
-                <div className="h-8 w-8 rounded-full bg-neon-green/20 flex items-center justify-center mr-4 mt-0.5 flex-shrink-0">
-                  <span className="text-neon-green font-medium">5</span>
+                <div className="h-8 w-8 rounded-full bg-accent-orange/20 flex items-center justify-center mr-4 mt-0.5 flex-shrink-0">
+                  <span className="text-accent-orange font-medium">5</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Evolution & Long-Term Value</h3>
@@ -494,14 +494,14 @@ export default function WhatIsAFractionalCMOPage() {
           </div>
 
           {/* CTA Section */}
-          <div className="bg-gradient-to-r from-neon-green/20 to-blue-500/20 rounded-lg p-8">
+          <div className="bg-gradient-to-r from-accent-orange/20 to-accent-orange/20 rounded-lg p-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="mb-6 md:mb-0 md:mr-8">
                 <h2 className="text-2xl font-bold mb-2">Ready to get started with a fractional CMO?</h2>
                 <p className="text-zinc-400">Schedule a consultation to discuss your marketing needs and how a fractional CMO can help.</p>
               </div>
               <Link href="/call">
-                <Button className="w-full md:w-auto bg-neon-green hover:bg-neon-green/80 text-zinc-900 font-medium py-5 px-6">
+                <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-zinc-900 font-medium py-5 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule Your Call
                 </Button>
               </Link>

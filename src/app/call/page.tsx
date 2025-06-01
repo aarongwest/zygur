@@ -11,7 +11,7 @@ export default function CallPage() {
           <div className="max-w-4xl mb-16">
             <div className="mb-4">
               <span className="inline-flex items-center text-sm text-zinc-400">
-                <span className="w-2 h-2 rounded-full bg-neon-green mr-2"></span>
+                <span className="w-2 h-2 rounded-full bg-accent-orange mr-2"></span>
                 Limited Availability | Only 7 Client Spots Per Year
               </span>
             </div>
@@ -27,18 +27,18 @@ export default function CallPage() {
           {/* Schedule Call Form */}
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-16">
             <div className="md:col-span-3">
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <h2 className="text-xl font-bold mb-6">Reserve Your Spot</h2>
                 <ScheduleCallForm />
               </div>
             </div>
             <div className="md:col-span-2">
-              <div className="bg-gradient-to-b from-neon-green/20 to-zinc-800/50 rounded-lg p-8 h-full">
+              <div className="bg-gradient-to-b from-accent-orange/20 to-dark-green/60 rounded-lg p-8 h-full">
                 <h2 className="text-xl font-bold mb-6">Why Schedule a Call?</h2>
                 <ul className="space-y-4">
                   <li className="flex items-start">
-                    <div className="w-8 h-8 rounded-full bg-neon-green/10 flex items-center justify-center mr-3 flex-shrink-0">
-                      <Calendar className="w-4 h-4 text-neon-green" />
+                    <div className="w-8 h-8 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 flex-shrink-0">
+                      <Calendar className="w-4 h-4 text-accent-orange" />
                     </div>
                     <div>
                       <h3 className="font-medium mb-1">No Obligation</h3>
@@ -48,8 +48,8 @@ export default function CallPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <div className="w-8 h-8 rounded-full bg-neon-green/10 flex items-center justify-center mr-3 flex-shrink-0">
-                      <CheckCircle className="w-4 h-4 text-neon-green" />
+                    <div className="w-8 h-8 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 flex-shrink-0">
+                      <CheckCircle className="w-4 h-4 text-accent-orange" />
                     </div>
                     <div>
                       <h3 className="font-medium mb-1">Immediate Value</h3>
@@ -60,8 +60,8 @@ export default function CallPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <div className="w-8 h-8 rounded-full bg-neon-green/10 flex items-center justify-center mr-3 flex-shrink-0">
-                      <Clock className="w-4 h-4 text-neon-green" />
+                    <div className="w-8 h-8 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 flex-shrink-0">
+                      <Clock className="w-4 h-4 text-accent-orange" />
                     </div>
                     <div>
                       <h3 className="font-medium mb-1">Limited Availability</h3>
@@ -71,8 +71,8 @@ export default function CallPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <div className="w-8 h-8 rounded-full bg-neon-green/10 flex items-center justify-center mr-3 flex-shrink-0">
-                      <User className="w-4 h-4 text-neon-green" />
+                    <div className="w-8 h-8 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 flex-shrink-0">
+                      <User className="w-4 h-4 text-accent-orange" />
                     </div>
                     <div>
                       <h3 className="font-medium mb-1">Direct Access</h3>
@@ -90,27 +90,27 @@ export default function CallPage() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-2xl font-bold mb-6">What to Expect</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-zinc-800/50 rounded-lg p-6">
-                <div className="w-10 h-10 rounded-full bg-neon-green/10 flex items-center justify-center mb-4">
-                  <span className="text-xl font-bold text-neon-green">1</span>
+              <div className="bg-dark-green/60 rounded-lg p-6">
+                <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
+                  <span className="text-xl font-bold text-accent-orange">1</span>
                 </div>
                 <h3 className="text-lg font-semibold mb-4 text-zinc-200">Discovery</h3>
                 <p className="text-zinc-400">
                   We'll discuss your business, current marketing challenges, and goals to understand your specific situation.
                 </p>
               </div>
-              <div className="bg-zinc-800/50 rounded-lg p-6">
-                <div className="w-10 h-10 rounded-full bg-neon-green/10 flex items-center justify-center mb-4">
-                  <span className="text-xl font-bold text-neon-green">2</span>
+              <div className="bg-dark-green/60 rounded-lg p-6">
+                <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
+                  <span className="text-xl font-bold text-accent-orange">2</span>
                 </div>
                 <h3 className="text-lg font-semibold mb-4 text-zinc-200">Opportunity Analysis</h3>
                 <p className="text-zinc-400">
                   I'll share initial thoughts on your most immediate opportunities and how my AI-enhanced approach could help.
                 </p>
               </div>
-              <div className="bg-zinc-800/50 rounded-lg p-6">
-                <div className="w-10 h-10 rounded-full bg-neon-green/10 flex items-center justify-center mb-4">
-                  <span className="text-xl font-bold text-neon-green">3</span>
+              <div className="bg-dark-green/60 rounded-lg p-6">
+                <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
+                  <span className="text-xl font-bold text-accent-orange">3</span>
                 </div>
                 <h3 className="text-lg font-semibold mb-4 text-zinc-200">Potential Paths Forward</h3>
                 <p className="text-zinc-400">

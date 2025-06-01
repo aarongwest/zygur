@@ -13,7 +13,7 @@ export default function AboutPage() {
           <div className="max-w-4xl mb-16">
             <div className="mb-4">
               <span className="inline-flex items-center text-sm text-zinc-400">
-                <span className="w-2 h-2 rounded-full bg-neon-green mr-2"></span>
+                <span className="w-2 h-2 rounded-full bg-accent-orange mr-2"></span>
                 Meet Your Fractional CMO
               </span>
             </div>
@@ -29,7 +29,7 @@ export default function AboutPage() {
           {/* Bio Section */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             <div className="md:col-span-2">
-              <div className="bg-zinc-800/50 rounded-lg p-8 h-full">
+              <div className="bg-dark-green/60 rounded-lg p-8 h-full">
                 <h2 className="text-2xl font-bold mb-6">My Story</h2>
                 <div className="space-y-4 text-zinc-400">
                   <p>
@@ -60,9 +60,9 @@ export default function AboutPage() {
               </div>
             </div>
             <div>
-              <div className="bg-zinc-800/50 rounded-lg p-8 h-full">
+              <div className="bg-dark-green/60 rounded-lg p-8 h-full">
                 <div className="w-full aspect-square mb-6 flex items-center justify-center">
-                  <div className="w-4/5 h-4/5 rounded-full overflow-hidden border-4 border-neon-green/20">
+                  <div className="w-4/5 h-4/5 rounded-full overflow-hidden border-4 border-accent-orange/20">
                     <Image 
                       src="/fcmo.jpeg" 
                       alt="Aaron West" 
@@ -112,12 +112,12 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold mb-6">Professional Background</h2>
             
             <div className="space-y-8">
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <div className="flex flex-col md:flex-row">
                   <div className="md:w-64 flex-shrink-0 mb-4 md:mb-0">
                     <div className="flex items-center space-x-3 mb-4">
-                      <div className="w-10 h-10 rounded-full bg-neon-green/10 flex items-center justify-center">
-                        <Briefcase className="w-5 h-5 text-neon-green" />
+                      <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                        <Briefcase className="w-5 h-5 text-accent-orange" />
                       </div>
                       <div>
                         <h3 className="font-semibold">Work Experience</h3>
@@ -127,7 +127,7 @@ export default function AboutPage() {
                   <div className="flex-grow">
                     <div className="space-y-6">
                       <div className="border-l-2 border-zinc-700 pl-6 pb-6 relative">
-                        <div className="absolute w-4 h-4 bg-neon-green rounded-full -left-[9px] top-0"></div>
+                        <div className="absolute w-4 h-4 bg-accent-orange rounded-full -left-[9px] top-0"></div>
                         <h3 className="font-semibold mb-1">Fractional CMO (FCMO)</h3>
                         <p className="text-sm text-zinc-400 mb-2">Zygur • 2010-Present</p>
                         <p className="text-zinc-400">
@@ -176,12 +176,12 @@ export default function AboutPage() {
                 </div>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <div className="flex flex-col md:flex-row">
                   <div className="md:w-64 flex-shrink-0 mb-4 md:mb-0">
                     <div className="flex items-center space-x-3 mb-4">
-                      <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center">
-                        <BookOpen className="w-5 h-5 text-blue-500" />
+                      <div className="w-10 h-10 rounded-full bg-accent-yellow/10 flex items-center justify-center">
+                        <BookOpen className="w-5 h-5 text-accent-yellow" />
                       </div>
                       <div>
                         <h3 className="font-semibold">Education</h3>
@@ -191,7 +191,7 @@ export default function AboutPage() {
                   <div className="flex-grow">
                     <div className="space-y-6">
                       <div className="border-l-2 border-zinc-700 pl-6 relative">
-                        <div className="absolute w-4 h-4 bg-blue-500 rounded-full -left-[9px] top-0"></div>
+                        <div className="absolute w-4 h-4 bg-accent-yellow rounded-full -left-[9px] top-0"></div>
                         <h3 className="font-semibold mb-1">Associate of Arts - AA, General Studies</h3>
                         <p className="text-sm text-zinc-400 mb-2">Pensacola State College • 2004-2006</p>
                       </div>
@@ -203,7 +203,7 @@ export default function AboutPage() {
           </div>
           
           {/* Philosophy Section */}
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">My Marketing Philosophy</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
@@ -236,14 +236,14 @@ export default function AboutPage() {
           </div>
           
           {/* CTA Section */}
-          <div className="bg-gradient-to-r from-neon-green/20 to-blue-500/20 rounded-lg p-8 mb-8">
+          <div className="bg-gradient-to-r from-accent-orange/20 to-accent-yellow/20 rounded-lg p-8 mb-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="mb-6 md:mb-0 md:mr-8">
                 <h2 className="text-2xl font-bold mb-2">Want to work with me?</h2>
                 <p className="text-zinc-400">Let's discuss how I can help your business grow. Limited availability - only 7 client spots per year.</p>
               </div>
               <Link href="/call">
-                <Button className="w-full md:w-auto bg-zinc-900 hover:bg-zinc-800 text-white border border-zinc-700 font-medium py-5 px-6">
+                <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-white border-0 font-medium py-5 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule Your Call
                 </Button>
               </Link>
