@@ -232,59 +232,6 @@ export default function ResultsPage() {
             </div>
           </div>
 
-          {/* Testimonials */}
-          <div className="mb-16">
-            <h2 className="text-2xl font-bold mb-8">What Clients Say</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-dark-green/60 rounded-lg p-8">
-                <div className="flex mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-accent-orange mr-1" fill="#06FF00" />
-                  ))}
-                </div>
-                <p className="text-zinc-400 mb-6">
-                  "Aaron's AI-enhanced marketing approach has been game-changing for our business. He delivered the 
-                  expertise of a seasoned CMO at a fraction of the cost, and the results have exceeded all expectations."
-                </p>
-                <div>
-                  <div className="font-medium">Jennifer Arroyo</div>
-                  <div className="text-sm text-zinc-500">CEO, HealthTech Innovations</div>
-                </div>
-              </div>
-              
-              <div className="bg-dark-green/60 rounded-lg p-8">
-                <div className="flex mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-accent-orange mr-1" fill="#06FF00" />
-                  ))}
-                </div>
-                <p className="text-zinc-400 mb-6">
-                  "What impresses me most about Aaron is his ability to translate complex marketing data into 
-                  actionable insights. His AI-powered approach has transformed how we make marketing decisions."
-                </p>
-                <div>
-                  <div className="font-medium">David Washington</div>
-                  <div className="text-sm text-zinc-500">Founder, ConsultPro Services</div>
-                </div>
-              </div>
-              
-              <div className="bg-dark-green/60 rounded-lg p-8">
-                <div className="flex mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-accent-orange mr-1" fill="#06FF00" />
-                  ))}
-                </div>
-                <p className="text-zinc-400 mb-6">
-                  "The speed at which Aaron can implement and optimize marketing campaigns is remarkable. What would 
-                  take our previous agency weeks, he accomplishes in days, and with better results."
-                </p>
-                <div>
-                  <div className="font-medium">Mark Reynolds</div>
-                  <div className="text-sm text-zinc-500">CEO, OSHIFY®</div>
-                </div>
-              </div>
-            </div>
-          </div>
           
           {/* By The Numbers */}
           <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
