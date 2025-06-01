@@ -66,46 +66,46 @@ export default function Home() {
                 <p className="text-xs text-zinc-400">Strategist</p>
               </div>
             </div>
-            <div className="mb-4 -mt-20 max-w-4xl">
+            <div className="mb-4 -mt-20 md:-mt-20 -mt-12 max-w-4xl">
               <Image
                 src="/logo.png"
                 alt="Zygur Logo"
                 width={480}
                 height={160}
                 priority
-                className="w-full h-auto"
+                className="w-full h-auto max-w-full"
               />
             </div>
-            <h1 className="text-5xl font-bold tracking-tight mb-4">
+            <h1 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">
               Your Branding and Marketing Manager
               <br />
               <span className="text-zinc-400">Expertise without the full-time cost</span>
             </h1>
-            <p className="text-lg text-zinc-400 mb-8 max-w-2xl">
+            <p className="text-base md:text-lg text-zinc-400 mb-8 max-w-2xl">
               Elevate your brand with comprehensive management that delivers consistent messaging, 
               engaging experiences, and measurable results. Leveraging AI to accomplish more in less time.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-16">
               <Link href="/call">
-                <Button className="w-full sm:w-auto bg-accent-orange hover:bg-accent-orange/80 text-white font-medium text-lg py-6 px-8">
+                <Button className="w-full sm:w-auto bg-accent-orange hover:bg-accent-orange/80 text-white font-medium text-base md:text-lg py-5 md:py-6 px-6 md:px-8">
                   Schedule a Call
                 </Button>
               </Link>
               <Link href="/services/brand-management">
-                <Button variant="outline" className="w-full sm:w-auto text-lg py-6 px-8">
+                <Button variant="outline" className="w-full sm:w-auto text-base md:text-lg py-5 md:py-6 px-6 md:px-8">
                   Brand Development / Management
                 </Button>
               </Link>
               <Link href="/services/ai-enhanced-marketing">
-                <Button variant="outline" className="w-full sm:w-auto text-lg py-6 px-8">
+                <Button variant="outline" className="w-full sm:w-auto text-base md:text-lg py-5 md:py-6 px-6 md:px-8">
                   Marketing / Advertising
                 </Button>
               </Link>
             </div>
 
             {/* Companies and Projects Section */}
-            <h2 className="text-2xl font-bold mb-4">Companies and Projects I've Personally Started or Helped Start</h2>
+            <h2 className="text-xl md:text-2xl font-bold mb-4">Companies and Projects I've Personally Started or Helped Start</h2>
             <p className="text-zinc-400 mb-8">A portfolio of brands I've been directly involved in launching or scaling. Each represents a unique journey in entrepreneurship and innovation.</p>
             <div className="mb-24">
               <div className="w-full">
@@ -160,8 +160,8 @@ export default function Home() {
             </div>
 
             {/* Why Me Section */}
-            <div className="bg-gradient-to-b from-dark-green/50 to-dark-green/70 rounded-lg p-8 mb-16">
-              <h2 className="text-2xl font-bold mb-6">Why a Branding and Marketing Manager?</h2>
+            <div className="bg-gradient-to-b from-dark-green/50 to-dark-green/70 rounded-lg p-6 md:p-8 mb-16">
+              <h2 className="text-xl md:text-2xl font-bold mb-4 md:mb-6">Why a Branding and Marketing Manager?</h2>
               <p className="text-zinc-400 mb-6">
                 Growing businesses need brand leadership but often can't justify a full-time hire. 
                 I provide expert brand development and marketing strategy at a fraction of the cost, delivering 
