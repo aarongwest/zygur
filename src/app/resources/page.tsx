@@ -60,8 +60,8 @@ export default function ResourcesPage() {
               <div className="flex items-start justify-between">
                 <div>
                   <div className="flex items-center space-x-4 mb-4">
-                    <div className="w-12 h-12 rounded-full bg-purple-500/10 flex items-center justify-center">
-                      <Microscope className="w-6 h-6 text-purple-500" />
+                    <div className="w-12 h-12 rounded-full bg-accent-yellow/10 flex items-center justify-center">
+                      <Microscope className="w-6 h-6 text-accent-yellow" />
                     </div>
                     <h2 className="text-2xl font-semibold">Research Papers</h2>
                   </div>
@@ -71,15 +71,15 @@ export default function ResourcesPage() {
                   </p>
                   <ul className="space-y-3 text-sm text-zinc-400">
                     <li className="flex items-center">
-                      <span className="w-1.5 h-1.5 rounded-full bg-purple-500 mr-2" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-accent-yellow mr-2" />
                       Quantum computing breakthroughs
                     </li>
                     <li className="flex items-center">
-                      <span className="w-1.5 h-1.5 rounded-full bg-purple-500 mr-2" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-accent-yellow mr-2" />
                       AI and autonomous systems research
                     </li>
                     <li className="flex items-center">
-                      <span className="w-1.5 h-1.5 rounded-full bg-purple-500 mr-2" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-accent-yellow mr-2" />
                       Advanced defense technology studies
                     </li>
                   </ul>
@@ -96,8 +96,8 @@ export default function ResourcesPage() {
               <div className="flex items-start justify-between">
                 <div>
                   <div className="flex items-center space-x-4 mb-4">
-                    <div className="w-12 h-12 rounded-full bg-emerald-500/10 flex items-center justify-center">
-                      <BookOpen className="w-6 h-6 text-emerald-500" />
+                    <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                      <BookOpen className="w-6 h-6 text-accent-orange" />
                     </div>
                     <h2 className="text-2xl font-semibold">Case Studies</h2>
                   </div>
@@ -107,15 +107,15 @@ export default function ResourcesPage() {
                   </p>
                   <ul className="space-y-3 text-sm text-zinc-400">
                     <li className="flex items-center">
-                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 mr-2" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-accent-orange mr-2" />
                       Military operation optimizations
                     </li>
                     <li className="flex items-center">
-                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 mr-2" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-accent-orange mr-2" />
                       Defense system implementations
                     </li>
                     <li className="flex items-center">
-                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 mr-2" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-accent-orange mr-2" />
                       AI integration success stories
                     </li>
                   </ul>
@@ -132,27 +132,27 @@ export default function ResourcesPage() {
               <div className="flex items-start justify-between">
                 <div>
                   <div className="flex items-center space-x-4 mb-4">
-                    <div className="w-12 h-12 rounded-full bg-amber-500/10 flex items-center justify-center">
-                      <Rocket className="w-6 h-6 text-amber-500" />
+                    <div className="w-12 h-12 rounded-full bg-accent-yellow/10 flex items-center justify-center">
+                      <Rocket className="w-6 h-6 text-accent-yellow" />
                     </div>
                     <h2 className="text-2xl font-semibold">Labs</h2>
                   </div>
                   <p className="text-zinc-400 mb-6 max-w-2xl">
-                    Discover innovative projects from our young entrepreneur program. See how high school students
-                    are shaping the future of defense technology through groundbreaking solutions.
+                    Discover innovative projects from our AI software development playground. See how we experiment
+                    with cutting-edge technologies to stay at the forefront of digital innovation.
                   </p>
                   <ul className="space-y-3 text-sm text-zinc-400">
                     <li className="flex items-center">
-                      <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mr-2" />
-                      Featured student projects
+                      <span className="w-1.5 h-1.5 rounded-full bg-accent-yellow mr-2" />
+                      AI-powered experimental applications
                     </li>
                     <li className="flex items-center">
-                      <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mr-2" />
-                      Project acquisition opportunities
+                      <span className="w-1.5 h-1.5 rounded-full bg-accent-yellow mr-2" />
+                      Machine learning and NLP implementations
                     </li>
                     <li className="flex items-center">
-                      <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mr-2" />
-                      Career development pathways
+                      <span className="w-1.5 h-1.5 rounded-full bg-accent-yellow mr-2" />
+                      Advanced software development techniques
                     </li>
                   </ul>
                 </div>

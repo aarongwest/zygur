@@ -172,8 +172,8 @@ export default function ApproachPage() {
               
               <div className="bg-dark-green/60 rounded-lg p-8">
                 <div className="flex items-center space-x-4 mb-6">
-                  <div className="w-12 h-12 rounded-full bg-emerald-500/10 flex items-center justify-center">
-                    <Lightbulb className="w-6 h-6 text-emerald-500" />
+                  <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                    <Lightbulb className="w-6 h-6 text-accent-orange" />
                   </div>
                   <h3 className="text-xl font-semibold">Creative Acceleration</h3>
                 </div>
