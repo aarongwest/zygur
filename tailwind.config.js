@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       colors: {
         'neon-green': '#06FF00',
+        'accent-orange': '#d14900',
+        'accent-yellow': '#ffc107',
+        'dark-green': '#0a1e15',
       },
       keyframes: {
         loader: {
