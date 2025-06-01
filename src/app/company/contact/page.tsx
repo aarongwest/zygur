@@ -22,10 +22,10 @@ export default function ContactPage() {
 
           {/* Contact Methods */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-zinc-800/50 rounded-lg p-6">
+            <div className="bg-dark-green/60 rounded-lg p-6">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 rounded-full bg-neon-green/10 flex items-center justify-center">
-                  <LineChart className="w-5 h-5 text-neon-green" />
+                <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                  <LineChart className="w-5 h-5 text-accent-orange" />
                 </div>
                 <h2 className="text-xl font-semibold">Marketing Strategy</h2>
               </div>
@@ -34,16 +34,16 @@ export default function ContactPage() {
                 schedule a call with our marketing strategy team.
               </p>
               <Link href="/call">
-                <Button className="bg-neon-green hover:bg-green-500 text-black font-medium w-full">
+                <Button className="bg-accent-orange hover:bg-accent-orange/80 text-white font-medium w-full">
                   Schedule Call
                 </Button>
               </Link>
             </div>
 
-            <div className="bg-zinc-800/50 rounded-lg p-6">
+            <div className="bg-dark-green/60 rounded-lg p-6">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 rounded-full bg-green-500/10 flex items-center justify-center">
-                  <Globe className="w-5 h-5 text-green-500" />
+                <div className="w-10 h-10 rounded-full bg-accent-yellow/10 flex items-center justify-center">
+                  <Globe className="w-5 h-5 text-accent-yellow" />
                 </div>
                 <h2 className="text-xl font-semibold">Media & Press</h2>
               </div>
@@ -52,7 +52,7 @@ export default function ContactPage() {
                 contact our media relations team.
               </p>
               <Link href="/call">
-                <Button className="bg-green-500 hover:bg-green-600 text-white w-full">
+                <Button className="bg-accent-yellow hover:bg-accent-yellow/80 text-black w-full">
                   Media Inquiries
                 </Button>
               </Link>
@@ -63,30 +63,30 @@ export default function ContactPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-6">Helpful Resources</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <Link href="/resources/what-is-a-fractional-cmo" className="bg-zinc-800/50 p-6 rounded-lg hover:bg-zinc-700/50 transition">
+              <Link href="/resources/what-is-a-fractional-cmo" className="bg-dark-green/60 p-6 rounded-lg hover:bg-zinc-700/50 transition">
                 <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 rounded-full bg-neon-green/10 flex items-center justify-center mr-3">
-                    <Book className="w-5 h-5 text-neon-green" />
+                  <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3">
+                    <Book className="w-5 h-5 text-accent-orange" />
                   </div>
                   <h3 className="text-lg font-medium">What is a Fractional CMO?</h3>
                 </div>
                 <p className="text-zinc-400 text-sm">Learn about the role of a fractional CMO and how they can benefit your business.</p>
               </Link>
 
-              <Link href="/compare/fractional-cmo-vs-agency" className="bg-zinc-800/50 p-6 rounded-lg hover:bg-zinc-700/50 transition">
+              <Link href="/compare/fractional-cmo-vs-agency" className="bg-dark-green/60 p-6 rounded-lg hover:bg-zinc-700/50 transition">
                 <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 rounded-full bg-green-500/10 flex items-center justify-center mr-3">
-                    <BarChart className="w-5 h-5 text-green-500" />
+                  <div className="w-10 h-10 rounded-full bg-accent-yellow/10 flex items-center justify-center mr-3">
+                    <BarChart className="w-5 h-5 text-accent-yellow" />
                   </div>
                   <h3 className="text-lg font-medium">CMO vs Agency</h3>
                 </div>
                 <p className="text-zinc-400 text-sm">Compare the benefits of hiring a fractional CMO versus working with a marketing agency.</p>
               </Link>
 
-              <Link href="/results/case-studies" className="bg-zinc-800/50 p-6 rounded-lg hover:bg-zinc-700/50 transition">
+              <Link href="/results/case-studies" className="bg-dark-green/60 p-6 rounded-lg hover:bg-zinc-700/50 transition">
                 <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 rounded-full bg-neon-green/10 flex items-center justify-center mr-3">
-                    <Lightbulb className="w-5 h-5 text-neon-green" />
+                  <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3">
+                    <Lightbulb className="w-5 h-5 text-accent-orange" />
                   </div>
                   <h3 className="text-lg font-medium">Case Studies</h3>
                 </div>
@@ -98,7 +98,7 @@ export default function ContactPage() {
           {/* Contact Form */}
           <div className="max-w-2xl mx-auto mb-16">
             <h2 className="text-2xl font-bold mb-6">Send Us a Message</h2>
-            <div className="bg-zinc-800/50 rounded-lg p-8">
+            <div className="bg-dark-green/60 rounded-lg p-8">
               <ContactForm />
             </div>
           </div>

@@ -29,7 +29,7 @@ export default function FindAFractionalCMOPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/call">
-                <Button className="w-full sm:w-auto bg-neon-green hover:bg-neon-green/80 text-zinc-900 font-medium py-3 px-6">
+                <Button className="w-full sm:w-auto bg-accent-orange hover:bg-accent-orange/80 text-zinc-900 font-medium py-3 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule a Consultation
                 </Button>
               </Link>
@@ -45,35 +45,35 @@ export default function FindAFractionalCMOPage() {
               process, from determining if you need a fractional CMO to successfully onboarding one.
             </p>
             
-            <div className="bg-zinc-800/50 rounded-lg p-8 mb-12">
+            <div className="bg-dark-green/60 rounded-lg p-8 mb-12">
               <h3 className="text-xl font-semibold mb-4">Table of Contents</h3>
               <ul className="space-y-2">
-                <li className="text-neon-green hover:text-neon-green/80">
+                <li className="text-accent-orange hover:text-accent-orange/80">
                   <a href="#when-to-hire" className="flex items-center">
                     <ArrowRight className="w-4 h-4 mr-2" /> When to Hire a Fractional CMO
                   </a>
                 </li>
-                <li className="text-neon-green hover:text-neon-green/80">
+                <li className="text-accent-orange hover:text-accent-orange/80">
                   <a href="#qualifications" className="flex items-center">
                     <ArrowRight className="w-4 h-4 mr-2" /> Essential Qualifications to Look For
                   </a>
                 </li>
-                <li className="text-neon-green hover:text-neon-green/80">
+                <li className="text-accent-orange hover:text-accent-orange/80">
                   <a href="#questions" className="flex items-center">
                     <ArrowRight className="w-4 h-4 mr-2" /> 10 Critical Questions to Ask During Interviews
                   </a>
                 </li>
-                <li className="text-neon-green hover:text-neon-green/80">
+                <li className="text-accent-orange hover:text-accent-orange/80">
                   <a href="#redflags" className="flex items-center">
                     <ArrowRight className="w-4 h-4 mr-2" /> Red Flags to Watch Out For
                   </a>
                 </li>
-                <li className="text-neon-green hover:text-neon-green/80">
+                <li className="text-accent-orange hover:text-accent-orange/80">
                   <a href="#structure" className="flex items-center">
                     <ArrowRight className="w-4 h-4 mr-2" /> How to Structure the Engagement
                   </a>
                 </li>
-                <li className="text-neon-green hover:text-neon-green/80">
+                <li className="text-accent-orange hover:text-accent-orange/80">
                   <a href="#onboarding" className="flex items-center">
                     <ArrowRight className="w-4 h-4 mr-2" /> Successful Onboarding Tips
                   </a>
@@ -90,51 +90,51 @@ export default function FindAFractionalCMOPage() {
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-              <div className="bg-zinc-800/50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-3 text-neon-green">Strategic Gaps</h3>
+              <div className="bg-dark-green/60 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold mb-3 text-accent-orange">Strategic Gaps</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <CheckSquare className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckSquare className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">You have tactical marketing execution but lack strategic direction</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckSquare className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckSquare className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">Your marketing efforts feel disconnected from business objectives</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckSquare className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckSquare className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">You need a cohesive marketing strategy but can't justify a full-time CMO</span>
                   </li>
                 </ul>
               </div>
               
-              <div className="bg-zinc-800/50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-3 text-neon-green">Growth Challenges</h3>
+              <div className="bg-dark-green/60 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold mb-3 text-accent-orange">Growth Challenges</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <CheckSquare className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckSquare className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">Your business is at a growth inflection point requiring marketing expertise</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckSquare className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckSquare className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">You're entering new markets or launching new products</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckSquare className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckSquare className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">You need to scale marketing operations efficiently</span>
                   </li>
                 </ul>
               </div>
             </div>
             
-            <div className="bg-gradient-to-r from-neon-green/10 to-zinc-800/50 p-6 rounded-lg">
+            <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-3">Alternative Solutions</h3>
               <p className="text-zinc-300 mb-4">
                 A fractional CMO isn't always the right solution. Consider these alternatives if you need tactical execution without strategic guidance, 
                 full-time daily marketing leadership, or are looking for a low-cost solution.
               </p>
               <div className="mt-4">
-                <Link href="/compare/fractional-cmo-vs-agency" className="text-neon-green hover:text-neon-green/80 flex items-center">
+                <Link href="/compare/fractional-cmo-vs-agency" className="text-accent-orange hover:text-accent-orange/80 flex items-center">
                   Compare fractional CMO with agency solutions <ArrowRight className="w-4 h-4 ml-2" />
                 </Link>
               </div>
@@ -190,14 +190,14 @@ export default function FindAFractionalCMOPage() {
               and establishing regular check-in meetings.
             </p>
             
-            <div className="bg-gradient-to-r from-neon-green/20 to-blue-500/20 rounded-lg p-8">
+            <div className="bg-gradient-to-r from-accent-orange/20 to-accent-orange/20 rounded-lg p-8">
               <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="mb-6 md:mb-0 md:mr-8">
                   <h2 className="text-2xl font-bold mb-2">Ready to find your perfect fractional CMO?</h2>
                   <p className="text-zinc-300">Schedule a consultation to discuss your specific marketing leadership needs and how a fractional CMO can help you achieve your growth objectives.</p>
                 </div>
                 <Link href="/call">
-                  <Button className="w-full md:w-auto bg-neon-green hover:bg-neon-green/80 text-zinc-900 font-medium py-5 px-6">
+                  <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-zinc-900 font-medium py-5 px-6">
                     <Calendar className="w-5 h-5 mr-2" /> Book Your Strategy Call
                   </Button>
                 </Link>

@@ -30,14 +30,14 @@ export default function FractionalMarketingExecutivePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/call">
-                <Button className="w-full sm:w-auto bg-neon-green hover:bg-neon-green/80 text-zinc-900 font-medium py-3 px-6">
+                <Button className="w-full sm:w-auto bg-accent-orange hover:bg-accent-orange/80 text-zinc-900 font-medium py-3 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule a Consultation
                 </Button>
               </Link>
             </div>
           </div>
           
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Content Coming Soon</h2>
             <p className="text-zinc-300">
               We're currently developing comprehensive content about our Fractional Marketing Executive services. 
@@ -49,7 +49,7 @@ export default function FractionalMarketingExecutivePage() {
                 <Button variant="outline" className="mr-4">Learn About Fractional CMOs</Button>
               </Link>
               <Link href="/call">
-                <Button className="bg-neon-green hover:bg-neon-green/80 text-zinc-900">Schedule a Consultation</Button>
+                <Button className="bg-accent-orange hover:bg-accent-orange/80 text-zinc-900">Schedule a Consultation</Button>
               </Link>
             </div>
           </div>

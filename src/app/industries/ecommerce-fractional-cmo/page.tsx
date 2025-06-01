@@ -29,7 +29,7 @@ export default function EcommerceFractionalCMOPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/call">
-                <Button className="w-full sm:w-auto bg-neon-green hover:bg-neon-green/80 text-zinc-900 font-medium py-3 px-6">
+                <Button className="w-full sm:w-auto bg-accent-orange hover:bg-accent-orange/80 text-zinc-900 font-medium py-3 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Book Your Strategy Call
                 </Button>
               </Link>
@@ -37,7 +37,7 @@ export default function EcommerceFractionalCMOPage() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="bg-zinc-800/50 rounded-lg p-8">
+            <div className="bg-dark-green/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">E-commerce Marketing Leadership</h2>
               <p className="text-zinc-300 mb-4">
                 E-commerce businesses face unique marketing challenges in today's hyper-competitive landscape. From multi-channel 
@@ -45,23 +45,23 @@ export default function EcommerceFractionalCMOPage() {
                 marketing leadership to navigate these challenges profitably.
               </p>
               <p className="text-zinc-300 mb-4">
-                As your <Link href="/resources/what-is-a-fractional-cmo" className="text-neon-green hover:underline">fractional CMO</Link>, I bring specialized experience in:
+                As your <Link href="/resources/what-is-a-fractional-cmo" className="text-accent-orange hover:underline">fractional CMO</Link>, I bring specialized experience in:
               </p>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                   <span className="text-zinc-300">Optimizing multi-channel acquisition strategies for sustainable growth</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                   <span className="text-zinc-300">Improving conversion rates through data-driven optimization</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                   <span className="text-zinc-300">Developing retention marketing systems that maximize customer lifetime value</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                   <span className="text-zinc-300">Building scalable, metrics-driven marketing operations</span>
                 </li>
               </ul>
@@ -71,32 +71,32 @@ export default function EcommerceFractionalCMOPage() {
               </p>
             </div>
             
-            <div className="bg-zinc-800/50 rounded-lg p-8">
+            <div className="bg-dark-green/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">E-commerce Marketing Challenges Solved</h2>
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-lg font-semibold mb-2 text-neon-green">Rising Acquisition Costs</h3>
+                  <h3 className="text-lg font-semibold mb-2 text-accent-orange">Rising Acquisition Costs</h3>
                   <p className="text-zinc-300">
                     Develop diversified customer acquisition strategies that reduce dependency on increasingly expensive 
                     paid channels, optimizing your marketing mix for sustainable CAC and profitability.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2 text-neon-green">Conversion Rate Plateaus</h3>
+                  <h3 className="text-lg font-semibold mb-2 text-accent-orange">Conversion Rate Plateaus</h3>
                   <p className="text-zinc-300">
                     Implement systematic conversion rate optimization processes across your funnel, from initial 
                     traffic sources through cart and checkout, to consistently improve purchase completion.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2 text-neon-green">Customer Retention Struggles</h3>
+                  <h3 className="text-lg font-semibold mb-2 text-accent-orange">Customer Retention Struggles</h3>
                   <p className="text-zinc-300">
                     Build sophisticated retention marketing programs that increase repeat purchase rates, 
                     average order value, and lifetime customer value through segmentation and personalization.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2 text-neon-green">Attribution & Measurement Challenges</h3>
+                  <h3 className="text-lg font-semibold mb-2 text-accent-orange">Attribution & Measurement Challenges</h3>
                   <p className="text-zinc-300">
                     Develop practical attribution models that account for multi-touch customer journeys, 
                     providing accurate insights for marketing investment decisions despite tracking limitations.
@@ -106,11 +106,11 @@ export default function EcommerceFractionalCMOPage() {
             </div>
           </div>
           
-          <div className="bg-gradient-to-r from-neon-green/10 to-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Why E-commerce Businesses Choose a Fractional CMO</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="flex flex-col">
-                <ShoppingCart className="w-10 h-10 text-neon-green mb-4" />
+                <ShoppingCart className="w-10 h-10 text-accent-orange mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Specialized E-commerce Expertise</h3>
                 <p className="text-zinc-300">
                   Access marketing leadership with specific e-commerce experience across multiple business models, 
@@ -119,7 +119,7 @@ export default function EcommerceFractionalCMOPage() {
                 </p>
               </div>
               <div className="flex flex-col">
-                <BarChart2 className="w-10 h-10 text-neon-green mb-4" />
+                <BarChart2 className="w-10 h-10 text-accent-orange mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Data-Driven Approach</h3>
                 <p className="text-zinc-300">
                   Work with a marketing leader who emphasizes measurement, testing, and optimization. Our approach 
@@ -128,7 +128,7 @@ export default function EcommerceFractionalCMOPage() {
                 </p>
               </div>
               <div className="flex flex-col">
-                <TrendingUp className="w-10 h-10 text-neon-green mb-4" />
+                <TrendingUp className="w-10 h-10 text-accent-orange mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Growth-Focused Strategy</h3>
                 <p className="text-zinc-300">
                   Build marketing systems designed for scalability. Whether you're at $500K or $50M in annual 
@@ -139,7 +139,7 @@ export default function EcommerceFractionalCMOPage() {
             </div>
             <div className="mt-8 text-center">
               <Link href="/call">
-                <Button className="bg-neon-green hover:bg-neon-green/80 text-zinc-900 font-medium py-3 px-6">
+                <Button className="bg-accent-orange hover:bg-accent-orange/80 text-zinc-900 font-medium py-3 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Book Your E-commerce Strategy Call
                 </Button>
               </Link>
@@ -149,32 +149,32 @@ export default function EcommerceFractionalCMOPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">E-commerce Marketing Leadership Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Strategic Services</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <span className="text-zinc-100 font-medium">Multi-Channel Strategy Development</span>
                       <p className="text-sm text-zinc-400 mt-1">Cohesive plans across DTC, marketplaces, and retail channels.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <span className="text-zinc-100 font-medium">Customer Acquisition Planning</span>
                       <p className="text-sm text-zinc-400 mt-1">Sustainable growth strategies with optimized CAC metrics.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <span className="text-zinc-100 font-medium">Retention Marketing Architecture</span>
                       <p className="text-sm text-zinc-400 mt-1">Systems to maximize repeat purchases and customer LTV.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <span className="text-zinc-100 font-medium">Marketing Team Development</span>
                       <p className="text-sm text-zinc-400 mt-1">Build and structure your internal marketing capabilities.</p>
@@ -183,32 +183,32 @@ export default function EcommerceFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Execution Oversight</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <span className="text-zinc-100 font-medium">Conversion Rate Optimization</span>
                       <p className="text-sm text-zinc-400 mt-1">Data-driven testing and improvements across the purchase funnel.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <span className="text-zinc-100 font-medium">Campaign Management Systems</span>
                       <p className="text-sm text-zinc-400 mt-1">Processes for consistent execution across all channels.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <span className="text-zinc-100 font-medium">Analytics & Measurement</span>
                       <p className="text-sm text-zinc-400 mt-1">Implementation of practical attribution and reporting systems.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <span className="text-zinc-100 font-medium">Marketing Technology Stack</span>
                       <p className="text-sm text-zinc-400 mt-1">Selection and integration of the right tools for your business model.</p>
@@ -216,7 +216,7 @@ export default function EcommerceFractionalCMOPage() {
                   </li>
                 </ul>
                 <div className="mt-8">
-                  <Link href="/services/execution" className="text-neon-green hover:text-neon-green/80 flex items-center">
+                  <Link href="/services/execution" className="text-accent-orange hover:text-accent-orange/80 flex items-center">
                     View all services <ArrowRight className="w-4 h-4 ml-2" />
                   </Link>
                 </div>
@@ -224,7 +224,7 @@ export default function EcommerceFractionalCMOPage() {
             </div>
           </div>
           
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">E-commerce Experience Across Business Models</h2>
             <p className="text-zinc-300 mb-6">
               Our fractional CMO services have helped e-commerce businesses across multiple business models 
@@ -270,7 +270,7 @@ export default function EcommerceFractionalCMOPage() {
             <h2 className="text-2xl font-bold mb-8">FAQs: Fractional CMO for E-commerce Businesses</h2>
             
             <div className="space-y-6">
-              <div className="bg-zinc-800/50 rounded-lg p-6">
+              <div className="bg-dark-green/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How long does it take to see improvements in e-commerce marketing performance?</h3>
                 <p className="text-zinc-300">
                   Timelines vary based on your starting point and the specific challenges we're addressing. Typically, we can implement
@@ -281,7 +281,7 @@ export default function EcommerceFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-6">
+              <div className="bg-dark-green/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">We're struggling with increasing CAC on Facebook and Google. Can you help?</h3>
                 <p className="text-zinc-300">
                   Yes, this is one of the most common challenges facing e-commerce businesses today. Our approach includes:
@@ -293,7 +293,7 @@ export default function EcommerceFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-6">
+              <div className="bg-dark-green/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How do you approach attribution with iOS privacy changes and cookie restrictions?</h3>
                 <p className="text-zinc-300">
                   We take a practical approach to attribution that acknowledges the limitations of current tracking while still providing 
@@ -301,11 +301,11 @@ export default function EcommerceFractionalCMOPage() {
                   and customer surveys. We also implement incrementality testing for major channels and campaigns to validate their true impact. 
                   While perfect attribution isn't possible in today's privacy-focused environment, we help you build measurement systems that 
                   provide reliable guidance for marketing decisions despite these limitations.
-                  <Link href="/services/optimization" className="text-neon-green hover:underline"> Learn more about our measurement approaches.</Link>
+                  <Link href="/services/optimization" className="text-accent-orange hover:underline"> Learn more about our measurement approaches.</Link>
                 </p>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-6">
+              <div className="bg-dark-green/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How do you work with our existing agencies and marketing team?</h3>
                 <p className="text-zinc-300">
                   As a fractional CMO, I function as an extension of your leadership team, collaborating with rather than replacing your 
@@ -313,20 +313,20 @@ export default function EcommerceFractionalCMOPage() {
                   accountable for results—often helping you get more value from these relationships. For internal team members, I provide 
                   mentorship, professional development, and help structure roles and responsibilities for maximum effectiveness. The goal 
                   is to enhance your current marketing ecosystem while filling strategic gaps and ensuring all elements work together cohesively.
-                  <Link href="/compare/fractional-cmo-vs-agency" className="text-neon-green hover:underline"> See how our approach complements agency relationships.</Link>
+                  <Link href="/compare/fractional-cmo-vs-agency" className="text-accent-orange hover:underline"> See how our approach complements agency relationships.</Link>
                 </p>
               </div>
             </div>
           </div>
           
-          <div className="bg-gradient-to-r from-neon-green/20 to-blue-500/20 rounded-lg p-8">
+          <div className="bg-gradient-to-r from-accent-orange/20 to-accent-orange/20 rounded-lg p-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="mb-6 md:mb-0 md:mr-8">
                 <h2 className="text-2xl font-bold mb-2">Ready to improve your e-commerce marketing performance?</h2>
                 <p className="text-zinc-300">Schedule a consultation to discuss your specific e-commerce marketing challenges and how a fractional CMO can help you overcome them.</p>
               </div>
               <Link href="/call">
-                <Button className="w-full md:w-auto bg-neon-green hover:bg-neon-green/80 text-zinc-900 font-medium py-5 px-6 whitespace-nowrap">
+                <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-zinc-900 font-medium py-5 px-6 whitespace-nowrap">
                   <Calendar className="w-5 h-5 mr-2" /> Book Your Strategy Call
                 </Button>
               </Link>

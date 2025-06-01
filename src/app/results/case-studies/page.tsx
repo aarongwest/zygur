@@ -30,14 +30,14 @@ export default function CaseStudiesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/call">
-                <Button className="w-full sm:w-auto bg-neon-green hover:bg-neon-green/80 text-zinc-900 font-medium py-3 px-6">
+                <Button className="w-full sm:w-auto bg-accent-orange hover:bg-accent-orange/80 text-zinc-900 font-medium py-3 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule a Consultation
                 </Button>
               </Link>
             </div>
           </div>
           
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Case Studies Coming Soon</h2>
             <p className="text-zinc-300">
               We're currently developing detailed case studies showcasing our work with clients across 
@@ -49,13 +49,13 @@ export default function CaseStudiesPage() {
                 <Button variant="outline" className="mr-4">Learn About Fractional CMOs</Button>
               </Link>
               <Link href="/call">
-                <Button className="bg-neon-green hover:bg-neon-green/80 text-zinc-900">Schedule a Consultation</Button>
+                <Button className="bg-accent-orange hover:bg-accent-orange/80 text-zinc-900">Schedule a Consultation</Button>
               </Link>
             </div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="bg-zinc-800/50 p-8 rounded-lg">
+            <div className="bg-dark-green/60 p-8 rounded-lg">
               <h3 className="text-xl font-bold mb-4">Results Coming Soon</h3>
               <p className="text-zinc-400 mb-4">Our case studies will showcase measurable results including:</p>
               <ul className="list-disc pl-5 mb-4 space-y-2 text-zinc-400">
@@ -68,20 +68,20 @@ export default function CaseStudiesPage() {
               <p className="text-zinc-400 italic text-sm">Case studies will span across multiple industries and company sizes.</p>
             </div>
             
-            <div className="bg-zinc-800/50 p-8 rounded-lg">
+            <div className="bg-dark-green/60 p-8 rounded-lg">
               <h3 className="text-xl font-bold mb-4">Industry-Specific Insights</h3>
               <p className="text-zinc-400 mb-4">Looking for results in your industry? We'll be adding case studies for:</p>
               <div className="space-y-3 mb-4">
-                <Link href="/industries/saas-fractional-cmo" className="block text-neon-green hover:underline flex items-center">
+                <Link href="/industries/saas-fractional-cmo" className="block text-accent-orange hover:underline flex items-center">
                   <ArrowRight className="w-4 h-4 mr-2" /> SaaS & Technology
                 </Link>
-                <Link href="/industries/manufacturing-fractional-cmo" className="block text-neon-green hover:underline flex items-center">
+                <Link href="/industries/manufacturing-fractional-cmo" className="block text-accent-orange hover:underline flex items-center">
                   <ArrowRight className="w-4 h-4 mr-2" /> Manufacturing
                 </Link>
-                <Link href="/industries/professional-services-fractional-cmo" className="block text-neon-green hover:underline flex items-center">
+                <Link href="/industries/professional-services-fractional-cmo" className="block text-accent-orange hover:underline flex items-center">
                   <ArrowRight className="w-4 h-4 mr-2" /> Professional Services
                 </Link>
-                <Link href="/industries/ecommerce-fractional-cmo" className="block text-neon-green hover:underline flex items-center">
+                <Link href="/industries/ecommerce-fractional-cmo" className="block text-accent-orange hover:underline flex items-center">
                   <ArrowRight className="w-4 h-4 mr-2" /> E-commerce
                 </Link>
               </div>

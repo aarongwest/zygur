@@ -9,8 +9,8 @@ export default function LoginPage() {
       <main className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-md mx-auto text-center">
-            <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center mx-auto mb-6">
-              <Lock className="w-6 h-6 text-blue-500" />
+            <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center mx-auto mb-6">
+              <Lock className="w-6 h-6 text-accent-orange" />
             </div>
             <h1 className="text-3xl font-bold tracking-tight mb-4">
               Member Access
@@ -21,7 +21,7 @@ export default function LoginPage() {
               to request access credentials.
             </p>
             <Link href="/company/contact">
-              <Button className="bg-blue-500 hover:bg-blue-600 text-white">
+              <Button className="bg-accent-orange hover:bg-blue-600 text-white">
                 Contact for Access
               </Button>
             </Link>

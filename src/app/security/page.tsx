@@ -8,8 +8,8 @@ export default function SecurityPage() {
       <main className="py-12">
         <div className="container mx-auto px-4">
           <div className="flex items-center space-x-4 mb-8">
-            <div className="w-12 h-12 rounded-full bg-rose-500/10 flex items-center justify-center">
-              <Shield className="w-6 h-6 text-rose-500" />
+            <div className="w-12 h-12 rounded-full bg-accent-yellow/10 flex items-center justify-center">
+              <Shield className="w-6 h-6 text-accent-yellow" />
             </div>
             <h1 className="text-5xl font-bold tracking-tight">
               Security at Zygur
@@ -25,8 +25,8 @@ export default function SecurityPage() {
             {/* Infrastructure Security */}
             <div className="bg-zinc-800/50 rounded-lg p-6">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center">
-                  <Server className="w-5 h-5 text-blue-500" />
+                <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                  <Server className="w-5 h-5 text-accent-orange" />
                 </div>
                 <h2 className="text-2xl font-semibold">Infrastructure Security</h2>
               </div>
@@ -90,8 +90,8 @@ export default function SecurityPage() {
           {/* Security Team */}
           <div className="bg-zinc-800/50 rounded-lg p-8 mb-12">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 rounded-full bg-rose-500/10 flex items-center justify-center">
-                <Users className="w-5 h-5 text-rose-500" />
+              <div className="w-10 h-10 rounded-full bg-accent-yellow/10 flex items-center justify-center">
+                <Users className="w-5 h-5 text-accent-yellow" />
               </div>
               <h2 className="text-2xl font-semibold">Our Security Team</h2>
             </div>
@@ -102,7 +102,7 @@ export default function SecurityPage() {
             </p>
             <Link
               href="/company/careers"
-              className="inline-flex items-center text-blue-500 hover:text-blue-400"
+              className="inline-flex items-center text-accent-orange hover:text-blue-400"
             >
               Join our security team
               <svg className="w-4 h-4 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -120,7 +120,7 @@ export default function SecurityPage() {
             </p>
             <Link
               href="/company/contact"
-              className="inline-flex items-center justify-center px-4 py-2 bg-rose-500/10 text-rose-500 rounded-md hover:bg-rose-500/20 transition-colors"
+              className="inline-flex items-center justify-center px-4 py-2 bg-accent-yellow/10 text-accent-yellow rounded-md hover:bg-accent-yellow/20 transition-colors"
             >
               Contact Security Team
             </Link>

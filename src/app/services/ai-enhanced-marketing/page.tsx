@@ -42,7 +42,7 @@ export default function AIEnhancedMarketingPage() {
           <div className="max-w-4xl mb-16">
             <div className="mb-4">
               <span className="inline-flex items-center text-sm text-zinc-400">
-                <span className="w-2 h-2 rounded-full bg-neon-green mr-2"></span>
+                <span className="w-2 h-2 rounded-full bg-accent-orange mr-2"></span>
                 Future-Proof Marketing
               </span>
             </div>
@@ -50,13 +50,13 @@ export default function AIEnhancedMarketingPage() {
               AI-Enhanced Marketing Services by Your Fractional CMO
             </h1>
             <p className="text-lg text-zinc-400 mb-8">
-              As your <Link href="/" className="text-neon-green hover:underline">fractional CMO</Link>, I leverage 
+              As your <Link href="/" className="text-accent-orange hover:underline">fractional CMO</Link>, I leverage 
               cutting-edge AI to deliver enterprise-level marketing at a fraction of the cost. 
               Get twice the results in half the time with AI-enhanced strategies tailored to your business.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/call">
-                <Button className="w-full sm:w-auto bg-neon-green hover:bg-neon-green/80 text-zinc-900 font-medium py-3 px-6">
+                <Button className="w-full sm:w-auto bg-accent-orange hover:bg-accent-orange/80 text-zinc-900 font-medium py-3 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Book an AI Strategy Call
                 </Button>
               </Link>
@@ -64,13 +64,13 @@ export default function AIEnhancedMarketingPage() {
           </div>
 
           {/* AI Marketing Advantages */}
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-8">Why AI Transforms Marketing Results</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="flex">
                 <div className="mr-4">
-                  <div className="w-12 h-12 rounded-full bg-neon-green/10 flex items-center justify-center">
-                    <Zap className="w-6 h-6 text-neon-green" />
+                  <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                    <Zap className="w-6 h-6 text-accent-orange" />
                   </div>
                 </div>
                 <div>
@@ -82,15 +82,15 @@ export default function AIEnhancedMarketingPage() {
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start">
-                      <CheckCircle className="w-4 h-4 text-neon-green mt-0.5 mr-2 flex-shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
                       <span className="text-sm text-zinc-400">AI-generated content at scale while maintaining quality</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-4 h-4 text-neon-green mt-0.5 mr-2 flex-shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
                       <span className="text-sm text-zinc-400">Rapid campaign iteration and optimization</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-4 h-4 text-neon-green mt-0.5 mr-2 flex-shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
                       <span className="text-sm text-zinc-400">Multi-channel presence without additional resources</span>
                     </li>
                   </ul>
@@ -99,8 +99,8 @@ export default function AIEnhancedMarketingPage() {
               
               <div className="flex">
                 <div className="mr-4">
-                  <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center">
-                    <Brain className="w-6 h-6 text-blue-500" />
+                  <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                    <Brain className="w-6 h-6 text-accent-orange" />
                   </div>
                 </div>
                 <div>
@@ -111,15 +111,15 @@ export default function AIEnhancedMarketingPage() {
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start">
-                      <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 mr-2 flex-shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
                       <span className="text-sm text-zinc-400">Customer behavior prediction and segmentation</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 mr-2 flex-shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
                       <span className="text-sm text-zinc-400">Trend identification and opportunity detection</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 mr-2 flex-shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
                       <span className="text-sm text-zinc-400">Competitive analysis and market positioning</span>
                     </li>
                   </ul>
@@ -128,8 +128,8 @@ export default function AIEnhancedMarketingPage() {
               
               <div className="flex">
                 <div className="mr-4">
-                  <div className="w-12 h-12 rounded-full bg-rose-500/10 flex items-center justify-center">
-                    <LineChart className="w-6 h-6 text-rose-500" />
+                  <div className="w-12 h-12 rounded-full bg-accent-yellow/10 flex items-center justify-center">
+                    <LineChart className="w-6 h-6 text-accent-yellow" />
                   </div>
                 </div>
                 <div>
@@ -140,15 +140,15 @@ export default function AIEnhancedMarketingPage() {
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start">
-                      <CheckCircle className="w-4 h-4 text-rose-500 mt-0.5 mr-2 flex-shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
                       <span className="text-sm text-zinc-400">Automated A/B testing and optimization</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-4 h-4 text-rose-500 mt-0.5 mr-2 flex-shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
                       <span className="text-sm text-zinc-400">Performance-based budget allocation</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-4 h-4 text-rose-500 mt-0.5 mr-2 flex-shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
                       <span className="text-sm text-zinc-400">Real-time campaign adjustments</span>
                     </li>
                   </ul>
@@ -190,9 +190,9 @@ export default function AIEnhancedMarketingPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">AI-Enhanced Marketing Solutions</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-zinc-800/50 rounded-lg p-6">
-                <div className="w-12 h-12 rounded-full bg-neon-green/10 flex items-center justify-center mb-4">
-                  <Layers className="w-6 h-6 text-neon-green" />
+              <div className="bg-dark-green/60 rounded-lg p-6">
+                <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
+                  <Layers className="w-6 h-6 text-accent-orange" />
                 </div>
                 <h3 className="font-semibold mb-3">AI Content Strategy</h3>
                 <p className="text-sm text-zinc-400 mb-4">
@@ -201,23 +201,23 @@ export default function AIEnhancedMarketingPage() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-0.5 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">AI-powered content creation and optimization</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-0.5 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">SEO-enhanced blog posts and articles</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-0.5 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Automated content distribution across channels</span>
                   </li>
                 </ul>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-6">
-                <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center mb-4">
-                  <Brain className="w-6 h-6 text-blue-500" />
+              <div className="bg-dark-green/60 rounded-lg p-6">
+                <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
+                  <Brain className="w-6 h-6 text-accent-orange" />
                 </div>
                 <h3 className="font-semibold mb-3">Predictive Customer Analytics</h3>
                 <p className="text-sm text-zinc-400 mb-4">
@@ -226,23 +226,23 @@ export default function AIEnhancedMarketingPage() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Churn prediction and prevention</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Customer lifetime value forecasting</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Next-best-action recommendations</span>
                   </li>
                 </ul>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-6">
-                <div className="w-12 h-12 rounded-full bg-rose-500/10 flex items-center justify-center mb-4">
-                  <LineChart className="w-6 h-6 text-rose-500" />
+              <div className="bg-dark-green/60 rounded-lg p-6">
+                <div className="w-12 h-12 rounded-full bg-accent-yellow/10 flex items-center justify-center mb-4">
+                  <LineChart className="w-6 h-6 text-accent-yellow" />
                 </div>
                 <h3 className="font-semibold mb-3">AI-Powered Campaign Optimization</h3>
                 <p className="text-sm text-zinc-400 mb-4">
@@ -251,15 +251,15 @@ export default function AIEnhancedMarketingPage() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-rose-500 mt-0.5 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Multi-variant testing at scale</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-rose-500 mt-0.5 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Automated bid management for paid media</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-rose-500 mt-0.5 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Performance-based creative optimization</span>
                   </li>
                 </ul>
@@ -268,7 +268,7 @@ export default function AIEnhancedMarketingPage() {
           </div>
 
           {/* AI Case Study */}
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">AI Marketing Success Story</h2>
             <div className="grid grid-cols-1 md:grid-cols-7 gap-8">
               <div className="md:col-span-4">
@@ -276,19 +276,19 @@ export default function AIEnhancedMarketingPage() {
                 <p className="text-zinc-400 mb-4">
                   Lee HVAC was struggling with inconsistent lead generation and high customer acquisition 
                   costs in a competitive local market. As their 
-                  <Link href="/" className="text-neon-green hover:underline"> fractional CMO</Link>, I implemented:
+                  <Link href="/" className="text-accent-orange hover:underline"> fractional CMO</Link>, I implemented:
                 </p>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">AI-powered local content strategy targeting neighborhood-specific terms</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Predictive lead scoring to prioritize high-value prospects</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-neon-green mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Automated campaign optimization across Google, Facebook, and email</span>
                   </li>
                 </ul>
@@ -302,16 +302,16 @@ export default function AIEnhancedMarketingPage() {
                 <div className="bg-zinc-900/70 rounded-lg p-6">
                   <h4 className="font-medium text-center mb-6">Results After 6 Months</h4>
                   <div className="space-y-4">
-                    <div className="bg-zinc-800/50 rounded-lg p-4 text-center">
-                      <div className="text-3xl font-bold mb-1 text-neon-green">63%</div>
+                    <div className="bg-dark-green/60 rounded-lg p-4 text-center">
+                      <div className="text-3xl font-bold mb-1 text-accent-orange">63%</div>
                       <p className="text-sm text-zinc-400">Reduction in Cost Per Lead</p>
                     </div>
-                    <div className="bg-zinc-800/50 rounded-lg p-4 text-center">
-                      <div className="text-3xl font-bold mb-1 text-neon-green">87%</div>
+                    <div className="bg-dark-green/60 rounded-lg p-4 text-center">
+                      <div className="text-3xl font-bold mb-1 text-accent-orange">87%</div>
                       <p className="text-sm text-zinc-400">Increase in Qualified Appointments</p>
                     </div>
-                    <div className="bg-zinc-800/50 rounded-lg p-4 text-center">
-                      <div className="text-3xl font-bold mb-1 text-neon-green">43%</div>
+                    <div className="bg-dark-green/60 rounded-lg p-4 text-center">
+                      <div className="text-3xl font-bold mb-1 text-accent-orange">43%</div>
                       <p className="text-sm text-zinc-400">Higher Close Rate from Marketing Leads</p>
                     </div>
                   </div>
@@ -319,7 +319,7 @@ export default function AIEnhancedMarketingPage() {
               </div>
             </div>
             <div className="mt-6 text-center">
-              <Link href="/results" className="inline-flex items-center text-neon-green hover:text-neon-green/80">
+              <Link href="/results" className="inline-flex items-center text-accent-orange hover:text-accent-orange/80">
                 View more AI marketing case studies <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
             </div>
@@ -330,58 +330,58 @@ export default function AIEnhancedMarketingPage() {
             <h2 className="text-2xl font-bold mb-6">The Human + AI Advantage</h2>
             <p className="text-zinc-400 mb-8">
               The most powerful marketing combines AI efficiency with human creativity and strategic thinking. 
-              As your <Link href="/" className="text-neon-green hover:underline">fractional CMO</Link>, I leverage AI 
+              As your <Link href="/" className="text-accent-orange hover:underline">fractional CMO</Link>, I leverage AI 
               to handle repetitive tasks and data analysis while focusing my expertise on strategy, creative direction, 
               and business alignment.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-gradient-to-r from-neon-green/10 to-zinc-800/50 rounded-lg p-6">
+              <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">What AI Handles</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">Data processing and pattern recognition</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">Content generation and optimization</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">Campaign testing and performance analysis</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">Routine optimization and adjustments</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">Personalization and segmentation at scale</span>
                   </li>
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-r from-blue-500/10 to-zinc-800/50 rounded-lg p-6">
+              <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">What I Bring as Your Fractional CMO</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-blue-500 mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">Strategic vision and business alignment</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-blue-500 mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">Creative direction and brand guardianship</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-blue-500 mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">Customer insight and emotional intelligence</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-blue-500 mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">Strategic decision-making and prioritization</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-blue-500 mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <span className="text-zinc-300">Executive leadership and stakeholder management</span>
                   </li>
                 </ul>
@@ -390,14 +390,14 @@ export default function AIEnhancedMarketingPage() {
           </div>
 
           {/* CTA Section */}
-          <div className="bg-gradient-to-r from-neon-green/20 to-blue-500/20 rounded-lg p-8 mb-8">
+          <div className="bg-gradient-to-r from-accent-orange/20 to-accent-orange/20 rounded-lg p-8 mb-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="mb-6 md:mb-0 md:mr-8">
                 <h2 className="text-2xl font-bold mb-2">Ready to transform your marketing with AI?</h2>
                 <p className="text-zinc-400">Schedule a call to explore how AI-enhanced marketing can drive growth for your business.</p>
               </div>
               <Link href="/call">
-                <Button className="w-full md:w-auto bg-zinc-900 hover:bg-zinc-800 text-white border border-zinc-700 font-medium py-5 px-6">
+                <Button className="w-full md:w-auto bg-zinc-900 hover:bg-dark-green/80 text-white border border-zinc-700 font-medium py-5 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule Your AI Strategy Call
                 </Button>
               </Link>

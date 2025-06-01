@@ -12,7 +12,7 @@ export default function ExecutionPage() {
           <div className="max-w-4xl mb-16">
             <div className="mb-4">
               <span className="inline-flex items-center text-sm text-zinc-400">
-                <span className="w-2 h-2 rounded-full bg-neon-green mr-2"></span>
+                <span className="w-2 h-2 rounded-full bg-accent-orange mr-2"></span>
                 Fractional CMO Services
               </span>
             </div>
@@ -25,7 +25,7 @@ export default function ExecutionPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/call">
-                <Button className="w-full sm:w-auto bg-neon-green hover:bg-neon-green/80 text-zinc-900 font-medium py-3 px-6">
+                <Button className="w-full sm:w-auto bg-accent-orange hover:bg-accent-orange/80 text-white font-medium py-3 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule a Strategy Call
                 </Button>
               </Link>
@@ -33,7 +33,7 @@ export default function ExecutionPage() {
           </div>
 
           {/* AI Advantage Section */}
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <div className="flex flex-col md:flex-row items-start">
               <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0">
                 <h2 className="text-2xl font-bold mb-6">The AI Execution Advantage</h2>
@@ -47,7 +47,7 @@ export default function ExecutionPage() {
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-start">
-                    <Zap className="w-5 h-5 text-neon-green mt-1 mr-3 flex-shrink-0" />
+                    <Zap className="w-5 h-5 text-accent-orange mt-1 mr-3 flex-shrink-0" />
                     <div>
                       <h3 className="font-semibold mb-1">Faster Implementation</h3>
                       <p className="text-sm text-zinc-400">
@@ -56,7 +56,7 @@ export default function ExecutionPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <Bot className="w-5 h-5 text-neon-green mt-1 mr-3 flex-shrink-0" />
+                    <Bot className="w-5 h-5 text-accent-yellow mt-1 mr-3 flex-shrink-0" />
                     <div>
                       <h3 className="font-semibold mb-1">Content at Scale</h3>
                       <p className="text-sm text-zinc-400">
@@ -65,7 +65,7 @@ export default function ExecutionPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <Rocket className="w-5 h-5 text-rose-500 mt-1 mr-3 flex-shrink-0" />
+                    <Rocket className="w-5 h-5 text-accent-orange mt-1 mr-3 flex-shrink-0" />
                     <div>
                       <h3 className="font-semibold mb-1">Strategic Adaptation</h3>
                       <p className="text-sm text-zinc-400">
@@ -92,7 +92,7 @@ export default function ExecutionPage() {
                       <span className="text-sm">40-50 assets/month</span>
                     </div>
                     <div className="w-full bg-zinc-700 h-2 rounded-full">
-                      <div className="bg-rose-500 h-2 rounded-full w-4/5"></div>
+                      <div className="bg-accent-orange h-2 rounded-full w-4/5"></div>
                     </div>
                   </div>
                   
@@ -110,7 +110,7 @@ export default function ExecutionPage() {
                       <span className="text-sm">2-5 days</span>
                     </div>
                     <div className="w-full bg-zinc-700 h-2 rounded-full">
-                      <div className="bg-rose-500 h-2 rounded-full w-5/6"></div>
+                      <div className="bg-accent-orange h-2 rounded-full w-5/6"></div>
                     </div>
                   </div>
                   
@@ -128,7 +128,7 @@ export default function ExecutionPage() {
                       <span className="text-sm">$5-7k/month</span>
                     </div>
                     <div className="w-full bg-zinc-700 h-2 rounded-full">
-                      <div className="bg-rose-500 h-2 rounded-full w-3/4"></div>
+                      <div className="bg-accent-orange h-2 rounded-full w-3/4"></div>
                     </div>
                   </div>
                 </div>
@@ -140,9 +140,9 @@ export default function ExecutionPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-6">AI-Enhanced Marketing Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-zinc-800/50 rounded-lg p-6">
-                <div className="w-12 h-12 rounded-full bg-rose-500/10 flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <div className="bg-dark-green/60 rounded-lg p-6">
+                <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-accent-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
                   </svg>
                 </div>
@@ -153,23 +153,23 @@ export default function ExecutionPage() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-rose-500 mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">AI-generated content at scale</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-rose-500 mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Human-reviewed for quality</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-rose-500 mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">SEO-optimized distribution</span>
                   </li>
                 </ul>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-6">
-                <div className="w-12 h-12 rounded-full bg-rose-500/10 flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <div className="bg-dark-green/60 rounded-lg p-6">
+                <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-accent-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
                   </svg>
                 </div>
@@ -180,23 +180,23 @@ export default function ExecutionPage() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-rose-500 mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">AI-driven audience targeting</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-rose-500 mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Automated creative testing</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-rose-500 mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Real-time budget optimization</span>
                   </li>
                 </ul>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-6">
-                <div className="w-12 h-12 rounded-full bg-rose-500/10 flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <div className="bg-dark-green/60 rounded-lg p-6">
+                <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-accent-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 </div>
@@ -207,15 +207,15 @@ export default function ExecutionPage() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-rose-500 mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Automated data collection</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-rose-500 mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">AI-generated insights</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-rose-500 mt-1 mr-2 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-1 mr-2 flex-shrink-0" />
                     <span className="text-sm text-zinc-400">Dynamic reporting dashboards</span>
                   </li>
                 </ul>
@@ -224,13 +224,13 @@ export default function ExecutionPage() {
           </div>
 
           {/* Approach Section */}
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">My Execution Process</h2>
             <div className="space-y-8">
               <div className="flex flex-col md:flex-row">
                 <div className="md:w-16 flex-shrink-0 flex items-start justify-center">
-                  <div className="w-10 h-10 rounded-full bg-rose-500/10 flex items-center justify-center">
-                    <span className="text-xl font-bold text-rose-500">1</span>
+                  <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                    <span className="text-xl font-bold text-accent-orange">1</span>
                   </div>
                 </div>
                 <div className="mt-4 md:mt-0">
@@ -245,8 +245,8 @@ export default function ExecutionPage() {
               
               <div className="flex flex-col md:flex-row">
                 <div className="md:w-16 flex-shrink-0 flex items-start justify-center">
-                  <div className="w-10 h-10 rounded-full bg-rose-500/10 flex items-center justify-center">
-                    <span className="text-xl font-bold text-rose-500">2</span>
+                  <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                    <span className="text-xl font-bold text-accent-orange">2</span>
                   </div>
                 </div>
                 <div className="mt-4 md:mt-0">
@@ -261,8 +261,8 @@ export default function ExecutionPage() {
               
               <div className="flex flex-col md:flex-row">
                 <div className="md:w-16 flex-shrink-0 flex items-start justify-center">
-                  <div className="w-10 h-10 rounded-full bg-rose-500/10 flex items-center justify-center">
-                    <span className="text-xl font-bold text-rose-500">3</span>
+                  <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                    <span className="text-xl font-bold text-accent-orange">3</span>
                   </div>
                 </div>
                 <div className="mt-4 md:mt-0">
@@ -277,8 +277,8 @@ export default function ExecutionPage() {
               
               <div className="flex flex-col md:flex-row">
                 <div className="md:w-16 flex-shrink-0 flex items-start justify-center">
-                  <div className="w-10 h-10 rounded-full bg-rose-500/10 flex items-center justify-center">
-                    <span className="text-xl font-bold text-rose-500">4</span>
+                  <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                    <span className="text-xl font-bold text-accent-orange">4</span>
                   </div>
                 </div>
                 <div className="mt-4 md:mt-0">
@@ -294,14 +294,14 @@ export default function ExecutionPage() {
           </div>
           
           {/* CTA Section */}
-          <div className="bg-gradient-to-r from-rose-500/20 to-blue-500/20 rounded-lg p-8 mb-8">
+          <div className="bg-gradient-to-r from-accent-orange/20 to-accent-yellow/20 rounded-lg p-8 mb-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="mb-6 md:mb-0 md:mr-8">
                 <h2 className="text-2xl font-bold mb-2">Ready to supercharge your marketing execution?</h2>
                 <p className="text-zinc-400">Limited availability - only 7 client spots per year.</p>
               </div>
               <Link href="/call">
-                <Button className="w-full md:w-auto bg-zinc-900 hover:bg-zinc-800 text-white border border-zinc-700 font-medium py-5 px-6">
+                <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-white border-0 font-medium py-5 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule Your Call
                 </Button>
               </Link>

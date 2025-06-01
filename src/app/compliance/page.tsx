@@ -26,8 +26,8 @@ export default function CompliancePage() {
             {/* Defense Standards */}
             <div className="bg-zinc-800/50 rounded-lg p-6">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center">
-                  <Building className="w-5 h-5 text-blue-500" />
+                <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                  <Building className="w-5 h-5 text-accent-orange" />
                 </div>
                 <h2 className="text-2xl font-semibold">Defense Standards</h2>
               </div>
@@ -74,8 +74,8 @@ export default function CompliancePage() {
             {/* Certifications */}
             <div className="bg-zinc-800/50 rounded-lg p-6">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 rounded-full bg-rose-500/10 flex items-center justify-center">
-                  <FileCheck className="w-5 h-5 text-rose-500" />
+                <div className="w-10 h-10 rounded-full bg-accent-yellow/10 flex items-center justify-center">
+                  <FileCheck className="w-5 h-5 text-accent-yellow" />
                 </div>
                 <h2 className="text-2xl font-semibold">Certifications</h2>
               </div>

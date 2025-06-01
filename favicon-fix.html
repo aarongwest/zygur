@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Favicon Fix Instructions</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 { color: #2563eb; }
+        h2 { color: #4b5563; margin-top: 30px; }
+        code {
+            background: #f1f5f9;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        pre {
+            background: #f1f5f9;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+        .step {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fixing Your Favicon Issue</h1>
+    
+    <p>I've discovered why your favicon shows with a white background. Your current favicon files are actually JPEG images with .ico extensions, not true ICO format files with transparency.</p>
+    
+    <div class="step">
+        <h2>Step 1: Create Proper Favicon Files</h2>
+        <p>You need to create proper favicon files in multiple formats for best browser compatibility:</p>
+        <ul>
+            <li><strong>favicon.ico</strong> - A true ICO format file (16x16, 32x32, 48x48)</li>
+            <li><strong>favicon-16x16.png</strong> - PNG with transparency</li>
+            <li><strong>favicon-32x32.png</strong> - PNG with transparency</li>
+            <li><strong>apple-touch-icon.png</strong> - 180x180 PNG for Apple devices</li>
+        </ul>
+        <p>Use a tool like <a href="https://realfavicongenerator.net/" target="_blank">Real Favicon Generator</a> to create these files from your logo.</p>
+    </div>
+    
+    <div class="step">
+        <h2>Step 2: Replace Your Favicon Files</h2>
+        <p>Place all the generated files in your <code>public</code> directory.</p>
+    </div>
+    
+    <div class="step">
+        <h2>Step 3: Update Your Layout Head Section</h2>
+        <p>Modify your <code>src/app/layout.tsx</code> file to use these new favicons:</p>
+        <pre>&lt;head&gt;
+  &lt;link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" /&gt;
+  &lt;link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" /&gt;
+  &lt;link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" /&gt;
+  &lt;link rel="icon" href="/favicon.ico" /&gt;
+  &lt;meta name="msapplication-TileColor" content="#000000" /&gt;
+&lt;/head&gt;</pre>
+        <p>Also update the metadata section:</p>
+        <pre>export const metadata: Metadata = {
+  title: "Zygur Technologies Corp.",
+  description: "Future-proof solutions for a complex world",
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon.ico' }
+    ],
+    apple: { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }
+  }
+}</pre>
+    </div>
+    
+    <div class="step">
+        <h2>Step 4: Commit and Push Changes</h2>
+        <p>After creating and placing the new favicon files:</p>
+        <pre>git add public/favicon.ico public/favicon-16x16.png public/favicon-32x32.png public/apple-touch-icon.png src/app/layout.tsx
+git commit -m "Fix favicon with proper transparent formats"
+git push origin main</pre>
+    </div>
+    
+    <div class="step">
+        <h2>Alternative Quick Fix</h2>
+        <p>If you have an existing transparent PNG version of your logo, you can quickly create a basic favicon:</p>
+        <ol>
+            <li>Resize your logo to 32x32 pixels as a transparent PNG</li>
+            <li>Use an online converter like <a href="https://convertio.co/png-ico/" target="_blank">Convertio</a> to convert it to ICO format</li>
+            <li>Replace both favicon.ico files with this new one</li>
+        </ol>
+    </div>
+</body>
+</html>

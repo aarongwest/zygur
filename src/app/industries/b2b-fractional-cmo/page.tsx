@@ -29,7 +29,7 @@ export default function B2BFractionalCMOPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/call">
-                <Button className="w-full sm:w-auto bg-neon-green hover:bg-neon-green/80 text-zinc-900 font-medium py-3 px-6">
+                <Button className="w-full sm:w-auto bg-accent-orange hover:bg-accent-orange/80 text-zinc-900 font-medium py-3 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Book Your Strategy Call
                 </Button>
               </Link>
@@ -37,7 +37,7 @@ export default function B2BFractionalCMOPage() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="bg-zinc-800/50 rounded-lg p-8">
+            <div className="bg-dark-green/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">B2B Marketing Leadership</h2>
               <p className="text-zinc-300 mb-4">
                 B2B companies face unique marketing challenges that consumer brands don't. From complex buying 
@@ -45,23 +45,23 @@ export default function B2BFractionalCMOPage() {
                 you need specialized marketing leadership that understands B2B dynamics.
               </p>
               <p className="text-zinc-300 mb-4">
-                As your <Link href="/resources/what-is-a-fractional-cmo" className="text-neon-green hover:underline">fractional CMO</Link>, I bring specialized experience in:
+                As your <Link href="/resources/what-is-a-fractional-cmo" className="text-accent-orange hover:underline">fractional CMO</Link>, I bring specialized experience in:
               </p>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                   <span className="text-zinc-300">Building demand generation systems that deliver qualified leads</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                   <span className="text-zinc-300">Creating content strategies that establish thought leadership</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                   <span className="text-zinc-300">Optimizing marketing-to-sales handoff for improved conversion</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                   <span className="text-zinc-300">Implementing ABM and other sophisticated B2B strategies</span>
                 </li>
               </ul>
@@ -71,32 +71,32 @@ export default function B2BFractionalCMOPage() {
               </p>
             </div>
             
-            <div className="bg-zinc-800/50 rounded-lg p-8">
+            <div className="bg-dark-green/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">B2B Marketing Challenges Solved</h2>
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-lg font-semibold mb-2 text-neon-green">Inconsistent Lead Generation</h3>
+                  <h3 className="text-lg font-semibold mb-2 text-accent-orange">Inconsistent Lead Generation</h3>
                   <p className="text-zinc-300">
                     Develop predictable demand generation systems that consistently deliver qualified leads to 
                     your sales team, creating a reliable and measurable pipeline of opportunities.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2 text-neon-green">Marketing-Sales Misalignment</h3>
+                  <h3 className="text-lg font-semibold mb-2 text-accent-orange">Marketing-Sales Misalignment</h3>
                   <p className="text-zinc-300">
                     Implement systems and processes that create strong alignment between marketing and sales, 
                     ensuring shared goals, clear lead definitions, and smooth handoff processes.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2 text-neon-green">Technical Marketing Complexity</h3>
+                  <h3 className="text-lg font-semibold mb-2 text-accent-orange">Technical Marketing Complexity</h3>
                   <p className="text-zinc-300">
                     Translate complex products and services into clear, compelling messaging that resonates with 
                     both technical buyers and business decision-makers throughout the buying process.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-2 text-neon-green">Proving Marketing ROI</h3>
+                  <h3 className="text-lg font-semibold mb-2 text-accent-orange">Proving Marketing ROI</h3>
                   <p className="text-zinc-300">
                     Create measurement frameworks that clearly demonstrate marketing's contribution to pipeline and 
                     revenue, connecting marketing activities to business outcomes that executives care about.
@@ -106,11 +106,11 @@ export default function B2BFractionalCMOPage() {
             </div>
           </div>
           
-          <div className="bg-gradient-to-r from-neon-green/10 to-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Why B2B Companies Choose a Fractional CMO</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="flex flex-col">
-                <BarChart2 className="w-10 h-10 text-neon-green mb-4" />
+                <BarChart2 className="w-10 h-10 text-accent-orange mb-4" />
                 <h3 className="text-xl font-semibold mb-3">B2B Marketing Expertise</h3>
                 <p className="text-zinc-300">
                   Access marketing leadership with specific B2B experience across multiple industries and business models. 
@@ -119,7 +119,7 @@ export default function B2BFractionalCMOPage() {
                 </p>
               </div>
               <div className="flex flex-col">
-                <PieChart className="w-10 h-10 text-neon-green mb-4" />
+                <PieChart className="w-10 h-10 text-accent-orange mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Performance-Driven Approach</h3>
                 <p className="text-zinc-300">
                   Work with a marketing leader who focuses on business outcomes—not just marketing activities. 
@@ -128,7 +128,7 @@ export default function B2BFractionalCMOPage() {
                 </p>
               </div>
               <div className="flex flex-col">
-                <Target className="w-10 h-10 text-neon-green mb-4" />
+                <Target className="w-10 h-10 text-accent-orange mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Strategic and Tactical Balance</h3>
                 <p className="text-zinc-300">
                   Get strategic direction and practical implementation guidance. A fractional CMO helps 
@@ -139,7 +139,7 @@ export default function B2BFractionalCMOPage() {
             </div>
             <div className="mt-8 text-center">
               <Link href="/call">
-                <Button className="bg-neon-green hover:bg-neon-green/80 text-zinc-900 font-medium py-3 px-6">
+                <Button className="bg-accent-orange hover:bg-accent-orange/80 text-zinc-900 font-medium py-3 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Book Your B2B Strategy Call
                 </Button>
               </Link>
@@ -149,32 +149,32 @@ export default function B2BFractionalCMOPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">B2B Marketing Leadership Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Strategic Services</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <span className="text-zinc-100 font-medium">Demand Generation Architecture</span>
                       <p className="text-sm text-zinc-400 mt-1">Comprehensive systems to generate qualified B2B leads.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <span className="text-zinc-100 font-medium">Account-Based Marketing</span>
                       <p className="text-sm text-zinc-400 mt-1">Targeted strategies for key accounts and industries.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <span className="text-zinc-100 font-medium">B2B Brand Development</span>
                       <p className="text-sm text-zinc-400 mt-1">Positioning and messaging for complex B2B products.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <span className="text-zinc-100 font-medium">Marketing-Sales Alignment</span>
                       <p className="text-sm text-zinc-400 mt-1">Process integration to improve funnel efficiency.</p>
@@ -183,32 +183,32 @@ export default function B2BFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Execution Oversight</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <span className="text-zinc-100 font-medium">Content Marketing Strategy</span>
                       <p className="text-sm text-zinc-400 mt-1">Thought leadership and technical content development.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <span className="text-zinc-100 font-medium">Marketing Technology Stack</span>
                       <p className="text-sm text-zinc-400 mt-1">CRM, marketing automation, and analytics implementation.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <span className="text-zinc-100 font-medium">Lead Scoring & Nurturing</span>
                       <p className="text-sm text-zinc-400 mt-1">Systems to qualify, route, and develop leads efficiently.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-neon-green mt-0.5 mr-3 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <span className="text-zinc-100 font-medium">Performance Measurement</span>
                       <p className="text-sm text-zinc-400 mt-1">Dashboards and KPIs that demonstrate marketing ROI.</p>
@@ -216,7 +216,7 @@ export default function B2BFractionalCMOPage() {
                   </li>
                 </ul>
                 <div className="mt-8">
-                  <Link href="/services/strategy" className="text-neon-green hover:text-neon-green/80 flex items-center">
+                  <Link href="/services/strategy" className="text-accent-orange hover:text-accent-orange/80 flex items-center">
                     View all services <ArrowRight className="w-4 h-4 ml-2" />
                   </Link>
                 </div>
@@ -224,7 +224,7 @@ export default function B2BFractionalCMOPage() {
             </div>
           </div>
           
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">B2B Industry Experience</h2>
             <p className="text-zinc-300 mb-6">
               Our fractional CMO services have helped B2B companies across multiple sectors 
@@ -270,7 +270,7 @@ export default function B2BFractionalCMOPage() {
             <h2 className="text-2xl font-bold mb-8">FAQs: Fractional CMO for B2B Companies</h2>
             
             <div className="space-y-6">
-              <div className="bg-zinc-800/50 rounded-lg p-6">
+              <div className="bg-dark-green/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How do you measure success for B2B marketing?</h3>
                 <p className="text-zinc-300">
                   For B2B companies, we focus on metrics that directly connect marketing to pipeline and revenue. This typically includes: 
@@ -281,7 +281,7 @@ export default function B2BFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-6">
+              <div className="bg-dark-green/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">Our sales cycle is 6-12 months. How do you demonstrate marketing value quickly?</h3>
                 <p className="text-zinc-300">
                   While final conversion to customers may take 6-12 months, we establish interim metrics to track progress and demonstrate 
@@ -292,7 +292,7 @@ export default function B2BFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-6">
+              <div className="bg-dark-green/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How do you work with our existing sales team?</h3>
                 <p className="text-zinc-300">
                   Strong marketing-sales alignment is critical for B2B success, so we prioritize building collaborative relationships with 
@@ -300,11 +300,11 @@ export default function B2BFractionalCMOPage() {
                   and content needs. We then establish clear definitions for lead stages, implement regular communication channels, and 
                   create feedback loops for continuous improvement. Our goal is to position marketing as a true partner to sales, delivering 
                   qualified opportunities and supporting materials that make their job easier and more effective.
-                  <Link href="/services/strategy" className="text-neon-green hover:underline"> Learn more about our sales enablement approach.</Link>
+                  <Link href="/services/strategy" className="text-accent-orange hover:underline"> Learn more about our sales enablement approach.</Link>
                 </p>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-6">
+              <div className="bg-dark-green/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">Should we focus on ABM or inbound marketing for our B2B company?</h3>
                 <p className="text-zinc-300">
                   This depends on your specific business model, target market, and average deal size. For many B2B companies, 
@@ -313,20 +313,20 @@ export default function B2BFractionalCMOPage() {
                   awareness and captures demand you might otherwise miss. We help assess your situation to determine the optimal mix, 
                   often implementing a tiered approach that applies ABM tactics to top-tier accounts while using inbound strategies to 
                   build your broader pipeline and identify new opportunities.
-                  <Link href="/services/execution" className="text-neon-green hover:underline"> See our execution services.</Link>
+                  <Link href="/services/execution" className="text-accent-orange hover:underline"> See our execution services.</Link>
                 </p>
               </div>
             </div>
           </div>
           
-          <div className="bg-gradient-to-r from-neon-green/20 to-blue-500/20 rounded-lg p-8">
+          <div className="bg-gradient-to-r from-accent-orange/20 to-accent-orange/20 rounded-lg p-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="mb-6 md:mb-0 md:mr-8">
                 <h2 className="text-2xl font-bold mb-2">Ready to transform your B2B marketing?</h2>
                 <p className="text-zinc-300">Schedule a consultation to discuss your specific B2B marketing challenges and how a fractional CMO can help you build a demand generation engine that drives predictable revenue growth.</p>
               </div>
               <Link href="/call">
-                <Button className="w-full md:w-auto bg-neon-green hover:bg-neon-green/80 text-zinc-900 font-medium py-5 px-6 whitespace-nowrap">
+                <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-zinc-900 font-medium py-5 px-6 whitespace-nowrap">
                   <Calendar className="w-5 h-5 mr-2" /> Book Your Strategy Call
                 </Button>
               </Link>

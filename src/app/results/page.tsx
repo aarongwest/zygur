@@ -13,7 +13,7 @@ export default function ResultsPage() {
           <div className="max-w-4xl mb-16">
             <div className="mb-4">
               <span className="inline-flex items-center text-sm text-zinc-400">
-                <span className="w-2 h-2 rounded-full bg-neon-green mr-2"></span>
+                <span className="w-2 h-2 rounded-full bg-accent-orange mr-2"></span>
                 Client Success Stories
               </span>
             </div>
@@ -28,10 +28,10 @@ export default function ResultsPage() {
 
           {/* Key Metrics Summary */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-            <div className="bg-zinc-800/50 rounded-lg p-6">
+            <div className="bg-dark-green/60 rounded-lg p-6">
               <div className="flex justify-between items-start mb-4">
-                <div className="w-12 h-12 rounded-full bg-neon-green/10 flex items-center justify-center">
-                  <TrendingUp className="w-6 h-6 text-neon-green" />
+                <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                  <TrendingUp className="w-6 h-6 text-accent-orange" />
                 </div>
                 <span className="text-xs text-zinc-500">Average across clients</span>
               </div>
@@ -39,10 +39,10 @@ export default function ResultsPage() {
               <p className="text-zinc-400">Increase in marketing-attributed revenue</p>
             </div>
             
-            <div className="bg-zinc-800/50 rounded-lg p-6">
+            <div className="bg-dark-green/60 rounded-lg p-6">
               <div className="flex justify-between items-start mb-4">
-                <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center">
-                  <BarChart className="w-6 h-6 text-blue-500" />
+                <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                  <BarChart className="w-6 h-6 text-accent-orange" />
                 </div>
                 <span className="text-xs text-zinc-500">Average across clients</span>
               </div>
@@ -50,10 +50,10 @@ export default function ResultsPage() {
               <p className="text-zinc-400">Reduction in customer acquisition cost</p>
             </div>
             
-            <div className="bg-zinc-800/50 rounded-lg p-6">
+            <div className="bg-dark-green/60 rounded-lg p-6">
               <div className="flex justify-between items-start mb-4">
-                <div className="w-12 h-12 rounded-full bg-rose-500/10 flex items-center justify-center">
-                  <Target className="w-6 h-6 text-rose-500" />
+                <div className="w-12 h-12 rounded-full bg-accent-yellow/10 flex items-center justify-center">
+                  <Target className="w-6 h-6 text-accent-yellow" />
                 </div>
                 <span className="text-xs text-zinc-500">Average across clients</span>
               </div>
@@ -61,7 +61,7 @@ export default function ResultsPage() {
               <p className="text-zinc-400">Improvement in marketing qualified leads</p>
             </div>
             
-            <div className="bg-zinc-800/50 rounded-lg p-6">
+            <div className="bg-dark-green/60 rounded-lg p-6">
               <div className="flex justify-between items-start mb-4">
                 <div className="w-12 h-12 rounded-full bg-emerald-500/10 flex items-center justify-center">
                   <svg className="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -80,7 +80,7 @@ export default function ResultsPage() {
             <h2 className="text-2xl font-bold mb-8">Case Studies</h2>
             
             <div className="space-y-12">
-              <div className="bg-zinc-800/50 rounded-lg overflow-hidden">
+              <div className="bg-dark-green/60 rounded-lg overflow-hidden">
                 <div className="md:flex">
                   <div className="md:w-1/3 bg-zinc-700/50 p-8 flex items-center justify-center">
                     <div className="text-center">
@@ -130,7 +130,7 @@ export default function ResultsPage() {
                 </div>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg overflow-hidden">
+              <div className="bg-dark-green/60 rounded-lg overflow-hidden">
                 <div className="md:flex">
                   <div className="md:w-1/3 bg-zinc-700/50 p-8 flex items-center justify-center">
                     <div className="text-center">
@@ -180,7 +180,7 @@ export default function ResultsPage() {
                 </div>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg overflow-hidden">
+              <div className="bg-dark-green/60 rounded-lg overflow-hidden">
                 <div className="md:flex">
                   <div className="md:w-1/3 bg-zinc-700/50 p-8 flex items-center justify-center">
                     <div className="text-center">
@@ -236,10 +236,10 @@ export default function ResultsPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">What Clients Say</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <div className="flex mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-neon-green mr-1" fill="#06FF00" />
+                    <Star key={i} className="w-5 h-5 text-accent-orange mr-1" fill="#06FF00" />
                   ))}
                 </div>
                 <p className="text-zinc-400 mb-6">
@@ -252,10 +252,10 @@ export default function ResultsPage() {
                 </div>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <div className="flex mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-neon-green mr-1" fill="#06FF00" />
+                    <Star key={i} className="w-5 h-5 text-accent-orange mr-1" fill="#06FF00" />
                   ))}
                 </div>
                 <p className="text-zinc-400 mb-6">
@@ -268,10 +268,10 @@ export default function ResultsPage() {
                 </div>
               </div>
               
-              <div className="bg-zinc-800/50 rounded-lg p-8">
+              <div className="bg-dark-green/60 rounded-lg p-8">
                 <div className="flex mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-neon-green mr-1" fill="#06FF00" />
+                    <Star key={i} className="w-5 h-5 text-accent-orange mr-1" fill="#06FF00" />
                   ))}
                 </div>
                 <p className="text-zinc-400 mb-6">
@@ -287,7 +287,7 @@ export default function ResultsPage() {
           </div>
           
           {/* By The Numbers */}
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-8">Results By The Numbers</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
@@ -296,40 +296,40 @@ export default function ResultsPage() {
                   <div>
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-zinc-400">Lead Generation</span>
-                      <span className="text-neon-green">+127%</span>
+                      <span className="text-accent-orange">+127%</span>
                     </div>
                     <div className="w-full bg-zinc-700 h-2 rounded-full">
-                      <div className="bg-neon-green h-2 rounded-full w-3/4"></div>
+                      <div className="bg-accent-orange h-2 rounded-full w-3/4"></div>
                     </div>
                   </div>
                   
                   <div>
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-zinc-400">Conversion Rate</span>
-                      <span className="text-neon-green">+68%</span>
+                      <span className="text-accent-orange">+68%</span>
                     </div>
                     <div className="w-full bg-zinc-700 h-2 rounded-full">
-                      <div className="bg-neon-green h-2 rounded-full w-2/3"></div>
+                      <div className="bg-accent-orange h-2 rounded-full w-2/3"></div>
                     </div>
                   </div>
                   
                   <div>
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-zinc-400">Marketing ROI</span>
-                      <span className="text-neon-green">+215%</span>
+                      <span className="text-accent-orange">+215%</span>
                     </div>
                     <div className="w-full bg-zinc-700 h-2 rounded-full">
-                      <div className="bg-neon-green h-2 rounded-full w-full"></div>
+                      <div className="bg-accent-orange h-2 rounded-full w-full"></div>
                     </div>
                   </div>
                   
                   <div>
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-zinc-400">Content Production</span>
-                      <span className="text-neon-green">+380%</span>
+                      <span className="text-accent-orange">+380%</span>
                     </div>
                     <div className="w-full bg-zinc-700 h-2 rounded-full">
-                      <div className="bg-neon-green h-2 rounded-full w-5/6"></div>
+                      <div className="bg-accent-orange h-2 rounded-full w-5/6"></div>
                     </div>
                   </div>
                 </div>
@@ -341,40 +341,40 @@ export default function ResultsPage() {
                   <div>
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-zinc-400">Time-to-Market</span>
-                      <span className="text-neon-green">-74%</span>
+                      <span className="text-accent-orange">-74%</span>
                     </div>
                     <div className="w-full bg-zinc-700 h-2 rounded-full">
-                      <div className="bg-neon-green h-2 rounded-full w-3/4"></div>
+                      <div className="bg-accent-orange h-2 rounded-full w-3/4"></div>
                     </div>
                   </div>
                   
                   <div>
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-zinc-400">Customer Acquisition Cost</span>
-                      <span className="text-neon-green">-42%</span>
+                      <span className="text-accent-orange">-42%</span>
                     </div>
                     <div className="w-full bg-zinc-700 h-2 rounded-full">
-                      <div className="bg-neon-green h-2 rounded-full w-2/5"></div>
+                      <div className="bg-accent-orange h-2 rounded-full w-2/5"></div>
                     </div>
                   </div>
                   
                   <div>
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-zinc-400">Campaign Development Time</span>
-                      <span className="text-neon-green">-68%</span>
+                      <span className="text-accent-orange">-68%</span>
                     </div>
                     <div className="w-full bg-zinc-700 h-2 rounded-full">
-                      <div className="bg-neon-green h-2 rounded-full w-2/3"></div>
+                      <div className="bg-accent-orange h-2 rounded-full w-2/3"></div>
                     </div>
                   </div>
                   
                   <div>
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-zinc-400">Reporting Time</span>
-                      <span className="text-neon-green">-89%</span>
+                      <span className="text-accent-orange">-89%</span>
                     </div>
                     <div className="w-full bg-zinc-700 h-2 rounded-full">
-                      <div className="bg-neon-green h-2 rounded-full w-[89%]"></div>
+                      <div className="bg-accent-orange h-2 rounded-full w-[89%]"></div>
                     </div>
                   </div>
                 </div>
@@ -383,14 +383,14 @@ export default function ResultsPage() {
           </div>
           
           {/* CTA Section */}
-          <div className="bg-gradient-to-r from-neon-green/20 to-blue-500/20 rounded-lg p-8 mb-8">
+          <div className="bg-gradient-to-r from-accent-orange/20 to-accent-orange/20 rounded-lg p-8 mb-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="mb-6 md:mb-0 md:mr-8">
                 <h2 className="text-2xl font-bold mb-2">Ready to achieve results like these?</h2>
                 <p className="text-zinc-400">Let's discuss how my AI-enhanced approach can transform your marketing. Limited availability - only 7 client spots per year.</p>
               </div>
               <Link href="/call">
-                <Button className="w-full md:w-auto bg-zinc-900 hover:bg-zinc-800 text-white border border-zinc-700 font-medium py-5 px-6">
+                <Button className="w-full md:w-auto bg-zinc-900 hover:bg-dark-green/80 text-white border border-zinc-700 font-medium py-5 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule Your Call
                 </Button>
               </Link>

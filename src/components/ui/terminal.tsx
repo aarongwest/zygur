@@ -91,7 +91,7 @@ export function Terminal() {
       <div className="border-t border-[#2d2d2d] bg-[#2d2d2d]">
         <form onSubmit={handleSubmit}>
           <div className="px-4 py-3">
-            <div className="flex items-center space-x-2 bg-[#3c3c3c] hover:bg-[#444444] rounded px-3 py-2.5 focus-within:ring-1 focus-within:ring-blue-500 transition-all duration-150">
+            <div className="flex items-center space-x-2 bg-[#3c3c3c] hover:bg-[#444444] rounded px-3 py-2.5 focus-within:ring-1 focus-within:ring-accent-orange transition-all duration-150">
               <span className="text-zinc-500 text-xs select-none">$</span>
               <input
                 ref={inputRef}

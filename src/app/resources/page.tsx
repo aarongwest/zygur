@@ -19,13 +19,13 @@ export default function ResourcesPage() {
             {/* Documentation */}
             <Link 
               href="/login"
-              className="group block bg-zinc-800/50 rounded-lg p-8 hover:bg-zinc-800 transition-colors"
+              className="group block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors"
             >
               <div className="flex items-start justify-between">
                 <div>
                   <div className="flex items-center space-x-4 mb-4">
-                    <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center">
-                      <FileText className="w-6 h-6 text-blue-500" />
+                    <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                      <FileText className="w-6 h-6 text-accent-orange" />
                     </div>
                     <h2 className="text-2xl font-semibold">Technical Documentation</h2>
                   </div>
@@ -35,15 +35,15 @@ export default function ResourcesPage() {
                   </p>
                   <ul className="space-y-3 text-sm text-zinc-400">
                     <li className="flex items-center">
-                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500 mr-2" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-accent-orange mr-2" />
                       System architecture and integration guides
                     </li>
                     <li className="flex items-center">
-                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500 mr-2" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-accent-orange mr-2" />
                       API documentation and SDKs
                     </li>
                     <li className="flex items-center">
-                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500 mr-2" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-accent-orange mr-2" />
                       Security protocols and compliance guides
                     </li>
                   </ul>
@@ -55,7 +55,7 @@ export default function ResourcesPage() {
             {/* Research Papers */}
             <Link 
               href="/login"
-              className="group block bg-zinc-800/50 rounded-lg p-8 hover:bg-zinc-800 transition-colors"
+              className="group block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors"
             >
               <div className="flex items-start justify-between">
                 <div>
@@ -91,7 +91,7 @@ export default function ResourcesPage() {
             {/* Case Studies */}
             <Link 
               href="/login"
-              className="group block bg-zinc-800/50 rounded-lg p-8 hover:bg-zinc-800 transition-colors"
+              className="group block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors"
             >
               <div className="flex items-start justify-between">
                 <div>
@@ -127,7 +127,7 @@ export default function ResourcesPage() {
             {/* Labs */}
             <Link 
               href="/labs"
-              className="group block bg-zinc-800/50 rounded-lg p-8 hover:bg-zinc-800 transition-colors"
+              className="group block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors"
             >
               <div className="flex items-start justify-between">
                 <div>

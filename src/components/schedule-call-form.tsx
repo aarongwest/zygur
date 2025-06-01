@@ -57,7 +57,7 @@ export function ScheduleCallForm() {
           value={formData.name}
           onChange={handleChange}
           required
-          className="w-full px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-zinc-100"
+          className="w-full px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent-orange text-zinc-100"
         />
       </div>
 
@@ -72,7 +72,7 @@ export function ScheduleCallForm() {
           value={formData.email}
           onChange={handleChange}
           required
-          className="w-full px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-zinc-100"
+          className="w-full px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent-orange text-zinc-100"
         />
       </div>
 
@@ -87,7 +87,7 @@ export function ScheduleCallForm() {
           value={formData.company}
           onChange={handleChange}
           required
-          className="w-full px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-zinc-100"
+          className="w-full px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent-orange text-zinc-100"
         />
       </div>
 
@@ -102,7 +102,7 @@ export function ScheduleCallForm() {
           value={formData.phone}
           onChange={handleChange}
           required
-          className="w-full px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-zinc-100"
+          className="w-full px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent-orange text-zinc-100"
         />
       </div>
 
@@ -116,7 +116,7 @@ export function ScheduleCallForm() {
           value={formData.message}
           onChange={handleChange}
           rows={4}
-          className="w-full px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-zinc-100"
+          className="w-full px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent-orange text-zinc-100"
         />
       </div>
 
@@ -124,7 +124,7 @@ export function ScheduleCallForm() {
         <Button
           type="submit"
           disabled={status === 'loading'}
-          className="w-full bg-neon-green hover:bg-[#00e600] text-zinc-900"
+          className="w-full bg-accent-orange hover:bg-[#00e600] text-zinc-900"
         >
           {status === 'loading' ? 'Scheduling...' : 'Schedule Call'}
         </Button>

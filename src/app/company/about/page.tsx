@@ -18,7 +18,7 @@ export default function AboutPage() {
           </div>
 
           {/* Mission */}
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Our Mission</h2>
             <p className="text-zinc-400 mb-6">
               At Zygur Technologies Corp., we are dedicated to developing cutting-edge technologies that
@@ -35,10 +35,10 @@ export default function AboutPage() {
 
           {/* Core Values */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="bg-zinc-800/50 rounded-lg p-6">
+            <div className="bg-dark-green/60 rounded-lg p-6">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center">
-                  <Shield className="w-5 h-5 text-blue-500" />
+                <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                  <Shield className="w-5 h-5 text-accent-orange" />
                 </div>
                 <h3 className="text-xl font-semibold">Excellence in Defense</h3>
               </div>
@@ -48,7 +48,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="bg-zinc-800/50 rounded-lg p-6">
+            <div className="bg-dark-green/60 rounded-lg p-6">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center">
                   <Cpu className="w-5 h-5 text-amber-500" />
@@ -61,7 +61,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="bg-zinc-800/50 rounded-lg p-6">
+            <div className="bg-dark-green/60 rounded-lg p-6">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-10 h-10 rounded-full bg-emerald-500/10 flex items-center justify-center">
                   <Users className="w-5 h-5 text-emerald-500" />
@@ -74,7 +74,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="bg-zinc-800/50 rounded-lg p-6">
+            <div className="bg-dark-green/60 rounded-lg p-6">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-10 h-10 rounded-full bg-purple-500/10 flex items-center justify-center">
                   <Brain className="w-5 h-5 text-purple-500" />
@@ -89,7 +89,7 @@ export default function AboutPage() {
           </div>
 
           {/* Leadership */}
-          <div className="bg-zinc-800/50 rounded-lg p-8 mb-16">
+          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Leadership</h2>
             <p className="text-zinc-400 mb-6">
               Our leadership team brings together decades of experience in military

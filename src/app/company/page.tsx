@@ -20,13 +20,13 @@ export default function CompanyPage() {
               {/* About Us */}
               <Link 
                 href="/company/about"
-                className="group block bg-zinc-800/50 rounded-lg p-8 hover:bg-zinc-800 transition-colors"
+                className="group block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors"
               >
                 <div className="flex items-start justify-between">
                   <div>
                     <div className="flex items-center space-x-4 mb-4">
-                      <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center">
-                        <Building2 className="w-6 h-6 text-blue-500" />
+                      <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center">
+                        <Building2 className="w-6 h-6 text-accent-orange" />
                       </div>
                       <h2 className="text-2xl font-semibold">About Us</h2>
                     </div>
@@ -36,15 +36,15 @@ export default function CompanyPage() {
                     </p>
                     <ul className="space-y-3 text-sm text-zinc-400">
                       <li className="flex items-center">
-                        <span className="w-1.5 h-1.5 rounded-full bg-blue-500 mr-2" />
+                        <span className="w-1.5 h-1.5 rounded-full bg-accent-orange mr-2" />
                         Our mission and values
                       </li>
                       <li className="flex items-center">
-                        <span className="w-1.5 h-1.5 rounded-full bg-blue-500 mr-2" />
+                        <span className="w-1.5 h-1.5 rounded-full bg-accent-orange mr-2" />
                         Leadership team
                       </li>
                       <li className="flex items-center">
-                        <span className="w-1.5 h-1.5 rounded-full bg-blue-500 mr-2" />
+                        <span className="w-1.5 h-1.5 rounded-full bg-accent-orange mr-2" />
                         Company history
                       </li>
                     </ul>
@@ -56,7 +56,7 @@ export default function CompanyPage() {
               {/* Careers */}
               <Link 
                 href="/company/careers"
-                className="group block bg-zinc-800/50 rounded-lg p-8 hover:bg-zinc-800 transition-colors"
+                className="group block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors"
               >
                 <div className="flex items-start justify-between">
                   <div>
@@ -92,7 +92,7 @@ export default function CompanyPage() {
               {/* Contact */}
               <Link 
                 href="/company/contact"
-                className="group block bg-zinc-800/50 rounded-lg p-8 hover:bg-zinc-800 transition-colors"
+                className="group block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors"
               >
                 <div className="flex items-start justify-between">
                   <div>
@@ -128,7 +128,7 @@ export default function CompanyPage() {
               {/* Partners */}
               <Link 
                 href="/company/partners"
-                className="group block bg-zinc-800/50 rounded-lg p-8 hover:bg-zinc-800 transition-colors"
+                className="group block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors"
               >
                 <div className="flex items-start justify-between">
                   <div>
