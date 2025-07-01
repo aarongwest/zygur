@@ -29,7 +29,7 @@ export default function AboutPage() {
           {/* Bio Section */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             <div className="md:col-span-2">
-              <div className="bg-dark-green/60 rounded-lg p-8 h-full">
+              <div className="bg-zinc-900/60 rounded-lg p-8 h-full">
                 <h2 className="text-2xl font-bold mb-6">My Story</h2>
                 <div className="space-y-4 text-zinc-400">
                   <p>
@@ -60,7 +60,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div>
-              <div className="bg-dark-green/60 rounded-lg p-8 h-full">
+              <div className="bg-zinc-900/60 rounded-lg p-8 h-full">
                 <div className="w-full aspect-square mb-6 flex items-center justify-center">
                   <div className="w-4/5 h-4/5 rounded-full overflow-hidden border-4 border-accent-orange/20">
                     <Image 
@@ -112,7 +112,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold mb-6">Professional Background</h2>
             
             <div className="space-y-8">
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <div className="flex flex-col md:flex-row">
                   <div className="md:w-64 flex-shrink-0 mb-4 md:mb-0">
                     <div className="flex items-center space-x-3 mb-4">
@@ -176,7 +176,7 @@ export default function AboutPage() {
                 </div>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <div className="flex flex-col md:flex-row">
                   <div className="md:w-64 flex-shrink-0 mb-4 md:mb-0">
                     <div className="flex items-center space-x-3 mb-4">
@@ -203,7 +203,7 @@ export default function AboutPage() {
           </div>
           
           {/* Philosophy Section */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">My Marketing Philosophy</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>

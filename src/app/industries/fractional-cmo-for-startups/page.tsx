@@ -38,7 +38,7 @@ export default function StartupsFractionalCMOPage() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">Startup Marketing Leadership</h2>
               <p className="text-zinc-300 mb-4">
                 Startups face unique marketing challenges that established companies don't. From finding product-market fit 
@@ -72,7 +72,7 @@ export default function StartupsFractionalCMOPage() {
               </p>
             </div>
             
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">Startup Marketing Challenges Solved</h2>
               <div className="space-y-6">
                 <div>
@@ -107,7 +107,7 @@ export default function StartupsFractionalCMOPage() {
             </div>
           </div>
           
-          <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-gradient-to-r from-accent-orange/10 to-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Why Startups Choose a Fractional CMO</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="flex flex-col">
@@ -150,7 +150,7 @@ export default function StartupsFractionalCMOPage() {
             <h2 className="text-2xl font-bold mb-8">Startup Marketing Services By Growth Stage</h2>
             
             <div className="space-y-8">
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <div className="flex flex-col md:flex-row items-start md:items-center mb-6">
                   <div className="h-12 w-12 rounded-full bg-accent-orange/20 flex items-center justify-center mr-4 text-accent-orange font-bold mb-4 md:mb-0">1</div>
                   <h3 className="text-xl font-semibold">Pre-Seed/Seed Stage: Finding Product-Market Fit</h3>
@@ -197,7 +197,7 @@ export default function StartupsFractionalCMOPage() {
                 </div>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <div className="flex flex-col md:flex-row items-start md:items-center mb-6">
                   <div className="h-12 w-12 rounded-full bg-accent-orange/20 flex items-center justify-center mr-4 text-accent-orange font-bold mb-4 md:mb-0">2</div>
                   <h3 className="text-xl font-semibold">Series A Stage: Scaling Traction</h3>
@@ -243,7 +243,7 @@ export default function StartupsFractionalCMOPage() {
                 </div>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <div className="flex flex-col md:flex-row items-start md:items-center mb-6">
                   <div className="h-12 w-12 rounded-full bg-accent-orange/20 flex items-center justify-center mr-4 text-accent-orange font-bold mb-4 md:mb-0">3</div>
                   <h3 className="text-xl font-semibold">Series B/C Stage: Optimizing for Growth</h3>
@@ -295,7 +295,7 @@ export default function StartupsFractionalCMOPage() {
             <h2 className="text-2xl font-bold mb-8">FAQs: Fractional CMO for Startups</h2>
             
             <div className="space-y-6">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How much does a fractional CMO cost for startups?</h3>
                 <p className="text-zinc-300">
                   Startup fractional CMO engagements typically range from $3,000-$8,000 per month, depending on company stage, 
@@ -306,7 +306,7 @@ export default function StartupsFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">We're pre-product, is it too early for a fractional CMO?</h3>
                 <p className="text-zinc-300">
                   While it's never too early for strategic marketing input, pre-product startups typically benefit most from 
@@ -317,7 +317,7 @@ export default function StartupsFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">What metrics do you focus on for early-stage startups?</h3>
                 <p className="text-zinc-300">
                   For pre-seed and seed-stage startups, we focus on metrics that validate product-market fit and identify 
@@ -329,7 +329,7 @@ export default function StartupsFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How long do startup fractional CMO engagements typically last?</h3>
                 <p className="text-zinc-300">
                   Most startup engagements last 6-12 months, often corresponding to growth milestones or funding rounds. 

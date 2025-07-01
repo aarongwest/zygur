@@ -73,7 +73,7 @@ export default function WhatIsAFractionalCMOPage() {
           </div>
 
           {/* Definition Section */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Fractional CMO Definition</h2>
             <div className="flex flex-col md:flex-row gap-8">
               <div className="md:w-2/3">
@@ -139,7 +139,7 @@ export default function WhatIsAFractionalCMOPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">What Does a Fractional CMO Do?</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="h-12 w-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
                   <BarChart className="h-6 w-6 text-accent-orange" />
                 </div>
@@ -164,7 +164,7 @@ export default function WhatIsAFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="h-12 w-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
                   <Users className="h-6 w-6 text-accent-orange" />
                 </div>
@@ -189,7 +189,7 @@ export default function WhatIsAFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="h-12 w-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
                   <DollarSign className="h-6 w-6 text-accent-orange" />
                 </div>
@@ -217,7 +217,7 @@ export default function WhatIsAFractionalCMOPage() {
           </div>
 
           {/* When to Hire Section */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">When to Hire a Fractional CMO</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
@@ -309,7 +309,7 @@ export default function WhatIsAFractionalCMOPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">Benefits of Working With a Fractional CMO</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-6">
+              <div className="bg-gradient-to-r from-accent-orange/10 to-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">Cost Advantages</h3>
                 <p className="text-zinc-400 mb-4">
                   A fractional CMO typically costs <Link href="/pricing/fractional-cmo-cost" className="text-accent-orange hover:underline">$2,000-$7,000 per month</Link>, 
@@ -336,7 +336,7 @@ export default function WhatIsAFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-6">
+              <div className="bg-gradient-to-r from-accent-orange/10 to-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">Experience & Expertise</h3>
                 <p className="text-zinc-400 mb-4">
                   Fractional CMOs typically bring 15+ years of marketing leadership experience
@@ -362,7 +362,7 @@ export default function WhatIsAFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-r from-purple-500/10 to-dark-green/60 rounded-lg p-6">
+              <div className="bg-gradient-to-r from-purple-500/10 to-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">Speed & Implementation</h3>
                 <p className="text-zinc-400 mb-4">
                   Fractional CMOs are focused on driving results quickly, not building
@@ -388,7 +388,7 @@ export default function WhatIsAFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-r from-amber-500/10 to-dark-green/60 rounded-lg p-6">
+              <div className="bg-gradient-to-r from-amber-500/10 to-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">Flexibility & Scalability</h3>
                 <p className="text-zinc-400 mb-4">
                   Fractional arrangements can adapt as your business needs evolve,
@@ -417,7 +417,7 @@ export default function WhatIsAFractionalCMOPage() {
           </div>
 
           {/* How to Work With Section */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">How to Work With a Fractional CMO</h2>
             
             <div className="space-y-6">

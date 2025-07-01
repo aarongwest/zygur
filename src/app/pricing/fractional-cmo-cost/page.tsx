@@ -38,7 +38,7 @@ export default function FractionalCMOCostPage() {
           </div>
 
           {/* Pricing Summary Section */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Fractional CMO Cost Overview</h2>
             <div className="flex flex-col md:flex-row gap-8">
               <div className="md:w-1/2">
@@ -76,7 +76,7 @@ export default function FractionalCMOCostPage() {
           {/* Cost Comparison Section */}
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">Fractional vs. Full-Time CMO: Cost Comparison</h2>
-            <div className="bg-dark-green/60 rounded-lg overflow-hidden mb-8">
+            <div className="bg-zinc-900/60 rounded-lg overflow-hidden mb-8">
               <div className="grid grid-cols-3">
                 <div className="p-6 bg-zinc-700/50 flex items-center justify-center">
                   <span className="font-semibold">Expense Type</span>
@@ -129,7 +129,7 @@ export default function FractionalCMOCostPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">What You Get for Your Investment</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="h-12 w-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
                   <Clock className="h-6 w-6 text-accent-orange" />
                 </div>
@@ -150,7 +150,7 @@ export default function FractionalCMOCostPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="h-12 w-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
                   <BarChart className="h-6 w-6 text-accent-orange" />
                 </div>
@@ -170,7 +170,7 @@ export default function FractionalCMOCostPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="h-12 w-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
                   <PieChart className="h-6 w-6 text-accent-orange" />
                 </div>
@@ -200,7 +200,7 @@ export default function FractionalCMOCostPage() {
                 <p className="text-zinc-400">Schedule a consultation to get a customized fractional CMO proposal.</p>
               </div>
               <Link href="/call">
-                <Button className="w-full md:w-auto bg-zinc-900 hover:bg-dark-green/80 text-white font-medium py-5 px-6">
+                <Button className="w-full md:w-auto bg-zinc-900 hover:bg-zinc-900/80 text-white font-medium py-5 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule Your Call
                 </Button>
               </Link>

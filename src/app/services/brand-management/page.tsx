@@ -35,7 +35,7 @@ export default function BrandManagementPage() {
 
           {/* Key Benefits */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-            <div className="bg-dark-green/60 rounded-lg p-6">
+            <div className="bg-zinc-900/60 rounded-lg p-6">
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3">
                   <div className="w-5 h-5 rounded-full bg-accent-orange"></div>
@@ -47,7 +47,7 @@ export default function BrandManagementPage() {
               </p>
             </div>
             
-            <div className="bg-dark-green/60 rounded-lg p-6">
+            <div className="bg-zinc-900/60 rounded-lg p-6">
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 rounded-full bg-accent-yellow/10 flex items-center justify-center mr-3">
                   <div className="w-5 h-5 rounded-full bg-accent-yellow"></div>
@@ -59,7 +59,7 @@ export default function BrandManagementPage() {
               </p>
             </div>
             
-            <div className="bg-dark-green/60 rounded-lg p-6">
+            <div className="bg-zinc-900/60 rounded-lg p-6">
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3">
                   <div className="w-5 h-5 rounded-full bg-accent-orange"></div>
@@ -76,7 +76,7 @@ export default function BrandManagementPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">Our Brand Management Process</h2>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
                   <span className="text-xl font-bold text-accent-orange">1</span>
                 </div>
@@ -86,7 +86,7 @@ export default function BrandManagementPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="w-12 h-12 rounded-full bg-accent-yellow/10 flex items-center justify-center mb-4">
                   <span className="text-xl font-bold text-accent-yellow">2</span>
                 </div>
@@ -96,7 +96,7 @@ export default function BrandManagementPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
                   <span className="text-xl font-bold text-accent-orange">3</span>
                 </div>
@@ -106,7 +106,7 @@ export default function BrandManagementPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="w-12 h-12 rounded-full bg-accent-yellow/10 flex items-center justify-center mb-4">
                   <span className="text-xl font-bold text-accent-yellow">4</span>
                 </div>
@@ -122,7 +122,7 @@ export default function BrandManagementPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-6">Brand Management Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="flex items-start mb-4">
                   <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 flex-shrink-0">
                     <CheckCircle className="w-5 h-5 text-accent-orange" />
@@ -136,7 +136,7 @@ export default function BrandManagementPage() {
                 </div>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="flex items-start mb-4">
                   <div className="w-10 h-10 rounded-full bg-accent-yellow/10 flex items-center justify-center mr-3 flex-shrink-0">
                     <CheckCircle className="w-5 h-5 text-accent-yellow" />
@@ -150,7 +150,7 @@ export default function BrandManagementPage() {
                 </div>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="flex items-start mb-4">
                   <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 flex-shrink-0">
                     <CheckCircle className="w-5 h-5 text-accent-orange" />
@@ -164,7 +164,7 @@ export default function BrandManagementPage() {
                 </div>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="flex items-start mb-4">
                   <div className="w-10 h-10 rounded-full bg-accent-yellow/10 flex items-center justify-center mr-3 flex-shrink-0">
                     <CheckCircle className="w-5 h-5 text-accent-yellow" />
@@ -178,7 +178,7 @@ export default function BrandManagementPage() {
                 </div>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="flex items-start mb-4">
                   <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3 flex-shrink-0">
                     <CheckCircle className="w-5 h-5 text-accent-orange" />
@@ -192,7 +192,7 @@ export default function BrandManagementPage() {
                 </div>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="flex items-start mb-4">
                   <div className="w-10 h-10 rounded-full bg-accent-yellow/10 flex items-center justify-center mr-3 flex-shrink-0">
                     <CheckCircle className="w-5 h-5 text-accent-yellow" />
@@ -209,7 +209,7 @@ export default function BrandManagementPage() {
           </div>
 
           {/* Why Choose Us */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Why Choose Our Brand Management Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
               <div className="flex items-start">
@@ -243,7 +243,7 @@ export default function BrandManagementPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
             <div className="space-y-6">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="font-semibold mb-2">What is part-time brand management?</h3>
                 <p className="text-zinc-400 text-sm">
                   Part-time brand management provides your business with expert brand strategy and execution on a flexible basis. 
@@ -252,7 +252,7 @@ export default function BrandManagementPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="font-semibold mb-2">How does AI enhance your brand management services?</h3>
                 <p className="text-zinc-400 text-sm">
                   We leverage AI technologies to analyze market trends, consumer sentiment, and competitive positioning more efficiently. 
@@ -261,7 +261,7 @@ export default function BrandManagementPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="font-semibold mb-2">How much does part-time brand management cost?</h3>
                 <p className="text-zinc-400 text-sm">
                   Our brand management services start at $2,000 per month, with pricing based on the scope of work and your specific 

@@ -34,7 +34,7 @@ export default function OptimizationPage() {
 
           {/* Key Benefits */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-            <div className="bg-dark-green/60 rounded-lg p-6">
+            <div className="bg-zinc-900/60 rounded-lg p-6">
               <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
                 <LineChart className="w-6 h-6 text-accent-orange" />
               </div>
@@ -59,7 +59,7 @@ export default function OptimizationPage() {
               </ul>
             </div>
             
-            <div className="bg-dark-green/60 rounded-lg p-6">
+            <div className="bg-zinc-900/60 rounded-lg p-6">
               <div className="w-12 h-12 rounded-full bg-accent-yellow/10 flex items-center justify-center mb-4">
                 <TrendingUp className="w-6 h-6 text-accent-yellow" />
               </div>
@@ -84,7 +84,7 @@ export default function OptimizationPage() {
               </ul>
             </div>
             
-            <div className="bg-dark-green/60 rounded-lg p-6">
+            <div className="bg-zinc-900/60 rounded-lg p-6">
               <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
                 <BarChart4 className="w-6 h-6 text-accent-orange" />
               </div>
@@ -111,7 +111,7 @@ export default function OptimizationPage() {
           </div>
 
           {/* Optimization Process */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">The Growth Optimization Process</h2>
             <div className="space-y-8">
               <div className="flex flex-col md:flex-row">
@@ -184,7 +184,7 @@ export default function OptimizationPage() {
           {/* Case Study */}
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-6">Optimization in Action</h2>
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h3 className="text-xl font-semibold mb-4">Case Study: B2B SaaS Company</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
@@ -271,7 +271,7 @@ export default function OptimizationPage() {
           </div>
           
           {/* AI Advantage */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">The AI Optimization Advantage</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>

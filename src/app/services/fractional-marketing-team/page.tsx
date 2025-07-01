@@ -37,7 +37,7 @@ export default function FractionalMarketingTeamPage() {
             </div>
           </div>
           
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">What is a Fractional Marketing Team?</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
@@ -91,7 +91,7 @@ export default function FractionalMarketingTeamPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">How Our Fractional Marketing Team Works</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <div className="flex items-center mb-5">
                   <Users className="w-8 h-8 text-accent-orange mr-4" />
                   <h3 className="text-xl font-semibold">Strategic Leadership</h3>
@@ -123,7 +123,7 @@ export default function FractionalMarketingTeamPage() {
                 </Link>
               </div>
               
-              <div className="bg-gradient-to-b from-accent-orange/10 to-dark-green/60 rounded-lg p-8">
+              <div className="bg-gradient-to-b from-accent-orange/10 to-zinc-900/60 rounded-lg p-8">
                 <div className="flex items-center mb-5">
                   <Box className="w-8 h-8 text-accent-orange mr-4" />
                   <h3 className="text-xl font-semibold">Specialized Execution</h3>
@@ -152,7 +152,7 @@ export default function FractionalMarketingTeamPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <div className="flex items-center mb-5">
                   <Puzzle className="w-8 h-8 text-accent-orange mr-4" />
                   <h3 className="text-xl font-semibold">Flexible Engagement</h3>
@@ -186,7 +186,7 @@ export default function FractionalMarketingTeamPage() {
             </div>
           </div>
           
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Available Specialist Roles</h2>
             <p className="text-zinc-300 mb-8">
               Our fractional marketing team includes specialists across all core marketing disciplines. 
@@ -285,7 +285,7 @@ export default function FractionalMarketingTeamPage() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">Advantages Over In-House Hiring</h2>
               <ul className="space-y-3">
                 <li className="flex items-start">
@@ -319,7 +319,7 @@ export default function FractionalMarketingTeamPage() {
               </ul>
             </div>
             
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">Advantages Over Multiple Agencies</h2>
               <ul className="space-y-3">
                 <li className="flex items-start">
@@ -358,7 +358,7 @@ export default function FractionalMarketingTeamPage() {
             <h2 className="text-2xl font-bold mb-8">FAQs About Fractional Marketing Teams</h2>
             
             <div className="space-y-6">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How is pricing structured for a fractional marketing team?</h3>
                 <p className="text-zinc-300">
                   We offer flexible pricing options based on your specific needs and budget. This typically includes a base package 
@@ -370,7 +370,7 @@ export default function FractionalMarketingTeamPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How do you ensure consistency with a fractional team?</h3>
                 <p className="text-zinc-300">
                   Consistency is maintained through three key mechanisms: First, your fractional CMO provides ongoing leadership and 
@@ -381,7 +381,7 @@ export default function FractionalMarketingTeamPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">Can you work with our existing marketing staff?</h3>
                 <p className="text-zinc-300">
                   Absolutely. In fact, many clients use our fractional team to complement their existing marketing capabilities. 
@@ -393,7 +393,7 @@ export default function FractionalMarketingTeamPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">What's the typical engagement process and timeline?</h3>
                 <p className="text-zinc-300">
                   The process begins with a discovery call to understand your business, challenges, and goals. If there's a potential fit, 

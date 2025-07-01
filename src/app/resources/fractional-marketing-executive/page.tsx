@@ -37,7 +37,7 @@ export default function FractionalMarketingExecutivePage() {
             </div>
           </div>
           
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Content Coming Soon</h2>
             <p className="text-zinc-300">
               We're currently developing comprehensive content about our Fractional Marketing Executive services. 

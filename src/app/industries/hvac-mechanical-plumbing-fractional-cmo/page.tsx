@@ -37,7 +37,7 @@ export default function HVACMechanicalPlumbingFractionalCMOPage() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">HVAC & Plumbing Marketing Leadership</h2>
               <p className="text-zinc-300 mb-4">
                 Mechanical service companies face unique marketing challenges in today's digital landscape. From seasonal demand fluctuations and 
@@ -71,7 +71,7 @@ export default function HVACMechanicalPlumbingFractionalCMOPage() {
               </p>
             </div>
             
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">HVAC & Plumbing Marketing Challenges Solved</h2>
               <div className="space-y-6">
                 <div>
@@ -146,7 +146,7 @@ export default function HVACMechanicalPlumbingFractionalCMOPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">HVAC, Mechanical & Plumbing Marketing Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Strategic Services</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -180,7 +180,7 @@ export default function HVACMechanicalPlumbingFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Execution Oversight</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -221,7 +221,7 @@ export default function HVACMechanicalPlumbingFractionalCMOPage() {
             </div>
           </div>
           
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Service Contractor Expertise</h2>
             <p className="text-zinc-300 mb-6">
               Our fractional CMO services have helped mechanical contractors across multiple specialties grow their business
@@ -267,7 +267,7 @@ export default function HVACMechanicalPlumbingFractionalCMOPage() {
             <h2 className="text-2xl font-bold mb-8">FAQs: Fractional CMO for HVAC & Plumbing Companies</h2>
             
             <div className="space-y-6">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How can a fractional CMO help my HVAC or plumbing business grow?</h3>
                 <p className="text-zinc-300">
                   A fractional CMO brings strategic marketing leadership to help you attract more qualified leads, convert more customers, 
@@ -277,7 +277,7 @@ export default function HVACMechanicalPlumbingFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">We've tried marketing agencies before with mixed results. How is this different?</h3>
                 <p className="text-zinc-300">
                   Unlike agencies that execute tactics without strategic direction, a fractional CMO provides executive-level leadership 
@@ -287,7 +287,7 @@ export default function HVACMechanicalPlumbingFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How do you help with both customer acquisition and technician recruitment?</h3>
                 <p className="text-zinc-300">
                   We understand that growth for service contractors requires both generating customer demand and having the technician capacity 
@@ -297,7 +297,7 @@ export default function HVACMechanicalPlumbingFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">What results can I expect, and how quickly?</h3>
                 <p className="text-zinc-300">
                   Results vary based on your starting point, but our HVAC and plumbing clients typically see improvements in lead volume, 

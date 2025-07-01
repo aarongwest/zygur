@@ -40,7 +40,7 @@ export default function SheepfoldPage() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Communication Features */}
-            <div className="bg-dark-green/60 rounded-lg p-6">
+            <div className="bg-zinc-900/60 rounded-lg p-6">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center">
                   <MessageCircle className="w-5 h-5 text-accent-orange" />
@@ -56,7 +56,7 @@ export default function SheepfoldPage() {
             </div>
 
             {/* Group Management */}
-            <div className="bg-dark-green/60 rounded-lg p-6">
+            <div className="bg-zinc-900/60 rounded-lg p-6">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-10 h-10 rounded-full bg-purple-500/10 flex items-center justify-center">
                   <Users className="w-5 h-5 text-purple-500" />
@@ -72,7 +72,7 @@ export default function SheepfoldPage() {
             </div>
 
             {/* Tagging System */}
-            <div className="bg-dark-green/60 rounded-lg p-6">
+            <div className="bg-zinc-900/60 rounded-lg p-6">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-10 h-10 rounded-full bg-emerald-500/10 flex items-center justify-center">
                   <Tags className="w-5 h-5 text-emerald-500" />
@@ -88,7 +88,7 @@ export default function SheepfoldPage() {
             </div>
 
             {/* Filtering & Search */}
-            <div className="bg-dark-green/60 rounded-lg p-6">
+            <div className="bg-zinc-900/60 rounded-lg p-6">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-10 h-10 rounded-full bg-accent-yellow/10 flex items-center justify-center">
                   <Filter className="w-5 h-5 text-accent-yellow" />
@@ -105,7 +105,7 @@ export default function SheepfoldPage() {
               </div>
 
               {/* Organization Features */}
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center">
                 <Building className="w-5 h-5 text-amber-500" />
@@ -129,7 +129,7 @@ export default function SheepfoldPage() {
               </div>
 
               {/* Development Status */}
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h2 className="text-2xl font-semibold mb-6">AI Technology & Development</h2>
                 <p className="text-zinc-400 mb-6">
                   Sheepfold is an experimental AI-powered platform developed as part of Zygur Labs' initiative to 
@@ -141,7 +141,7 @@ export default function SheepfoldPage() {
               </div>
 
               {/* Terms of Use Card */}
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h2 className="text-2xl font-semibold mb-6">Terms of Use</h2>
                 <div className="prose prose-invert prose-zinc max-w-3xl">
                   <p className="text-sm text-zinc-500 mb-6">Last Updated: January 2024</p>
@@ -273,7 +273,7 @@ export default function SheepfoldPage() {
               </div>
 
               {/* Privacy Policy Card */}
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h2 className="text-2xl font-semibold mb-6">Privacy Policy</h2>
                 <div className="prose prose-invert prose-zinc max-w-3xl">
                   <p className="text-sm text-zinc-500 mb-6">Last Updated: January 2024</p>
@@ -372,7 +372,7 @@ export default function SheepfoldPage() {
             {/* Right Column - Support */}
             <div className="lg:col-span-1 space-y-8">
               {/* App Store Badge */}
-              <div className="bg-dark-green/60 rounded-lg p-8 flex flex-col items-center">
+              <div className="bg-zinc-900/60 rounded-lg p-8 flex flex-col items-center">
                 <h2 className="text-2xl font-semibold mb-6 text-center">Download the App</h2>
                 <a 
                   href="https://apps.apple.com/us/app/sheepfold-ministering-app/id6741027545" 
@@ -391,7 +391,7 @@ export default function SheepfoldPage() {
               </div>
               
               {/* Support Card */}
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h2 className="text-2xl font-semibold mb-6">Sheepfold Support</h2>
                 <p className="text-zinc-400 mb-6">
                   Need help with Sheepfold? Our support team is here to assist you with any questions

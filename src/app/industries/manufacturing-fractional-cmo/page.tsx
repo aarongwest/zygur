@@ -37,7 +37,7 @@ export default function ManufacturingFractionalCMOPage() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">Manufacturing Marketing Leadership</h2>
               <p className="text-zinc-300 mb-4">
                 Manufacturing companies face unique marketing challenges in today's digital landscape. From long sales cycles and complex 
@@ -71,7 +71,7 @@ export default function ManufacturingFractionalCMOPage() {
               </p>
             </div>
             
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">Manufacturing Marketing Challenges Solved</h2>
               <div className="space-y-6">
                 <div>
@@ -106,7 +106,7 @@ export default function ManufacturingFractionalCMOPage() {
             </div>
           </div>
           
-          <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-gradient-to-r from-accent-orange/10 to-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Why Manufacturing Companies Choose a Fractional CMO</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
@@ -146,7 +146,7 @@ export default function ManufacturingFractionalCMOPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">Manufacturing Marketing Leadership Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Strategic Services</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -180,7 +180,7 @@ export default function ManufacturingFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Execution Oversight</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -221,7 +221,7 @@ export default function ManufacturingFractionalCMOPage() {
             </div>
           </div>
           
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Manufacturing Industry Expertise</h2>
             <p className="text-zinc-300 mb-6">
               Our fractional CMO services have helped manufacturers across multiple sectors modernize their 
@@ -267,7 +267,7 @@ export default function ManufacturingFractionalCMOPage() {
             <h2 className="text-2xl font-bold mb-8">FAQs: Fractional CMO for Manufacturing Companies</h2>
             
             <div className="space-y-6">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How does a fractional CMO understand our complex manufacturing products?</h3>
                 <p className="text-zinc-300">
                   Our fractional CMO services for manufacturing companies are led by marketing executives with specific industrial 
@@ -277,7 +277,7 @@ export default function ManufacturingFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">We rely heavily on relationships and trade shows. Will digital marketing work for us?</h3>
                 <p className="text-zinc-300">
                   Yes, but we don't recommend abandoning what works. The most effective manufacturing marketing strategy integrates 
@@ -287,7 +287,7 @@ export default function ManufacturingFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">What results can manufacturing companies expect from a fractional CMO?</h3>
                 <p className="text-zinc-300">
                   Manufacturing clients typically see improvements in lead quality and quantity, better alignment between marketing 
@@ -297,7 +297,7 @@ export default function ManufacturingFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How do you work with our existing distributors and channel partners?</h3>
                 <p className="text-zinc-300">
                   We develop comprehensive channel marketing programs that support your distributors while strengthening your direct 

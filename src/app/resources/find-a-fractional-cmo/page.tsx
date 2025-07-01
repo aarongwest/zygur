@@ -45,7 +45,7 @@ export default function FindAFractionalCMOPage() {
               process, from determining if you need a fractional CMO to successfully onboarding one.
             </p>
             
-            <div className="bg-dark-green/60 rounded-lg p-8 mb-12">
+            <div className="bg-zinc-900/60 rounded-lg p-8 mb-12">
               <h3 className="text-xl font-semibold mb-4">Table of Contents</h3>
               <ul className="space-y-2">
                 <li className="text-accent-orange hover:text-accent-orange/80">
@@ -90,7 +90,7 @@ export default function FindAFractionalCMOPage() {
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-              <div className="bg-dark-green/60 p-6 rounded-lg">
+              <div className="bg-zinc-900/60 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-3 text-accent-orange">Strategic Gaps</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start">
@@ -108,7 +108,7 @@ export default function FindAFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 p-6 rounded-lg">
+              <div className="bg-zinc-900/60 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-3 text-accent-orange">Growth Challenges</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start">
@@ -127,7 +127,7 @@ export default function FindAFractionalCMOPage() {
               </div>
             </div>
             
-            <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 p-6 rounded-lg">
+            <div className="bg-gradient-to-r from-accent-orange/10 to-zinc-900/60 p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-3">Alternative Solutions</h3>
               <p className="text-zinc-300 mb-4">
                 A fractional CMO isn't always the right solution. Consider these alternatives if you need tactical execution without strategic guidance, 

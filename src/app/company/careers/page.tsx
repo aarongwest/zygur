@@ -25,7 +25,7 @@ export default function CareersPage() {
           </div>
 
           {/* Why Zygur */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Why Zygur</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
@@ -64,7 +64,7 @@ export default function CareersPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">Open Positions</h2>
             <div className="space-y-6">
-              <div className="bg-dark-green/60 rounded-lg p-6 hover:bg-dark-green/80 transition-colors">
+              <div className="bg-zinc-900/60 rounded-lg p-6 hover:bg-zinc-900/80 transition-colors">
                 <div className="flex items-start justify-between">
                   <div>
                     <div className="flex items-center space-x-3 mb-4">
@@ -82,14 +82,14 @@ export default function CareersPage() {
                     </p>
                   </div>
                   <Link href="/call">
-                    <Button variant="outline" className="border-zinc-700 hover:bg-dark-green/80">
+                    <Button variant="outline" className="border-zinc-700 hover:bg-zinc-900/80">
                       Apply Now
                     </Button>
                   </Link>
                 </div>
               </div>
 
-              <div className="bg-dark-green/60 rounded-lg p-6 hover:bg-dark-green/80 transition-colors">
+              <div className="bg-zinc-900/60 rounded-lg p-6 hover:bg-zinc-900/80 transition-colors">
                 <div className="flex items-start justify-between">
                   <div>
                     <div className="flex items-center space-x-3 mb-4">
@@ -107,14 +107,14 @@ export default function CareersPage() {
                     </p>
                   </div>
                   <Link href="/call">
-                    <Button variant="outline" className="border-zinc-700 hover:bg-dark-green/80">
+                    <Button variant="outline" className="border-zinc-700 hover:bg-zinc-900/80">
                       Apply Now
                     </Button>
                   </Link>
                 </div>
               </div>
 
-              <div className="bg-dark-green/60 rounded-lg p-6 hover:bg-dark-green/80 transition-colors">
+              <div className="bg-zinc-900/60 rounded-lg p-6 hover:bg-zinc-900/80 transition-colors">
                 <div className="flex items-start justify-between">
                   <div>
                     <div className="flex items-center space-x-3 mb-4">
@@ -132,14 +132,14 @@ export default function CareersPage() {
                     </p>
                   </div>
                   <Link href="/call">
-                    <Button variant="outline" className="border-zinc-700 hover:bg-dark-green/80">
+                    <Button variant="outline" className="border-zinc-700 hover:bg-zinc-900/80">
                       Apply Now
                     </Button>
                   </Link>
                 </div>
               </div>
 
-              <div className="bg-dark-green/60 rounded-lg p-6 hover:bg-dark-green/80 transition-colors">
+              <div className="bg-zinc-900/60 rounded-lg p-6 hover:bg-zinc-900/80 transition-colors">
                 <div className="flex items-start justify-between">
                   <div>
                     <div className="flex items-center space-x-3 mb-4">
@@ -157,7 +157,7 @@ export default function CareersPage() {
                     </p>
                   </div>
                   <Link href="/call">
-                    <Button variant="outline" className="border-zinc-700 hover:bg-dark-green/80">
+                    <Button variant="outline" className="border-zinc-700 hover:bg-zinc-900/80">
                       Apply Now
                     </Button>
                   </Link>
@@ -167,7 +167,7 @@ export default function CareersPage() {
           </div>
 
           {/* Requirements */}
-          <div className="bg-dark-green/60 rounded-lg p-8">
+          <div className="bg-zinc-900/60 rounded-lg p-8">
             <h2 className="text-2xl font-bold mb-6">General Requirements</h2>
             <ul className="space-y-4 text-zinc-400">
               <li>• U.S. citizenship and ability to obtain security clearance required</li>

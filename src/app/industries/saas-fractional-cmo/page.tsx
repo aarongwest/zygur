@@ -37,7 +37,7 @@ export default function SaasFractionalCMOPage() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">Specialized SaaS Marketing Leadership</h2>
               <p className="text-zinc-300 mb-4">
                 SaaS companies face unique marketing challenges that traditional marketing approaches fail to address. From complex 
@@ -71,7 +71,7 @@ export default function SaasFractionalCMOPage() {
               </p>
             </div>
             
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">SaaS Marketing Challenges Solved</h2>
               <div className="space-y-6">
                 <div>
@@ -105,7 +105,7 @@ export default function SaasFractionalCMOPage() {
             </div>
           </div>
           
-          <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-gradient-to-r from-accent-orange/10 to-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Why SaaS Companies Choose a Fractional CMO</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
@@ -143,7 +143,7 @@ export default function SaasFractionalCMOPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">SaaS Marketing Leadership Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Strategic Services</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -177,7 +177,7 @@ export default function SaasFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Execution Oversight</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -218,7 +218,7 @@ export default function SaasFractionalCMOPage() {
             </div>
           </div>
           
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Fractional CMO Engagement Process for SaaS Companies</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-zinc-900/50 p-6 rounded-lg">
@@ -271,7 +271,7 @@ export default function SaasFractionalCMOPage() {
             <h2 className="text-2xl font-bold mb-8">FAQs: Fractional CMO for SaaS Companies</h2>
             
             <div className="space-y-6">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How much does a SaaS fractional CMO cost?</h3>
                 <p className="text-zinc-300">
                   For SaaS companies, fractional CMO services typically range from $3,000-$6,000 per month, depending on 
@@ -281,7 +281,7 @@ export default function SaasFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How many days per week will you work with our SaaS company?</h3>
                 <p className="text-zinc-300">
                   Most SaaS companies engage with a fractional CMO for 1-2 days per week. Early-stage startups might start with 1 day 
@@ -290,7 +290,7 @@ export default function SaasFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">What SaaS marketing metrics do you focus on?</h3>
                 <p className="text-zinc-300">
                   The specific metrics vary by business model and growth stage, but typically include: customer acquisition cost (CAC), 
@@ -299,7 +299,7 @@ export default function SaasFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">Do you work with early-stage SaaS startups?</h3>
                 <p className="text-zinc-300">
                   Yes, I work with SaaS companies from pre-seed through Series C. For early-stage startups, I focus on establishing 

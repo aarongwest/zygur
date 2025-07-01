@@ -26,7 +26,7 @@ export default function ApproachPage() {
           </div>
 
           {/* Core Framework */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-8">The SCALE Framework</h2>
             
             <div className="space-y-12">
@@ -153,7 +153,7 @@ export default function ApproachPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-6">The AI Advantage</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <div className="flex items-center space-x-4 mb-6">
                   <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center">
                     <Brain className="w-6 h-6 text-accent-orange" />
@@ -170,7 +170,7 @@ export default function ApproachPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <div className="flex items-center space-x-4 mb-6">
                   <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center">
                     <Lightbulb className="w-6 h-6 text-accent-orange" />
@@ -187,7 +187,7 @@ export default function ApproachPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <div className="flex items-center space-x-4 mb-6">
                   <div className="w-12 h-12 rounded-full bg-accent-yellow/10 flex items-center justify-center">
                     <Gauge className="w-6 h-6 text-accent-yellow" />
@@ -204,7 +204,7 @@ export default function ApproachPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <div className="flex items-center space-x-4 mb-6">
                   <div className="w-12 h-12 rounded-full bg-accent-yellow/10 flex items-center justify-center">
                     <Workflow className="w-6 h-6 text-accent-yellow" />
@@ -224,7 +224,7 @@ export default function ApproachPage() {
           </div>
 
           {/* How We Work Together */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">How We Work Together</h2>
             
             <div className="space-y-8">
@@ -263,7 +263,7 @@ export default function ApproachPage() {
             <p className="text-zinc-400 mb-8">All service plans include a <span className="text-accent-orange font-semibold">free $5,000 value high-quality website</span> and a <span className="text-accent-yellow font-semibold">$2,000 value branding and identity package</span>. A 1-year minimum agreement is required for all plans.</p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-gradient-to-b from-accent-orange/20 to-dark-green/60 rounded-lg p-8 relative">
+              <div className="bg-gradient-to-b from-accent-orange/20 to-zinc-900/60 rounded-lg p-8 relative">
                 <div className="absolute top-4 right-4 bg-accent-orange text-zinc-900 px-3 py-1 rounded-full text-xs font-medium">
                   Most Popular
                 </div>
@@ -295,7 +295,7 @@ export default function ApproachPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <div className="w-12 h-12 rounded-full bg-accent-yellow/20 flex items-center justify-center mb-6">
                   <span className="text-xl font-bold text-accent-yellow">2</span>
                 </div>
@@ -324,7 +324,7 @@ export default function ApproachPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <div className="w-12 h-12 rounded-full bg-accent-orange/20 flex items-center justify-center mb-6">
                   <span className="text-xl font-bold text-accent-orange">3</span>
                 </div>

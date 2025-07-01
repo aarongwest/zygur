@@ -84,7 +84,7 @@ export default function FractionalCMOPage() {
 
             {/* Key Benefits */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="flex items-center mb-4">
                   <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3">
                     <Zap className="w-5 h-5 text-accent-orange" />
@@ -96,7 +96,7 @@ export default function FractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="flex items-center mb-4">
                   <div className="w-10 h-10 rounded-full bg-accent-yellow/10 flex items-center justify-center mr-3">
                     <Award className="w-5 h-5 text-accent-yellow" />
@@ -108,7 +108,7 @@ export default function FractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="flex items-center mb-4">
                   <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3">
                     <CheckCircle className="w-5 h-5 text-accent-orange" />
@@ -122,7 +122,7 @@ export default function FractionalCMOPage() {
             </div>
 
             {/* Why Me Section */}
-            <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+            <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
               <h2 className="text-2xl font-bold mb-6">Why a Fractional CMO?</h2>
               <p className="text-zinc-400 mb-6">
                 Growing businesses need strategic marketing leadership but often can't justify a full-time executive. 
@@ -157,7 +157,7 @@ export default function FractionalCMOPage() {
             <p className="text-zinc-400 mb-6">All service plans include a <span className="text-accent-orange font-semibold">free $5,000 value website</span> and a <span className="text-accent-yellow font-semibold">$2,000 value branding package</span>. 1-year minimum agreement required.</p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-              <div className="bg-gradient-to-b from-accent-orange/20 to-dark-green/60 rounded-lg p-6 hover:bg-dark-green/80/70 hover:from-accent-orange/30 transition-colors relative">
+              <div className="bg-gradient-to-b from-accent-orange/20 to-zinc-900/60 rounded-lg p-6 hover:bg-zinc-900/80/70 hover:from-accent-orange/30 transition-colors relative">
                 <div className="absolute top-3 right-3 bg-accent-orange text-white px-2 py-0.5 rounded-full text-xs font-medium">
                   Popular
                 </div>
@@ -187,7 +187,7 @@ export default function FractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6 hover:bg-dark-green/80/70 transition-colors">
+              <div className="bg-zinc-900/60 rounded-lg p-6 hover:bg-zinc-900/80/70 transition-colors">
                 <h3 className="text-xl font-semibold mb-2 flex items-center">
                   <span className="w-8 h-8 rounded-full bg-zinc-700 flex items-center justify-center mr-3 flex-shrink-0">
                     <span className="text-sm font-bold">2</span>
@@ -214,7 +214,7 @@ export default function FractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6 hover:bg-dark-green/80/70 transition-colors">
+              <div className="bg-zinc-900/60 rounded-lg p-6 hover:bg-zinc-900/80/70 transition-colors">
                 <h3 className="text-xl font-semibold mb-2 flex items-center">
                   <span className="w-8 h-8 rounded-full bg-zinc-700 flex items-center justify-center mr-3 flex-shrink-0">
                     <span className="text-sm font-bold">+</span>
@@ -247,7 +247,7 @@ export default function FractionalCMOPage() {
             <div className="space-y-6 mb-16">
               <Link
                 href="/services/strategy"
-                className="block p-6 bg-dark-green/60 rounded-lg hover:bg-dark-green/80 transition-colors group"
+                className="block p-6 bg-zinc-900/60 rounded-lg hover:bg-zinc-900/80 transition-colors group"
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-4">
@@ -265,7 +265,7 @@ export default function FractionalCMOPage() {
 
               <Link
                 href="/services/execution"
-                className="block p-6 bg-dark-green/60 rounded-lg hover:bg-dark-green/80 transition-colors group"
+                className="block p-6 bg-zinc-900/60 rounded-lg hover:bg-zinc-900/80 transition-colors group"
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-4">
@@ -283,7 +283,7 @@ export default function FractionalCMOPage() {
 
               <Link
                 href="/services/optimization"
-                className="block p-6 bg-dark-green/60 rounded-lg hover:bg-dark-green/80 transition-colors group"
+                className="block p-6 bg-zinc-900/60 rounded-lg hover:bg-zinc-900/80 transition-colors group"
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-4">
@@ -301,7 +301,7 @@ export default function FractionalCMOPage() {
             </div>
 
             {/* FAQ Section - Added for SEO */}
-            <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+            <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
               <h2 className="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
               
               <div className="space-y-6">

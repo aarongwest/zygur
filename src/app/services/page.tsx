@@ -29,7 +29,7 @@ export default function ServicesPage() {
           <div className="space-y-8 mb-16">
             <Link
               href="/services/strategy"
-              className="block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors group"
+              className="block bg-zinc-900/60 rounded-lg p-8 hover:bg-zinc-900/80 transition-colors group"
             >
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center mr-4">
@@ -63,7 +63,7 @@ export default function ServicesPage() {
 
             <Link
               href="/services/execution"
-              className="block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors group"
+              className="block bg-zinc-900/60 rounded-lg p-8 hover:bg-zinc-900/80 transition-colors group"
             >
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 rounded-full bg-accent-yellow/10 flex items-center justify-center mr-4">
@@ -97,7 +97,7 @@ export default function ServicesPage() {
 
             <Link
               href="/services/optimization"
-              className="block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors group"
+              className="block bg-zinc-900/60 rounded-lg p-8 hover:bg-zinc-900/80 transition-colors group"
             >
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center mr-4">
@@ -137,7 +137,7 @@ export default function ServicesPage() {
               All service plans include a <span className="text-accent-orange font-semibold">free $5,000 value website</span> and a <span className="text-accent-yellow font-semibold">$2,000 value branding package</span>. A 1-year minimum agreement is required for all plans.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-gradient-to-b from-accent-orange/20 to-dark-green/60 rounded-lg p-6 relative">
+              <div className="bg-gradient-to-b from-accent-orange/20 to-zinc-900/60 rounded-lg p-6 relative">
                 <div className="absolute top-3 right-3 bg-accent-orange text-white px-2 py-1 rounded-full text-xs font-medium">
                   Popular
                 </div>
@@ -157,7 +157,7 @@ export default function ServicesPage() {
                   </li>
                 </ul>
               </div>
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-lg font-semibold mb-2 text-zinc-200">National Mgmt</h3>
                 <p className="text-accent-yellow font-semibold text-sm mb-3">Starting at $7k per mo</p>
                 <p className="text-zinc-400 mb-4">
@@ -174,7 +174,7 @@ export default function ServicesPage() {
                   </li>
                 </ul>
               </div>
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-lg font-semibold mb-2 text-zinc-200">Add-on Services</h3>
                 <p className="text-accent-orange font-semibold text-sm mb-3">$1k per mo</p>
                 <p className="text-zinc-400 mb-4">

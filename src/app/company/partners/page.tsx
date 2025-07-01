@@ -26,7 +26,7 @@ export default function PartnersPage() {
 
           {/* Partnership Categories */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="bg-dark-green/60 rounded-lg p-6">
+            <div className="bg-zinc-900/60 rounded-lg p-6">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center">
                   <Shield className="w-5 h-5 text-accent-orange" />
@@ -54,7 +54,7 @@ export default function PartnersPage() {
               </ul>
             </div>
 
-            <div className="bg-dark-green/60 rounded-lg p-6">
+            <div className="bg-zinc-900/60 rounded-lg p-6">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center">
                   <Globe className="w-5 h-5 text-amber-500" />
@@ -83,7 +83,7 @@ export default function PartnersPage() {
           </div>
 
           {/* Partnership Benefits */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Partnership Benefits</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
@@ -114,7 +114,7 @@ export default function PartnersPage() {
           <div className="max-w-4xl">
             <h2 className="text-2xl font-bold mb-8">Featured Partnerships</h2>
             <div className="space-y-8">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="flex items-start justify-between">
                   <div>
                     <div className="flex items-center space-x-3 mb-4">
@@ -140,7 +140,7 @@ export default function PartnersPage() {
                 </div>
               </div>
 
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="flex items-start justify-between">
                   <div>
                     <div className="flex items-center space-x-3 mb-4">

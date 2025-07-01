@@ -45,7 +45,7 @@ export default function FractionalCMOvsFullTimePage() {
           </div>
 
           {/* Quick Summary Section */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">The Key Differences: At a Glance</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div>
@@ -122,7 +122,7 @@ export default function FractionalCMOvsFullTimePage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">Detailed Cost Comparison</h2>
             
-            <div className="bg-dark-green/60 rounded-lg overflow-hidden mb-8">
+            <div className="bg-zinc-900/60 rounded-lg overflow-hidden mb-8">
               <div className="grid grid-cols-3">
                 <div className="p-6 bg-zinc-700/50 flex items-center justify-center">
                   <span className="font-semibold">Expense Type</span>
@@ -234,7 +234,7 @@ export default function FractionalCMOvsFullTimePage() {
             <h2 className="text-2xl font-bold mb-8">Pros & Cons: Honest Comparison</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-6">
+              <div className="bg-gradient-to-r from-accent-orange/10 to-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4 text-accent-orange">Fractional CMO</h3>
                 
                 <div className="mb-6">
@@ -286,7 +286,7 @@ export default function FractionalCMOvsFullTimePage() {
                 </div>
               </div>
               
-              <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-6">
+              <div className="bg-gradient-to-r from-accent-orange/10 to-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4 text-accent-orange">Full-Time CMO</h3>
                 
                 <div className="mb-6">
@@ -344,7 +344,7 @@ export default function FractionalCMOvsFullTimePage() {
           </div>
 
           {/* When to Choose Section */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">When to Choose Each Option</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
@@ -436,7 +436,7 @@ export default function FractionalCMOvsFullTimePage() {
             <h2 className="text-2xl font-bold mb-8">Real Company Examples</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-dark-green/60 rounded-lg overflow-hidden">
+              <div className="bg-zinc-900/60 rounded-lg overflow-hidden">
                 <div className="p-6 border-b border-zinc-700">
                   <h3 className="font-semibold">SaaS Company | $4.2M Revenue</h3>
                   <span className="text-sm text-accent-orange">Fractional CMO Solution</span>
@@ -467,7 +467,7 @@ export default function FractionalCMOvsFullTimePage() {
                 </div>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg overflow-hidden">
+              <div className="bg-zinc-900/60 rounded-lg overflow-hidden">
                 <div className="p-6 border-b border-zinc-700">
                   <h3 className="font-semibold">Manufacturing Firm | $87M Revenue</h3>
                   <span className="text-sm text-accent-orange">Full-Time CMO Solution</span>

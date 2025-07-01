@@ -11,7 +11,7 @@ module.exports = {
         'neon-green': '#06FF00',
         'accent-orange': '#d14900',
         'accent-yellow': '#ffc107',
-        'dark-green': '#0a1e15',
+        'dark-green': '#2F4F2F',
       },
       keyframes: {
         loader: {

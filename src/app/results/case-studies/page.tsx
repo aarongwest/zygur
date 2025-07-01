@@ -37,7 +37,7 @@ export default function CaseStudiesPage() {
             </div>
           </div>
           
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Case Studies Coming Soon</h2>
             <p className="text-zinc-300">
               We're currently developing detailed case studies showcasing our work with clients across 
@@ -55,7 +55,7 @@ export default function CaseStudiesPage() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="bg-dark-green/60 p-8 rounded-lg">
+            <div className="bg-zinc-900/60 p-8 rounded-lg">
               <h3 className="text-xl font-bold mb-4">Results Coming Soon</h3>
               <p className="text-zinc-400 mb-4">Our case studies will showcase measurable results including:</p>
               <ul className="list-disc pl-5 mb-4 space-y-2 text-zinc-400">
@@ -68,7 +68,7 @@ export default function CaseStudiesPage() {
               <p className="text-zinc-400 italic text-sm">Case studies will span across multiple industries and company sizes.</p>
             </div>
             
-            <div className="bg-dark-green/60 p-8 rounded-lg">
+            <div className="bg-zinc-900/60 p-8 rounded-lg">
               <h3 className="text-xl font-bold mb-4">Industry-Specific Insights</h3>
               <p className="text-zinc-400 mb-4">Looking for results in your industry? We'll be adding case studies for:</p>
               <div className="space-y-3 mb-4">

@@ -79,7 +79,7 @@ export default function FractionalCMOvsAgencyPage() {
           </div>
 
           {/* Quick Summary Section */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">The Key Differences at a Glance</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
@@ -154,7 +154,7 @@ export default function FractionalCMOvsAgencyPage() {
             <h2 className="text-2xl font-bold mb-8">Detailed Comparison: Fractional CMO vs Marketing Agency</h2>
             
             {/* Cost Comparison */}
-            <div className="bg-dark-green/60 rounded-lg p-8 mb-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8 mb-8">
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 rounded-full bg-zinc-700 flex items-center justify-center mr-4">
                   <DollarSign className="w-6 h-6 text-accent-orange" />
@@ -193,7 +193,7 @@ export default function FractionalCMOvsAgencyPage() {
             </div>
             
             {/* Focus & Expertise */}
-            <div className="bg-dark-green/60 rounded-lg p-8 mb-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8 mb-8">
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 rounded-full bg-zinc-700 flex items-center justify-center mr-4">
                   <Target className="w-6 h-6 text-accent-orange" />
@@ -257,7 +257,7 @@ export default function FractionalCMOvsAgencyPage() {
             </div>
             
             {/* Integration & Commitment */}
-            <div className="bg-dark-green/60 rounded-lg p-8 mb-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8 mb-8">
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 rounded-full bg-zinc-700 flex items-center justify-center mr-4">
                   <Users className="w-6 h-6 text-accent-orange" />
@@ -301,7 +301,7 @@ export default function FractionalCMOvsAgencyPage() {
             </div>
             
             {/* Results & Timeline */}
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 rounded-full bg-zinc-700 flex items-center justify-center mr-4">
                   <Clock className="w-6 h-6 text-accent-orange" />
@@ -341,7 +341,7 @@ export default function FractionalCMOvsAgencyPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">When to Choose Each Option</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-8">
+              <div className="bg-gradient-to-r from-accent-orange/10 to-zinc-900/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Choose a Fractional CMO When...</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -376,7 +376,7 @@ export default function FractionalCMOvsAgencyPage() {
                 </div>
               </div>
               
-              <div className="bg-gradient-to-r from-blue-400/10 to-dark-green/60 rounded-lg p-8">
+              <div className="bg-gradient-to-r from-blue-400/10 to-zinc-900/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Choose a Marketing Agency When...</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -453,7 +453,7 @@ export default function FractionalCMOvsAgencyPage() {
                   trying to do everything with agencies alone.
                 </p>
               </div>
-              <div className="md:w-1/3 bg-dark-green/60 rounded-lg p-6">
+              <div className="md:w-1/3 bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">Case Study: The Hybrid Approach</h3>
                 <p className="text-zinc-400 mb-4">
                   A B2B software company was spending $15,000/month with a full-service agency but 
@@ -501,7 +501,7 @@ export default function FractionalCMOvsAgencyPage() {
             <h2 className="text-2xl font-bold mb-8">Frequently Asked Questions</h2>
             
             <div className="space-y-6">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">What's the difference between a fractional CMO and a marketing agency?</h3>
                 <p className="text-zinc-400">
                   A <Link href="/resources/what-is-a-fractional-cmo" className="text-accent-orange hover:underline">fractional CMO</Link> is an experienced marketing executive who works part-time 
@@ -512,7 +512,7 @@ export default function FractionalCMOvsAgencyPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">Is a fractional CMO more expensive than a marketing agency?</h3>
                 <p className="text-zinc-400">
                   Not necessarily. While fractional CMO rates ($2,000-$7,000 monthly) might seem 
@@ -523,7 +523,7 @@ export default function FractionalCMOvsAgencyPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">When should I choose a fractional CMO over an agency?</h3>
                 <p className="text-zinc-400">
                   Choose a fractional CMO when you need strategic direction, marketing leadership, and 

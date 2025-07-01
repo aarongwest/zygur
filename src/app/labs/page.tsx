@@ -20,16 +20,16 @@ export default function LabsPage() {
             Zygur Labs
           </h1>
           <p className="text-lg text-zinc-400 mb-12 max-w-2xl">
-            Our experimental playground for AI software development. At Zygur Labs, we stay sharp on 
+            Our experimental playground for AI-powered design and engineering. At Zygur Labs, we stay sharp on 
             the latest digital technologies by creating innovative applications that push the boundaries 
-            of what's possible with modern AI and software development techniques.
+            of what's possible with modern AI, software development, and engineering techniques.
           </p>
 
           {/* Featured Projects */}
           <h2 className="text-2xl font-semibold mb-6">Featured Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* Sheepfold Project */}
-            <div className="bg-dark-green/60 rounded-lg p-6">
+            <div className="bg-zinc-900/60 rounded-lg p-6">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center">
                   <Star className="w-5 h-5 text-amber-500" />
@@ -69,7 +69,7 @@ export default function LabsPage() {
             </div>
 
             {/* BibleKit Project */}
-            <div className="bg-dark-green/60 rounded-lg p-6">
+            <div className="bg-zinc-900/60 rounded-lg p-6">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center">
                   <Star className="w-5 h-5 text-accent-orange" />
@@ -109,6 +109,52 @@ export default function LabsPage() {
             </div>
           </div>
 
+          {/* AI Product Design */}
+          <div className="bg-gradient-to-b from-zinc-900/50 to-zinc-900/70 rounded-lg p-8 mb-12">
+            <h2 className="text-2xl font-semibold mb-6">AI Product Design</h2>
+            <p className="text-zinc-400 mb-6 max-w-3xl">
+              We leverage artificial intelligence to revolutionize the product design process. Our AI-powered 
+              design tools help accelerate concept development, optimize user experiences, and generate 
+              innovative solutions that bridge the gap between human creativity and machine intelligence.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+              <div className="bg-zinc-900/40 rounded-lg p-6">
+                <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
+                  <Rocket className="w-5 h-5 text-accent-orange" />
+                </div>
+                <h3 className="font-semibold mb-2">Generative Design</h3>
+                <p className="text-sm text-zinc-400">
+                  AI algorithms that generate multiple design variations based on constraints and requirements.
+                </p>
+              </div>
+              <div className="bg-zinc-900/40 rounded-lg p-6">
+                <div className="w-10 h-10 rounded-full bg-accent-yellow/10 flex items-center justify-center mb-4">
+                  <Users className="w-5 h-5 text-accent-yellow" />
+                </div>
+                <h3 className="font-semibold mb-2">UX Optimization</h3>
+                <p className="text-sm text-zinc-400">
+                  Machine learning models that analyze user behavior to optimize interface design and flow.
+                </p>
+              </div>
+              <div className="bg-zinc-900/40 rounded-lg p-6">
+                <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
+                  <Star className="w-5 h-5 text-accent-orange" />
+                </div>
+                <h3 className="font-semibold mb-2">Predictive Modeling</h3>
+                <p className="text-sm text-zinc-400">
+                  AI-driven insights that predict design performance and user adoption before development.
+                </p>
+              </div>
+            </div>
+            <Link 
+              href="/solutions/design-prototyping" 
+              className="inline-flex items-center text-accent-orange hover:text-accent-orange/80"
+            >
+              Learn about our design capabilities
+              <ArrowRight className="w-4 h-4 ml-2" />
+            </Link>
+          </div>
+
           {/* Other Projects */}
           <h2 className="text-2xl font-semibold mb-8">More Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
@@ -116,7 +162,7 @@ export default function LabsPage() {
               <Link 
                 key={num}
                 href="/login" 
-                className="group block bg-dark-green/60 rounded-lg overflow-hidden hover:bg-dark-green/80 transition-colors"
+                className="group block bg-zinc-900/60 rounded-lg overflow-hidden hover:bg-zinc-900/80 transition-colors"
               >
                 <div className="aspect-video relative">
                   <Image
@@ -137,7 +183,7 @@ export default function LabsPage() {
           </div>
 
           {/* AI Development Information */}
-          <div className="bg-dark-green/60 rounded-lg p-8">
+          <div className="bg-zinc-900/60 rounded-lg p-8">
             <h2 className="text-2xl font-semibold mb-6">Our AI Playground</h2>
             <p className="text-zinc-400 mb-6 max-w-3xl">
               Zygur Labs is where we experiment with cutting-edge technologies to keep our skills 

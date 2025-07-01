@@ -37,7 +37,7 @@ export default function B2BFractionalCMOPage() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">B2B Marketing Leadership</h2>
               <p className="text-zinc-300 mb-4">
                 B2B companies face unique marketing challenges that consumer brands don't. From complex buying 
@@ -71,7 +71,7 @@ export default function B2BFractionalCMOPage() {
               </p>
             </div>
             
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">B2B Marketing Challenges Solved</h2>
               <div className="space-y-6">
                 <div>
@@ -106,7 +106,7 @@ export default function B2BFractionalCMOPage() {
             </div>
           </div>
           
-          <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-gradient-to-r from-accent-orange/10 to-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Why B2B Companies Choose a Fractional CMO</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="flex flex-col">
@@ -149,7 +149,7 @@ export default function B2BFractionalCMOPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">B2B Marketing Leadership Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Strategic Services</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -183,7 +183,7 @@ export default function B2BFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Execution Oversight</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -224,7 +224,7 @@ export default function B2BFractionalCMOPage() {
             </div>
           </div>
           
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">B2B Industry Experience</h2>
             <p className="text-zinc-300 mb-6">
               Our fractional CMO services have helped B2B companies across multiple sectors 
@@ -270,7 +270,7 @@ export default function B2BFractionalCMOPage() {
             <h2 className="text-2xl font-bold mb-8">FAQs: Fractional CMO for B2B Companies</h2>
             
             <div className="space-y-6">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How do you measure success for B2B marketing?</h3>
                 <p className="text-zinc-300">
                   For B2B companies, we focus on metrics that directly connect marketing to pipeline and revenue. This typically includes: 
@@ -281,7 +281,7 @@ export default function B2BFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">Our sales cycle is 6-12 months. How do you demonstrate marketing value quickly?</h3>
                 <p className="text-zinc-300">
                   While final conversion to customers may take 6-12 months, we establish interim metrics to track progress and demonstrate 
@@ -292,7 +292,7 @@ export default function B2BFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How do you work with our existing sales team?</h3>
                 <p className="text-zinc-300">
                   Strong marketing-sales alignment is critical for B2B success, so we prioritize building collaborative relationships with 
@@ -304,7 +304,7 @@ export default function B2BFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">Should we focus on ABM or inbound marketing for our B2B company?</h3>
                 <p className="text-zinc-300">
                   This depends on your specific business model, target market, and average deal size. For many B2B companies, 

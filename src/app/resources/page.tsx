@@ -19,7 +19,7 @@ export default function ResourcesPage() {
             {/* Documentation */}
             <Link 
               href="/login"
-              className="group block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors"
+              className="group block bg-zinc-900/60 rounded-lg p-8 hover:bg-zinc-900/80 transition-colors"
             >
               <div className="flex items-start justify-between">
                 <div>
@@ -55,7 +55,7 @@ export default function ResourcesPage() {
             {/* Research Papers */}
             <Link 
               href="/login"
-              className="group block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors"
+              className="group block bg-zinc-900/60 rounded-lg p-8 hover:bg-zinc-900/80 transition-colors"
             >
               <div className="flex items-start justify-between">
                 <div>
@@ -91,7 +91,7 @@ export default function ResourcesPage() {
             {/* Case Studies */}
             <Link 
               href="/login"
-              className="group block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors"
+              className="group block bg-zinc-900/60 rounded-lg p-8 hover:bg-zinc-900/80 transition-colors"
             >
               <div className="flex items-start justify-between">
                 <div>
@@ -127,7 +127,7 @@ export default function ResourcesPage() {
             {/* Labs */}
             <Link 
               href="/labs"
-              className="group block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors"
+              className="group block bg-zinc-900/60 rounded-lg p-8 hover:bg-zinc-900/80 transition-colors"
             >
               <div className="flex items-start justify-between">
                 <div>

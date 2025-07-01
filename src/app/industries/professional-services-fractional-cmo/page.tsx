@@ -38,7 +38,7 @@ export default function ProfessionalServicesFractionalCMOPage() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">Expert Marketing Leadership for Professional Services</h2>
               <p className="text-zinc-300 mb-4">
                 Professional services firms face unique marketing challenges. From proving expertise and credibility to 
@@ -72,7 +72,7 @@ export default function ProfessionalServicesFractionalCMOPage() {
               </p>
             </div>
             
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">Professional Services Marketing Challenges Solved</h2>
               <div className="space-y-6">
                 <div>
@@ -107,7 +107,7 @@ export default function ProfessionalServicesFractionalCMOPage() {
             </div>
           </div>
           
-          <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-gradient-to-r from-accent-orange/10 to-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Why Professional Services Firms Choose a Fractional CMO</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
@@ -146,7 +146,7 @@ export default function ProfessionalServicesFractionalCMOPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">Professional Services Marketing Leadership</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Strategic Services</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -180,7 +180,7 @@ export default function ProfessionalServicesFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Execution Support</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -221,7 +221,7 @@ export default function ProfessionalServicesFractionalCMOPage() {
             </div>
           </div>
           
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Professional Services Industry Expertise</h2>
             <p className="text-zinc-300 mb-6">
               Our fractional CMO services have helped professional services firms across multiple sectors
@@ -267,7 +267,7 @@ export default function ProfessionalServicesFractionalCMOPage() {
             <h2 className="text-2xl font-bold mb-8">FAQs: Fractional CMO for Professional Services Firms</h2>
             
             <div className="space-y-6">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How do you get our professionals involved in marketing when they're focused on client work?</h3>
                 <p className="text-zinc-300">
                   This is one of the most common challenges in professional services marketing. Our approach focuses on creating 
@@ -278,7 +278,7 @@ export default function ProfessionalServicesFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How do you measure marketing success for professional services firms?</h3>
                 <p className="text-zinc-300">
                   We tailor measurement approaches to each firm's specific goals, but typically track metrics including: lead quality and 
@@ -288,7 +288,7 @@ export default function ProfessionalServicesFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">Our firm has multiple practice areas. How do you balance marketing needs across them?</h3>
                 <p className="text-zinc-300">
                   We develop a firm-wide marketing strategy that creates a cohesive brand while allowing for practice-specific initiatives. 
@@ -299,7 +299,7 @@ export default function ProfessionalServicesFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">We've tried marketing before without much success. How is your approach different?</h3>
                 <p className="text-zinc-300">
                   Many professional services firms struggle with marketing because they implement tactics without a comprehensive strategy 

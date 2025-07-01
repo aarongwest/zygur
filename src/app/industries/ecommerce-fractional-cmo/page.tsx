@@ -37,7 +37,7 @@ export default function EcommerceFractionalCMOPage() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">E-commerce Marketing Leadership</h2>
               <p className="text-zinc-300 mb-4">
                 E-commerce businesses face unique marketing challenges in today's hyper-competitive landscape. From multi-channel 
@@ -71,7 +71,7 @@ export default function EcommerceFractionalCMOPage() {
               </p>
             </div>
             
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">E-commerce Marketing Challenges Solved</h2>
               <div className="space-y-6">
                 <div>
@@ -106,7 +106,7 @@ export default function EcommerceFractionalCMOPage() {
             </div>
           </div>
           
-          <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-gradient-to-r from-accent-orange/10 to-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Why E-commerce Businesses Choose a Fractional CMO</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="flex flex-col">
@@ -149,7 +149,7 @@ export default function EcommerceFractionalCMOPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">E-commerce Marketing Leadership Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Strategic Services</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -183,7 +183,7 @@ export default function EcommerceFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Execution Oversight</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -224,7 +224,7 @@ export default function EcommerceFractionalCMOPage() {
             </div>
           </div>
           
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">E-commerce Experience Across Business Models</h2>
             <p className="text-zinc-300 mb-6">
               Our fractional CMO services have helped e-commerce businesses across multiple business models 
@@ -270,7 +270,7 @@ export default function EcommerceFractionalCMOPage() {
             <h2 className="text-2xl font-bold mb-8">FAQs: Fractional CMO for E-commerce Businesses</h2>
             
             <div className="space-y-6">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How long does it take to see improvements in e-commerce marketing performance?</h3>
                 <p className="text-zinc-300">
                   Timelines vary based on your starting point and the specific challenges we're addressing. Typically, we can implement
@@ -281,7 +281,7 @@ export default function EcommerceFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">We're struggling with increasing CAC on Facebook and Google. Can you help?</h3>
                 <p className="text-zinc-300">
                   Yes, this is one of the most common challenges facing e-commerce businesses today. Our approach includes:
@@ -293,7 +293,7 @@ export default function EcommerceFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How do you approach attribution with iOS privacy changes and cookie restrictions?</h3>
                 <p className="text-zinc-300">
                   We take a practical approach to attribution that acknowledges the limitations of current tracking while still providing 
@@ -305,7 +305,7 @@ export default function EcommerceFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How do you work with our existing agencies and marketing team?</h3>
                 <p className="text-zinc-300">
                   As a fractional CMO, I function as an extension of your leadership team, collaborating with rather than replacing your 

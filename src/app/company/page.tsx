@@ -20,7 +20,7 @@ export default function CompanyPage() {
               {/* About Us */}
               <Link 
                 href="/company/about"
-                className="group block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors"
+                className="group block bg-zinc-900/60 rounded-lg p-8 hover:bg-zinc-900/80 transition-colors"
               >
                 <div className="flex items-start justify-between">
                   <div>
@@ -56,7 +56,7 @@ export default function CompanyPage() {
               {/* Careers */}
               <Link 
                 href="/company/careers"
-                className="group block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors"
+                className="group block bg-zinc-900/60 rounded-lg p-8 hover:bg-zinc-900/80 transition-colors"
               >
                 <div className="flex items-start justify-between">
                   <div>
@@ -92,7 +92,7 @@ export default function CompanyPage() {
               {/* Contact */}
               <Link 
                 href="/company/contact"
-                className="group block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors"
+                className="group block bg-zinc-900/60 rounded-lg p-8 hover:bg-zinc-900/80 transition-colors"
               >
                 <div className="flex items-start justify-between">
                   <div>
@@ -128,7 +128,7 @@ export default function CompanyPage() {
               {/* Partners */}
               <Link 
                 href="/company/partners"
-                className="group block bg-dark-green/60 rounded-lg p-8 hover:bg-dark-green/80 transition-colors"
+                className="group block bg-zinc-900/60 rounded-lg p-8 hover:bg-zinc-900/80 transition-colors"
               >
                 <div className="flex items-start justify-between">
                   <div>

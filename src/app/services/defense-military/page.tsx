@@ -63,7 +63,7 @@ export default function B2BFractionalCMOPage() {
           </div>
 
           {/* B2B Challenges Section */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">B2B Marketing Challenges Solved</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-zinc-900/50 rounded-lg p-6">
@@ -149,7 +149,7 @@ export default function B2BFractionalCMOPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-6">B2B Fractional CMO Approach</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">Strategic Marketing Planning</h3>
                 <p className="text-zinc-400 mb-4">
                   A comprehensive B2B marketing strategy aligned with your sales goals, target accounts, 
@@ -181,7 +181,7 @@ export default function B2BFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">Content & Thought Leadership</h3>
                 <p className="text-zinc-400 mb-4">
                   Strategic content development that positions your company as an authority in your 
@@ -213,7 +213,7 @@ export default function B2BFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">Demand Generation</h3>
                 <p className="text-zinc-400 mb-4">
                   Strategic lead generation and nurturing programs designed specifically for B2B sales 
@@ -245,7 +245,7 @@ export default function B2BFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">Performance Measurement</h3>
                 <p className="text-zinc-400 mb-4">
                   Comprehensive B2B marketing analytics that go beyond vanity metrics to measure what 
@@ -279,7 +279,7 @@ export default function B2BFractionalCMOPage() {
           </div>
 
           {/* B2B Success Stories */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">B2B Success Stories</h2>
             <div className="mb-8 pb-8 border-b border-zinc-700">
               <div className="flex items-center mb-4">
@@ -360,7 +360,7 @@ export default function B2BFractionalCMOPage() {
                 <p className="text-zinc-400">Schedule a strategy call to discuss how a fractional CMO can help your specific B2B business needs.</p>
               </div>
               <Link href="/call">
-                <Button className="w-full md:w-auto bg-zinc-900 hover:bg-dark-green/80 text-white border border-zinc-700 font-medium py-5 px-6">
+                <Button className="w-full md:w-auto bg-zinc-900 hover:bg-zinc-900/80 text-white border border-zinc-700 font-medium py-5 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule Your Call
                 </Button>
               </Link>

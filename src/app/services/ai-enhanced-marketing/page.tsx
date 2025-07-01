@@ -64,7 +64,7 @@ export default function AIEnhancedMarketingPage() {
           </div>
 
           {/* AI Marketing Advantages */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-8">Why AI Transforms Marketing Results</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="flex">
@@ -190,7 +190,7 @@ export default function AIEnhancedMarketingPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">AI-Enhanced Marketing Solutions</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
                   <Layers className="w-6 h-6 text-accent-orange" />
                 </div>
@@ -215,7 +215,7 @@ export default function AIEnhancedMarketingPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
                   <Brain className="w-6 h-6 text-accent-orange" />
                 </div>
@@ -240,7 +240,7 @@ export default function AIEnhancedMarketingPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="w-12 h-12 rounded-full bg-accent-yellow/10 flex items-center justify-center mb-4">
                   <LineChart className="w-6 h-6 text-accent-yellow" />
                 </div>
@@ -268,7 +268,7 @@ export default function AIEnhancedMarketingPage() {
           </div>
 
           {/* AI Case Study */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">AI Marketing Success Story</h2>
             <div className="grid grid-cols-1 md:grid-cols-7 gap-8">
               <div className="md:col-span-4">
@@ -302,15 +302,15 @@ export default function AIEnhancedMarketingPage() {
                 <div className="bg-zinc-900/70 rounded-lg p-6">
                   <h4 className="font-medium text-center mb-6">Results After 6 Months</h4>
                   <div className="space-y-4">
-                    <div className="bg-dark-green/60 rounded-lg p-4 text-center">
+                    <div className="bg-zinc-900/60 rounded-lg p-4 text-center">
                       <div className="text-3xl font-bold mb-1 text-accent-orange">63%</div>
                       <p className="text-sm text-zinc-400">Reduction in Cost Per Lead</p>
                     </div>
-                    <div className="bg-dark-green/60 rounded-lg p-4 text-center">
+                    <div className="bg-zinc-900/60 rounded-lg p-4 text-center">
                       <div className="text-3xl font-bold mb-1 text-accent-orange">87%</div>
                       <p className="text-sm text-zinc-400">Increase in Qualified Appointments</p>
                     </div>
-                    <div className="bg-dark-green/60 rounded-lg p-4 text-center">
+                    <div className="bg-zinc-900/60 rounded-lg p-4 text-center">
                       <div className="text-3xl font-bold mb-1 text-accent-orange">43%</div>
                       <p className="text-sm text-zinc-400">Higher Close Rate from Marketing Leads</p>
                     </div>
@@ -335,7 +335,7 @@ export default function AIEnhancedMarketingPage() {
               and business alignment.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-6">
+              <div className="bg-gradient-to-r from-accent-orange/10 to-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">What AI Handles</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -361,7 +361,7 @@ export default function AIEnhancedMarketingPage() {
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-r from-accent-orange/10 to-dark-green/60 rounded-lg p-6">
+              <div className="bg-gradient-to-r from-accent-orange/10 to-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-4">What I Bring as Your Fractional CMO</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -397,7 +397,7 @@ export default function AIEnhancedMarketingPage() {
                 <p className="text-zinc-400">Schedule a call to explore how AI-enhanced marketing can drive growth for your business.</p>
               </div>
               <Link href="/call">
-                <Button className="w-full md:w-auto bg-zinc-900 hover:bg-dark-green/80 text-white border border-zinc-700 font-medium py-5 px-6">
+                <Button className="w-full md:w-auto bg-zinc-900 hover:bg-zinc-900/80 text-white border border-zinc-700 font-medium py-5 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule Your AI Strategy Call
                 </Button>
               </Link>

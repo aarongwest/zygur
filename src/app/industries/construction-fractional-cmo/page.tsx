@@ -37,7 +37,7 @@ export default function ConstructionFractionalCMOPage() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">Construction Marketing Leadership</h2>
               <p className="text-zinc-300 mb-4">
                 Construction companies face unique marketing challenges in today's competitive landscape. From project-based business cycles and 
@@ -71,7 +71,7 @@ export default function ConstructionFractionalCMOPage() {
               </p>
             </div>
             
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">Construction Marketing Challenges Solved</h2>
               <div className="space-y-6">
                 <div>
@@ -144,7 +144,7 @@ export default function ConstructionFractionalCMOPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">Construction Marketing Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Strategic Services</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -178,7 +178,7 @@ export default function ConstructionFractionalCMOPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <h3 className="text-xl font-semibold mb-4">Execution Oversight</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -219,7 +219,7 @@ export default function ConstructionFractionalCMOPage() {
             </div>
           </div>
           
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Construction Industry Expertise</h2>
             <p className="text-zinc-300 mb-6">
               Our fractional CMO services have helped construction companies across multiple specialties grow their business
@@ -265,7 +265,7 @@ export default function ConstructionFractionalCMOPage() {
             <h2 className="text-2xl font-bold mb-8">FAQs: Fractional CMO for Construction Companies</h2>
             
             <div className="space-y-6">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How can a fractional CMO help my construction business grow?</h3>
                 <p className="text-zinc-300">
                   A fractional CMO brings strategic marketing leadership to help you attract better projects, convert more clients, 
@@ -275,7 +275,7 @@ export default function ConstructionFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">Our business relies heavily on referrals. Do we really need digital marketing?</h3>
                 <p className="text-zinc-300">
                   Referrals are incredibly valuable, and we'll help you systematize and expand your referral generation. However, 
@@ -285,7 +285,7 @@ export default function ConstructionFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How do you balance client acquisition with workforce recruitment?</h3>
                 <p className="text-zinc-300">
                   We understand that construction companies can only grow as fast as they can find qualified workers. Our dual-focus approach 
@@ -295,7 +295,7 @@ export default function ConstructionFractionalCMOPage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">What specific results can construction companies expect?</h3>
                 <p className="text-zinc-300">
                   Results vary based on your starting point and specialty, but our construction clients typically see improvements in project 

@@ -36,7 +36,7 @@ export default function CMOAsAServicePage() {
             </div>
           </div>
           
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">What is CMO as a Service?</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
@@ -91,7 +91,7 @@ export default function CMOAsAServicePage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">Flexible CMO Service Models</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <div className="flex items-center mb-5">
                   <Users className="w-8 h-8 text-accent-orange mr-4" />
                   <h3 className="text-xl font-semibold">Part-Time CMO</h3>
@@ -124,7 +124,7 @@ export default function CMOAsAServicePage() {
                 </Link>
               </div>
               
-              <div className="bg-gradient-to-b from-accent-orange/10 to-dark-green/60 rounded-lg p-8">
+              <div className="bg-gradient-to-b from-accent-orange/10 to-zinc-900/60 rounded-lg p-8">
                 <div className="flex items-center mb-5">
                   <BarChart2 className="w-8 h-8 text-accent-orange mr-4" />
                   <h3 className="text-xl font-semibold">Strategic Advisor</h3>
@@ -156,7 +156,7 @@ export default function CMOAsAServicePage() {
                 </Link>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-8">
+              <div className="bg-zinc-900/60 rounded-lg p-8">
                 <div className="flex items-center mb-5">
                   <Clock className="w-8 h-8 text-accent-orange mr-4" />
                   <h3 className="text-xl font-semibold">Interim CMO</h3>
@@ -190,7 +190,7 @@ export default function CMOAsAServicePage() {
             </div>
           </div>
           
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">Our CMO as a Service Process</h2>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
               <div className="bg-zinc-900/50 p-5 rounded-lg">
@@ -239,7 +239,7 @@ export default function CMOAsAServicePage() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">Core Services Included</h2>
               <ul className="space-y-3">
                 <li className="flex items-start">
@@ -280,7 +280,7 @@ export default function CMOAsAServicePage() {
               </ul>
             </div>
             
-            <div className="bg-dark-green/60 rounded-lg p-8">
+            <div className="bg-zinc-900/60 rounded-lg p-8">
               <h2 className="text-2xl font-bold mb-6">Optional Add-on Services</h2>
               <ul className="space-y-3">
                 <li className="flex items-start">
@@ -331,7 +331,7 @@ export default function CMOAsAServicePage() {
             <h2 className="text-2xl font-bold mb-8">FAQs About CMO as a Service</h2>
             
             <div className="space-y-6">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How does CMO as a Service differ from traditional consulting?</h3>
                 <p className="text-zinc-300">
                   Unlike traditional consultants who typically deliver recommendations but aren't involved in implementation, 
@@ -342,7 +342,7 @@ export default function CMOAsAServicePage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How much time will you dedicate to our business?</h3>
                 <p className="text-zinc-300">
                   This depends on your chosen engagement model. Part-time CMO engagements typically range from 1-2 days per week, 
@@ -353,7 +353,7 @@ export default function CMOAsAServicePage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">What industries do you specialize in?</h3>
                 <p className="text-zinc-300">
                   We have particular expertise in B2B, technology, professional services, manufacturing, and e-commerce sectors. 
@@ -364,7 +364,7 @@ export default function CMOAsAServicePage() {
                 </p>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <h3 className="text-xl font-semibold mb-3">How do we get started with CMO as a Service?</h3>
                 <p className="text-zinc-300">
                   The process begins with a complimentary discovery call to understand your business, challenges, and goals. 

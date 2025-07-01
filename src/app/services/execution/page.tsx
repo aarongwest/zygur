@@ -33,7 +33,7 @@ export default function ExecutionPage() {
           </div>
 
           {/* AI Advantage Section */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <div className="flex flex-col md:flex-row items-start">
               <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0">
                 <h2 className="text-2xl font-bold mb-6">The AI Execution Advantage</h2>
@@ -140,7 +140,7 @@ export default function ExecutionPage() {
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-6">AI-Enhanced Marketing Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
                   <svg className="w-6 h-6 text-accent-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
@@ -167,7 +167,7 @@ export default function ExecutionPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
                   <svg className="w-6 h-6 text-accent-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
@@ -194,7 +194,7 @@ export default function ExecutionPage() {
                 </ul>
               </div>
               
-              <div className="bg-dark-green/60 rounded-lg p-6">
+              <div className="bg-zinc-900/60 rounded-lg p-6">
                 <div className="w-12 h-12 rounded-full bg-accent-orange/10 flex items-center justify-center mb-4">
                   <svg className="w-6 h-6 text-accent-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -224,7 +224,7 @@ export default function ExecutionPage() {
           </div>
 
           {/* Approach Section */}
-          <div className="bg-dark-green/60 rounded-lg p-8 mb-16">
+          <div className="bg-zinc-900/60 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6">My Execution Process</h2>
             <div className="space-y-8">
               <div className="flex flex-col md:flex-row">
