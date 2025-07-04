@@ -139,7 +139,7 @@ export default function Home() {
             <div className="mb-24">
               <div className="w-full">
                 <Image
-                  src="/our-brands.png"
+                  src="/brands.png"
                   alt="Our client brands"
                   width={900}
                   height={180}
