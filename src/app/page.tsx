@@ -135,7 +135,7 @@ export default function Home() {
 
             {/* Companies and Projects Section */}
             <h2 className="text-xl md:text-2xl font-bold mb-4">Companies and Projects we've Personally Started or Helped Start</h2>
-            <p className="text-zinc-400 mb-8">A portfolio of brands I've been directly involved in launching or scaling. Each represents a unique journey in entrepreneurship and innovation.</p>
+            <p className="text-zinc-400 mb-8">A portfolio of brands we've been directly involved in launching or scaling. Each represents a unique journey in entrepreneurship and innovation.</p>
             <div className="mb-24">
               <div className="w-full">
                 <Image
