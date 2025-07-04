@@ -37,10 +37,10 @@ export default function ManufacturingDevelopmentPage() {
               </span>
             </div>
             <h1 className="text-4xl font-bold tracking-tight mb-6">
-              Manufacture, Code, Integrate
+              Code, Manufacture, Integrate
             </h1>
             <p className="text-lg text-zinc-400 mb-8">
-              Transform validated designs into reality through precision manufacturing, custom software development, 
+              Transform validated designs into reality through custom software development, precision manufacturing, 
               and seamless system integration. Our comprehensive development capabilities ensure your solution 
               is built to the highest standards of quality and performance.
             </p>
@@ -48,25 +48,6 @@ export default function ManufacturingDevelopmentPage() {
 
           {/* Core Capabilities */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-            <div className="bg-zinc-900/60 rounded-lg p-8">
-              <div className="flex items-center mb-4">
-                <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3">
-                  <Wrench className="w-5 h-5 text-accent-orange" />
-                </div>
-                <h3 className="font-semibold">Custom Manufacturing</h3>
-              </div>
-              <p className="text-sm text-zinc-400 mb-4">
-                Precision machining, welding, fabrication, and assembly services. 
-                We manufacture custom components and complete systems to exact specifications.
-              </p>
-              <ul className="space-y-1 text-xs text-zinc-500">
-                <li>• CNC machining and turning</li>
-                <li>• Welding and fabrication</li>
-                <li>• Assembly and testing</li>
-                <li>• Quality control and inspection</li>
-              </ul>
-            </div>
-            
             <div className="bg-zinc-900/60 rounded-lg p-8">
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 rounded-full bg-accent-yellow/10 flex items-center justify-center mr-3">
@@ -83,6 +64,25 @@ export default function ManufacturingDevelopmentPage() {
                 <li>• Embedded software and firmware</li>
                 <li>• Database design and optimization</li>
                 <li>• API development and integration</li>
+              </ul>
+            </div>
+            
+            <div className="bg-zinc-900/60 rounded-lg p-8">
+              <div className="flex items-center mb-4">
+                <div className="w-10 h-10 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3">
+                  <Wrench className="w-5 h-5 text-accent-orange" />
+                </div>
+                <h3 className="font-semibold">Custom Manufacturing</h3>
+              </div>
+              <p className="text-sm text-zinc-400 mb-4">
+                3D printing, additive manufacturing, and assembly services. 
+                We manufacture custom components and complete systems to exact specifications.
+              </p>
+              <ul className="space-y-1 text-xs text-zinc-500">
+                <li>• 3D printing and rapid prototyping</li>
+                <li>• Custom enclosures and housings</li>
+                <li>• Assembly and testing</li>
+                <li>• Quality control and inspection</li>
               </ul>
             </div>
             
@@ -106,110 +106,121 @@ export default function ManufacturingDevelopmentPage() {
             </div>
           </div>
 
-          {/* Manufacturing Capabilities */}
+          {/* Software Development Capabilities */}
           <div className="mb-16">
-            <h2 className="text-2xl font-bold mb-6">Manufacturing Capabilities</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-zinc-900/40 rounded-lg p-6">
-                <h3 className="font-semibold mb-4">Precision Machining</h3>
-                <div className="grid grid-cols-2 gap-4 text-sm text-zinc-400">
-                  <div>
-                    <h4 className="font-medium text-zinc-300 mb-2">CNC Services</h4>
-                    <ul className="space-y-1 text-xs">
-                      <li>• Multi-axis CNC machining</li>
-                      <li>• Turning and milling</li>
-                      <li>• Precision grinding</li>
-                      <li>• Surface finishing</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-zinc-300 mb-2">Materials</h4>
-                    <ul className="space-y-1 text-xs">
-                      <li>• Aluminum and steel alloys</li>
-                      <li>• Stainless steel</li>
-                      <li>• Titanium and exotic metals</li>
-                      <li>• Engineering plastics</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+            <h2 className="text-2xl font-bold mb-6">Software Development Capabilities</h2>
+            
+            {/* Standalone Software Development */}
+            <div className="mb-12">
+              <h3 className="text-xl font-semibold mb-6">Standalone Software Solutions</h3>
+              <p className="text-zinc-400 mb-6">
+                We develop complete software applications and systems that operate independently, from web applications 
+                and mobile apps to enterprise software and cloud-based platforms. These solutions can serve businesses 
+                directly without requiring custom hardware integration.
+              </p>
               
-              <div className="bg-zinc-900/40 rounded-lg p-6">
-                <h3 className="font-semibold mb-4">Welding & Fabrication</h3>
-                <div className="grid grid-cols-2 gap-4 text-sm text-zinc-400">
-                  <div>
-                    <h4 className="font-medium text-zinc-300 mb-2">Welding Types</h4>
-                    <ul className="space-y-1 text-xs">
-                      <li>• TIG welding</li>
-                      <li>• MIG welding</li>
-                      <li>• Stick welding</li>
-                      <li>• Specialized processes</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-zinc-300 mb-2">Fabrication</h4>
-                    <ul className="space-y-1 text-xs">
-                      <li>• Sheet metal forming</li>
-                      <li>• Structural welding</li>
-                      <li>• Custom assemblies</li>
-                      <li>• Prototype to production</li>
-                    </ul>
-                  </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div className="bg-zinc-900/40 rounded-lg p-6">
+                  <h4 className="font-semibold mb-3">Web Applications</h4>
+                  <ul className="space-y-2 text-sm text-zinc-400">
+                    <li className="flex items-start">
+                      <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
+                      React, Next.js, Vue.js applications
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
+                      E-commerce platforms and marketplaces
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
+                      Business management systems
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
+                      Customer portals and dashboards
+                    </li>
+                  </ul>
+                </div>
+                
+                <div className="bg-zinc-900/40 rounded-lg p-6">
+                  <h4 className="font-semibold mb-3">Enterprise Software</h4>
+                  <ul className="space-y-2 text-sm text-zinc-400">
+                    <li className="flex items-start">
+                      <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
+                      Custom CRM and ERP systems
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
+                      Workflow automation tools
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
+                      Data analytics and reporting platforms
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
+                      API development and integration
+                    </li>
+                  </ul>
+                </div>
+                
+                <div className="bg-zinc-900/40 rounded-lg p-6">
+                  <h4 className="font-semibold mb-3">Mobile & Cloud</h4>
+                  <ul className="space-y-2 text-sm text-zinc-400">
+                    <li className="flex items-start">
+                      <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
+                      iOS and Android applications
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
+                      Progressive web applications
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
+                      Cloud infrastructure and deployment
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
+                      Database design and optimization
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
-          </div>
 
-          {/* Software Development Stack */}
-          <div className="mb-16">
-            <h2 className="text-2xl font-bold mb-6">Software Development Stack</h2>
+            {/* Hardware-Software Integration */}
+            <div className="bg-gradient-to-r from-accent-yellow/10 to-accent-orange/10 rounded-lg p-6 mb-8">
+              <h3 className="text-xl font-semibold mb-4">Hardware-Software Integration</h3>
+              <p className="text-zinc-400 mb-4">
+                We specialize in creating complete integrated solutions that combine custom software with manufactured hardware components. 
+                Our expertise spans from embedded firmware to cloud-connected dashboards, enabling smart manufacturing equipment, 
+                IoT devices, industrial automation systems, and specialized defense applications.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-medium text-zinc-300 mb-2">Microcontroller Platforms</h4>
+                  <ul className="space-y-1 text-sm text-zinc-400">
+                    <li>• Arduino (ESP32, ESP8266) for IoT and automation</li>
+                    <li>• Raspberry Pi for edge computing applications</li>
+                    <li>• STM32 microcontrollers for real-time systems</li>
+                    <li>• Custom PCB design and assembly</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-medium text-zinc-300 mb-2">Integration Examples</h4>
+                  <ul className="space-y-1 text-sm text-zinc-400">
+                    <li>• Smart factory monitoring with custom enclosures</li>
+                    <li>• Agricultural automation with weather-resistant frames</li>
+                    <li>• Medical devices with custom firmware</li>
+                    <li>• Defense communication systems ($100K+ contracts)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-zinc-900/40 rounded-lg p-6">
-                <h3 className="font-semibold mb-3">Frontend Development</h3>
-                <ul className="space-y-2 text-sm text-zinc-400">
-                  <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
-                    React, Next.js, Vue.js
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
-                    TypeScript and JavaScript
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
-                    Mobile app development
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
-                    Progressive web apps
-                  </li>
-                </ul>
-              </div>
-              
-              <div className="bg-zinc-900/40 rounded-lg p-6">
-                <h3 className="font-semibold mb-3">Backend Development</h3>
-                <ul className="space-y-2 text-sm text-zinc-400">
-                  <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
-                    Node.js, Python, Go
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
-                    RESTful APIs and GraphQL
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
-                    Microservices architecture
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
-                    Cloud-native development
-                  </li>
-                </ul>
-              </div>
-              
-              <div className="bg-zinc-900/40 rounded-lg p-6">
-                <h3 className="font-semibold mb-3">Embedded Systems</h3>
+                <h4 className="font-semibold mb-3">Embedded Software</h4>
                 <ul className="space-y-2 text-sm text-zinc-400">
                   <li className="flex items-start">
                     <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
@@ -221,54 +232,166 @@ export default function ManufacturingDevelopmentPage() {
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
-                    IoT device programming
+                    Device drivers and hardware abstraction
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
-                    Hardware abstraction layers
+                    Bootloaders and system initialization
                   </li>
                 </ul>
+              </div>
+              
+              <div className="bg-zinc-900/40 rounded-lg p-6">
+                <h4 className="font-semibold mb-3">Communication Protocols</h4>
+                <ul className="space-y-2 text-sm text-zinc-400">
+                  <li className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
+                    WiFi, Bluetooth, LoRaWAN
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
+                    CAN bus, Modbus, Ethernet
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
+                    Cellular (4G/5G) integration
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5 mr-2 flex-shrink-0" />
+                    Secure mesh networking
+                  </li>
+                </ul>
+              </div>
+              
+              <div className="bg-zinc-900/40 rounded-lg p-6">
+                <h4 className="font-semibold mb-3">Integration Platforms</h4>
+                <ul className="space-y-2 text-sm text-zinc-400">
+                  <li className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
+                    IoT data processing and analytics
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
+                    Real-time monitoring dashboards
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
+                    Cloud integration (AWS IoT, Azure IoT)
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-accent-yellow mt-0.5 mr-2 flex-shrink-0" />
+                    Over-the-air (OTA) updates
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Development Tools & Technologies */}
+            <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-zinc-900/30 rounded-lg p-6">
+                <h4 className="font-medium text-zinc-300 mb-3">Development Tools & Platforms</h4>
+                <div className="grid grid-cols-2 gap-4 text-sm text-zinc-400">
+                  <div>
+                    <p className="font-medium text-zinc-300 mb-1">Embedded Development</p>
+                    <ul className="space-y-1 text-xs">
+                      <li>• PlatformIO and Arduino IDE</li>
+                      <li>• KiCad and Altium for PCB design</li>
+                      <li>• Real-time debugging tools</li>
+                      <li>• Hardware simulation environments</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="font-medium text-zinc-300 mb-1">Software Development</p>
+                    <ul className="space-y-1 text-xs">
+                      <li>• Docker containerization</li>
+                      <li>• CI/CD pipelines</li>
+                      <li>• Version control and collaboration</li>
+                      <li>• Automated testing frameworks</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-zinc-900/30 rounded-lg p-6">
+                <h4 className="font-medium text-zinc-300 mb-3">Technology Stack</h4>
+                <div className="grid grid-cols-2 gap-4 text-sm text-zinc-400">
+                  <div>
+                    <p className="font-medium text-zinc-300 mb-1">Backend Technologies</p>
+                    <ul className="space-y-1 text-xs">
+                      <li>• Node.js, Python, Go</li>
+                      <li>• PostgreSQL, MongoDB</li>
+                      <li>• RESTful APIs and GraphQL</li>
+                      <li>• Microservices architecture</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="font-medium text-zinc-300 mb-1">Frontend Technologies</p>
+                    <ul className="space-y-1 text-xs">
+                      <li>• React, Next.js, TypeScript</li>
+                      <li>• React Native for mobile</li>
+                      <li>• Responsive web design</li>
+                      <li>• Progressive web apps</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          {/* Quality & Testing */}
-          <div className="bg-gradient-to-b from-zinc-900/50 to-zinc-900/70 rounded-lg p-8 mb-16">
-            <h2 className="text-2xl font-bold mb-6">Quality Assurance & Testing</h2>
+          {/* Manufacturing Capabilities */}
+          <div className="mb-16">
+            <h2 className="text-2xl font-bold mb-6">Manufacturing Capabilities</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <div className="flex items-center mb-4">
-                  <div className="w-8 h-8 rounded-full bg-accent-orange/10 flex items-center justify-center mr-3">
-                    <Shield className="w-4 h-4 text-accent-orange" />
+              <div className="bg-zinc-900/40 rounded-lg p-6">
+                <h3 className="font-semibold mb-4">3D Printing & Additive Manufacturing</h3>
+                <div className="grid grid-cols-2 gap-4 text-sm text-zinc-400">
+                  <div>
+                    <h4 className="font-medium text-zinc-300 mb-2">3D Printing Technologies</h4>
+                    <ul className="space-y-1 text-xs">
+                      <li>• FDM/FFF printing</li>
+                      <li>• SLA resin printing</li>
+                      <li>• Multi-material printing</li>
+                      <li>• High-resolution prototyping</li>
+                    </ul>
                   </div>
-                  <h3 className="font-semibold">Manufacturing Quality</h3>
+                  <div>
+                    <h4 className="font-medium text-zinc-300 mb-2">Materials</h4>
+                    <ul className="space-y-1 text-xs">
+                      <li>• Engineering plastics (PLA, ABS, PETG)</li>
+                      <li>• High-performance polymers</li>
+                      <li>• Flexible and composite materials</li>
+                      <li>• Specialty resins and filaments</li>
+                    </ul>
+                  </div>
                 </div>
-                <ul className="space-y-2 text-sm text-zinc-400">
-                  <li>• Dimensional inspection and CMM measurement</li>
-                  <li>• Material testing and certification</li>
-                  <li>• Non-destructive testing (NDT)</li>
-                  <li>• Statistical process control (SPC)</li>
-                  <li>• ISO 9001 quality management</li>
-                </ul>
               </div>
               
-              <div>
-                <div className="flex items-center mb-4">
-                  <div className="w-8 h-8 rounded-full bg-accent-yellow/10 flex items-center justify-center mr-3">
-                    <Settings className="w-4 h-4 text-accent-yellow" />
+              <div className="bg-zinc-900/40 rounded-lg p-6">
+                <h3 className="font-semibold mb-4">Assembly & Integration</h3>
+                <div className="grid grid-cols-2 gap-4 text-sm text-zinc-400">
+                  <div>
+                    <h4 className="font-medium text-zinc-300 mb-2">Assembly Services</h4>
+                    <ul className="space-y-1 text-xs">
+                      <li>• Component integration</li>
+                      <li>• Electronic assembly</li>
+                      <li>• Custom enclosures</li>
+                      <li>• System testing</li>
+                    </ul>
                   </div>
-                  <h3 className="font-semibold">Software Testing</h3>
+                  <div>
+                    <h4 className="font-medium text-zinc-300 mb-2">Finishing</h4>
+                    <ul className="space-y-1 text-xs">
+                      <li>• Post-processing and finishing</li>
+                      <li>• Surface treatments</li>
+                      <li>• Custom assemblies</li>
+                      <li>• Prototype to production</li>
+                    </ul>
+                  </div>
                 </div>
-                <ul className="space-y-2 text-sm text-zinc-400">
-                  <li>• Automated testing and CI/CD pipelines</li>
-                  <li>• Unit, integration, and end-to-end testing</li>
-                  <li>• Performance and load testing</li>
-                  <li>• Security testing and vulnerability assessment</li>
-                  <li>• User acceptance testing (UAT)</li>
-                </ul>
               </div>
             </div>
           </div>
+
 
           {/* Integration Process */}
           <div className="mb-16">
@@ -276,7 +399,7 @@ export default function ManufacturingDevelopmentPage() {
             <div className="space-y-6">
               <div className="flex items-start">
                 <div className="w-8 h-8 rounded-full bg-accent-orange flex items-center justify-center mr-4 mt-1 flex-shrink-0">
-                  <span className="text-sm font-bold text-white">1</span>
+                  <span className="text-sm font-bold text-black">1</span>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">Component Development</h3>
@@ -302,7 +425,7 @@ export default function ManufacturingDevelopmentPage() {
               
               <div className="flex items-start">
                 <div className="w-8 h-8 rounded-full bg-accent-orange flex items-center justify-center mr-4 mt-1 flex-shrink-0">
-                  <span className="text-sm font-bold text-white">3</span>
+                  <span className="text-sm font-bold text-black">3</span>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">Performance Optimization</h3>
@@ -348,7 +471,7 @@ export default function ManufacturingDevelopmentPage() {
                 <p className="text-zinc-400">Let's discuss your manufacturing and development requirements.</p>
               </div>
               <Link href="/call">
-                <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-white border-0 font-medium py-5 px-6">
+                <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-black border-0 font-medium py-5 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule Your Call
                 </Button>
               </Link>

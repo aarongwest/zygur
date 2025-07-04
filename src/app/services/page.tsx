@@ -138,7 +138,7 @@ export default function ServicesPage() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-gradient-to-b from-accent-orange/20 to-zinc-900/60 rounded-lg p-6 relative">
-                <div className="absolute top-3 right-3 bg-accent-orange text-white px-2 py-1 rounded-full text-xs font-medium">
+                <div className="absolute top-3 right-3 bg-accent-orange text-black px-2 py-1 rounded-full text-xs font-medium">
                   Popular
                 </div>
                 <h3 className="text-lg font-semibold mb-2 text-zinc-200">Local Mgmt</h3>
@@ -202,7 +202,7 @@ export default function ServicesPage() {
                 <p className="text-zinc-400">Limited availability - only 7 client spots per year.</p>
               </div>
               <Link href="/call">
-                <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-white border-0 font-medium py-5 px-6">
+                <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-black border-0 font-medium py-5 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule Your Call
                 </Button>
               </Link>

@@ -20,8 +20,8 @@ export default function SolutionsPage() {
               Design, Develop, Deploy
             </h1>
             <p className="text-lg text-zinc-400 mb-8">
-              From concept to market - we engineer complete solutions combining advanced manufacturing, 
-              custom software, and strategic deployment. Our proven 3D methodology ensures your project 
+              From concept to market - we engineer complete solutions combining custom software, 
+              advanced manufacturing, and strategic deployment. Our proven 3D methodology ensures your project 
               succeeds at every stage.
             </p>
           </div>
@@ -60,9 +60,9 @@ export default function SolutionsPage() {
                 </div>
                 <h2 className="text-2xl font-bold">DEVELOP</h2>
               </div>
-              <p className="text-accent-yellow font-medium mb-4">Manufacture, code, integrate</p>
+              <p className="text-accent-yellow font-medium mb-4">Code, manufacture, integrate</p>
               <p className="text-zinc-400 mb-6">
-                Custom fabrication, precision machining, software development, and system integration. 
+                Software development, custom fabrication, precision machining, and system integration. 
                 We build your solution with quality assurance and rigorous testing.
               </p>
               <div className="flex justify-end">
@@ -111,8 +111,8 @@ export default function SolutionsPage() {
               <div>
                 <h3 className="text-xl font-semibold mb-3">Proven Process</h3>
                 <p className="text-zinc-400 mb-4">
-                  Our methodology has been refined through years of successful projects across manufacturing, 
-                  software development, and market deployment. Each phase builds on the previous one, 
+                  Our methodology has been refined through years of successful projects across software development, 
+                  manufacturing, and market deployment. Each phase builds on the previous one, 
                   reducing risk and accelerating time-to-market.
                 </p>
               </div>
@@ -145,7 +145,7 @@ export default function SolutionsPage() {
                 <h3 className="font-semibold mb-2">Defense & Government</h3>
                 <p className="text-sm text-zinc-400">
                   Secure solutions for defense contractors and government agencies requiring 
-                  specialized manufacturing and software development.
+                  specialized software development and manufacturing.
                 </p>
               </div>
               
@@ -175,7 +175,7 @@ export default function SolutionsPage() {
                 <p className="text-zinc-400">Let's discuss how our 3D methodology can bring your project to life.</p>
               </div>
               <Link href="/call">
-                <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-white border-0 font-medium py-5 px-6">
+                <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-black border-0 font-medium py-5 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule Your Call
                 </Button>
               </Link>

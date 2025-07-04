@@ -112,7 +112,7 @@ export default function DesignPrototypingPage() {
             <div className="space-y-6">
               <div className="flex items-start">
                 <div className="w-8 h-8 rounded-full bg-accent-orange flex items-center justify-center mr-4 mt-1 flex-shrink-0">
-                  <span className="text-sm font-bold text-white">1</span>
+                  <span className="text-sm font-bold text-black">1</span>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">Discovery & Requirements</h3>
@@ -138,7 +138,7 @@ export default function DesignPrototypingPage() {
               
               <div className="flex items-start">
                 <div className="w-8 h-8 rounded-full bg-accent-orange flex items-center justify-center mr-4 mt-1 flex-shrink-0">
-                  <span className="text-sm font-bold text-white">3</span>
+                  <span className="text-sm font-bold text-black">3</span>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">Detailed Design</h3>
@@ -256,7 +256,7 @@ export default function DesignPrototypingPage() {
                 <p className="text-zinc-400">Let's start with a discovery session to understand your needs and objectives.</p>
               </div>
               <Link href="/call">
-                <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-white border-0 font-medium py-5 px-6">
+                <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-black border-0 font-medium py-5 px-6">
                   <Calendar className="w-5 h-5 mr-2" /> Schedule Your Call
                 </Button>
               </Link>

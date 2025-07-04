@@ -55,7 +55,7 @@ export default function FractionalCMOPage() {
             
             <div className="flex flex-col sm:flex-row gap-4 mb-16">
               <Link href="/call">
-                <Button className="w-full sm:w-auto bg-accent-orange hover:bg-accent-orange/80 text-white font-medium text-lg py-6 px-8">
+                <Button className="w-full sm:w-auto bg-accent-orange hover:bg-accent-orange/80 text-black font-medium text-lg py-6 px-8">
                   Hire a Fractional CMO
                 </Button>
               </Link>
@@ -158,7 +158,7 @@ export default function FractionalCMOPage() {
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
               <div className="bg-gradient-to-b from-accent-orange/20 to-zinc-900/60 rounded-lg p-6 hover:bg-zinc-900/80/70 hover:from-accent-orange/30 transition-colors relative">
-                <div className="absolute top-3 right-3 bg-accent-orange text-white px-2 py-0.5 rounded-full text-xs font-medium">
+                <div className="absolute top-3 right-3 bg-accent-orange text-black px-2 py-0.5 rounded-full text-xs font-medium">
                   Popular
                 </div>
                 <h3 className="text-xl font-semibold mb-2 flex items-center">
@@ -344,7 +344,7 @@ export default function FractionalCMOPage() {
                   <p className="text-zinc-400">Limited availability - only 7 client spots per year.</p>
                 </div>
                 <Link href="/call">
-                  <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-white font-medium py-5 px-6">
+                  <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-black font-medium py-5 px-6">
                     <Calendar className="w-5 h-5 mr-2" /> Hire a Fractional CMO
                   </Button>
                 </Link>

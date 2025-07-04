@@ -95,7 +95,7 @@ export function ContactForm() {
         <Button
           type="submit"
           disabled={status === 'loading'}
-          className="w-full bg-accent-orange hover:bg-accent-orange/80 text-white font-medium transition-colors"
+          className="w-full bg-accent-orange hover:bg-accent-orange/80 text-black font-medium transition-colors"
         >
           {status === 'loading' ? 'Sending...' : 'Send Message'}
         </Button>

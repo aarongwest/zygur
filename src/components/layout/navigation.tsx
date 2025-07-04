@@ -83,7 +83,7 @@ export function Navigation() {
           </Link>
 
           <Link href="/call">
-            <Button variant="default" size="sm" className="bg-accent-orange text-white hover:bg-accent-orange/80 flex items-center">
+            <Button variant="default" size="sm" className="bg-accent-orange text-black hover:bg-accent-orange/80 flex items-center">
               <Calendar className="w-4 h-4 mr-1" /> Schedule a Call
             </Button>
           </Link>
@@ -108,7 +108,7 @@ export function Navigation() {
             {/* Mobile Call Button */}
             <div className="pt-2">
               <Link href="/call">
-                <Button variant="default" className="w-full bg-accent-orange text-white hover:bg-accent-orange/80 flex items-center justify-center">
+                <Button variant="default" className="w-full bg-accent-orange text-black hover:bg-accent-orange/80 flex items-center justify-center">
                   <Calendar className="w-4 h-4 mr-1" /> Schedule a Call
                 </Button>
               </Link>

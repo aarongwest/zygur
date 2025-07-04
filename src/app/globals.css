@@ -82,8 +82,8 @@
       /* Grid pattern */
       linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
       linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-      /* Diagonal accent lines - orange tinted */
-      linear-gradient(135deg, rgba(209, 73, 0, 0.05) 1px, transparent 2px),
+      /* Diagonal accent lines - lime green tinted */
+      linear-gradient(135deg, rgba(208, 255, 75, 0.05) 1px, transparent 2px),
       /* Subtle yellow highlight */
       radial-gradient(circle at 20% 30%, rgba(255, 193, 7, 0.02) 0%, transparent 25%);
     background-size: 

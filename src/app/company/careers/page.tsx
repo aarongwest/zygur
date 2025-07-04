@@ -18,7 +18,7 @@ export default function CareersPage() {
               talent to join our team of innovators and problem solvers.
             </p>
             <Link href="/call">
-              <Button className="bg-accent-orange hover:bg-blue-600 text-white">
+              <Button className="bg-accent-orange hover:bg-blue-600 text-black">
                 Contact Recruiting
               </Button>
             </Link>

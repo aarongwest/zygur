@@ -12,17 +12,17 @@ export default function Home() {
     <PageLayout>
       <Head>
         <title>Utah Technology Company | Design, Develop, Deploy Solutions | Zygur</title>
-        <meta name="description" content="Utah's premier technology company specializing in custom manufacturing, software development, and complete solution engineering. From concept to deployment - we design, develop, and deploy innovative technology solutions." />
+        <meta name="description" content="Utah's premier technology company specializing in software development, custom manufacturing, and complete solution engineering. From concept to deployment - we design, develop, and deploy innovative technology solutions." />
         <meta name="keywords" content="utah technology company, custom manufacturing utah, software development utah, solution engineering, design prototyping, system integration, welding fabrication, machining services, technology solutions utah, engineering company utah" />
         <link rel="canonical" href="https://zygur.com" />
         <meta property="og:title" content="Utah Technology Company | Design, Develop, Deploy Solutions | Zygur" />
-        <meta property="og:description" content="Utah's premier technology company specializing in custom manufacturing, software development, and complete solution engineering." />
+        <meta property="og:description" content="Utah's premier technology company specializing in software development, custom manufacturing, and complete solution engineering." />
         <meta property="og:url" content="https://zygur.com" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://zygur.com/zygur-logo.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Utah Technology Company | Design, Develop, Deploy Solutions | Zygur" />
-        <meta name="twitter:description" content="Utah's premier technology company specializing in custom manufacturing, software development, and complete solution engineering." />
+        <meta name="twitter:description" content="Utah's premier technology company specializing in software development, custom manufacturing, and complete solution engineering." />
         <script type="application/ld+json">
           {`
             {
@@ -48,8 +48,8 @@ export default function Home() {
                 "https://aaronwe.st"
               ],
               "serviceType": [
-                "Custom Manufacturing",
                 "Software Development",
+                "Custom Manufacturing",
                 "System Integration",
                 "Solution Engineering",
                 "Welding and Fabrication",
@@ -77,7 +77,7 @@ export default function Home() {
                     "itemOffered": {
                       "@type": "Service",
                       "name": "Manufacturing & Development",
-                      "description": "Custom manufacturing, software development, and system integration"
+                      "description": "Software development, custom manufacturing, and system integration"
                     }
                   },
                   {
@@ -108,35 +108,33 @@ export default function Home() {
               />
             </div>
             <h1 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">
-              Design, Develop, Deploy your solution
-              <br />
-              <span className="text-zinc-400 block mt-2">with Utah's premier technology company</span>
+              Design, Develop, and Deploy your solution <span className="text-zinc-400">with a long term U.S. partner.</span>
             </h1>
             <p className="text-base md:text-lg text-zinc-400 mb-8 max-w-2xl">
-              From concept to market - we engineer complete solutions combining advanced manufacturing, 
-              custom software, and strategic deployment to make your product a success.
+              We engineer complete solutions that work in the real world - combining custom software, 
+              precision manufacturing, and strategic deployment. One team, one vision, one solution.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-16">
               <Link href="/solutions/design-prototyping">
-                <Button className="w-full sm:w-auto bg-accent-orange hover:bg-accent-orange/80 text-white font-medium text-base md:text-lg py-5 md:py-6 px-6 md:px-8">
+                <Button className="w-full sm:w-auto bg-accent-orange hover:bg-accent-orange/80 text-black font-medium text-base md:text-lg py-5 md:py-6 px-6 md:px-8 whitespace-nowrap">
                   Design & Prototype
                 </Button>
               </Link>
               <Link href="/solutions/manufacturing-development">
-                <Button variant="outline" className="w-full sm:w-auto text-base md:text-lg py-5 md:py-6 px-6 md:px-8">
+                <Button variant="outline" className="w-full sm:w-auto text-base md:text-lg py-5 md:py-6 px-6 md:px-8 whitespace-nowrap">
                   Manufacture & Code
                 </Button>
               </Link>
               <Link href="/solutions/distribute-optimize">
-                <Button variant="outline" className="w-full sm:w-auto text-base md:text-lg py-5 md:py-6 px-6 md:px-8">
+                <Button variant="outline" className="w-full sm:w-auto text-base md:text-lg py-5 md:py-6 px-6 md:px-8 whitespace-nowrap">
                   Distribute & Optimize
                 </Button>
               </Link>
             </div>
 
             {/* Companies and Projects Section */}
-            <h2 className="text-xl md:text-2xl font-bold mb-4">Companies and Projects I've Personally Started or Helped Start</h2>
+            <h2 className="text-xl md:text-2xl font-bold mb-4">Companies and Projects we've Personally Started or Helped Start</h2>
             <p className="text-zinc-400 mb-8">A portfolio of brands I've been directly involved in launching or scaling. Each represents a unique journey in entrepreneurship and innovation.</p>
             <div className="mb-24">
               <div className="w-full">
@@ -173,7 +171,7 @@ export default function Home() {
                   <h3 className="font-semibold">Integrated Capabilities</h3>
                 </div>
                 <p className="text-sm text-zinc-400">
-                  Manufacturing, software development, and deployment expertise under one roof.
+                  Software development, manufacturing, and deployment expertise under one roof.
                 </p>
               </div>
               
@@ -198,7 +196,7 @@ export default function Home() {
                   <p className="text-zinc-400">Let's discuss your technology project and explore how we can help.</p>
                 </div>
                 <Link href="/call">
-                  <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-white font-medium py-5 px-6">
+                  <Button className="w-full md:w-auto bg-accent-orange hover:bg-accent-orange/80 text-black font-medium py-5 px-6 whitespace-nowrap">
                     <Calendar className="w-5 h-5 mr-2" /> Schedule a Call
                   </Button>
                 </Link>

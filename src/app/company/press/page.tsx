@@ -18,7 +18,7 @@ export default function PressPage() {
               in defense technology.
             </p>
             <Link href="/call">
-              <Button className="bg-accent-orange hover:bg-blue-600 text-white">
+              <Button className="bg-accent-orange hover:bg-blue-600 text-black">
                 Media Inquiries
               </Button>
             </Link>

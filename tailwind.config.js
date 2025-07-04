@@ -7,9 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'mono': ['var(--font-space-mono)', 'monospace'],
+        'sans': ['var(--font-space-mono)', 'monospace'],
+      },
       colors: {
         'neon-green': '#06FF00',
-        'accent-orange': '#d14900',
+        'accent-orange': '#d0ff4b',
         'accent-yellow': '#ffc107',
         'dark-green': '#2F4F2F',
       },

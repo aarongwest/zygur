@@ -18,7 +18,7 @@ export default function PartnersPage() {
               and technology companies to advance military capabilities.
             </p>
             <Link href="/call">
-              <Button className="bg-accent-orange hover:bg-blue-600 text-white">
+              <Button className="bg-accent-orange hover:bg-blue-600 text-black">
                 Partner With Us
               </Button>
             </Link>

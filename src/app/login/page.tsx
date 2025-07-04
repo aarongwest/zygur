@@ -21,7 +21,7 @@ export default function LoginPage() {
               to request access credentials.
             </p>
             <Link href="/company/contact">
-              <Button className="bg-accent-orange hover:bg-blue-600 text-white">
+              <Button className="bg-accent-orange hover:bg-blue-600 text-black">
                 Contact for Access
               </Button>
             </Link>

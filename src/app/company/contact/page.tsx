@@ -34,7 +34,7 @@ export default function ContactPage() {
                 to explore how we can bring your project to life.
               </p>
               <Link href="/call">
-                <Button className="bg-accent-orange hover:bg-accent-orange/80 text-white font-medium w-full">
+                <Button className="bg-accent-orange hover:bg-accent-orange/80 text-black font-medium w-full">
                   Schedule Consultation
                 </Button>
               </Link>

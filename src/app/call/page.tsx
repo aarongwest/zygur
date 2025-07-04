@@ -107,7 +107,7 @@ export default function CallPage() {
           </div>
 
           {/* Additional Information */}
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl">
             <h2 className="text-2xl font-bold mb-6">What to Expect</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-zinc-900/60 rounded-lg p-6">

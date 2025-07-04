@@ -1,12 +1,14 @@
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Space_Mono } from "next/font/google"
 import { Suspense } from "react"
 import "./globals.css"
 import Loading from "./loading"
+import { CookieBanner } from "@/components/cookie-banner"
 
-const inter = Inter({
+const spaceMono = Space_Mono({
   subsets: ["latin"],
-  variable: "--font-inter",
+  weight: ["400", "700"],
+  variable: "--font-space-mono",
 })
 
 export const metadata: Metadata = {
@@ -37,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable}`}>
+    <html lang="en" className={`${spaceMono.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -52,6 +54,7 @@ export default function RootLayout({
         <Suspense fallback={<Loading />}>
           {children}
         </Suspense>
+        <CookieBanner />
       </body>
     </html>
   )
