@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { PasswordLink } from "../password-link"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -17,6 +18,13 @@ export function Footer() {
             <Link href="/terms" className="text-zinc-400 hover:text-white transition-colors">
               Terms of Service
             </Link>
+            <PasswordLink 
+              href="/internal" 
+              password="Dagger12"
+              className="text-zinc-400 hover:text-white transition-colors"
+            >
+              Internal
+            </PasswordLink>
           </div>
         </div>
       </div>
