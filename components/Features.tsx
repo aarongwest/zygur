@@ -2,28 +2,28 @@
 
 const features = [
   {
-    title: "Automatic Compliance",
-    description: "Every GPU job is automatically logged with tamper-proof audit trails. SOC2, HIPAA, and GDPR ready out of the box.",
+    title: "Temporal State Machines",
+    description: "Workflows that remember history. Tuesday's result affects Wednesday's logic. Resume from any checkpoint after failures.",
   },
   {
-    title: "Cost Optimization",
-    description: "Smart routing to the cheapest available GPU provider. Save up to 60% with spot instance arbitrage.",
+    title: "Cryptographic Audit Chains",
+    description: "Merkle-tree linked execution logs prove exactly what ran, when, and with what result. Tamper-proof and immutable.",
   },
   {
-    title: "Audit Reports",
-    description: "Generate compliance reports with one command. Pass audits in minutes, not weeks.",
+    title: "Intelligent Orchestration",
+    description: "Warm pools, predictive scheduling, and cost optimization across GPU clouds. Preload models 5 minutes before execution.",
   },
   {
-    title: "Multi-Cloud Routing",
-    description: "Route to Lambda, Replicate, Vast.ai, or CoreWeave. One API, multiple backends.",
+    title: "Cloud-Agnostic Execution",
+    description: "Compile workflows to Lambda, Replicate, Vast, or on-prem. One declarative definition, multiple backends.",
   },
   {
-    title: "Enterprise Security",
-    description: "End-to-end encryption, BAAs included, and data residency controls. Built for regulated industries.",
+    title: "Event Sourcing",
+    description: "Every state change stored as immutable event. Full audit trail with cryptographic verification and ECDSA signatures.",
   },
   {
-    title: "Usage Analytics",
-    description: "Real-time cost tracking and usage insights. Know exactly where every dollar goes.",
+    title: "Declarative Workflows",
+    description: "Define automations in YAML or via TUI. DAG-based execution with branching, retries, and fan-out capabilities.",
   },
 ];
 
@@ -33,10 +33,10 @@ export function Features() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <h2 className="text-2xl font-bold mb-3 text-black dark:text-white">
-            Features
+            Core Capabilities
           </h2>
           <p className="text-sm text-gray-600 dark:text-gray-500 max-w-2xl">
-            Built for developers in regulated industries who need to move fast without breaking compliance.
+            A distributed systems engine that guarantees "this job ran at this time with this result, provably and immutably."
           </p>
         </div>
 

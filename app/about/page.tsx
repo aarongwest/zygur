@@ -11,20 +11,58 @@ export default function AboutPage() {
         
         <div className="space-y-6 text-sm text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">
           <p>
-            Zygur Technologies Corp. is building the compliance layer for cloud GPU infrastructure. 
-            We enable developers in regulated industries to leverage the power of modern AI while 
-            maintaining full compliance with SOC2, HIPAA, and GDPR requirements.
+            Zygur is a <strong className="text-black dark:text-white">temporal workflow engine</strong> that compiles declarative 
+            automation definitions into distributed, auditable execution across cloud infrastructure. We maintain cryptographic 
+            state graphs (Merkle trees) proving exactly what ran, when, and with what result—designed specifically for regulated 
+            industries requiring audit trails.
           </p>
           
-          <p>
-            Founded in 2024, our mission is to eliminate the friction between innovation and compliance. 
-            We believe that developers shouldn't have to choose between moving fast and staying compliant.
-          </p>
+          <div className="pt-6">
+            <h2 className="text-xl font-bold mb-4 text-black dark:text-white">The Three-Layer Architecture</h2>
+            
+            <div className="space-y-6">
+              <div className="border border-gray-200 dark:border-gray-800 p-6">
+                <h3 className="text-base font-semibold mb-2 text-black dark:text-white">Layer 1: Zygur (Infrastructure)</h3>
+                <p className="mb-3">
+                  The universal compliance runtime. A workflow compiler and temporal state engine that runs as a Go binary 
+                  in the cloud, orchestrating external compute (Replicate, Lambda, Vast) while maintaining compliance audit chains.
+                </p>
+                <p className="text-xs text-gray-500">
+                  <strong>Use Cases:</strong> HealthTech (HIPAA), FinTech (SOX/PCI), LegalTech (eDiscovery), GRC (SOC2), Factory Operations
+                </p>
+              </div>
+              
+              <div className="border border-gray-200 dark:border-gray-800 p-6">
+                <h3 className="text-base font-semibold mb-2 text-black dark:text-white">Layer 2: GERTY (Application)</h3>
+                <p className="mb-3">
+                  Specialized automation platform for Governance, Risk, Compliance (GRC), Factory Operations, and HR workflows. 
+                  Built on Zygur with pre-built templates and a declarative workflow marketplace.
+                </p>
+                <p className="text-xs text-gray-500">
+                  <strong>Use Cases:</strong> SOC2 evidence collection, predictive maintenance, compliance training tracking, automated audits
+                </p>
+              </div>
+              
+              <div className="border border-gray-200 dark:border-gray-800 p-6">
+                <h3 className="text-base font-semibold mb-2 text-black dark:text-white">Layer 3: EHS, Inc. (Service)</h3>
+                <p className="mb-3">
+                  Human consulting practice using GERTY-on-Zygur to deliver Environmental Health & Safety services. 
+                  Provides domain expertise and serves as Customer Zero for the platform.
+                </p>
+                <p className="text-xs text-gray-500">
+                  <strong>Services:</strong> OSHA compliance audits, EPA environmental reporting, industrial hygiene monitoring
+                </p>
+              </div>
+            </div>
+          </div>
           
-          <p>
-            Our platform automatically routes GPU workloads to the most cost-effective provider while 
-            generating tamper-proof audit logs that satisfy even the most stringent regulatory requirements.
-          </p>
+          <div className="pt-6">
+            <h2 className="text-xl font-bold mb-4 text-black dark:text-white">Core Innovation</h2>
+            <p>
+              Zygur doesn't own GPUs or data centers. We own the <strong className="text-black dark:text-white">state topology</strong>—the 
+              mathematical graph proving job continuity across time. We are "Temporal.io for regulated AI + Cromwell for compliance."
+            </p>
+          </div>
           
           <div className="pt-8">
             <h2 className="text-xl font-bold mb-4 text-black dark:text-white">Contact Sales</h2>

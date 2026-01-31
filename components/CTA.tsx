@@ -6,10 +6,10 @@ export function CTA() {
       <div className="max-w-7xl mx-auto">
         <div className="border border-gray-200 dark:border-gray-900 p-8 text-center bg-white dark:bg-transparent">
           <h2 className="text-2xl font-bold text-black dark:text-white mb-3">
-            Ready to build compliant AI?
+            Ready to build regulated automation?
           </h2>
           <p className="text-sm text-gray-600 dark:text-gray-500 mb-6 max-w-2xl mx-auto">
-            Join developers at leading LegalTech, FinTech, and HealthTech companies who trust Zygur for their AI infrastructure.
+            Join platform engineers at HealthTech, FinTech, and GRC companies who trust Zygur for temporal workflow execution with cryptographic audit trails.
           </p>
           <div className="flex gap-3 justify-center">
             <a 

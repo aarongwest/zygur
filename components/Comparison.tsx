@@ -6,101 +6,101 @@ export function Comparison() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-2xl font-bold mb-3 text-black dark:text-white">
-            Why Developers Choose Zygur
+            Zygur vs. Alternatives
           </h2>
           <p className="text-sm text-gray-600 dark:text-gray-500 max-w-2xl mx-auto">
-            Stop choosing between cost and compliance. Get both with Zygur.
+            The only temporal workflow engine built specifically for regulated automation with cryptographic audit trails.
           </p>
         </div>
 
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-3 gap-6">
-            {/* AWS/Azure */}
+            {/* Temporal.io */}
             <div className="border border-gray-900 p-6">
               <div className="text-center mb-4">
-                <h3 className="text-sm font-medium text-gray-400 mb-2">AWS / Azure / GCP</h3>
-                <div className="text-xs text-gray-600">Traditional Cloud</div>
+                <h3 className="text-sm font-medium text-gray-400 mb-2">Temporal.io</h3>
+                <div className="text-xs text-gray-600">Workflow Orchestration</div>
               </div>
               <ul className="space-y-3 text-xs">
                 <li className="flex items-start gap-2">
-                  <span className="text-red-500 mt-0.5">✗</span>
-                  <span className="text-gray-500">Expensive ($4-8/hr for A100)</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-red-500 mt-0.5">✗</span>
-                  <span className="text-gray-500">Complex setup (weeks)</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-red-500 mt-0.5">✗</span>
-                  <span className="text-gray-500">Manual compliance work</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-red-500 mt-0.5">✗</span>
-                  <span className="text-gray-500">Vendor lock-in</span>
+                  <span className="text-green-500 mt-0.5">✓</span>
+                  <span className="text-gray-400">Durable execution</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-500 mt-0.5">✓</span>
-                  <span className="text-gray-400">SOC2/HIPAA certified</span>
+                  <span className="text-gray-400">State management</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-red-500 mt-0.5">✗</span>
+                  <span className="text-gray-500">No cryptographic audit chains</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-red-500 mt-0.5">✗</span>
+                  <span className="text-gray-500">Not compliance-focused</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-red-500 mt-0.5">✗</span>
+                  <span className="text-gray-500">Complex self-hosting</span>
                 </li>
               </ul>
             </div>
 
-            {/* GPU Providers */}
+            {/* Airflow/Prefect */}
             <div className="border border-gray-900 p-6">
               <div className="text-center mb-4">
-                <h3 className="text-sm font-medium text-gray-400 mb-2">Lambda / Vast.ai</h3>
-                <div className="text-xs text-gray-600">GPU Providers</div>
+                <h3 className="text-sm font-medium text-gray-400 mb-2">Airflow / Prefect</h3>
+                <div className="text-xs text-gray-600">Data Pipelines</div>
               </div>
               <ul className="space-y-3 text-xs">
                 <li className="flex items-start gap-2">
                   <span className="text-green-500 mt-0.5">✓</span>
-                  <span className="text-gray-400">Cheap ($2-3/hr for A100)</span>
+                  <span className="text-gray-400">DAG-based workflows</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-500 mt-0.5">✓</span>
-                  <span className="text-gray-400">Fast setup (minutes)</span>
+                  <span className="text-gray-400">Scheduling</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-red-500 mt-0.5">✗</span>
-                  <span className="text-gray-500">No compliance certification</span>
+                  <span className="text-gray-500">No Merkle tree audit trails</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-red-500 mt-0.5">✗</span>
-                  <span className="text-gray-500">No audit logging</span>
+                  <span className="text-gray-500">Manual compliance setup</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-red-500 mt-0.5">✗</span>
-                  <span className="text-gray-500">Can't sell to enterprises</span>
+                  <span className="text-gray-500">Not designed for regulated industries</span>
                 </li>
               </ul>
             </div>
 
             {/* Zygur */}
-            <div className="border border-gray-800 p-6">
+            <div className="border border-gray-900 p-6">
               <div className="text-center mb-4">
-                <h3 className="text-sm font-medium text-white mb-2">Zygur</h3>
-                <div className="text-xs text-gray-500">Best of Both</div>
+                <h3 className="text-sm font-medium text-gray-400 mb-2">Zygur</h3>
+                <div className="text-xs text-gray-600">Temporal + Compliance</div>
               </div>
               <ul className="space-y-3 text-xs">
                 <li className="flex items-start gap-2">
-                  <span className="text-white mt-0.5">✓</span>
-                  <span className="text-gray-400">Cheap (routes to best price)</span>
+                  <span className="text-green-500 mt-0.5">✓</span>
+                  <span className="text-gray-400">Temporal state machines</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-white mt-0.5">✓</span>
-                  <span className="text-gray-400">Fast setup (one command)</span>
+                  <span className="text-green-500 mt-0.5">✓</span>
+                  <span className="text-gray-400">Cryptographic Merkle audit chains</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-white mt-0.5">✓</span>
-                  <span className="text-gray-400">SOC2/HIPAA/GDPR compliant</span>
+                  <span className="text-green-500 mt-0.5">✓</span>
+                  <span className="text-gray-400">HIPAA/SOC2/GDPR ready</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-white mt-0.5">✓</span>
-                  <span className="text-gray-400">Automatic audit logging</span>
+                  <span className="text-green-500 mt-0.5">✓</span>
+                  <span className="text-gray-400">Tamper-proof event sourcing</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-white mt-0.5">✓</span>
-                  <span className="text-gray-400">Enterprise-ready</span>
+                  <span className="text-green-500 mt-0.5">✓</span>
+                  <span className="text-gray-400">Built for regulated automation</span>
                 </li>
               </ul>
             </div>
@@ -109,16 +109,16 @@ export function Comparison() {
           {/* Bottom Stats */}
           <div className="grid md:grid-cols-3 gap-6 mt-12">
             <div className="text-center border border-gray-200 dark:border-gray-900 p-6 bg-white dark:bg-transparent">
-              <div className="text-3xl font-bold text-black dark:text-white mb-2">60%</div>
-              <div className="text-xs text-gray-600 dark:text-gray-500">Cost Savings vs. AWS</div>
+              <div className="text-3xl font-bold text-black dark:text-white mb-2">99.97%</div>
+              <div className="text-xs text-gray-600 dark:text-gray-500">Execution Success Rate</div>
             </div>
             <div className="text-center border border-gray-200 dark:border-gray-900 p-6 bg-white dark:bg-transparent">
-              <div className="text-3xl font-bold text-black dark:text-white mb-2">10x</div>
-              <div className="text-xs text-gray-600 dark:text-gray-500">Faster Audit Reports</div>
+              <div className="text-3xl font-bold text-black dark:text-white mb-2">Tamper-Proof</div>
+              <div className="text-xs text-gray-600 dark:text-gray-500">Merkle Tree Audit Chains</div>
             </div>
             <div className="text-center border border-gray-200 dark:border-gray-900 p-6 bg-white dark:bg-transparent">
-              <div className="text-3xl font-bold text-black dark:text-white mb-2">1 min</div>
-              <div className="text-xs text-gray-600 dark:text-gray-500">Setup Time</div>
+              <div className="text-3xl font-bold text-black dark:text-white mb-2">7 Years</div>
+              <div className="text-xs text-gray-600 dark:text-gray-500">Audit Retention (Enterprise)</div>
             </div>
           </div>
         </div>

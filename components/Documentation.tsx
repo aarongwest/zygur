@@ -3,52 +3,62 @@
 const codeExamples = [
   {
     title: "Quick Start",
-    description: "Install and configure Zygur in seconds",
-    code: `# Install Zygur
+    description: "Initialize Zygur and create your first workflow",
+    code: `# Install Zygur CLI
 curl -fsSL https://zygur.ai/install.sh | bash
 
-# Configure your API keys
-zygur auth login
+# Initialize workflow engine
+zygur init --mode=hipaa
 
-# Set compliance mode
-zygur config set-mode hipaa
+# Create workflow from YAML
+zygur workflow create patient-monitoring.yaml
 
-# Run your first job
-zygur run --provider=auto --gpu=a100 --file=train.py`,
+# Deploy and schedule
+zygur workflow deploy patient_monitoring_v1`,
   },
   {
-    title: "Generate Audit Report",
-    description: "Create compliance reports with one command",
-    code: `# Generate audit report for a specific job
-zygur audit-export --job=zyg_2847 --format=pdf
+    title: "Workflow Definition",
+    description: "Define temporal workflows in declarative YAML",
+    code: `# patient-monitoring.yaml
+name: patient_monitoring
+version: v1
+schedule: "0 */4 * * *"  # Every 4 hours
 
-# Generate monthly compliance report
-zygur audit-export --start=2024-01-01 --end=2024-01-31 --framework=soc2
+steps:
+  - id: capture
+    type: api_call
+    endpoint: "\${CAMERA_API}/capture"
+    
+  - id: analyze
+    type: model_inference
+    model: "yolov8-medical-v1.2"
+    provider: "replicate"
+    depends_on: [capture]
+    
+  - id: alert
+    type: conditional
+    condition: "analyze.confidence > 0.85"
+    action: "send_notification"
+    depends_on: [analyze]
 
-# Export logs to S3 with custom retention
-zygur audit-export --job=zyg_2847 --s3-bucket=my-audit-bucket --retention-days=2555`,
+retry_policy:
+  max_attempts: 3
+  backoff: exponential`,
   },
   {
-    title: "Advanced Configuration",
-    description: "Customize routing and compliance settings",
-    code: `# config.yaml
-routing_strategy: "cost_optimized"
-compliance_framework: "hipaa"
+    title: "Audit Export",
+    description: "Generate cryptographic compliance reports",
+    code: `# Export audit trail for specific workflow
+zygur audit export --workflow=patient_monitoring_v1 --format=soc2
 
-providers:
-  lambda:
-    api_key: "\${LAMBDA_KEY}"
-    enabled: true
-    max_cost_per_hour: 3.00
-    
-  replicate:
-    api_key: "\${REPLICATE_KEY}"
-    enabled: true
-    
-audit_logging:
-  s3_bucket: "my-audit-logs"
-  retention_days: 2555
-  encryption: true`,
+# Verify Merkle tree integrity
+zygur audit verify --workflow=patient_monitoring_v1
+
+# Generate compliance report with signatures
+zygur audit export --workflow=patient_monitoring_v1 \\
+  --format=pdf \\
+  --include-signatures \\
+  --retention=7years`,
   },
 ];
 
@@ -61,7 +71,7 @@ export function Documentation() {
             Documentation
           </h2>
           <p className="text-sm text-gray-600 dark:text-gray-500">
-            Comprehensive documentation and examples to help you integrate Zygur into your workflow.
+            Get started with Zygur's temporal workflow engine. Define, deploy, and audit your automations.
           </p>
         </div>
 

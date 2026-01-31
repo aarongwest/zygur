@@ -9,76 +9,80 @@ export function Hero() {
   const [isTyping, setIsTyping] = useState(true);
 
   const commands = [
-    "$ zygur config set-mode hipaa",
-    "✓ Compliance mode set to HIPAA",
-    "✓ Encryption enabled (AES-256)",
-    "✓ Audit logging enabled (7-year retention)",
-    "✓ Data residency: US-EAST-1",
+    "$ zygur init --mode=hipaa",
+    "✓ Workflow engine initialized",
+    "✓ Compliance mode: HIPAA",
+    "✓ Audit chain: Merkle tree (tamper-proof)",
+    "✓ State storage: SQLite → Postgres ready",
+    "✓ Encryption: AES-256 (at rest + in transit)",
     "",
-    "$ zygur providers list",
-    "→ Fetching available GPU providers...",
+    "$ zygur workflow create patient-monitoring.yaml",
+    "→ Parsing workflow definition...",
+    "→ Compiling to temporal state graph...",
+    "→ Validating DAG structure...",
+    "✓ Workflow compiled: patient_monitoring_v1",
+    "→ Steps: 5 (image_capture → ai_analysis → alert → log → archive)",
+    "→ Schedule: Every 4 hours",
+    "→ Retry policy: Exponential backoff (3 attempts)",
+    "→ Checkpointing: Enabled (resume from failure point)",
     "",
-    "┌─────────────┬──────────┬───────────┬────────────┐",
-    "│ Provider    │ GPU      │ Price/hr  │ Status     │",
-    "├─────────────┼──────────┼───────────┼────────────┤",
-    "│ Lambda Labs │ A100 80G │ $2.10     │ Available  │",
-    "│ Vast.ai     │ A100 80G │ $2.35     │ Available  │",
-    "│ CoreWeave   │ A100 80G │ $2.50     │ Available  │",
-    "│ Replicate   │ A100 80G │ $2.80     │ Available  │",
-    "│ AWS         │ A100 80G │ $4.10     │ Available  │",
-    "└─────────────┴──────────┴───────────┴────────────┘",
+    "$ zygur workflow deploy patient_monitoring_v1",
+    "→ Deploying to Zygur runtime...",
+    "→ Allocating warm pool (Replicate API)...",
+    "→ Preloading model: yolov8-medical-v1.2",
+    "→ Setting up event sourcing...",
+    "✓ Workflow deployed and scheduled",
+    "→ First execution: 2024-01-15 14:00:00 UTC",
+    "→ Audit trail: Active",
     "",
-    "$ zygur run --provider=auto --gpu=a100 --file=train_model.py",
-    "→ Analyzing workload requirements...",
-    "→ Estimated runtime: 45-60 minutes",
-    "→ Selecting optimal provider...",
-    "→ Lambda Labs selected (preferred + compliant)",
+    "$ zygur workflow status patient_monitoring_v1",
+    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+    "Workflow: patient_monitoring_v1",
+    "Status: RUNNING",
+    "Last execution: 2024-01-15 14:00:01 UTC",
+    "Next execution: 2024-01-15 18:00:00 UTC",
+    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
     "",
-    "→ Job ID: zyg_2847_medical_imaging",
-    "→ Compliance: HIPAA ✓",
-    "→ Audit logging: ENABLED",
-    "→ Data encryption: AES-256 ✓",
-    "→ Backup: Enabled (S3)",
+    "Execution History (Last 3):",
+    "┌────────────┬──────────────────────┬──────────┬──────────┐",
+    "│ Exec ID    │ Timestamp            │ Duration │ Status   │",
+    "├────────────┼──────────────────────┼──────────┼──────────┤",
+    "│ exec_2847  │ 2024-01-15 14:00:01  │ 2m 34s   │ SUCCESS  │",
+    "│ exec_2846  │ 2024-01-15 10:00:02  │ 2m 41s   │ SUCCESS  │",
+    "│ exec_2845  │ 2024-01-15 06:00:01  │ 2m 38s   │ SUCCESS  │",
+    "└────────────┴──────────────────────┴──────────┴──────────┘",
     "",
-    "⚡ Training started at 2024-01-15 14:23:01 UTC",
-    "→ Epoch 1/10 - Loss: 0.234 - Acc: 0.876",
-    "→ Epoch 2/10 - Loss: 0.187 - Acc: 0.912",
-    "→ Epoch 3/10 - Loss: 0.145 - Acc: 0.934",
-    "→ Epoch 4/10 - Loss: 0.112 - Acc: 0.951",
-    "→ Epoch 5/10 - Loss: 0.089 - Acc: 0.967",
-    "→ Epoch 6/10 - Loss: 0.067 - Acc: 0.978",
-    "→ Epoch 7/10 - Loss: 0.051 - Acc: 0.985",
-    "→ Epoch 8/10 - Loss: 0.038 - Acc: 0.991",
-    "→ Epoch 9/10 - Loss: 0.024 - Acc: 0.995",
-    "→ Epoch 10/10 - Loss: 0.012 - Acc: 0.998",
+    "State Graph (Merkle Tree):",
+    "→ Root hash: 7a3f9c2e8b1d4a6f...",
+    "→ Chain length: 2,847 executions",
+    "→ Integrity: VERIFIED ✓",
+    "→ Tamper-proof: YES",
     "",
-    "✓ Training complete at 2024-01-15 15:10:23 UTC",
-    "→ Duration: 47 minutes 22 seconds",
-    "→ Cost: $1.64 (saved $2.46 vs. AWS)",
-    "→ Model saved: s3://zygur-models/zyg_2847.pt",
-    "→ Audit trail: Saved to compliance database",
-    "→ Backup: Completed",
+    "$ zygur audit export --workflow=patient_monitoring_v1 --format=soc2",
+    "→ Generating SOC2 compliance report...",
+    "→ Collecting execution events (2,847 records)...",
+    "→ Verifying cryptographic signatures...",
+    "→ Building audit chain...",
+    "→ Including: Timestamps, input/output hashes, model versions",
+    "→ Merkle proof: VALID ✓",
+    "✓ Report generated: audit_patient_monitoring_soc2.pdf",
+    "→ Size: 3.2 MB",
+    "→ Signed: ECDSA signature included",
+    "→ Storage: s3://zygur-audits/2024/01/patient_monitoring.pdf",
     "",
-    "$ zygur audit-export --job=zyg_2847_medical_imaging --format=pdf",
-    "→ Generating compliance report...",
-    "→ Collecting job metadata...",
-    "→ Verifying audit trail integrity...",
-    "→ Including: Job metadata, timestamps, data lineage",
-    "→ Framework: HIPAA",
-    "→ Signatures: Digital + Tamper-proof seal",
-    "✓ Report generated: audit-zyg_2847.pdf (2.3 MB)",
-    "✓ Signed with tamper-proof seal",
-    "✓ Uploaded to: s3://zygur-audits/2024/01/",
-    "",
-    "$ zygur status",
-    "✓ All systems operational",
-    "→ Active jobs: 0",
-    "→ Completed today: 3",
-    "→ Total cost today: $4.87",
+    "$ zygur stats --period=30d",
+    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+    "Zygur Runtime Statistics (Last 30 Days)",
+    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+    "→ Total workflows: 12",
+    "→ Total executions: 8,640",
+    "→ Success rate: 99.97%",
+    "→ Average duration: 2m 41s",
+    "→ Total compute cost: $147.23",
+    "→ Audit events stored: 43,200",
+    "→ State graph integrity: VERIFIED ✓",
     "→ Compliance status: COMPLIANT",
-    "→ Last audit: 3 days ago",
-    "→ Next audit: 89 days",
-    "→ Storage used: 47.2 GB / 100 GB"
+    "→ Uptime: 99.99%"
   ];
 
 
@@ -86,7 +90,6 @@ export function Hero() {
     if (!isTyping) return;
 
     const fullText = commands.slice(0, currentCommandIndex + 1).join("\n");
-    const currentCommand = commands[currentCommandIndex];
     
     if (terminalText.length < fullText.length) {
       const timeout = setTimeout(() => {
@@ -102,7 +105,7 @@ export function Hero() {
         }
       }, 100);
     }
-  }, [terminalText, currentCommandIndex, isTyping, commands]);
+  }, [terminalText, currentCommandIndex, isTyping]);
 
   useEffect(() => {
     if (!isTyping && currentCommandIndex === commands.length - 1) {
@@ -113,7 +116,7 @@ export function Hero() {
       }, 3000);
       return () => clearTimeout(resetTimeout);
     }
-  }, [isTyping, currentCommandIndex]);
+  }, [isTyping, currentCommandIndex, commands.length]);
 
   return (
     <section className="w-full py-16 px-6">
@@ -121,12 +124,12 @@ export function Hero() {
         {/* Centered heading and description */}
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold mb-4 text-black dark:text-black dark:text-white" style={{ fontFamily: 'ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"' }}>
-            The Compliance Layer for Cloud GPUs
+            Temporal Workflow Engine for Regulated Automation
           </h1>
           
           <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed max-w-2xl mx-auto mb-8">
-            Zygur routes your GPU workloads to your provider of choice while automatically 
-            generating the audit logs your security team needs. One CLI. Zero compliance headaches.
+            Zygur compiles declarative automation definitions into distributed, auditable execution across cloud infrastructure. 
+            Cryptographic state graphs prove exactly what ran, when, and with what result—designed for regulated industries.
           </p>
 
           <div className="flex gap-3 justify-center mb-6">

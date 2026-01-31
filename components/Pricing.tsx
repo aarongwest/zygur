@@ -2,49 +2,52 @@
 
 const plans = [
   {
-    name: "Developer",
+    name: "Starter",
     price: "$0",
     period: "/month",
-    description: "For individual developers and small projects",
+    description: "For developers exploring temporal workflows",
     features: [
-      "1 provider (Lambda Labs)",
-      "Standard logging (1 year)",
+      "Up to 100 workflows",
+      "SQLite state storage",
+      "1-year audit retention",
       "Community support",
-      "Up to $100/month compute",
-      "Basic audit exports",
+      "Basic Merkle audit chains",
+      "Single cloud provider",
     ],
     cta: "Get Started",
   },
   {
-    name: "Pro",
+    name: "Professional",
     price: "$99",
     period: "/month",
-    description: "For startups and growing teams",
+    description: "For teams building production automations",
     features: [
-      "Smart routing (multiple providers)",
-      "SOC2/GDPR compliance modes",
-      "2-year log retention",
+      "Up to 1,000 workflows",
+      "Postgres state storage",
+      "3-year audit retention",
       "Email support",
-      "Up to $5K/month compute",
-      "Advanced audit reports",
-      "Cost optimization",
+      "Full cryptographic audit chains",
+      "Multi-cloud orchestration",
+      "Warm pool optimization",
+      "SOC2/GDPR compliance modes",
     ],
     cta: "Start Free Trial",
   },
   {
     name: "Enterprise",
     price: "$499",
-    period: "/month",
-    description: "For regulated industries and scale",
+    period: "/month + compute markup",
+    description: "For regulated industries requiring audit trails",
     features: [
-      "All providers + custom",
+      "Unlimited workflows",
+      "Managed Postgres + Redis",
+      "7-year audit retention",
+      "Dedicated support + SLA",
       "HIPAA mode (BAA included)",
-      "7-year retention",
-      "Dedicated support",
-      "Unlimited compute",
       "Custom compliance frameworks",
-      "On-premise deployment",
-      "SLA guarantee",
+      "On-premise deployment option",
+      "Predictive scheduling",
+      "10-15% compute markup",
     ],
     cta: "Contact Sales",
   },
@@ -98,11 +101,12 @@ export function Pricing() {
         </div>
 
         <div className="text-center mt-8">
-          <p className="text-xs text-gray-600">
-            All plans include a 10-15% markup on compute costs.{" "}
-            <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white underline">
-              Learn more
+          <p className="text-xs text-gray-600 dark:text-gray-500">
+            Platform fees cover the workflow engine. Compute costs (Replicate, Lambda, Vast) billed separately.{" "}
+            <a href="mailto:sales@zygur.com" className="text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white underline">
+              Contact us
             </a>
+            {" "}for volume pricing.
           </p>
         </div>
       </div>
