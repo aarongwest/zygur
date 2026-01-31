@@ -3,20 +3,20 @@ import { Footer } from "@/components/Footer";
 
 export default function CompliancePage() {
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen bg-white dark:bg-black text-black dark:text-black dark:text-white">
       <Navigation />
       
       <div className="max-w-7xl mx-auto px-6 py-16">
-        <h1 className="text-3xl font-bold mb-6 text-white">Compliance</h1>
+        <h1 className="text-3xl font-bold mb-6 text-black dark:text-white">Compliance</h1>
         
-        <div className="space-y-6 text-sm text-gray-400 leading-relaxed max-w-3xl">
+        <div className="space-y-6 text-sm text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">
           <p>
             Zygur is built from the ground up to help organizations maintain compliance across 
             multiple regulatory frameworks while leveraging cloud GPU infrastructure.
           </p>
           
           <section>
-            <h2 className="text-xl font-bold mb-3 text-white">Supported Frameworks</h2>
+            <h2 className="text-xl font-bold mb-3 text-black dark:text-white">Supported Frameworks</h2>
             <div className="space-y-4">
               <div>
                 <h3 className="text-white font-medium mb-2">SOC 2 Type II</h3>
@@ -45,7 +45,7 @@ export default function CompliancePage() {
           </section>
           
           <section>
-            <h2 className="text-xl font-bold mb-3 text-white">Audit Reports</h2>
+            <h2 className="text-xl font-bold mb-3 text-black dark:text-white">Audit Reports</h2>
             <p>
               Generate compliance reports with a single command. Our audit logs are tamper-proof 
               and include all necessary information for regulatory audits.
@@ -53,7 +53,7 @@ export default function CompliancePage() {
           </section>
           
           <section>
-            <h2 className="text-xl font-bold mb-3 text-white">Questions?</h2>
+            <h2 className="text-xl font-bold mb-3 text-black dark:text-white">Questions?</h2>
             <p>
               Contact our compliance team at{" "}
               <a href="mailto:compliance@zygur.com" className="text-white hover:underline">

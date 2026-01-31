@@ -3,17 +3,17 @@ import { Footer } from "@/components/Footer";
 
 export default function TermsPage() {
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen bg-white dark:bg-black text-black dark:text-black dark:text-white">
       <Navigation />
       
       <div className="max-w-7xl mx-auto px-6 py-16">
-        <h1 className="text-3xl font-bold mb-6 text-white">Terms of Service</h1>
+        <h1 className="text-3xl font-bold mb-6 text-black dark:text-white">Terms of Service</h1>
         
-        <div className="space-y-6 text-sm text-gray-400 leading-relaxed max-w-3xl">
+        <div className="space-y-6 text-sm text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">
           <p className="text-xs text-gray-500">Last updated: January 2024</p>
           
           <section>
-            <h2 className="text-xl font-bold mb-3 text-white">Agreement to Terms</h2>
+            <h2 className="text-xl font-bold mb-3 text-black dark:text-white">Agreement to Terms</h2>
             <p>
               By accessing or using Zygur's services, you agree to be bound by these Terms of Service 
               and all applicable laws and regulations. If you do not agree with any of these terms, 
@@ -22,7 +22,7 @@ export default function TermsPage() {
           </section>
           
           <section>
-            <h2 className="text-xl font-bold mb-3 text-white">Use License</h2>
+            <h2 className="text-xl font-bold mb-3 text-black dark:text-white">Use License</h2>
             <p>
               Permission is granted to use Zygur's services for commercial and personal purposes 
               in accordance with your subscription plan. This license shall automatically terminate 
@@ -31,7 +31,7 @@ export default function TermsPage() {
           </section>
           
           <section>
-            <h2 className="text-xl font-bold mb-3 text-white">Service Level Agreement</h2>
+            <h2 className="text-xl font-bold mb-3 text-black dark:text-white">Service Level Agreement</h2>
             <p>
               Zygur provides different SLA guarantees based on your subscription tier. Enterprise 
               customers receive 99.9% uptime guarantee with dedicated support.
@@ -39,7 +39,7 @@ export default function TermsPage() {
           </section>
           
           <section>
-            <h2 className="text-xl font-bold mb-3 text-white">Limitation of Liability</h2>
+            <h2 className="text-xl font-bold mb-3 text-black dark:text-white">Limitation of Liability</h2>
             <p>
               In no event shall Zygur Technologies Corp. be liable for any damages arising out of 
               the use or inability to use our services, even if we have been notified of the 
@@ -48,7 +48,7 @@ export default function TermsPage() {
           </section>
           
           <section>
-            <h2 className="text-xl font-bold mb-3 text-white">Contact</h2>
+            <h2 className="text-xl font-bold mb-3 text-black dark:text-white">Contact</h2>
             <p>
               Questions about the Terms of Service should be sent to{" "}
               <a href="mailto:legal@zygur.com" className="text-white hover:underline">
