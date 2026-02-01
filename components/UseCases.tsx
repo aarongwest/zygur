@@ -76,19 +76,6 @@ export function UseCases() {
             </div>
           ))}
         </div>
-
-        {/* Related */}
-        <div className="mt-12 border-t border-gray-200 dark:border-gray-900 pt-12">
-          <div className="text-center">
-            <p className="text-xs text-gray-600 dark:text-gray-500 mb-4">
-              <strong>By day:</strong> I run <a href="https://ehs-inc.com" className="underline">EHS, Inc.</a>, building GERTY to automate compliance for factories.<br/>
-              <strong>By night:</strong> I ship tools here at Zygur.
-            </p>
-            <p className="text-xs text-gray-600 dark:text-gray-500">
-              They share DNA: Go, terminals, and Japanese sci-fi aesthetics.
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );
