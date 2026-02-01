@@ -2,28 +2,28 @@
 
 const features = [
   {
-    title: "Temporal State Machines",
-    description: "Workflows that remember history. Tuesday's result affects Wednesday's logic. Resume from any checkpoint after failures.",
+    title: "Built in Go",
+    description: "Fast, compiled binaries with zero dependencies. Single command to install and use.",
   },
   {
-    title: "Cryptographic Audit Chains",
-    description: "Merkle-tree linked execution logs prove exactly what ran, when, and with what result. Tamper-proof and immutable.",
+    title: "Terminal-First Design",
+    description: "Works from your shell with pipes, scripts, and automation. No web dashboard required.",
   },
   {
-    title: "Intelligent Orchestration",
-    description: "Warm pools, predictive scheduling, and cost optimization across GPU clouds. Preload models 5 minutes before execution.",
+    title: "Self-Serve Pricing",
+    description: "Credit card at signup. No sales calls. No enterprise pricing. Simple and transparent.",
   },
   {
-    title: "Cloud-Agnostic Execution",
-    description: "Compile workflows to Lambda, Replicate, Vast, or on-prem. One declarative definition, multiple backends.",
+    title: "Useful, Not Bloated",
+    description: "Each tool solves one problem well. No feature creep. No complexity you don't need.",
   },
   {
-    title: "Event Sourcing",
-    description: "Every state change stored as immutable event. Full audit trail with cryptographic verification and ECDSA signatures.",
+    title: "Developer-Focused",
+    description: "Made by developers for developers. Respects your workflow and your time.",
   },
   {
-    title: "Declarative Workflows",
-    description: "Define automations in YAML or via TUI. DAG-based execution with branching, retries, and fan-out capabilities.",
+    title: "Actively Maintained",
+    description: "Regular updates. User-driven roadmap. Responsive to feedback.",
   },
 ];
 
@@ -33,10 +33,10 @@ export function Features() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <h2 className="text-2xl font-bold mb-3 text-black dark:text-white">
-            Core Capabilities
+            What We Build
           </h2>
           <p className="text-sm text-gray-600 dark:text-gray-500 max-w-2xl">
-            A distributed systems engine that guarantees "this job ran at this time with this result, provably and immutably."
+            Tools that work the way developers expect. Fast. Simple. Honest pricing.
           </p>
         </div>
 

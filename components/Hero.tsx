@@ -128,8 +128,7 @@ export function Hero() {
           </h1>
           
           <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed max-w-2xl mx-auto mb-8">
-            Zygur is a studio of small, sharp developer tools built in Go. No bloat. No dashboards. No "contact sales" buttons. 
-            Just useful tools that respect your time and your terminal.
+            Zygur is a studio of small, sharp developer tools built in Go. No bloat. No dashboards. Just useful tools that respect your time and your terminal.
           </p>
 
           <div className="flex gap-3 justify-center mb-6">
