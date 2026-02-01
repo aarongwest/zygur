@@ -8,8 +8,8 @@ export function Navigation() {
   
   const navItems = [
     { name: "Features", href: "#features" },
-    { name: "Pricing", href: "#pricing" },
-    { name: "Docs", href: "#docs" },
+    { name: "Tools", href: "#products" },
+    { name: "GitHub", href: "https://github.com/zygur" },
   ];
 
   return (
@@ -34,12 +34,6 @@ export function Navigation() {
               </a>
             ))}
             <ThemeSwitcher />
-            <a 
-              href="mailto:sales@zygur.com" 
-              className="border border-black dark:border-white text-black dark:text-white px-3 py-1.5 text-xs font-medium hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors inline-block"
-            >
-              Contact Sales
-            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -77,12 +71,7 @@ export function Navigation() {
                   {item.name}
                 </a>
               ))}
-              <a 
-                href="mailto:sales@zygur.com" 
-                className="border border-black dark:border-white text-black dark:text-white px-4 py-2 text-sm font-medium hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors inline-block text-center"
-              >
-                Contact Sales
-              </a>
+
             </div>
           </div>
         )}

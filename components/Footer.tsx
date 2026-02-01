@@ -3,20 +3,16 @@
 const footerLinks = {
   product: [
     { name: "Features", href: "/#features" },
-    { name: "Pricing", href: "/#pricing" },
-    { name: "Documentation", href: "/#docs" },
-    { name: "API Reference", href: "/#docs" },
+    { name: "Tools", href: "/#products" },
+    { name: "GitHub", href: "https://github.com/zygur" },
   ],
-  company: [
+  resources: [
     { name: "About", href: "/about" },
-    { name: "Careers", href: "/careers" },
     { name: "Contact", href: "/contact" },
   ],
   legal: [
     { name: "Privacy", href: "/privacy" },
     { name: "Terms", href: "/terms" },
-    { name: "Security", href: "/security" },
-    { name: "Compliance", href: "/compliance" },
   ],
 };
 
