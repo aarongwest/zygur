@@ -45,7 +45,7 @@ export function UseCases() {
             Current Tools
           </h2>
           <p className="text-sm text-gray-600 dark:text-gray-500 max-w-2xl mx-auto">
-            Small, sharp tools. No bloat. No "contact sales" buttons. Pay once, use forever (or monthly if you prefer).
+            Useful tools. Built in Go. Designed for developers.
           </p>
         </div>
 
@@ -75,20 +75,6 @@ export function UseCases() {
               </a>
             </div>
           ))}
-        </div>
-
-        {/* Philosophy */}
-        <div className="mt-16 border-t border-gray-200 dark:border-gray-900 pt-12">
-          <div className="max-w-2xl mx-auto text-center">
-            <h3 className="text-lg font-bold text-black dark:text-white mb-4">Our Philosophy</h3>
-            <ul className="space-y-3 text-xs text-gray-600 dark:text-gray-500 text-left">
-              <li><strong>Ship in 48 hours or kill it.</strong> MVP deadline is strict. If the core loop isn't working in 2 days, the idea is too big.</li>
-              <li><strong>One binary, zero dependencies.</strong> User runs <code className="bg-gray-100 dark:bg-gray-900 px-2 py-1">curl -sSL zygur.sh | sh</code> and it works.</li>
-              <li><strong>Terminal-first, web-second.</strong> The TUI is the product. A web dashboard is nice-to-have for year 2.</li>
-              <li><strong>Self-serve only.</strong> Credit card up front. No discovery calls. No "enterprise pricing."</li>
-              <li><strong>Price for lifestyle.</strong> 100 customers = $5K MRR. Sustainable, not unicorn chasing.</li>
-            </ul>
-          </div>
         </div>
 
         {/* Related */}
