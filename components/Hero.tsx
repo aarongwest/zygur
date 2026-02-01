@@ -123,43 +123,43 @@ export function Hero() {
       <div className="max-w-7xl mx-auto">
         {/* Centered heading and description */}
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold mb-4 text-black dark:text-black dark:text-white" style={{ fontFamily: 'ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"' }}>
-            Temporal Workflow Engine for Regulated Automation
+          <h1 className="text-5xl font-bold mb-4 text-black dark:text-white" style={{ fontFamily: 'ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"' }}>
+            Terminal-Native Tools for Developers
           </h1>
           
           <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed max-w-2xl mx-auto mb-8">
-            Zygur compiles declarative automation definitions into distributed, auditable execution across cloud infrastructure. 
-            Cryptographic state graphs prove exactly what ran, when, and with what result—designed for regulated industries.
+            Zygur is a studio of small, sharp developer tools built in Go. No bloat. No dashboards. No "contact sales" buttons. 
+            Just useful tools that respect your time and your terminal.
           </p>
 
           <div className="flex gap-3 justify-center mb-6">
             <a 
-              href="mailto:sales@zygur.com" 
+              href="https://github.com" 
               className="border border-black dark:border-white text-black dark:text-white px-6 py-3 text-sm font-medium hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors inline-block"
             >
-              Contact Sales
+              View on GitHub
             </a>
             
             <a 
-              href="/#docs" 
+              href="#tools" 
               className="border border-gray-300 dark:border-gray-700 px-6 py-3 text-sm text-black dark:text-white hover:border-gray-400 dark:hover:border-gray-500 transition-colors inline-block"
             >
-              View Documentation
+              Current Tools
             </a>
           </div>
 
           <div className="flex gap-6 text-xs text-gray-500 justify-center">
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
-              <span>SOC2</span>
+              <span>Go</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
-              <span>HIPAA</span>
+              <span>Self-Serve</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
-              <span>GDPR</span>
+              <span>Open Source</span>
             </div>
           </div>
         </div>

@@ -2,54 +2,46 @@
 
 const plans = [
   {
-    name: "Starter",
-    price: "$0",
+    name: "Cron",
+    price: "$5",
     period: "/month",
-    description: "For developers exploring temporal workflows",
+    description: "Calendar + scheduler in your terminal",
     features: [
-      "Up to 100 workflows",
-      "SQLite state storage",
-      "1-year audit retention",
-      "Community support",
-      "Basic Merkle audit chains",
-      "Single cloud provider",
+      "View your calendar from the terminal",
+      "Schedule tasks with natural language",
+      "Get notifications on your machine",
+      "Sync with Google Calendar or Outlook",
+      "Works offline",
     ],
     cta: "Get Started",
   },
   {
-    name: "Professional",
-    price: "$99",
-    period: "/month",
-    description: "For teams building production automations",
+    name: "Valid",
+    price: "$49",
+    period: "/year",
+    description: "AI-powered CSV/JSON validator",
     features: [
-      "Up to 1,000 workflows",
-      "Postgres state storage",
-      "3-year audit retention",
-      "Email support",
-      "Full cryptographic audit chains",
-      "Multi-cloud orchestration",
-      "Warm pool optimization",
-      "SOC2/GDPR compliance modes",
+      "Catch bad data before it breaks production",
+      "AI fixes common issues automatically",
+      "Works from terminal with pipes",
+      "Lightning fast, zero external dependencies",
+      "Lifetime updates included",
     ],
-    cta: "Start Free Trial",
+    cta: "Buy Now",
   },
   {
-    name: "Enterprise",
-    price: "$499",
-    period: "/month + compute markup",
-    description: "For regulated industries requiring audit trails",
+    name: "OSHA Check",
+    price: "$29",
+    period: "/month",
+    description: "Safety audits in your pocket (iOS)",
     features: [
-      "Unlimited workflows",
-      "Managed Postgres + Redis",
-      "7-year audit retention",
-      "Dedicated support + SLA",
-      "HIPAA mode (BAA included)",
-      "Custom compliance frameworks",
-      "On-premise deployment option",
-      "Predictive scheduling",
-      "10-15% compute markup",
+      "Voice-to-text safety checklists",
+      "Generates PDF reports instantly",
+      "Works offline, syncs when connected",
+      "Factory floor tested",
+      "Email support included",
     ],
-    cta: "Contact Sales",
+    cta: "Download",
   },
 ];
 
@@ -62,7 +54,7 @@ export function Pricing() {
             Pricing
           </h2>
           <p className="text-sm text-gray-600 dark:text-gray-500">
-            Pay for what you use. No hidden fees. Scale as you grow.
+            Simple pricing. No contracts. Cancel anytime. Buy what you use.
           </p>
         </div>
 
