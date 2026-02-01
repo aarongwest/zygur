@@ -133,7 +133,7 @@ export function Hero() {
 
           <div className="flex gap-3 justify-center mb-6">
             <a 
-              href="https://github.com" 
+              href="https://github.com/zygur" 
               className="border border-black dark:border-white text-black dark:text-white px-6 py-3 text-sm font-medium hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors inline-block"
             >
               View on GitHub

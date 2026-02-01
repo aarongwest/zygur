@@ -13,7 +13,7 @@ export function CTA() {
           </p>
           <div className="flex gap-3 justify-center">
             <a 
-              href="https://github.com/aarongwest/zygur" 
+              href="https://github.com/zygur" 
               className="border border-black dark:border-white text-black dark:text-white px-5 py-2 text-xs font-medium hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors inline-block"
             >
               View on GitHub
