@@ -9,80 +9,46 @@ export function Hero() {
   const [isTyping, setIsTyping] = useState(true);
 
   const commands = [
-    "$ zygur init --mode=hipaa",
-    "✓ Workflow engine initialized",
-    "✓ Compliance mode: HIPAA",
-    "✓ Audit chain: Merkle tree (tamper-proof)",
-    "✓ State storage: SQLite → Postgres ready",
-    "✓ Encryption: AES-256 (at rest + in transit)",
+    "$ safeharbor check patient_export.csv",
+    "✓ Scanning for 18 HIPAA identifiers...",
+    "✓ Found: 0 identifiers (Safe Harbor compliant)",
+    "✓ Safe to send to ML team",
     "",
-    "$ zygur workflow create patient-monitoring.yaml",
-    "→ Parsing workflow definition...",
-    "→ Compiling to temporal state graph...",
-    "→ Validating DAG structure...",
-    "✓ Workflow compiled: patient_monitoring_v1",
-    "→ Steps: 5 (image_capture → ai_analysis → alert → log → archive)",
-    "→ Schedule: Every 4 hours",
-    "→ Retry policy: Exponential backoff (3 attempts)",
-    "→ Checkpointing: Enabled (resume from failure point)",
+    "$ evidence collect --start=2025-01-01 --type=access-control",
+    "→ Scraping Git history...",
+    "→ Collecting Jira tickets...",
+    "→ Pulling Slack logs...",
+    "✓ Generated: SOC2_evidence_2025.pdf (47 pages)",
+    "→ Saved 40 hours of manual work",
     "",
-    "$ zygur workflow deploy patient_monitoring_v1",
-    "→ Deploying to Zygur runtime...",
-    "→ Allocating warm pool (Replicate API)...",
-    "→ Preloading model: yolov8-medical-v1.2",
-    "→ Setting up event sourcing...",
-    "✓ Workflow deployed and scheduled",
-    "→ First execution: 2024-01-15 14:00:00 UTC",
-    "→ Audit trail: Active",
+    "$ piigrep ./src --format=sarif",
+    "→ Scanning source code for hardcoded PII...",
+    "✓ No sensitive data found",
+    "→ Safe to commit",
     "",
-    "$ zygur workflow status patient_monitoring_v1",
-    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
-    "Workflow: patient_monitoring_v1",
-    "Status: RUNNING",
-    "Last execution: 2024-01-15 14:00:01 UTC",
-    "Next execution: 2024-01-15 18:00:00 UTC",
-    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+    "$ auditdiff dump_0301.sql dump_0401.sql --table=patients",
+    "→ Comparing database states...",
+    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+    "Changes to patients table:",
+    "├─ Rows modified: 3",
+    "├─ Rows deleted: 0",
+    "├─ Rows added: 1",
+    "└─ Last change by: audit_service (2025-03-01 14:22:00 UTC)",
     "",
-    "Execution History (Last 3):",
-    "┌────────────┬──────────────────────┬──────────┬──────────┐",
-    "│ Exec ID    │ Timestamp            │ Duration │ Status   │",
-    "├────────────┼──────────────────────┼──────────┼──────────┤",
-    "│ exec_2847  │ 2024-01-15 14:00:01  │ 2m 34s   │ SUCCESS  │",
-    "│ exec_2846  │ 2024-01-15 10:00:02  │ 2m 41s   │ SUCCESS  │",
-    "│ exec_2845  │ 2024-01-15 06:00:01  │ 2m 38s   │ SUCCESS  │",
-    "└────────────┴──────────────────────┴──────────┴──────────┘",
+    "$ baacheck --vendor stripe.com",
+    "✓ Stripe is on HIPAA BAA whitelist",
+    "✓ Current as of 2025-02-01",
     "",
-    "State Graph (Merkle Tree):",
-    "→ Root hash: 7a3f9c2e8b1d4a6f...",
-    "→ Chain length: 2,847 executions",
-    "→ Integrity: VERIFIED ✓",
-    "→ Tamper-proof: YES",
+    "$ retention apply --db=postgres://prod --policy=7years --dry-run",
+    "→ Would delete records older than 2018-01-31",
+    "→ Affected rows: 2,847",
+    "→ Data removed: 156 MB",
+    "→ Compliance: GDPR/CCPA compliant",
+    "→ Run with --execute to apply",
     "",
-    "$ zygur audit export --workflow=patient_monitoring_v1 --format=soc2",
-    "→ Generating SOC2 compliance report...",
-    "→ Collecting execution events (2,847 records)...",
-    "→ Verifying cryptographic signatures...",
-    "→ Building audit chain...",
-    "→ Including: Timestamps, input/output hashes, model versions",
-    "→ Merkle proof: VALID ✓",
-    "✓ Report generated: audit_patient_monitoring_soc2.pdf",
-    "→ Size: 3.2 MB",
-    "→ Signed: ECDSA signature included",
-    "→ Storage: s3://zygur-audits/2024/01/patient_monitoring.pdf",
-    "",
-    "$ zygur stats --period=30d",
-    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
-    "Zygur Runtime Statistics (Last 30 Days)",
-    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
-    "→ Total workflows: 12",
-    "→ Total executions: 8,640",
-    "→ Success rate: 99.97%",
-    "→ Average duration: 2m 41s",
-    "→ Total compute cost: $147.23",
-    "→ Audit events stored: 43,200",
-    "→ State graph integrity: VERIFIED ✓",
-    "→ Compliance status: COMPLIANT",
-    "→ Uptime: 99.99%"
+    "$ git commit -m 'Added patient data'",
+    "✗ BLOCKED: Commit contains PHI keywords",
+    "✗ Use --force to override (not recommended)",
   ];
 
 
@@ -124,11 +90,11 @@ export function Hero() {
         {/* Centered heading and description */}
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold mb-4 text-black dark:text-white" style={{ fontFamily: 'ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"' }}>
-            Terminal-Native Tools for Developers
+            Compliance Tools for Regulated Developers
           </h1>
           
           <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed max-w-2xl mx-auto mb-8">
-            Zygur is a studio of small, sharp developer tools built in Go. No bloat. No dashboards. Just useful tools that respect your time and your terminal.
+            CLI tools for healthcare, fintech, legal, and government teams. One-time pricing. Local-first. No sales calls. Buy at 2am with a corporate card.
           </p>
 
           <div className="flex gap-3 justify-center mb-6">
@@ -136,29 +102,29 @@ export function Hero() {
               href="https://github.com/zygur" 
               className="border border-black dark:border-white text-black dark:text-white px-6 py-3 text-sm font-medium hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors inline-block"
             >
-              View on GitHub
+              Browse Tools
             </a>
             
             <a 
-              href="#tools" 
+              href="#products" 
               className="border border-gray-300 dark:border-gray-700 px-6 py-3 text-sm text-black dark:text-white hover:border-gray-400 dark:hover:border-gray-500 transition-colors inline-block"
             >
-              Current Tools
+              See All Products
             </a>
           </div>
 
           <div className="flex gap-6 text-xs text-gray-500 justify-center">
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
-              <span>Go</span>
+              <span>HIPAA, SOC2, GDPR</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
-              <span>Self-Serve</span>
+              <span>Local-First</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
-              <span>Open Source</span>
+              <span>No Subscriptions</span>
             </div>
           </div>
         </div>
@@ -174,15 +140,15 @@ export function Hero() {
                 <div className="w-3 h-3 bg-[#27c93f] rounded-full hover:bg-[#27c93f]/80 cursor-pointer"></div>
               </div>
               <div className="flex-1 text-center">
-                <span className="text-gray-600 dark:text-gray-400 text-xs font-medium">zygur@compliance: ~</span>
+                <span className="text-gray-600 dark:text-gray-400 text-xs font-medium">zygur@terminal: ~</span>
               </div>
               <div className="w-16"></div> {/* Spacer for centering */}
             </div>
             
             {/* Terminal content */}
             <div className="p-6 font-mono h-[600px] overflow-auto bg-white dark:bg-[#1e1e1e]">
-              <div className="text-green-600 dark:text-[#4ec9b0] mb-2 text-sm">Zygur CLI v0.1.0</div>
-              <div className="text-gray-500 mb-4 text-sm">Type 'help' for available commands</div>
+              <div className="text-green-600 dark:text-[#4ec9b0] mb-2 text-sm">Zygur CLI - Compliance Tools</div>
+              <div className="text-gray-500 mb-4 text-sm">Type 'zygur help' for available tools</div>
               <div className="text-gray-800 dark:text-[#d4d4d4] whitespace-pre-wrap text-sm leading-relaxed">{terminalText}</div>
               {isTyping && (
                 <motion.div

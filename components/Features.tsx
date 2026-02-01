@@ -6,24 +6,24 @@ const features = [
     description: "Fast, compiled binaries with zero dependencies. Single command to install and use.",
   },
   {
-    title: "Terminal-First Design",
-    description: "Works from your shell with pipes, scripts, and automation. No web dashboard required.",
+    title: "Local-First",
+    description: "Everything runs on your machine. No data sent to cloud. No vendor lock-in.",
   },
   {
-    title: "Self-Serve Pricing",
-    description: "Credit card at signup. No sales calls. No enterprise pricing. Simple and transparent.",
+    title: "One-Time Pricing",
+    description: "Buy once, use forever. No subscriptions. No usage limits. No surprise bills.",
   },
   {
-    title: "Useful, Not Bloated",
-    description: "Each tool solves one problem well. No feature creep. No complexity you don't need.",
+    title: "Self-Serve Purchasing",
+    description: "Credit card at signup. No sales calls. No procurement approval needed. Buy at 2am.",
   },
   {
-    title: "Developer-Focused",
-    description: "Made by developers for developers. Respects your workflow and your time.",
+    title: "Audit-Ready",
+    description: "Designed for regulated teams. HIPAA, SOC2, GDPR compliance built in.",
   },
   {
-    title: "Actively Maintained",
-    description: "Regular updates. User-driven roadmap. Responsive to feedback.",
+    title: "CLI Native",
+    description: "Pipes, scripts, automation. Works with your existing tools. No web dashboards.",
   },
 ];
 
@@ -33,10 +33,10 @@ export function Features() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <h2 className="text-2xl font-bold mb-3 text-black dark:text-white">
-            What We Build
+            Why Zygur
           </h2>
           <p className="text-sm text-gray-600 dark:text-gray-500 max-w-2xl">
-            Tools that work the way developers expect. Fast. Simple. Honest pricing.
+            Tools designed specifically for regulated developers. No bloat. No compliance theater.
           </p>
         </div>
 

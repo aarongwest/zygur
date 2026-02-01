@@ -28,7 +28,7 @@ export function Footer() {
           <div className="md:col-span-2">
             <img src="/logo.png" alt="Zygur" className="h-6 mb-3 invert dark:invert-0" />
             <p className="text-xs text-gray-600 dark:text-gray-500 max-w-sm">
-              The compliance layer for cloud GPUs. Run AI models on any cloud while staying compliant everywhere.
+              CLI tools for regulated developers. HIPAA, SOC2, GDPR compliant. Local-first. One-time pricing.
             </p>
           </div>
 
