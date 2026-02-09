@@ -108,15 +108,15 @@ export function Comparison() {
 
           {/* Bottom Stats */}
           <div className="grid md:grid-cols-3 gap-6 mt-12">
-            <div className="text-center border border-brand-grey p-6 bg-white">
+            <div className="text-center border border-brand-grey p-6 bg-transparent">
               <div className="text-3xl font-bold text-brand-grey mb-2">99.97%</div>
               <div className="text-xs text-brand-grey">Execution Success Rate</div>
             </div>
-            <div className="text-center border border-brand-grey p-6 bg-white">
+            <div className="text-center border border-brand-grey p-6 bg-transparent">
               <div className="text-3xl font-bold text-brand-grey mb-2">Tamper-Proof</div>
               <div className="text-xs text-brand-grey">Merkle Tree Audit Chains</div>
             </div>
-            <div className="text-center border border-brand-grey p-6 bg-white">
+            <div className="text-center border border-brand-grey p-6 bg-transparent">
               <div className="text-3xl font-bold text-brand-grey mb-2">7 Years</div>
               <div className="text-xs text-brand-grey">Audit Retention (Enterprise)</div>
             </div>

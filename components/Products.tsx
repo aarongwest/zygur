@@ -61,7 +61,7 @@ export function Products() {
           {products.map((product) => (
             <div
               key={product.type}
-              className="border border-brand-grey p-8 bg-white hover:border-opacity-60 transition-colors"
+              className="border border-brand-grey p-8 bg-transparent hover:border-opacity-60 transition-colors"
             >
               <div className="mb-2">
                 <span className="text-xs font-medium text-gray-500 uppercase tracking-wide">{product.subtitle}</span>

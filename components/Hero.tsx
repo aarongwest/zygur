@@ -138,9 +138,9 @@ export function Hero() {
 
         {/* Centered, larger terminal - Mac style */}
         <div className="max-w-5xl mx-auto">
-          <div className="bg-white rounded-lg overflow-hidden shadow-2xl border border-brand-grey">
+          <div className="bg-gray-900 rounded-lg overflow-hidden shadow-2xl border border-brand-grey">
             {/* Terminal header - Mac style */}
-            <div className="bg-gray-100 px-4 py-3 flex items-center gap-2 border-b border-brand-grey">
+            <div className="bg-gray-800 px-4 py-3 flex items-center gap-2 border-b border-gray-700">
               <div className="flex gap-2">
                 <div className="w-3 h-3 bg-[#ff5f56] rounded-full hover:bg-[#ff5f56]/80 cursor-pointer"></div>
                 <div className="w-3 h-3 bg-[#ffbd2e] rounded-full hover:bg-[#ffbd2e]/80 cursor-pointer"></div>
@@ -153,13 +153,13 @@ export function Hero() {
             </div>
             
             {/* Terminal content */}
-            <div className="p-6 font-mono h-[600px] overflow-auto bg-white">
-              <div className="text-green-600 mb-2 text-sm">Hayli AI - Social Content Automation</div>
-              <div className="text-brand-grey mb-4 text-sm">Type 'hayli help' for available commands</div>
-              <div className="text-brand-grey whitespace-pre-wrap text-sm leading-relaxed">{terminalText}</div>
+            <div className="p-6 font-mono h-[600px] overflow-auto bg-gray-950">
+              <div className="text-green-500 mb-2 text-sm">Hayli AI - Social Content Automation</div>
+              <div className="text-gray-500 mb-4 text-sm">Type 'hayli help' for available commands</div>
+              <div className="text-green-400 whitespace-pre-wrap text-sm leading-relaxed">{terminalText}</div>
               {isTyping && (
                 <motion.div
-                  className="inline-block w-2 h-4 bg-green-600 ml-1"
+                  className="inline-block w-2 h-4 bg-green-500 ml-1"
                   animate={{ opacity: [1, 0] }}
                   transition={{ duration: 0.5, repeat: Infinity }}
                 />

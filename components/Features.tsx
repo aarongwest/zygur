@@ -44,7 +44,7 @@ export function Features() {
           {features.map((feature) => (
             <div
               key={feature.title}
-              className="border border-brand-grey p-5 hover:border-opacity-60 transition-colors bg-white"
+              className="border border-brand-grey p-5 hover:border-opacity-60 transition-colors bg-transparent"
             >
               <h3 className="text-sm font-medium text-brand-grey mb-2">{feature.title}</h3>
               <p className="text-xs text-brand-grey leading-relaxed">{feature.description}</p>
