@@ -95,14 +95,11 @@ export function Hero() {
             and AI Converge.
           </h1>
           
-          <p className="text-lg text-brand-grey leading-relaxed max-w-3xl mx-auto mb-4">
-            Twitter. LinkedIn. TikTok. Instagram. Threads. Bluesky. Every platform wants different content. Different times. Different formats.
-          </p>
           <p className="text-lg text-brand-grey leading-relaxed max-w-3xl mx-auto mb-6">
             You're supposed to be everywhere at once. That's a ball kicker.
           </p>
           <p className="text-lg font-semibold text-brand-grey max-w-3xl mx-auto mb-8">
-            But what if you didn't have to choose?
+            There's a better way.
           </p>
 
           <div className="flex gap-3 justify-center mb-6">
