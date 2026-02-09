@@ -90,8 +90,9 @@ export function Hero() {
       <div className="max-w-7xl mx-auto">
         {/* Centered heading and description */}
         <div className="text-center mb-12">
-          <h1 className="text-7xl font-bold mb-4 text-brand-grey">
-            Where Marketing, Automation, and AI Converge.
+          <h1 className="text-6xl font-bold mb-4 text-brand-grey">
+            Where Marketing, Automation,
+            and AI Converge.
           </h1>
           
           <p className="text-lg text-brand-grey leading-relaxed max-w-3xl mx-auto mb-4">
@@ -147,19 +148,20 @@ export function Hero() {
                 <div className="w-3 h-3 bg-[#27c93f] rounded-full hover:bg-[#27c93f]/80 cursor-pointer"></div>
               </div>
               <div className="flex-1 text-center">
-                <span className="text-brand-mint text-xs font-medium">dev@terminal: ~/project</span>
+                <span className="text-xs font-medium" style={{ color: '#42f5ad' }}>dev@terminal: ~/project</span>
               </div>
               <div className="w-16"></div> {/* Spacer for centering */}
             </div>
             
             {/* Terminal content */}
             <div className="p-6 font-mono h-[600px] overflow-auto bg-gray-950">
-              <div className="text-brand-mint mb-2 text-sm">Hayli AI - Social Content Automation</div>
+              <div className="mb-2 text-sm" style={{ color: '#42f5ad' }}>Hayli AI - Social Content Automation</div>
               <div className="text-gray-500 mb-4 text-sm">Type 'hayli help' for available commands</div>
-              <div className="text-brand-mint whitespace-pre-wrap text-sm leading-relaxed">{terminalText}</div>
+              <div className="whitespace-pre-wrap text-sm leading-relaxed" style={{ color: '#42f5ad' }}>{terminalText}</div>
               {isTyping && (
                 <motion.div
-                  className="inline-block w-2 h-4 bg-brand-mint ml-1"
+                  className="inline-block w-2 h-4 ml-1"
+                  style={{ backgroundColor: '#42f5ad' }}
                   animate={{ opacity: [1, 0] }}
                   transition={{ duration: 0.5, repeat: Infinity }}
                 />

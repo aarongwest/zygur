@@ -7,9 +7,9 @@ export default function AboutPage() {
       <Navigation />
       
       <div className="max-w-7xl mx-auto px-6 py-16">
-        <h1 className="text-3xl font-bold mb-6 text-black dark:text-white">About Zygur</h1>
+        <h1 className="text-3xl font-bold mb-6 text-brand-grey">About Zygur</h1>
         
-        <div className="space-y-6 text-sm text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">
+        <div className="space-y-6 text-sm text-brand-grey leading-relaxed max-w-3xl">
           <p>
             Zygur is an <strong className="text-black dark:text-white">indie software studio</strong> shipping small, sharp CLI tools 
             for developers working in regulated industries. We focus on the problems that keep compliance teams up at night: 
@@ -17,18 +17,18 @@ export default function AboutPage() {
           </p>
           
           <div className="pt-6">
-            <h2 className="text-xl font-bold mb-4 text-black dark:text-white">Our Approach</h2>
+            <h2 className="text-xl font-bold mb-4 text-brand-grey">Our Approach</h2>
             <ul className="space-y-3">
-              <li><strong className="text-black dark:text-white">Local-first:</strong> Everything runs on your machine. No SaaS, no cloud uploads, no vendor lock-in.</li>
-              <li><strong className="text-black dark:text-white">One-time pricing:</strong> Buy it once, use it forever. No subscriptions, no usage limits, no surprise bills.</li>
-              <li><strong className="text-black dark:text-white">Self-serve:</strong> Credit card at signup. No sales calls. No procurement committees. Buy at 2am with a corporate card.</li>
-              <li><strong className="text-black dark:text-white">Built in Go:</strong> Fast, compiled binaries with zero dependencies. Easy to install and integrate into CI/CD pipelines.</li>
-              <li><strong className="text-black dark:text-white">CLI native:</strong> Works with pipes, scripts, and automation. No web dashboards. Respects developer workflows.</li>
+              <li><strong className="text-brand-grey">Local-first:</strong> Everything runs on your machine. No SaaS, no cloud uploads, no vendor lock-in.</li>
+              <li><strong className="text-brand-grey">One-time pricing:</strong> Buy it once, use it forever. No subscriptions, no usage limits, no surprise bills.</li>
+              <li><strong className="text-brand-grey">Self-serve:</strong> Credit card at signup. No sales calls. No procurement committees. Buy at 2am with a corporate card.</li>
+              <li><strong className="text-brand-grey">Built in Go:</strong> Fast, compiled binaries with zero dependencies. Easy to install and integrate into CI/CD pipelines.</li>
+              <li><strong className="text-brand-grey">CLI native:</strong> Works with pipes, scripts, and automation. No web dashboards. Respects developer workflows.</li>
             </ul>
           </div>
           
           <div className="pt-6">
-            <h2 className="text-xl font-bold mb-4 text-black dark:text-white">The Tools</h2>
+            <h2 className="text-xl font-bold mb-4 text-brand-grey">The Tools</h2>
             
             <div className="space-y-3">
               <p>

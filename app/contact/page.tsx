@@ -7,9 +7,9 @@ export default function ContactPage() {
       <Navigation />
       
       <div className="max-w-7xl mx-auto px-6 py-16">
-        <h1 className="text-3xl font-bold mb-6 text-black dark:text-white">Contact Us</h1>
+        <h1 className="text-3xl font-bold mb-6 text-brand-grey">Contact Us</h1>
         
-        <div className="space-y-6 text-sm text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">
+        <div className="space-y-6 text-sm text-brand-grey leading-relaxed max-w-3xl">
           <p>
             Have questions about Zygur? Want to discuss your compliance requirements? 
             We're here to help.
@@ -17,15 +17,15 @@ export default function ContactPage() {
           
           <div className="pt-4 space-y-4">
             <div>
-              <h3 className="text-black dark:text-white font-medium mb-2">Sales Inquiries</h3>
-              <a href="mailto:sales@zygur.com" className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors">
+              <h3 className="text-brand-grey font-medium mb-2">Sales Inquiries</h3>
+              <a href="mailto:sales@zygur.com" className="text-brand-grey hover:opacity-60 transition-opacity">
                 sales@zygur.com
               </a>
             </div>
             
             <div>
-              <h3 className="text-black dark:text-white font-medium mb-2">General Support</h3>
-              <a href="mailto:support@zygur.com" className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors">
+              <h3 className="text-brand-grey font-medium mb-2">General Support</h3>
+              <a href="mailto:support@zygur.com" className="text-brand-grey hover:opacity-60 transition-opacity">
                 support@zygur.com
               </a>
             </div>
