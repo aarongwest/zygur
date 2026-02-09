@@ -89,7 +89,7 @@ export function Products() {
                 <ul className="space-y-2">
                   {product.features.map((feature, idx) => (
                     <li key={idx} className="text-xs text-brand-grey flex items-start gap-2">
-                      <span className="text-green-600 dark:text-green-400 mt-1">✓</span>
+                      <span className="text-green-600 mt-1">✓</span>
                       <span>{feature}</span>
                     </li>
                   ))}
