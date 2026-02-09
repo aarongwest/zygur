@@ -18,19 +18,19 @@ const footerLinks = {
 
 export function Footer() {
   return (
-    <footer className="w-full border-t border-gray-200 dark:border-gray-900 bg-white dark:bg-black">
+    <footer className="w-full border-t border-brand-grey bg-brand-mint">
       <div className="max-w-7xl mx-auto px-6 py-12">
         <div className="grid md:grid-cols-5 gap-8">
           <div className="md:col-span-2">
-            <img src="/logo.png" alt="Zygur" className="h-6 mb-3 invert dark:invert-0" />
-            <p className="text-xs text-gray-600 dark:text-gray-500 max-w-sm">
+            <img src="/logo.png" alt="Zygur" className="h-6 mb-3 invert" />
+            <p className="text-xs text-brand-grey max-w-sm">
               CLI tools for regulated developers. HIPAA, SOC2, GDPR compliant. Local-first. One-time pricing.
             </p>
           </div>
 
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
-              <h3 className="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-3">
+              <h3 className="text-xs font-medium text-brand-grey uppercase tracking-wider mb-3">
                 {category}
               </h3>
               <ul className="space-y-2">
@@ -38,7 +38,7 @@ export function Footer() {
                   <li key={link.name}>
                     <a
                       href={link.href}
-                      className="text-xs text-gray-600 dark:text-gray-600 hover:text-black dark:hover:text-white transition-colors"
+                      className="text-xs text-brand-grey hover:text-brand-grey transition-colors"
                     >
                       {link.name}
                     </a>

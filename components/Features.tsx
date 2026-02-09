@@ -29,13 +29,13 @@ const features = [
 
 export function Features() {
   return (
-    <section id="features" className="w-full py-16 px-6 border-t border-gray-200 dark:border-gray-900">
+    <section id="features" className="w-full py-16 px-6 border-t border-brand-grey">
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
-          <h2 className="text-2xl font-bold mb-3 text-black dark:text-white">
+          <h2 className="text-2xl font-bold mb-3 text-brand-grey">
             The Complexity Is The Enemy
           </h2>
-          <p className="text-sm text-gray-600 dark:text-gray-500 max-w-2xl">
+          <p className="text-sm text-brand-grey max-w-2xl">
             Most people fail at social because they treat it like a hobby. We treat it like a machine. Built right, it runs itself. That's the difference between invisible and unstoppable.
           </p>
         </div>
@@ -44,10 +44,10 @@ export function Features() {
           {features.map((feature) => (
             <div
               key={feature.title}
-              className="border border-gray-200 dark:border-gray-900 p-5 hover:border-gray-300 dark:hover:border-gray-800 transition-colors bg-white dark:bg-transparent"
+              className="border border-brand-grey p-5 hover:border-opacity-60 transition-colors bg-white"
             >
-              <h3 className="text-sm font-medium text-black dark:text-white mb-2">{feature.title}</h3>
-              <p className="text-xs text-gray-600 dark:text-gray-500 leading-relaxed">{feature.description}</p>
+              <h3 className="text-sm font-medium text-brand-grey mb-2">{feature.title}</h3>
+              <p className="text-xs text-brand-grey leading-relaxed">{feature.description}</p>
             </div>
           ))}
         </div>

@@ -1,6 +1,5 @@
 "use client";
 
-import { ThemeSwitcher } from "./ThemeSwitcher";
 import { useState } from "react";
 
 export function Navigation() {
@@ -13,12 +12,12 @@ export function Navigation() {
   ];
 
   return (
-    <nav className="w-full border-b border-gray-200 dark:border-gray-900 bg-white dark:bg-black sticky top-0 z-50">
+    <nav className="w-full border-b border-brand-grey bg-brand-mint sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex justify-between items-center h-14">
           <div className="flex items-center" style={{ marginLeft: '-20px' }}>
             <a href="/" className="flex items-center">
-              <img src="/logo.png" alt="Zygur" className="h-8 invert dark:invert-0" />
+              <img src="/logo.png" alt="Zygur" className="h-8 invert" />
             </a>
           </div>
 
@@ -28,20 +27,18 @@ export function Navigation() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-xs text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
+                className="text-xs text-brand-grey hover:text-opacity-60 transition-colors"
               >
                 {item.name}
               </a>
             ))}
-            <ThemeSwitcher />
           </div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center gap-3">
-            <ThemeSwitcher />
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
+              className="text-brand-grey hover:text-opacity-60 transition-colors"
               aria-label="Toggle menu"
             >
               {mobileMenuOpen ? (
@@ -59,14 +56,14 @@ export function Navigation() {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden border-t border-gray-200 dark:border-gray-900 py-4">
+          <div className="md:hidden border-t border-brand-grey py-4">
             <div className="flex flex-col gap-4">
               {navItems.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="text-sm text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
+                  className="text-sm text-brand-grey hover:text-opacity-60 transition-colors"
                 >
                   {item.name}
                 </a>

@@ -46,13 +46,13 @@ const products = [
 
 export function Products() {
   return (
-    <section id="pricing" className="w-full py-16 px-6 border-t border-gray-200 dark:border-gray-900">
+    <section id="pricing" className="w-full py-16 px-6 border-t border-brand-grey">
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
-          <h2 className="text-3xl font-bold mb-3 text-black dark:text-white">
+          <h2 className="text-3xl font-bold mb-3 text-brand-grey">
             Pick Your Path
           </h2>
-          <p className="text-sm text-gray-600 dark:text-gray-500 max-w-3xl">
+          <p className="text-sm text-brand-grey max-w-3xl">
             Build it yourself with our internal tool. Or hire us to completely own your social machine. Either way: You stop being invisible. Your competition gets nervous. Your visibility becomes unstoppable.
           </p>
         </div>
@@ -61,34 +61,34 @@ export function Products() {
           {products.map((product) => (
             <div
               key={product.type}
-              className="border border-gray-200 dark:border-gray-900 p-8 bg-white dark:bg-transparent hover:border-gray-300 dark:hover:border-gray-800 transition-colors"
+              className="border border-brand-grey p-8 bg-white hover:border-opacity-60 transition-colors"
             >
               <div className="mb-2">
                 <span className="text-xs font-medium text-gray-500 uppercase tracking-wide">{product.subtitle}</span>
               </div>
               <div className="flex justify-between items-start mb-4">
-                <h3 className="text-3xl font-bold text-black dark:text-white">{product.name}</h3>
+                <h3 className="text-3xl font-bold text-brand-grey">{product.name}</h3>
               </div>
               
               <div className="mb-6">
-                <span className="text-4xl font-bold text-black dark:text-white">{product.price}</span>
-                <span className="text-sm text-gray-600 dark:text-gray-400 ml-2">/{product.billing}</span>
+                <span className="text-4xl font-bold text-brand-grey">{product.price}</span>
+                <span className="text-sm text-brand-grey ml-2">/{product.billing}</span>
               </div>
 
-              <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">
+              <p className="text-sm text-brand-grey mb-6">
                 {product.description}
               </p>
 
-              <div className="mb-6 pb-6 border-b border-gray-200 dark:border-gray-900">
-                <p className="text-xs font-medium text-gray-500 dark:text-gray-500 mb-2">Best For</p>
-                <p className="text-sm text-gray-700 dark:text-gray-300">{product.bestFor}</p>
+              <div className="mb-6 pb-6 border-b border-brand-grey">
+                <p className="text-xs font-medium text-brand-grey mb-2">Best For</p>
+                <p className="text-sm text-brand-grey">{product.bestFor}</p>
               </div>
 
               <div className="mb-8">
-                <p className="text-xs font-medium text-gray-500 dark:text-gray-500 mb-3 uppercase">Includes</p>
+                <p className="text-xs font-medium text-brand-grey mb-3 uppercase">Includes</p>
                 <ul className="space-y-2">
                   {product.features.map((feature, idx) => (
-                    <li key={idx} className="text-xs text-gray-600 dark:text-gray-400 flex items-start gap-2">
+                    <li key={idx} className="text-xs text-brand-grey flex items-start gap-2">
                       <span className="text-green-600 dark:text-green-400 mt-1">✓</span>
                       <span>{feature}</span>
                     </li>
@@ -98,7 +98,7 @@ export function Products() {
 
               <a
                 href="#contact"
-                className="w-full border border-black dark:border-white bg-black dark:bg-white text-white dark:text-black px-4 py-3 text-xs font-medium text-center hover:opacity-90 transition-opacity inline-block rounded"
+                className="w-full border border-brand-grey bg-brand-grey text-white px-4 py-3 text-xs font-medium text-center hover:opacity-80 transition-opacity inline-block rounded"
               >
                 {product.cta}
               </a>

@@ -10,7 +10,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        accent: '#DCFF00',
+        accent: '#42f5ad',
+        'brand-mint': '#42f5ad',
+        'brand-grey': '#3a3a3a',
+      },
+      backgroundColor: {
+        'brand': '#42f5ad',
+      },
+      textColor: {
+        'brand': '#3a3a3a',
+      },
+      borderColor: {
+        'brand': '#3a3a3a',
       },
     },
   },
