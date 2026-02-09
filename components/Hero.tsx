@@ -120,7 +120,7 @@ export function Hero() {
             </a>
           </div>
 
-          <div className="flex gap-6 text-xs text-gray-500 justify-center mt-8">
+          <div className="flex gap-6 text-xs text-brand-grey justify-center mt-8">
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
               <span>Copy that lands</span>

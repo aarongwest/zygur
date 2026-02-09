@@ -49,15 +49,15 @@ export function Footer() {
           ))}
         </div>
 
-        <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-900 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-xs text-gray-600">
+        <div className="mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-xs text-brand-grey">
             © 2024 Zygur Technologies Corp. All rights reserved.
           </p>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="/privacy" className="text-xs text-gray-600 hover:text-black dark:hover:text-white transition-colors">
+            <a href="/privacy" className="text-xs text-brand-grey hover:opacity-60 transition-opacity">
               Privacy Policy
             </a>
-            <a href="/terms" className="text-xs text-gray-600 hover:text-black dark:hover:text-white transition-colors">
+            <a href="/terms" className="text-xs text-brand-grey hover:opacity-60 transition-opacity">
               Terms of Service
             </a>
           </div>

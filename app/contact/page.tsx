@@ -3,7 +3,7 @@ import { Footer } from "@/components/Footer";
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-white dark:bg-black text-black dark:text-white">
+    <main className="min-h-screen bg-transparent text-brand-grey">
       <Navigation />
       
       <div className="max-w-7xl mx-auto px-6 py-16">
