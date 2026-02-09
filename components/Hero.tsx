@@ -107,14 +107,14 @@ export function Hero() {
           <div className="flex gap-3 justify-center mb-6">
             <a 
               href="#pricing" 
-              className="text-brand-grey px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
+              className="border border-brand-grey text-brand-grey px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
             >
               Let Us Own It (Zygur)
             </a>
             
             <a 
               href="#pricing" 
-              className="px-8 py-4 text-sm text-brand-grey hover:opacity-80 transition-opacity inline-block rounded"
+              className="border border-brand-grey px-8 py-4 text-sm text-brand-grey hover:opacity-80 transition-opacity inline-block rounded"
             >
               Build It Yourself (Hayli AI)
             </a>
