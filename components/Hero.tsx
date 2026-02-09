@@ -91,15 +91,11 @@ export function Hero() {
         {/* Centered heading and description */}
         <div className="text-center mb-12">
           <h1 className="text-6xl font-bold mb-4 text-brand-grey">
-            Where Marketing, Automation,<br />
-            and AI Converge.
+            We're an Agency with a Tool for Devs.
           </h1>
           
-          <p className="text-lg text-brand-grey leading-relaxed max-w-3xl mx-auto mb-6">
-            You're supposed to be everywhere at once. That's a ball kicker.
-          </p>
-          <p className="text-lg font-semibold text-brand-grey max-w-3xl mx-auto mb-8">
-            There's a better way.
+          <p className="text-lg text-brand-grey leading-relaxed max-w-3xl mx-auto mb-8">
+            Hire us for marketing, or DIY with our internal tool (HAYLI AI).
           </p>
 
           <div className="flex gap-3 justify-center mb-6">
