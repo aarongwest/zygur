@@ -104,7 +104,6 @@ export function Products() {
             </div>
           ))}
         </div>
-      </div>
     </section>
   );
 }
