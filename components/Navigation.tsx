@@ -17,7 +17,7 @@ export function Navigation() {
         <div className="flex justify-between items-center h-14">
           <div className="flex items-center" style={{ marginLeft: '-20px' }}>
             <a href="/" className="flex items-center">
-              <img src="/logo.png" alt="Zygur" className="h-8 invert" />
+              <img src="/logo.png" alt="Zygur" className="h-8 invert opacity-75" />
             </a>
           </div>
 
