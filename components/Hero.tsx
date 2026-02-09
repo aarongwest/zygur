@@ -90,7 +90,7 @@ export function Hero() {
       <div className="max-w-7xl mx-auto">
         {/* Centered heading and description */}
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold mb-4 text-brand-grey" style={{ fontFamily: 'ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"' }}>
+          <h1 className="text-5xl font-bold mb-4 text-brand-grey">
             Your Visibility Is Getting Murdered.
           </h1>
           
