@@ -47,6 +47,7 @@ const products = [
 export function Products() {
   return (
     <section id="pricing" className="w-full py-16 px-6 border-t border-gray-200 dark:border-gray-900">
+      <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <h2 className="text-3xl font-bold mb-3 text-black dark:text-white">
             Pick Your Path
@@ -97,7 +98,7 @@ export function Products() {
 
               <a
                 href="#contact"
-                className="w-full border border-black dark:border-white text-black dark:text-white px-4 py-3 text-xs font-medium text-center hover:border-gray-600 dark:hover:border-gray-400 transition-colors inline-block"
+                className="w-full border border-black dark:border-white bg-black dark:bg-white text-white dark:text-black px-4 py-3 text-xs font-medium text-center hover:opacity-90 transition-opacity inline-block rounded"
               >
                 {product.cta}
               </a>
