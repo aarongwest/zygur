@@ -2,28 +2,28 @@
 
 const features = [
   {
-    title: "Built in Go",
-    description: "Fast, compiled binaries with zero dependencies. Single command to install and use.",
+    title: "The Real Problem",
+    description: "You're bleeding visibility because social media requires omnipresence. Every platform has different algorithms. Different posting times. You're drowning.",
   },
   {
-    title: "Local-First",
-    description: "Everything runs on your machine. No data sent to cloud. No vendor lock-in.",
+    title: "Stop Playing Small",
+    description: "Most people lose because they try to manage it themselves. Consistency dies. Momentum dies. Your visibility dies. We don't let that happen.",
   },
   {
-    title: "One-Time Pricing",
-    description: "Buy once, use forever. No subscriptions. No usage limits. No surprise bills.",
+    title: "Face-Melting Copy",
+    description: "Generic AI produces generic mediocrity. We generate copy that makes people STOP scrolling. That makes them click. That WORKS.",
   },
   {
-    title: "Self-Serve Purchasing",
-    description: "Credit card at signup. No sales calls. No procurement approval needed. Buy at 2am.",
+    title: "Every Platform. Every Time.",
+    description: "Twitter optimized for Twitter. LinkedIn for LinkedIn. Auto-adapted. Auto-scheduled. Running 24/7 without you lifting a finger.",
   },
   {
-    title: "Audit-Ready",
-    description: "Designed for regulated teams. HIPAA, SOC2, GDPR compliance built in.",
+    title: "Watch It Work",
+    description: "Posts hit peak engagement windows automatically. No more posting at 3am wondering who's seeing it. Strategy. Math. Results.",
   },
   {
-    title: "CLI Native",
-    description: "Pipes, scripts, automation. Works with your existing tools. No web dashboards.",
+    title: "Your Secret Weapon",
+    description: "Hayli AI is what we use internally at Zygur. The tool that powers our visibility machine. Now you can own it. Or hire us to wield it.",
   },
 ];
 
@@ -33,10 +33,10 @@ export function Features() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <h2 className="text-2xl font-bold mb-3 text-black dark:text-white">
-            Why Zygur
+            The Complexity Is The Enemy
           </h2>
           <p className="text-sm text-gray-600 dark:text-gray-500 max-w-2xl">
-            Tools designed specifically for regulated developers. No bloat. No compliance theater.
+            Most people fail at social because they treat it like a hobby. We treat it like a machine. Built right, it runs itself. That's the difference between invisible and unstoppable.
           </p>
         </div>
 
