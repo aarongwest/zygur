@@ -97,7 +97,7 @@ export function Products() {
               </div>
 
               <a
-                href="#contact"
+                href="mailto:aaron@zygur.com"
                 className="w-full border border-brand-grey bg-brand-grey text-brand-mint px-4 py-3 text-xs font-medium text-center hover:opacity-80 transition-opacity inline-block rounded"
               >
                 {product.cta}
