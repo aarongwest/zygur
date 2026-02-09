@@ -91,7 +91,7 @@ export function Hero() {
         {/* Centered heading and description */}
         <div className="text-center mb-12">
           <h1 className="text-6xl font-bold mb-4 text-brand-grey">
-            Where Marketing, Automation,
+            Where Marketing, Automation,<br />
             and AI Converge.
           </h1>
           
