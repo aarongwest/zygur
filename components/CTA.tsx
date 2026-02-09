@@ -2,7 +2,7 @@
 
 export function CTA() {
   return (
-    <section className="w-full py-16 px-6 border-t border-gray-200 dark:border-gray-900">
+    <section className="w-full py-16 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="p-12 text-center">
           <h2 className="text-3xl font-bold text-brand-grey mb-4">
@@ -14,13 +14,13 @@ export function CTA() {
           <div className="flex gap-4 justify-center">
             <a 
               href="#pricing" 
-              className="border border-brand-grey text-brand-grey px-8 py-4 text-sm font-bold hover:border-opacity-60 transition-colors inline-block rounded"
+              className="text-brand-grey px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
             >
               I'll Build It (Hayli AI)
             </a>
             <a 
               href="#pricing" 
-              className="border border-brand-grey text-brand-grey px-8 py-4 text-sm font-bold hover:border-opacity-60 transition-colors inline-block rounded"
+              className="text-brand-grey px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
             >
               You Own It (Hire Zygur)
             </a>

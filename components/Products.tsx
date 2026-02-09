@@ -98,7 +98,7 @@ export function Products() {
 
               <a
                 href="#contact"
-                className="w-full border border-brand-grey bg-brand-grey text-white px-4 py-3 text-xs font-medium text-center hover:opacity-80 transition-opacity inline-block rounded"
+                className="w-full bg-brand-grey text-white px-4 py-3 text-xs font-medium text-center hover:opacity-80 transition-opacity inline-block rounded"
               >
                 {product.cta}
               </a>
