@@ -97,7 +97,7 @@ export function Products() {
 
               <a
                 href="#contact"
-                className="w-full border border-black dark:border-white text-black dark:text-white px-4 py-3 text-xs font-medium text-center hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors inline-block"
+                className="w-full border border-black dark:border-white text-black dark:text-white px-4 py-3 text-xs font-medium text-center hover:border-gray-600 dark:hover:border-gray-400 transition-colors inline-block"
               >
                 {product.cta}
               </a>

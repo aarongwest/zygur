@@ -100,14 +100,14 @@ export function Hero() {
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto mb-6">
             You're supposed to be everywhere at once. That's a ball kicker.
           </p>
-          <p className="text-lg font-semibold text-red-600 dark:text-red-400 max-w-3xl mx-auto mb-8">
+          <p className="text-lg font-semibold text-gray-700 dark:text-gray-300 max-w-3xl mx-auto mb-8">
             But what if you didn't have to choose?
           </p>
 
           <div className="flex gap-3 justify-center mb-6">
             <a 
               href="#pricing" 
-              className="border border-black dark:border-white bg-black dark:bg-white text-white dark:text-black px-8 py-4 text-sm font-bold hover:opacity-90 transition-opacity inline-block"
+              className="border border-black dark:border-white text-black dark:text-white px-8 py-4 text-sm font-bold hover:border-gray-600 dark:hover:border-gray-400 transition-colors inline-block"
             >
               Let Us Own It (Zygur)
             </a>
