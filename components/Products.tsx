@@ -47,13 +47,12 @@ const products = [
 export function Products() {
   return (
     <section id="pricing" className="w-full py-16 px-6 border-t border-gray-200 dark:border-gray-900">
-      <div className="max-w-7x3xl font-bold mb-3 text-black dark:text-white">
+        <div className="mb-12">
+          <h2 className="text-3xl font-bold mb-3 text-black dark:text-white">
             Pick Your Path
           </h2>
           <p className="text-sm text-gray-600 dark:text-gray-500 max-w-3xl">
-            Build it yourself with our internal tool. Or hire us to completely own your social machine. Either way: You stop being invisible. Your competition gets nervous. Your visibility becomes unstoppable
-          <p className="text-sm text-gray-600 dark:text-gray-500 max-w-2xl">
-            Go DIY with Hayli AI, or let Zygur handle your entire content strategy.
+            Build it yourself with our internal tool. Or hire us to completely own your social machine. Either way: You stop being invisible. Your competition gets nervous. Your visibility becomes unstoppable.
           </p>
         </div>
 
