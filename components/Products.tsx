@@ -80,14 +80,14 @@ export function Products() {
             >
               <div className="flex justify-between items-start mb-3">
                 <h3 className="text-lg font-bold text-gray-900 dark:text-gray-100">{product.name}</h3>
-                <span className="text-sm font-medium text-green-500">{product.price}</span>
+                <span className="text-sm font-medium text-gray-900 dark:text-gray-100">{product.price}</span>
               </div>
 
               <p className="text-sm text-gray-900 dark:text-gray-100 mb-4">
                 {product.description}
               </p>
 
-              <div className="bg-gray-900 rounded p-3 mb-4 font-mono text-xs overflow-x-auto">
+              <div className="bg-black dark:bg-black rounded p-3 mb-4 font-mono text-xs overflow-x-auto">
                 <span className="text-gray-300">$ {product.command}</span>
               </div>
 
@@ -104,7 +104,7 @@ export function Products() {
 
               <a
                 href="mailto:aaron@zygur.com"
-                className="w-full border border-gray-200 dark:border-gray-800 bg-gray-900 dark:bg-gray-100 text-white dark:text-black px-4 py-3 text-xs font-medium text-center hover:opacity-80 transition-opacity inline-block rounded"
+                className="w-full border border-gray-900 dark:border-gray-100 text-gray-900 dark:text-gray-100 px-4 py-3 text-xs font-medium text-center hover:opacity-80 transition-opacity inline-block rounded"
               >
                 Pre-Order
               </a>
@@ -125,7 +125,7 @@ export function Products() {
             </div>
             <a
               href="mailto:aaron@zygur.com"
-              className="border border-gray-200 dark:border-gray-800 bg-gray-900 dark:bg-gray-100 text-white dark:text-black px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
+              className="border border-gray-900 dark:border-gray-100 text-gray-900 dark:text-gray-100 px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
             >
               Get All-Access
             </a>

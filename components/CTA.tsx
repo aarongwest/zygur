@@ -22,7 +22,7 @@ export function CTA() {
             </a>
             <a
               href="mailto:aaron@zygur.com"
-              className="border border-gray-200 dark:border-gray-800 bg-gray-900 dark:bg-gray-100 text-white dark:text-black px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
+              className="border border-gray-900 dark:border-gray-100 text-gray-900 dark:text-gray-100 px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
             >
               Get All-Access
             </a>
