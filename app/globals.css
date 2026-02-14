@@ -10,9 +10,9 @@ body {
   color: #1a1a1a;
 }
 
-.dark body {
-  background-color: #1a1a1a;
-  color: #e5e5e5;
+html.dark body {
+  background-color: #1a1a1a !important;
+  color: #e5e5e5 !important;
 }
 
 * {
