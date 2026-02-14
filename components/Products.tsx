@@ -2,108 +2,134 @@
 
 const products = [
   {
-    type: "hayli",
-    name: "Hayli AI",
-    subtitle: "Build It Your Way",
+    name: "Safe Harbor",
     price: "$49",
-    billing: "month",
-    description: "The internal tool we use to automate our social visibility. Terminal-first. You own everything. Bring your API keys.",
-    features: [
-      "CLI tool (no dashboards, no bloat)",
-      "Bring your own AI (OpenAI/Claude/Gemini)",
-      "Unlimited post generation",
-      "Auto-generated matching images",
-      "Cron scheduling (posts run while you sleep)",
-      "Multi-platform support (Twitter, LinkedIn, Bluesky, TikTok)",
-      "Batch CSV processing",
-      "License key activation",
-    ],
-    bestFor: "Developers. People who want control. Indie hackers. Solopreneurs.",
-    cta: "Get Your License Key",
+    description: "Checks if datasets are HIPAA Safe Harbor de-identified by scanning for 18 identifiers.",
+    command: "safeharbor check patient_export.csv",
+    painPoint: "Avoids $50K HIPAA fines before sending data to ML teams",
+    icp: "HealthTech developers, data engineers",
   },
   {
-    type: "zygur",
-    name: "Zygur",
-    subtitle: "We Take The Wheel",
-    price: "$2,500",
-    billing: "month",
-    description: "You tell us your goals. We own your social visibility. Strategy. Copy. Design. Posting. Results.",
-    features: [
-      "Weekly strategy sessions",
-      "Content calendar (4-6 weeks ahead)",
-      "Copy written by people who know your game",
-      "Professional design + imagery",
-      "Cross-platform optimization",
-      "Scheduled posting (all platforms, peak times)",
-      "Monthly performance analytics",
-      "Unlimited revisions",
-      "Your personal growth strategist",
-    ],
-    bestFor: "Serious founders. Consultants. Agencies. People who delegate to dominate.",
-    cta: "Let's Talk",
+    name: "Evidence",
+    price: "$99",
+    description: "Auto-generates SOC2 evidence packages by scraping Git history, Jira, and Slack.",
+    command: "evidence collect --start=2024-01-01 --type=access-control",
+    painPoint: "Saves 40 hours of manual screenshot collection for auditors",
+    icp: "Compliance engineers at B2B SaaS startups",
+  },
+  {
+    name: "PiiGrep",
+    price: "$29",
+    description: "Scans codebase for hardcoded PII like emails, SSNs, and secrets.",
+    command: "piigrep ./src --format=sarif",
+    painPoint: "Catches PII leaks in CI/CD before audit",
+    icp: "DevOps engineers, security-conscious developers",
+  },
+  {
+    name: "AuditDiff",
+    price: "$79",
+    description: "Shows exactly what changed between two database dumps for audit validation.",
+    command: "auditdiff dump_0301.sql dump_0401.sql --table=patients",
+    painPoint: "Debugging 'who changed what' during audit panic",
+    icp: "Database admins, compliance developers",
+  },
+  {
+    name: "BAA-Check",
+    price: "$39",
+    description: "Validates vendor URLs and subprocessors against HIPAA BAA whitelist.",
+    command: "baacheck --vendor stripe.com",
+    painPoint: "Responds to 'subprocessor review' requests from hospital legal",
+    icp: "HealthTech CTOs, vendor management",
+  },
+  {
+    name: "Retention",
+    price: "$149",
+    description: "Automatically deletes/pseudonymizes old database records per GDPR/CCPA retention policies.",
+    command: "retention apply --db=postgres://prod --policy=7years --dry-run",
+    painPoint: "Avoids GDPR fines, runs as cron job",
+    icp: "Data engineers, privacy officers",
+  },
+  {
+    name: "Guardrail",
+    price: "$19",
+    description: "Pre-commit hook that blocks commits containing HIPAA keywords (PHI, patient names).",
+    command: 'git commit -m "Added patient data" → [BLOCKED]',
+    painPoint: "Prevents 'oops I pushed SSNs to GitHub' fire drill",
+    icp: "All regulated developers, Git users",
   },
 ];
 
 export function Products() {
   return (
-    <section id="pricing" className="w-full py-16 px-6 border-t border-brand-grey">
+    <section id="products" className="w-full py-16 px-6 border-t border-brand-grey">
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <h2 className="text-3xl font-bold mb-3 text-brand-grey">
-            Pick Your Path
+            Our Tools
           </h2>
           <p className="text-sm text-brand-grey max-w-3xl">
-            Build it yourself with our internal tool. Or hire us to completely own your social machine. Either way: You stop being invisible. Your competition gets nervous. Your visibility becomes unstoppable.
+            Seven CLI tools that solve real problems for regulated software teams. Built by AI agents. Shipped monthly. One-time pricing.
           </p>
         </div>
 
         <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-6">
           {products.map((product) => (
             <div
-              key={product.type}
-              className="border border-brand-grey p-8 bg-transparent hover:border-opacity-60 transition-colors"
+              key={product.name}
+              className="border border-brand-grey p-6 bg-transparent hover:border-opacity-60 transition-colors rounded"
             >
-              <div className="mb-2">
-                <span className="text-xs font-medium text-gray-500 uppercase tracking-wide">{product.subtitle}</span>
-              </div>
-              <div className="flex justify-between items-start mb-4">
-                <h3 className="text-3xl font-bold text-brand-grey">{product.name}</h3>
-              </div>
-              
-              <div className="mb-6">
-                <span className="text-4xl font-bold text-brand-grey">{product.price}</span>
-                <span className="text-sm text-brand-grey ml-2">/{product.billing}</span>
+              <div className="flex justify-between items-start mb-3">
+                <h3 className="text-lg font-bold text-brand-grey">{product.name}</h3>
+                <span className="text-sm font-medium text-green-500">{product.price}</span>
               </div>
 
-              <p className="text-sm text-brand-grey mb-6">
+              <p className="text-sm text-brand-grey mb-4">
                 {product.description}
               </p>
 
-              <div className="mb-6 pb-6 border-b border-brand-grey">
-                <p className="text-xs font-medium text-brand-grey mb-2">Best For</p>
-                <p className="text-sm text-brand-grey">{product.bestFor}</p>
+              <div className="bg-gray-900 rounded p-3 mb-4 font-mono text-xs overflow-x-auto">
+                <span style={{ color: '#42f5ad' }}>$ {product.command}</span>
               </div>
 
-              <div className="mb-8">
-                <p className="text-xs font-medium text-brand-grey mb-3 uppercase">Includes</p>
-                <ul className="space-y-2">
-                  {product.features.map((feature, idx) => (
-                    <li key={idx} className="text-xs text-brand-grey flex items-start gap-2">
-                      <span className="text-green-600 mt-1">✓</span>
-                      <span>{feature}</span>
-                    </li>
-                  ))}
-                </ul>
+              <div className="space-y-2 mb-4">
+                <div>
+                  <p className="text-xs font-medium text-brand-grey mb-1 opacity-60">Pain Point</p>
+                  <p className="text-xs text-brand-grey">{product.painPoint}</p>
+                </div>
+                <div>
+                  <p className="text-xs font-medium text-brand-grey mb-1 opacity-60">Who It&apos;s For</p>
+                  <p className="text-xs text-brand-grey">{product.icp}</p>
+                </div>
               </div>
 
               <a
                 href="mailto:aaron@zygur.com"
                 className="w-full border border-brand-grey bg-brand-grey text-brand-mint px-4 py-3 text-xs font-medium text-center hover:opacity-80 transition-opacity inline-block rounded"
               >
-                {product.cta}
+                Pre-Order
               </a>
             </div>
           ))}
+        </div>
+
+        <div className="mt-12 border border-brand-grey p-8 rounded bg-transparent">
+          <div className="max-w-3xl">
+            <h3 className="text-2xl font-bold text-brand-grey mb-3">All-Access Pass</h3>
+            <p className="text-sm text-brand-grey mb-6">
+              Get all current tools plus every new tool we ship. Forever. Built by AI agents, shipped monthly.
+            </p>
+            <div className="flex items-baseline gap-4 mb-6">
+              <span className="text-4xl font-bold text-brand-grey">$29</span>
+              <span className="text-sm text-brand-grey">/month</span>
+              <span className="text-xs text-brand-grey opacity-60">or $299/year (save 2 months)</span>
+            </div>
+            <a
+              href="mailto:aaron@zygur.com"
+              className="border border-brand-grey bg-brand-grey text-brand-mint px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
+            >
+              Get All-Access
+            </a>
+          </div>
         </div>
       </div>
     </section>

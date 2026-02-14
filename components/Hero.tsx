@@ -9,47 +9,46 @@ export function Hero() {
   const [isTyping, setIsTyping] = useState(true);
 
   const commands = [
-    "$ hayli generate --topic 'why rust is great for cli tools' --tone developer",
-    "→ Thinking about your audience...",
-    "→ Generating variations...",
+    "$ safeharbor check patient_export.csv",
+    "✓ Scanning for 18 HIPAA identifiers...",
+    "✓ Found: 0 identifiers (Safe Harbor compliant)",
+    "✓ Safe to send to ML team",
     "",
-    "Tweet #1 (High engagement potential):",
-    "┌─────────────────────────────────────────────────────┐",
-    "│ Rust's borrow checker saved me 6 hours of debugging │",
-    "│ this week.                                          │",
-    "│                                                     │",
-    "│ No more 'why did this crash at 3am' moments.       │",
-    "│ It just tells you exactly what's wrong at compile  │",
-    "│ time. Wild.                                         │",
-    "└─────────────────────────────────────────────────────┘",
+    "$ evidence collect --start=2025-01-01 --type=access-control",
+    "→ Scraping Git history...",
+    "→ Collecting Jira tickets...",
+    "→ Pulling Slack logs...",
+    "✓ Generated: SOC2_evidence_2025.pdf (47 pages)",
+    "→ Saved 40 hours of manual work",
     "",
-    "Tweet #2 (Curiosity hook):",
-    "┌─────────────────────────────────────────────────────┐",
-    "│ The real reason devs are switching to Rust isn't   │",
-    "│ performance. It's sanity.                          │",
-    "│                                                     │",
-    "│ Let me explain the borrow checker in 30 seconds... │",
-    "└─────────────────────────────────────────────────────┘",
+    "$ piigrep ./src --format=sarif",
+    "→ Scanning source code for hardcoded PII...",
+    "✓ No sensitive data found",
+    "→ Safe to commit",
     "",
-    "Tweet #3 (Proof/Stats):",
-    "┌─────────────────────────────────────────────────────┐",
-    "│ Replaced 4 Go services with 1 Rust binary.         │",
-    "│ 87% less memory. 3x faster. Fewer bugs.            │",
-    "│                                                     │",
-    "│ 2 days to rewrite. 6 months saved in infra costs.  │",
-    "└─────────────────────────────────────────────────────┘",
+    "$ auditdiff dump_0301.sql dump_0401.sql --table=patients",
+    "→ Comparing database states...",
+    "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+    "Changes to patients table:",
+    "├─ Rows modified: 3",
+    "├─ Rows deleted: 0",
+    "├─ Rows added: 1",
+    "└─ Last change by: audit_service (2025-03-01 14:22:00 UTC)",
     "",
-    "→ Generating images...",
-    "✓ Created: rust-cli-hero.png",
-    "✓ Created: rust-performance-chart.png",
-    "✓ Created: rust-memory-comparison.png",
+    "$ baacheck --vendor stripe.com",
+    "✓ Stripe is on HIPAA BAA whitelist",
+    "✓ Current as of 2025-02-01",
     "",
-    "→ Scheduling posts...",
-    "✓ Mon 9:00 AM PT (Tweet #1)",
-    "✓ Wed 8:00 AM PT (Tweet #2 + image)",
-    "✓ Fri 10:00 AM PT (Tweet #3 + chart)",
+    "$ retention apply --db=postgres://prod --policy=7years --dry-run",
+    "→ Would delete records older than 2018-01-31",
+    "→ Affected rows: 2,847",
+    "→ Data removed: 156 MB",
+    "→ Compliance: GDPR/CCPA compliant",
+    "→ Run with --execute to apply",
     "",
-    "→ Next: Pinterest pins, LinkedIn adaptation",
+    "$ git commit -m 'Added patient data'",
+    "✗ BLOCKED: Commit contains PHI keywords",
+    "✗ Use --force to override (not recommended)",
   ];
 
 
@@ -91,41 +90,41 @@ export function Hero() {
         {/* Centered heading and description */}
         <div className="text-center mb-12">
           <h1 className="text-6xl font-bold mb-4 text-brand-grey">
-            We're an Agency with a Tool for Devs.
+            Compliance CLI Tools for Regulated Developers
           </h1>
-          
+
           <p className="text-lg text-brand-grey leading-relaxed max-w-3xl mx-auto mb-8">
-            Hire us for marketing, or DIY with our internal tool (HAYLI AI).
+            Built by AI agents. Shipped monthly. HIPAA, SOC2, GDPR, CCPA. One-time pricing. No subscriptions. Buy at 2am with a corporate card.
           </p>
 
           <div className="flex gap-3 justify-center mb-6">
-            <a 
-              href="#pricing" 
+            <a
+              href="#products"
               className="border border-brand-grey text-brand-grey px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
             >
-              Let Us Own It (Zygur)
+              Browse Tools
             </a>
-            
-            <a 
-              href="#pricing" 
+
+            <a
+              href="https://github.com/zygur"
               className="border border-brand-grey px-8 py-4 text-sm text-brand-grey hover:opacity-80 transition-opacity inline-block rounded"
             >
-              Build It Yourself (Hayli AI)
+              GitHub
             </a>
           </div>
 
           <div className="flex gap-6 text-xs text-brand-grey justify-center mt-8">
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
-              <span>Copy that lands</span>
+              <span>HIPAA, SOC2, GDPR</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
-              <span>All platforms covered</span>
+              <span>Local-First</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
-              <span>Automatic scheduling</span>
+              <span>No Subscriptions</span>
             </div>
           </div>
         </div>
@@ -148,8 +147,8 @@ export function Hero() {
             
             {/* Terminal content */}
             <div className="p-6 font-mono h-[600px] overflow-auto bg-gray-950">
-              <div className="mb-2 text-sm" style={{ color: '#42f5ad' }}>Hayli AI - Social Content Automation</div>
-              <div className="text-gray-500 mb-4 text-sm">Type 'hayli help' for available commands</div>
+              <div className="mb-2 text-sm" style={{ color: '#42f5ad' }}>Zygur CLI - Compliance Tools</div>
+              <div className="text-gray-500 mb-4 text-sm">Type 'zygur help' for available tools</div>
               <div className="whitespace-pre-wrap text-sm leading-relaxed" style={{ color: '#42f5ad' }}>{terminalText}</div>
               {isTyping && (
                 <motion.div

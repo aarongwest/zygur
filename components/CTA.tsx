@@ -2,27 +2,29 @@
 
 export function CTA() {
   return (
-    <section className="w-full py-16 px-6">
+    <section className="w-full py-16 px-6 border-t border-brand-grey">
       <div className="max-w-7xl mx-auto">
         <div className="p-12 text-center">
           <h2 className="text-3xl font-bold text-brand-grey mb-4">
-            Here's The Reality.
+            Building in Public
           </h2>
           <p className="text-lg text-brand-grey mb-8 max-w-2xl mx-auto">
-            Your competition is posting consistently. They're everywhere. You're nowhere. Every day you wait is a day they own more of your market. Pick your path. Let's go.
+            We're shipping a new compliance tool every month. Follow along on X/Twitter to see how we build with AI agents. Or subscribe to get every tool we ever ship.
           </p>
           <div className="flex gap-4 justify-center">
-            <a 
-              href="#pricing" 
+            <a
+              href="https://x.com/zygur_ai"
+              target="_blank"
+              rel="noopener noreferrer"
               className="border border-brand-grey text-brand-grey px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
             >
-              I'll Build It (Hayli AI)
+              Follow on X
             </a>
-            <a 
-              href="#pricing" 
-              className="border border-brand-grey text-brand-grey px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
+            <a
+              href="mailto:aaron@zygur.com"
+              className="border border-brand-grey bg-brand-grey text-brand-mint px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
             >
-              You Own It (Hire Zygur)
+              Get All-Access
             </a>
           </div>
         </div>

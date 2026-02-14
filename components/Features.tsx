@@ -2,28 +2,28 @@
 
 const features = [
   {
-    title: "The Real Problem",
-    description: "You're bleeding visibility because social media requires omnipresence. Every platform has different algorithms. Different posting times. You're drowning.",
+    title: "Built by AI Agents",
+    description: "We're not a 20-person team. We're one founder + six AI agents. Zed plans products. Hayli builds frontends. Knucks handles backends. Kasey tests. Khristyn deploys. Gerty secures. This lets us ship monthly at a fraction of traditional cost.",
   },
   {
-    title: "Stop Playing Small",
-    description: "Most people lose because they try to manage it themselves. Consistency dies. Momentum dies. Your visibility dies. We don't let that happen.",
+    title: "Shipped Monthly",
+    description: "New compliance tool every month. We started with 7 tools. By end of year, we'll have 19. Subscribe once, get everything we ever build. Forever.",
   },
   {
-    title: "Face-Melting Copy",
-    description: "Generic AI produces generic mediocrity. We generate copy that makes people STOP scrolling. That makes them click. That WORKS.",
+    title: "Local-First",
+    description: "Your sensitive data never leaves your infrastructure. All tools run locally on your machine or in your environment. No cloud uploads. No third-party servers. You're in control.",
   },
   {
-    title: "Every Platform. Every Time.",
-    description: "Twitter optimized for Twitter. LinkedIn for LinkedIn. Auto-adapted. Auto-scheduled. Running 24/7 without you lifting a finger.",
+    title: "One-Time Pricing",
+    description: "Buy a tool once, use it forever. Or subscribe for $29/mo and get everything. No forced upgrades. No subscription fatigue. No sales calls. Buy at 2am with a corporate card.",
   },
   {
-    title: "Watch It Work",
-    description: "Posts hit peak engagement windows automatically. No more posting at 3am wondering who's seeing it. Strategy. Math. Results.",
+    title: "HIPAA, SOC2, GDPR, CCPA",
+    description: "Built for regulated industries. Healthcare, fintech, legal, government. If you handle PII, PHI, or sensitive data, these tools keep you compliant and out of trouble.",
   },
   {
-    title: "Your Secret Weapon",
-    description: "Hayli AI is what we use internally at Zygur. The tool that powers our visibility machine. Now you can own it. Or hire us to wield it.",
+    title: "Terminal-First",
+    description: "CLI tools that fit into your workflow. No dashboards. No bloat. Just fast, focused tools that do one thing well. Perfect for CI/CD, cron jobs, and automation.",
   },
 ];
 
@@ -33,10 +33,10 @@ export function Features() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <h2 className="text-2xl font-bold mb-3 text-brand-grey">
-            The Complexity Is The Enemy
+            How We Ship So Fast
           </h2>
           <p className="text-sm text-brand-grey max-w-2xl">
-            Most people fail at social because they treat it like a hobby. We treat it like a machine. Built right, it runs itself. That's the difference between invisible and unstoppable.
+            Most companies take months to ship a single tool. We ship one every month. Here's how.
           </p>
         </div>
 
@@ -44,7 +44,7 @@ export function Features() {
           {features.map((feature) => (
             <div
               key={feature.title}
-              className="border border-brand-grey p-5 hover:border-opacity-60 transition-colors bg-transparent"
+              className="border border-brand-grey p-5 hover:border-opacity-60 transition-colors bg-transparent rounded"
             >
               <h3 className="text-sm font-medium text-brand-grey mb-2">{feature.title}</h3>
               <p className="text-xs text-brand-grey leading-relaxed">{feature.description}</p>
