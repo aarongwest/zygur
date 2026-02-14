@@ -36,6 +36,8 @@ export const metadata: Metadata = {
     title: "Zygur | An AI-Powered Digital Agency",
     description:
       "Hire us for execution or rent our digital factory to launch and grow products faster.",
+    site: "@zygurx",
+    creator: "@zygurx",
   },
   alternates: {
     canonical: "/",
