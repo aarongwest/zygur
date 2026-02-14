@@ -6,8 +6,40 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Zygur - Terminal-Native Tools for Developers",
-  description: "A studio of small, sharp developer tools built with Go and respect for your time. No bloat. No dashboards. Just the command line.",
+  metadataBase: new URL("https://zygur.com"),
+  title: {
+    default: "Zygur | An AI-Powered Digital Agency",
+    template: "%s | Zygur",
+  },
+  description:
+    "An AI-powered digital agency. Hire us for execution or rent our digital factory to launch and grow products faster.",
+  keywords: [
+    "AI-powered digital agency",
+    "digital factory",
+    "product strategy",
+    "software development",
+    "marketing automation",
+    "developer tools",
+    "Zygur",
+    "SciCo.ai",
+  ],
+  openGraph: {
+    title: "Zygur | An AI-Powered Digital Agency",
+    description:
+      "Hire us for execution or rent our digital factory to launch and grow products faster.",
+    url: "https://zygur.com",
+    siteName: "Zygur",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Zygur | An AI-Powered Digital Agency",
+    description:
+      "Hire us for execution or rent our digital factory to launch and grow products faster.",
+  },
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({
@@ -17,7 +49,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>
+      <body className={inter.className}>
         <ThemeProvider>
           {children}
         </ThemeProvider>

@@ -1,116 +1,294 @@
-**PROMPT: GENERATE ZYGUR WEBSITE COPY FOR COMPLIANCE DEV TOOLS PORTFOLIO**
+# Zygur Business Model
 
-Use this prompt to generate website copy text only. Paste into Claude/ChatGPT when updating site content.
+## Overview
+
+**Zygur** is an **AI-powered digital agency**.
+
+Primary message on-site: **Hire us or rent our digital factory to grow and/or manage your business.**
+
+Top-level offer structure:
+- **Done for You** (Digital Services)
+- **Do it Yourself** (Digital Factory)
+
+**SciCo.ai** is an AI-powered digital factory. It's the system we use to identify, validate, build, market, and ship products at unprecedented speed. Six AI agents handle every business function — strategy, product, marketing, customer success, revenue, and compliance — enabling true solo operation at scale.
 
 ---
 
-```
-CONTEXT:
-Zygur is an indie software studio that ships CLI tools (terminal applications written in Go) for software developers working in regulated industries (healthcare, fintech, legal, government). 
+## The Core Strategy
 
-The business model requires zero sales calls: tools are under $200, run local-first on the user's machine, and purchased via Stripe without procurement approval. One-time pricing preferred over subscriptions.
+### The Product Factory Model
 
-Generate website copy for the following 7 products:
+We don't build one product. We ship **multiple products per month** across different verticals. Each product:
+- Targets a specific customer segment
+- Solves a validated painful problem
+- Has its own marketing and distribution
+- Mix of one-time purchases and subscriptions
 
-PRODUCT LIST:
+### Volume Game with Quality Execution
 
-1. "Safe Harbor"
-- Type: CLI tool
-- Function: Checks if datasets are HIPAA Safe Harbor de-identified (scans for 18 identifiers)
-- Command: `safeharbor check patient_export.csv`
-- Price: $49 one-time
-- Pain Point: Avoids $50K HIPAA fines before sending data to ML teams
-- ICP: HealthTech developers, data engineers
+- **Week 1-4:** Ship Knucks.ai (marketing agent) fully
+- **Week 5-16:** Ship 1 product per week (CLI tools, iOS apps, SaaS)
+- **Month 4+:** Double down on winners, kill losers
+- **Month 6-12:** Complete the full AI agent org
 
-2. "Evidence"
-- Type: CLI tool  
-- Function: Auto-generates SOC2 evidence packages by scraping Git history/Jira/Slack
-- Command: `evidence collect --start=2024-01-01 --type=access-control`
-- Price: $99 one-time or $15/month
-- Pain Point: Saves 40 hours of manual screenshot collection for auditors
-- ICP: Compliance engineers at B2B SaaS startups
+---
 
-3. "PiiGrep"
-- Type: CLI tool
-- Function: Scans codebase for hardcoded PII (emails, SSNs, secrets)
-- Command: `piigrep ./src --format=sarif`
-- Price: $29 one-time
-- Pain Point: Catches PII leaks in CI/CD before audit
-- ICP: DevOps engineers, security-conscious developers
+## SciCo.ai - The AI-Powered Digital Factory
 
-4. "AuditDiff"
-- Type: CLI tool
-- Function: Shows exactly what changed between two database dumps for audit validation
-- Command: `auditdiff dump_0301.sql dump_0401.sql --table=patients`
-- Price: $79 one-time
-- Pain Point: Debugging "who changed what" during audit panic
-- ICP: Database admins, compliance developers
+### The Agent Org Structure
 
-5. "BAA-Check"
-- Type: CLI tool
-- Function: Validates vendor URLs/subprocessors against HIPAA BAA whitelist
-- Command: `baacheck --vendor stripe.com`
-- Price: $39 one-time
-- Pain Point: Responds to "subprocessor review" requests from hospital legal
-- ICP: HealthTech CTOs, vendor management
+1. **Zedekiah.ai** - Orchestrator/Strategy
+   Identifies product opportunities, coordinates all agents, makes strategic decisions
 
-6. "Retention"
-- Type: CLI tool
-- Function: Automatically deletes/pseudonymizes old database records per GDPR/CCPA retention policies
-- Command: `retention apply --db=postgres://prod --policy=7years --dry-run`
-- Price: $149 one-time
-- Pain Point: Avoids GDPR fines, runs as cron job
-- ICP: Data engineers, privacy officers
+2. **Knucks.ai** - Growth Agent
+   Marketing, lead generation, content creation, demand generation
 
-7. "Guardrail"
-- Type: CLI tool (pre-commit hook)
-- Function: Blocks commits containing HIPAA keywords (PHI, patient names) in non-encrypted paths
-- Command: `git commit -m "Added patient data"` → [BLOCKED]
-- Price: $19 one-time
-- Pain Point: Prevents "oops I pushed SSNs to GitHub" fire drill
-- ICP: All regulated developers, Git users
+3. **Kasey.ai** - Customer Agent
+   Support, success, onboarding, retention
 
-COPY SECTIONS TO GENERATE:
+4. **Khristyn.ai** - Revenue & Finance Agent
+   Revenue operations, accounting, billing, collections, forecasting
 
-1. Landing Page Hero Section:
-- Headline (what Zygur is)
-- Subhead (local-first, no sales calls, buy once use forever)
-- Brief description of the studio
+5. **Hayli.ai** - Product Agent
+   Validation, market research, roadmap, feature prioritization
 
-2. Individual Product Sections (for each of the 7):
-- Product name as H2
-- One-sentence description
-- The command example (code block)
-- Price
-- Bullet points of what it does
-- Who it's for
+6. **Gerty.ai** - Compliance Agent
+   Risk management, security, legal, GRC, safety
 
-3. Value Proposition Section:
-- Why CLI tools instead of web platforms
-- Why no subscriptions (one-time pricing)
-- Why no sales calls (corporate card friendly)
-- The "buy at 2am" angle
+### Agent Tool Grouping (Current Site Model)
 
-4. FAQ Section:
-- Do these work offline?
-- Do I need a subscription?
-- Will this pass my audit?
-- Enterprise licensing available?
-- How do I install?
+Each agent includes a visible tool list in its own `.ai` element.
 
-5. Call to Action:
-- Browse tools button text
-- GitHub link text
-- Email contact text
+1. **Zedekiah.ai tools**
+   - Opportunity Scanner
+   - Portfolio Planner
+   - Agent Orchestrator
 
-REQUIREMENTS:
-- No mention of colors, fonts, CSS, or visual design
-- No ASCII art or visual descriptions
-- No aesthetic references (retro, sci-fi, industrial, etc.)
-- Focus on functionality, business model, and value proposition only
-- Professional but direct tone
-- Short paragraphs, scannable content
+2. **Knucks.ai tools**
+   - Campaign Generator
+   - Content Scheduler
+   - Creative Variant Builder
 
-OUTPUT:
-Generate clean Markdown text ready for a website. Include only the words/content, no design instructions.
-```
+3. **Kasey.ai tools**
+   - Onboarding Flow Builder
+   - Support Copilot
+   - Retention Playbooks
+
+4. **Khristyn.ai tools**
+   - MRR Dashboard
+   - Billing Automations
+   - Revenue Forecast Engine
+
+5. **Hayli.ai tools**
+   - Idea Validator
+   - Roadmap Prioritizer
+   - Customer Signal Analyzer
+
+6. **Gerty.ai tools** *(all current CLI tools are grouped here)*
+   - HIPAA CLI
+   - SOC2 CLI
+   - GDPR CLI
+   - CCPA CLI
+
+### How They Work Together
+
+- Agents can run **independently** OR as a **coordinated system**
+- Share context across the organization
+- Hand off tasks between agents
+- Report to Zedekiah (orchestrator) for strategic decisions
+
+### SciCo.ai as a Product
+
+**Target Customer:** Solo founders, indie hackers, small startups (2-10 people)
+
+**Pricing Strategy:**
+- Individual agents: $49-99/month each
+- Full org bundle: $199-299/month for all 6 agents
+- Enterprise: Custom pricing for self-hosted + SSO
+
+**Revenue Path to 20k MRR:**
+- 67-101 customers buying the full bundle
+- OR 200-400 customers buying individual agents
+- OR combination of both
+
+---
+
+## Current Product Portfolio
+
+### In Production
+- **Knucks.ai** - Marketing agent (generates TikTok videos 3x/day, auto-posting coming soon)
+- Christian iOS app (needs marketing)
+- Pastor iOS app (needs marketing)
+
+### In Pipeline
+- Compliance CLI tools (HIPAA, SOC2, GDPR, CCPA)
+- Additional products as Zedekiah identifies opportunities
+- Multiple products shipping weekly
+
+---
+
+## Revenue Model
+
+### Multiple Income Streams
+
+**SciCo.ai Agents:**
+- Subscription revenue from agents ($49-299/month per customer)
+- Predictable recurring revenue
+
+**Individual Products:**
+- Mix of one-time purchases ($19-149)
+- Subscriptions ($15-99/month)
+- In-app purchases (iOS apps)
+
+**Client Services:**
+- Marketing automation
+- Software development
+- Product strategy
+- Developer tools
+- Closed for new projects when hitting revenue goals
+
+**Digital Services (site section label):**
+- Need help with something digital? Available for select projects when not shipping products.
+
+---
+
+## Go-to-Market Strategy
+
+### For SciCo.ai
+1. **Dogfood everything** - Use agents for our own products first
+2. **Ship Knucks.ai website** - Get TikTok API approval
+3. **Package for external sale** - Launch Knucks publicly
+4. **Add agents incrementally** - Ship one agent every 4-6 weeks
+5. **Bundle pricing** - Sell full org as premium offering
+
+### For Individual Products
+- **Twitter/X posts** - Primary distribution channel
+- **Marketplace listings** - App Store, Product Hunt, etc.
+- **Knucks handles marketing** - Automated content generation
+- **Ship and validate** - Fast iteration, kill losers, scale winners
+
+---
+
+## Competitive Advantages
+
+### 1. Speed
+With AI agents, we compress product development from months to weeks. We can test 10 ideas in the time competitors test 1.
+
+### 2. Multiple Bets
+We're not betting everything on one product. Portfolio approach increases chances of hitting 20k MRR.
+
+### 3. The Factory IS the Moat
+The AI-powered digital factory is the competitive advantage. While competitors struggle to ship one product, we ship ten. The system itself becomes more valuable than any individual product. Eventually, SciCo.ai (the factory) becomes the sellable product.
+
+### 4. Solo Operation
+No employees = no overhead. One founder + AI agents = maximum leverage.
+
+---
+
+## Success Metrics
+
+### Year 1 Goals
+- $20,000 MRR (primary goal)
+- 10-15 products shipped
+- 3-5 products showing traction
+- 100-500 paying customers across all products
+- Knucks.ai fully operational and generating revenue
+
+### Path to $1M ARR (Year 2)
+- $83,000 MRR
+- Scale winning products
+- Full SciCo.ai agent org operational
+- 1,000+ paying customers
+- Potential acquisition interest in SciCo.ai system itself
+
+---
+
+## Risk Mitigation
+
+| Risk | Mitigation |
+|------|------------|
+| Shipping too fast, quality suffers | Focus on simple products with low support burden |
+| Support overwhelm | Build products that don't break, ruthlessly kill support-heavy products |
+| Scattered focus | Kill losers fast, double down on winners after 12 weeks |
+| LLM API costs | Multi-provider support, optimize prompts, charge enough to cover costs |
+| Market saturation | Agents help us pivot quickly to new opportunities |
+
+---
+
+## Why This Works
+
+1. **Solves my own problems first** - Knucks automates marketing I hate doing
+2. **Immediate validation** - Using it for my own products + current client
+3. **Terminal-native** - Aligns with my skills and interests
+4. **Portfolio approach** - Multiple shots on goal for 20k MRR
+5. **Incremental shipping** - Don't need to build everything at once
+6. **Agents reduce friction** - Makes solo operation viable at scale
+
+---
+
+## The Zygur Structure
+
+**Zygur.com** = Parent company / indie software studio
+- Portfolio site showcasing SciCo.ai
+- Services section (marketing, development, strategy)
+- No disclosure of individual product portfolio
+- Only promoted when seeking new client work
+
+**SciCo.ai** = The AI-powered digital factory
+- Separate branding and website
+- Primary product offering
+- Can be sold as individual agents or full factory
+
+**Individual Products** = Each gets its own domain/site
+- knucks.ai
+- kasey.ai (if sold separately)
+- [product-name].com for each shipped product
+- Independent marketing and positioning
+
+---
+
+## Next 90 Days
+
+**Weeks 1-4: Complete Knucks**
+1. Ship knucks.ai website
+2. Get TikTok API approval
+3. Add auto-posting capability
+4. Use for all existing products
+5. Package for external customers
+
+**Weeks 5-8: Ship 4 Products**
+- 1 product per week
+- Knucks handles marketing
+- List on marketplaces
+- Validate revenue potential
+
+**Weeks 9-12: Ship 4 More Products**
+- Continue weekly shipping cadence
+- Monitor traction metrics
+- Kill products with no traction
+- Scale winners
+
+**Month 4: Strategic Review**
+- Identify the 2-3 products showing traction
+- Decision: Scale those OR focus on SciCo.ai agents
+- Begin building next agent (Kasey or Khristyn)
+
+---
+
+## The End Game
+
+**Option A: Portfolio Exit**
+Build multiple profitable products, sell the portfolio to a holding company or PE firm. SciCo.ai becomes the operational blueprint.
+
+**Option B: SciCo.ai Exit**
+The agent system itself becomes the main product. License or sell it to other indie hackers who want to ship fast.
+
+**Option C: Lifestyle Business**
+Hit $1M ARR, run it solo indefinitely, keep shipping products that interest me.
+
+All options are viable. The strategy supports any of these outcomes.
+
+---
+
+**Last Updated:** February 14, 2026
+**Status:** In execution (Knucks.ai in production)

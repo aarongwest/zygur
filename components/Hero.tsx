@@ -9,46 +9,46 @@ export function Hero() {
   const [isTyping, setIsTyping] = useState(true);
 
   const commands = [
-    "$ safeharbor check patient_export.csv",
-    "✓ Scanning for 18 HIPAA identifiers...",
-    "✓ Found: 0 identifiers (Safe Harbor compliant)",
-    "✓ Safe to send to ML team",
+    "$ zed identify-opportunity --vertical saas",
+    "→ Analyzing market trends...",
+    "→ Scanning competitor landscape...",
+    "✓ Opportunity found: API monitoring for indie hackers",
+    "✓ TAM: 50K potential customers",
+    "✓ Validation score: 8.5/10",
     "",
-    "$ evidence collect --start=2025-01-01 --type=access-control",
-    "→ Scraping Git history...",
-    "→ Collecting Jira tickets...",
-    "→ Pulling Slack logs...",
-    "✓ Generated: SOC2_evidence_2025.pdf (47 pages)",
-    "→ Saved 40 hours of manual work",
+    "$ hayli validate --idea 'API monitoring for indie hackers'",
+    "→ Running customer interviews (simulated)...",
+    "→ Checking willingness to pay...",
+    "✓ Pain score: 9/10 (High urgency)",
+    "✓ Pricing sweet spot: $29-49/month",
+    "→ Recommendation: BUILD IT",
     "",
-    "$ piigrep ./src --format=sarif",
-    "→ Scanning source code for hardcoded PII...",
-    "✓ No sensitive data found",
-    "→ Safe to commit",
+    "$ knucks generate --platform twitter --product 'API Monitor'",
+    "→ Generating ad creative with Grok...",
+    "→ Writing copy with Claude...",
+    "✓ Created 3 variants for Twitter",
+    "✓ Scheduled posts for next 7 days",
+    "→ Expected reach: 50K impressions",
     "",
-    "$ auditdiff dump_0301.sql dump_0401.sql --table=patients",
-    "→ Comparing database states...",
+    "$ kasey onboard --customer customer_abc123",
+    "→ Sending welcome email...",
+    "→ Setting up product walkthrough...",
+    "✓ Customer onboarded successfully",
+    "→ Next touchpoint: Day 3 check-in",
+    "",
+    "$ khristyn analyze-revenue --period month",
     "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
-    "Changes to patients table:",
-    "├─ Rows modified: 3",
-    "├─ Rows deleted: 0",
-    "├─ Rows added: 1",
-    "└─ Last change by: audit_service (2025-03-01 14:22:00 UTC)",
+    "February 2026 Revenue:",
+    "├─ MRR: $18,450 (+12% vs last month)",
+    "├─ New customers: 47",
+    "├─ Churn: 2.1%",
+    "└─ Runway: 18 months",
     "",
-    "$ baacheck --vendor stripe.com",
-    "✓ Stripe is on HIPAA BAA whitelist",
-    "✓ Current as of 2025-02-01",
-    "",
-    "$ retention apply --db=postgres://prod --policy=7years --dry-run",
-    "→ Would delete records older than 2018-01-31",
-    "→ Affected rows: 2,847",
-    "→ Data removed: 156 MB",
-    "→ Compliance: GDPR/CCPA compliant",
-    "→ Run with --execute to apply",
-    "",
-    "$ git commit -m 'Added patient data'",
-    "✗ BLOCKED: Commit contains PHI keywords",
-    "✗ Use --force to override (not recommended)",
+    "$ gerty check-compliance --product api-monitor",
+    "→ Scanning for security vulnerabilities...",
+    "→ Checking data privacy policies...",
+    "✓ No compliance issues found",
+    "✓ SOC2 requirements met",
   ];
 
 
@@ -90,41 +90,41 @@ export function Hero() {
         {/* Centered heading and description */}
         <div className="text-center mb-12">
           <h1 className="text-6xl font-bold mb-4 text-gray-900 dark:text-gray-100">
-            Compliance CLI Tools for Regulated Developers
+            An AI-Powered Digital Agency
           </h1>
 
           <p className="text-lg text-gray-900 dark:text-gray-100 leading-relaxed max-w-3xl mx-auto mb-8">
-            Built by AI agents. Shipped monthly. HIPAA, SOC2, GDPR, CCPA. One-time pricing. No subscriptions. Buy at 2am with a corporate card.
+            Hire us or rent our digital factory to grow and/or manage your business.
           </p>
 
           <div className="flex gap-3 justify-center mb-6">
             <a
-              href="#products"
+              href="#services"
               className="border border-gray-900 dark:border-gray-100 text-gray-900 dark:text-gray-100 px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
             >
-              Browse Tools
+              Done for You
             </a>
 
             <a
-              href="https://github.com/zygur"
+              href="#scico"
               className="border border-gray-900 dark:border-gray-100 px-8 py-4 text-sm text-gray-900 dark:text-gray-100 hover:opacity-80 transition-opacity inline-block rounded"
             >
-              GitHub
+              Do it Yourself
             </a>
           </div>
 
           <div className="flex gap-6 text-xs text-gray-900 dark:text-gray-100 justify-center mt-8">
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
-              <span>HIPAA, SOC2, GDPR</span>
+              <span>Ship Fast</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
-              <span>Local-First</span>
+              <span>AI-Powered</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
-              <span>No Subscriptions</span>
+              <span>Solo Operation</span>
             </div>
           </div>
         </div>
@@ -147,8 +147,8 @@ export function Hero() {
 
             {/* Terminal content */}
             <div className="p-6 font-mono h-[600px] overflow-auto bg-white dark:bg-[#1a1a1a]">
-              <div className="mb-2 text-sm text-gray-700 dark:text-gray-300">Zygur CLI - Compliance Tools</div>
-              <div className="text-gray-500 mb-4 text-sm">Type 'zygur help' for available tools</div>
+              <div className="mb-2 text-sm text-gray-700 dark:text-gray-300">SciCo.ai - AI-Powered Digital Factory</div>
+              <div className="text-gray-500 mb-4 text-sm">Type 'scico help' to see all agents</div>
               <div className="whitespace-pre-wrap text-sm leading-relaxed text-gray-700 dark:text-gray-300">{terminalText}</div>
               {isTyping && (
                 <motion.div

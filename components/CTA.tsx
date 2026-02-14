@@ -9,7 +9,7 @@ export function CTA() {
             Building in Public
           </h2>
           <p className="text-lg text-gray-900 dark:text-gray-100 mb-8 max-w-2xl mx-auto">
-            We're shipping a new compliance tool every month. Follow along on X/Twitter to see how we build with AI agents. Or subscribe to get every tool we ever ship.
+            Follow along as we ship products with AI agents. Watch the SciCo.ai system come to life. See how one person can build multiple products per month.
           </p>
           <div className="flex gap-4 justify-center">
             <a
@@ -24,7 +24,7 @@ export function CTA() {
               href="mailto:aaron@zygur.com"
               className="border border-gray-900 dark:border-gray-100 text-gray-900 dark:text-gray-100 px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
             >
-              Get All-Access
+              Get in Touch
             </a>
           </div>
         </div>

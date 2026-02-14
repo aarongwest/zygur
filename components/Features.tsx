@@ -2,28 +2,28 @@
 
 const features = [
   {
-    title: "Built by AI Agents",
-    description: "We're not a 20-person team. We're one founder + six AI agents. Zed plans products. Hayli builds frontends. Knucks handles backends. Kasey tests. Khristyn deploys. Gerty secures. This lets us ship monthly at a fraction of traditional cost.",
+    title: "AI Agent Powered",
+    description: "Not a 20-person team. One founder + six AI agents. Zedekiah strategizes, Hayli validates, Knucks markets, Kasey supports, Khristyn manages revenue, Gerty ensures compliance. Ship products 10x faster.",
   },
   {
-    title: "Shipped Monthly",
-    description: "New compliance tool every month. We started with 7 tools. By end of year, we'll have 19. Subscribe once, get everything we ever build. Forever.",
-  },
-  {
-    title: "Local-First",
-    description: "Your sensitive data never leaves your infrastructure. All tools run locally on your machine or in your environment. No cloud uploads. No third-party servers. You're in control.",
-  },
-  {
-    title: "One-Time Pricing",
-    description: "Buy a tool once, use it forever. Or subscribe for $29/mo and get everything. No forced upgrades. No subscription fatigue. No sales calls. Buy at 2am with a corporate card.",
-  },
-  {
-    title: "HIPAA, SOC2, GDPR, CCPA",
-    description: "Built for regulated industries. Healthcare, fintech, legal, government. If you handle PII, PHI, or sensitive data, these tools keep you compliant and out of trouble.",
+    title: "Product Factory Model",
+    description: "Don't bet on one product. Ship multiple products per month across different verticals. Take multiple shots on goal. Double down on winners, kill losers fast.",
   },
   {
     title: "Terminal-First",
-    description: "CLI tools that fit into your workflow. No dashboards. No bloat. Just fast, focused tools that do one thing well. Perfect for CI/CD, cron jobs, and automation.",
+    description: "CLI tools that fit your workflow. No dashboards, no bloat. Fast, focused tools that do one thing well. Perfect for automation and CI/CD pipelines.",
+  },
+  {
+    title: "Rapid Validation",
+    description: "Ship in days, not months. Test ideas fast with real revenue. Market validation comes from paying customers, not surveys. Iterate or pivot based on data.",
+  },
+  {
+    title: "Solo Operation",
+    description: "No employees. No overhead. No meetings. Just building. AI agents handle marketing, support, revenue ops, and compliance. Maximum leverage for one person.",
+  },
+  {
+    title: "Multiple Income Streams",
+    description: "Mix of one-time purchases, subscriptions, and client services. Diversified revenue reduces risk. SciCo.ai agents eventually become the product themselves.",
   },
 ];
 
@@ -36,11 +36,11 @@ export function Features() {
             How We Ship So Fast
           </h2>
           <p className="text-sm text-gray-900 dark:text-gray-100 max-w-2xl">
-            Most companies take months to ship a single tool. We ship one every month. Here's how.
+            Most solo founders ship one product per year. We ship multiple products per month. Here's the system.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6" style={{ marginLeft: '-20px' }}>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature) => (
             <div
               key={feature.title}
