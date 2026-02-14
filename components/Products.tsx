@@ -87,7 +87,7 @@ export function Products() {
                 {product.description}
               </p>
 
-              <div className="bg-white dark:bg-[#2a2a2a] rounded p-3 mb-4 font-mono text-xs overflow-x-auto border border-gray-300 dark:border-gray-700">
+              <div className="bg-white dark:bg-[#1a1a1a] rounded p-3 mb-4 font-mono text-xs overflow-x-auto border border-gray-300 dark:border-gray-700">
                 <span className="text-gray-700 dark:text-gray-300">$ {product.command}</span>
               </div>
 
