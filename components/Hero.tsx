@@ -131,28 +131,28 @@ export function Hero() {
 
         {/* Centered, larger terminal - Mac style */}
         <div className="max-w-5xl mx-auto">
-          <div className="bg-black rounded-lg overflow-hidden shadow-2xl border border-gray-700">
+          <div className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-2xl border border-gray-300 dark:border-gray-700">
             {/* Terminal header - Mac style */}
-            <div className="bg-black px-4 py-3 flex items-center gap-2 border-b border-gray-700">
+            <div className="bg-white dark:bg-gray-900 px-4 py-3 flex items-center gap-2 border-b border-gray-300 dark:border-gray-700">
               <div className="flex gap-2">
                 <div className="w-3 h-3 bg-[#ff5f56] rounded-full hover:bg-[#ff5f56]/80 cursor-pointer"></div>
                 <div className="w-3 h-3 bg-[#ffbd2e] rounded-full hover:bg-[#ffbd2e]/80 cursor-pointer"></div>
                 <div className="w-3 h-3 bg-[#27c93f] rounded-full hover:bg-[#27c93f]/80 cursor-pointer"></div>
               </div>
               <div className="flex-1 text-center">
-                <span className="text-xs font-medium text-gray-300">dev@terminal: ~/project</span>
+                <span className="text-xs font-medium text-gray-700 dark:text-gray-300">dev@terminal: ~/project</span>
               </div>
               <div className="w-16"></div> {/* Spacer for centering */}
             </div>
 
             {/* Terminal content */}
-            <div className="p-6 font-mono h-[600px] overflow-auto bg-black">
-              <div className="mb-2 text-sm text-gray-300">Zygur CLI - Compliance Tools</div>
+            <div className="p-6 font-mono h-[600px] overflow-auto bg-white dark:bg-gray-900">
+              <div className="mb-2 text-sm text-gray-700 dark:text-gray-300">Zygur CLI - Compliance Tools</div>
               <div className="text-gray-500 mb-4 text-sm">Type 'zygur help' for available tools</div>
-              <div className="whitespace-pre-wrap text-sm leading-relaxed text-gray-300">{terminalText}</div>
+              <div className="whitespace-pre-wrap text-sm leading-relaxed text-gray-700 dark:text-gray-300">{terminalText}</div>
               {isTyping && (
                 <motion.div
-                  className="inline-block w-2 h-4 ml-1 bg-gray-300"
+                  className="inline-block w-2 h-4 ml-1 bg-gray-700 dark:bg-gray-300"
                   animate={{ opacity: [1, 0] }}
                   transition={{ duration: 0.5, repeat: Infinity }}
                 />
