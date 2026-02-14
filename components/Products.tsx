@@ -61,7 +61,7 @@ const products = [
 
 export function Products() {
   return (
-    <section id="products" className="w-full py-16 px-6 border-t border-gray-200 dark:border-gray-800">
+    <section id="products" className="w-full py-16 px-6 border-t border-[#cccccc] dark:border-[#2a2a2a]">
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <h2 className="text-3xl font-bold mb-3 text-gray-900 dark:text-gray-100">
@@ -76,7 +76,7 @@ export function Products() {
           {products.map((product) => (
             <div
               key={product.name}
-              className="border border-gray-200 dark:border-gray-800 p-6 bg-transparent hover:border-opacity-60 transition-colors rounded"
+              className="border border-[#cccccc] dark:border-[#2a2a2a] p-6 bg-transparent hover:border-opacity-60 transition-colors rounded"
             >
               <div className="flex justify-between items-start mb-3">
                 <h3 className="text-lg font-bold text-gray-900 dark:text-gray-100">{product.name}</h3>
@@ -87,7 +87,7 @@ export function Products() {
                 {product.description}
               </p>
 
-              <div className="bg-white dark:bg-[#1a1a1a] rounded p-3 mb-4 font-mono text-xs overflow-x-auto border border-gray-300 dark:border-gray-700">
+              <div className="bg-white dark:bg-[#1a1a1a] rounded p-3 mb-4 font-mono text-xs overflow-x-auto border border-[#c0c0c0] dark:border-[#404040]">
                 <span className="text-gray-700 dark:text-gray-300">$ {product.command}</span>
               </div>
 
@@ -112,7 +112,7 @@ export function Products() {
           ))}
         </div>
 
-        <div className="mt-12 border border-gray-200 dark:border-gray-800 p-8 rounded bg-transparent">
+        <div className="mt-12 border border-[#cccccc] dark:border-[#2a2a2a] p-8 rounded bg-transparent">
           <div className="max-w-3xl">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-3">All-Access Pass</h3>
             <p className="text-sm text-gray-900 dark:text-gray-100 mb-6">

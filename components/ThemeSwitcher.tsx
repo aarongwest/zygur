@@ -16,12 +16,12 @@ export function ThemeSwitcher() {
   }
 
   return (
-    <div className="flex items-center gap-1 bg-gray-200 dark:bg-[#2d2d2d] rounded-full p-0.5">
+    <div className="flex items-center gap-1 bg-[#cccccc] dark:bg-[#2a2a2a] rounded-full p-0.5">
       <button
         onClick={() => setTheme("light")}
         className={`w-8 h-8 rounded-full flex items-center justify-center transition-all ${
           theme === "light"
-            ? "bg-gray-300 dark:bg-[#3d3d3d] text-black dark:text-white"
+            ? "bg-[#b8b8b8] dark:bg-[#404040] text-black dark:text-white"
             : "text-gray-500 hover:text-gray-600 dark:hover:text-gray-300"
         }`}
         title="Light mode"
@@ -42,7 +42,7 @@ export function ThemeSwitcher() {
         onClick={() => setTheme("system")}
         className={`w-8 h-8 rounded-full flex items-center justify-center transition-all ${
           theme === "system"
-            ? "bg-gray-300 dark:bg-[#3d3d3d] text-black dark:text-white"
+            ? "bg-[#b8b8b8] dark:bg-[#404040] text-black dark:text-white"
             : "text-gray-500 hover:text-gray-600 dark:hover:text-gray-300"
         }`}
         title="System theme"
@@ -57,7 +57,7 @@ export function ThemeSwitcher() {
         onClick={() => setTheme("dark")}
         className={`w-8 h-8 rounded-full flex items-center justify-center transition-all ${
           theme === "dark"
-            ? "bg-gray-300 dark:bg-[#3d3d3d] text-black dark:text-white"
+            ? "bg-[#b8b8b8] dark:bg-[#404040] text-black dark:text-white"
             : "text-gray-500 hover:text-gray-600 dark:hover:text-gray-300"
         }`}
         title="Dark mode"

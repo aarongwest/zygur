@@ -2,7 +2,7 @@
 
 export function CTA() {
   return (
-    <section className="w-full py-16 px-6 border-t border-gray-200 dark:border-gray-800">
+    <section className="w-full py-16 px-6 border-t border-[#cccccc] dark:border-[#2a2a2a]">
       <div className="max-w-7xl mx-auto">
         <div className="p-12 text-center">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4">
