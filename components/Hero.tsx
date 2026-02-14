@@ -89,31 +89,31 @@ export function Hero() {
       <div className="max-w-7xl mx-auto">
         {/* Centered heading and description */}
         <div className="text-center mb-12">
-          <h1 className="text-6xl font-bold mb-4 text-brand-grey">
+          <h1 className="text-6xl font-bold mb-4 text-gray-900 dark:text-gray-100">
             Compliance CLI Tools for Regulated Developers
           </h1>
 
-          <p className="text-lg text-brand-grey leading-relaxed max-w-3xl mx-auto mb-8">
+          <p className="text-lg text-gray-900 dark:text-gray-100 leading-relaxed max-w-3xl mx-auto mb-8">
             Built by AI agents. Shipped monthly. HIPAA, SOC2, GDPR, CCPA. One-time pricing. No subscriptions. Buy at 2am with a corporate card.
           </p>
 
           <div className="flex gap-3 justify-center mb-6">
             <a
               href="#products"
-              className="border border-brand-grey text-brand-grey px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
+              className="border border-gray-900 dark:border-gray-100 text-gray-900 dark:text-gray-100 px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
             >
               Browse Tools
             </a>
 
             <a
               href="https://github.com/zygur"
-              className="border border-brand-grey px-8 py-4 text-sm text-brand-grey hover:opacity-80 transition-opacity inline-block rounded"
+              className="border border-gray-900 dark:border-gray-100 px-8 py-4 text-sm text-gray-900 dark:text-gray-100 hover:opacity-80 transition-opacity inline-block rounded"
             >
               GitHub
             </a>
           </div>
 
-          <div className="flex gap-6 text-xs text-brand-grey justify-center mt-8">
+          <div className="flex gap-6 text-xs text-gray-900 dark:text-gray-100 justify-center mt-8">
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
               <span>HIPAA, SOC2, GDPR</span>
@@ -131,7 +131,7 @@ export function Hero() {
 
         {/* Centered, larger terminal - Mac style */}
         <div className="max-w-5xl mx-auto">
-          <div className="bg-gray-900 rounded-lg overflow-hidden shadow-2xl border border-brand-grey">
+          <div className="bg-gray-900 rounded-lg overflow-hidden shadow-2xl border border-gray-900 dark:border-gray-100">
             {/* Terminal header - Mac style */}
             <div className="bg-gray-800 px-4 py-3 flex items-center gap-2 border-b border-gray-700">
               <div className="flex gap-2">

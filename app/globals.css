@@ -6,8 +6,13 @@ body {
   font-family: system-ui, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   line-height: 1.6;
-  background-color: #42f5ad;
+  background-color: white;
   color: #3a3a3a;
+}
+
+body.dark {
+  background-color: black;
+  color: #e5e5e5;
 }
 
 * {

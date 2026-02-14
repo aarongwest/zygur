@@ -21,7 +21,7 @@ export function ThemeSwitcher() {
         onClick={() => setTheme("light")}
         className={`w-8 h-8 rounded-full flex items-center justify-center transition-all ${
           theme === "light"
-            ? "bg-gray-300 dark:bg-[#3d3d3d] text-black dark:text-white"
+            ? "bg-white dark:bg-[#3d3d3d] text-black dark:text-white"
             : "text-gray-500 hover:text-gray-600 dark:hover:text-gray-300"
         }`}
         title="Light mode"
@@ -39,25 +39,10 @@ export function ThemeSwitcher() {
         </svg>
       </button>
       <button
-        onClick={() => setTheme("system")}
-        className={`w-8 h-8 rounded-full flex items-center justify-center transition-all ${
-          theme === "system"
-            ? "bg-gray-300 dark:bg-[#3d3d3d] text-black dark:text-white"
-            : "text-gray-500 hover:text-gray-600 dark:hover:text-gray-300"
-        }`}
-        title="System theme"
-      >
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
-          <line x1="8" y1="21" x2="16" y2="21"/>
-          <line x1="12" y1="17" x2="12" y2="21"/>
-        </svg>
-      </button>
-      <button
         onClick={() => setTheme("dark")}
         className={`w-8 h-8 rounded-full flex items-center justify-center transition-all ${
           theme === "dark"
-            ? "bg-gray-300 dark:bg-[#3d3d3d] text-black dark:text-white"
+            ? "bg-white dark:bg-[#3d3d3d] text-black dark:text-white"
             : "text-gray-500 hover:text-gray-600 dark:hover:text-gray-300"
         }`}
         title="Dark mode"

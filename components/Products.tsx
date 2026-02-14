@@ -61,13 +61,13 @@ const products = [
 
 export function Products() {
   return (
-    <section id="products" className="w-full py-16 px-6 border-t border-brand-grey">
+    <section id="products" className="w-full py-16 px-6 border-t border-gray-200 dark:border-gray-800">
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
-          <h2 className="text-3xl font-bold mb-3 text-brand-grey">
+          <h2 className="text-3xl font-bold mb-3 text-gray-900 dark:text-gray-100">
             Our Tools
           </h2>
-          <p className="text-sm text-brand-grey max-w-3xl">
+          <p className="text-sm text-gray-900 dark:text-gray-100 max-w-3xl">
             Seven CLI tools that solve real problems for regulated software teams. Built by AI agents. Shipped monthly. One-time pricing.
           </p>
         </div>
@@ -76,14 +76,14 @@ export function Products() {
           {products.map((product) => (
             <div
               key={product.name}
-              className="border border-brand-grey p-6 bg-transparent hover:border-opacity-60 transition-colors rounded"
+              className="border border-gray-200 dark:border-gray-800 p-6 bg-transparent hover:border-opacity-60 transition-colors rounded"
             >
               <div className="flex justify-between items-start mb-3">
-                <h3 className="text-lg font-bold text-brand-grey">{product.name}</h3>
+                <h3 className="text-lg font-bold text-gray-900 dark:text-gray-100">{product.name}</h3>
                 <span className="text-sm font-medium text-green-500">{product.price}</span>
               </div>
 
-              <p className="text-sm text-brand-grey mb-4">
+              <p className="text-sm text-gray-900 dark:text-gray-100 mb-4">
                 {product.description}
               </p>
 
@@ -93,18 +93,18 @@ export function Products() {
 
               <div className="space-y-2 mb-4">
                 <div>
-                  <p className="text-xs font-medium text-brand-grey mb-1 opacity-60">Pain Point</p>
-                  <p className="text-xs text-brand-grey">{product.painPoint}</p>
+                  <p className="text-xs font-medium text-gray-900 dark:text-gray-100 mb-1 opacity-60">Pain Point</p>
+                  <p className="text-xs text-gray-900 dark:text-gray-100">{product.painPoint}</p>
                 </div>
                 <div>
-                  <p className="text-xs font-medium text-brand-grey mb-1 opacity-60">Who It&apos;s For</p>
-                  <p className="text-xs text-brand-grey">{product.icp}</p>
+                  <p className="text-xs font-medium text-gray-900 dark:text-gray-100 mb-1 opacity-60">Who It&apos;s For</p>
+                  <p className="text-xs text-gray-900 dark:text-gray-100">{product.icp}</p>
                 </div>
               </div>
 
               <a
                 href="mailto:aaron@zygur.com"
-                className="w-full border border-brand-grey bg-brand-grey text-brand-mint px-4 py-3 text-xs font-medium text-center hover:opacity-80 transition-opacity inline-block rounded"
+                className="w-full border border-gray-200 dark:border-gray-800 bg-gray-900 dark:bg-gray-100 text-white dark:text-black px-4 py-3 text-xs font-medium text-center hover:opacity-80 transition-opacity inline-block rounded"
               >
                 Pre-Order
               </a>
@@ -112,20 +112,20 @@ export function Products() {
           ))}
         </div>
 
-        <div className="mt-12 border border-brand-grey p-8 rounded bg-transparent">
+        <div className="mt-12 border border-gray-200 dark:border-gray-800 p-8 rounded bg-transparent">
           <div className="max-w-3xl">
-            <h3 className="text-2xl font-bold text-brand-grey mb-3">All-Access Pass</h3>
-            <p className="text-sm text-brand-grey mb-6">
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-3">All-Access Pass</h3>
+            <p className="text-sm text-gray-900 dark:text-gray-100 mb-6">
               Get all current tools plus every new tool we ship. Forever. Built by AI agents, shipped monthly.
             </p>
             <div className="flex items-baseline gap-4 mb-6">
-              <span className="text-4xl font-bold text-brand-grey">$29</span>
-              <span className="text-sm text-brand-grey">/month</span>
-              <span className="text-xs text-brand-grey opacity-60">or $299/year (save 2 months)</span>
+              <span className="text-4xl font-bold text-gray-900 dark:text-gray-100">$29</span>
+              <span className="text-sm text-gray-900 dark:text-gray-100">/month</span>
+              <span className="text-xs text-gray-900 dark:text-gray-100 opacity-60">or $299/year (save 2 months)</span>
             </div>
             <a
               href="mailto:aaron@zygur.com"
-              className="border border-brand-grey bg-brand-grey text-brand-mint px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
+              className="border border-gray-200 dark:border-gray-800 bg-gray-900 dark:bg-gray-100 text-white dark:text-black px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
             >
               Get All-Access
             </a>
