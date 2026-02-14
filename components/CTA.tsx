@@ -13,7 +13,7 @@ export function CTA() {
           </p>
           <div className="flex gap-4 justify-center">
             <a
-              href="https://x.com/zygur_ai"
+              href="https://x.com/zygurx"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-gray-200 dark:border-gray-800 text-gray-900 dark:text-gray-100 px-8 py-4 text-sm font-bold hover:opacity-80 transition-opacity inline-block rounded"
