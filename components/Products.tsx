@@ -88,7 +88,7 @@ export function Products() {
               </p>
 
               <div className="bg-gray-900 rounded p-3 mb-4 font-mono text-xs overflow-x-auto">
-                <span style={{ color: '#42f5ad' }}>$ {product.command}</span>
+                <span className="text-gray-300">$ {product.command}</span>
               </div>
 
               <div className="space-y-2 mb-4">
