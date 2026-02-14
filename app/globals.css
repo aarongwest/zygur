@@ -6,6 +6,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   line-height: 1.6;
+  background-color: white;
+  color: #1a1a1a;
+}
+
+body.dark {
+  background-color: black;
+  color: #e5e5e5;
 }
 
 * {
